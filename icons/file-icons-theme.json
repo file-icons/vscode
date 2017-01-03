@@ -64,47 +64,92 @@
   "iconDefinitions": {
     "_binary": {
       "fontCharacter": "\\f094",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "octicons"
+    },
+    "_binary_l": {
+      "fontCharacter": "\\f094",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_book": {
       "fontCharacter": "\\f007",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "octicons"
+    },
+    "_book_l": {
+      "fontCharacter": "\\f007",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_brew": {
       "fontCharacter": "\\f069",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "octicons"
+    },
+    "_brew_l": {
+      "fontCharacter": "\\f069",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_checklist": {
       "fontCharacter": "\\f076",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "octicons"
+    },
+    "_checklist_l": {
+      "fontCharacter": "\\f076",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_code": {
       "fontCharacter": "\\f05f",
-      "fontColor": "#ffffff",
+      "fontColor": "#b3008f",
+      "fontId": "octicons"
+    },
+    "_code_l": {
+      "fontCharacter": "\\f05f",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_database": {
       "fontCharacter": "\\f096",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "octicons"
+    },
+    "_database_l": {
+      "fontCharacter": "\\f096",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_gear": {
       "fontCharacter": "\\f02f",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "octicons"
+    },
+    "_gear_l": {
+      "fontCharacter": "\\f02f",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_git-commit": {
       "fontCharacter": "\\f01f",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "octicons"
+    },
+    "_git-commit_l": {
+      "fontCharacter": "\\f01f",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_git-merge": {
       "fontCharacter": "\\f023",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "octicons"
+    },
+    "_git-merge_l": {
+      "fontCharacter": "\\f023",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_github": {
@@ -112,39 +157,79 @@
       "fontColor": "#ffffff",
       "fontId": "octicons"
     },
+    "_github_l": {
+      "fontCharacter": "\\f00a",
+      "fontColor": "#000000",
+      "fontId": "octicons"
+    },
     "_graph": {
       "fontCharacter": "\\f043",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "octicons"
+    },
+    "_graph_l": {
+      "fontCharacter": "\\f043",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_image": {
       "fontCharacter": "\\f012",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "octicons"
+    },
+    "_image_l": {
+      "fontCharacter": "\\f012",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_key": {
       "fontCharacter": "\\f049",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "octicons"
+    },
+    "_key_l": {
+      "fontCharacter": "\\f049",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_link": {
       "fontCharacter": "\\f0b0",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "octicons"
+    },
+    "_link_l": {
+      "fontCharacter": "\\f0b0",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_markdown": {
       "fontCharacter": "\\f0c9",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "octicons"
+    },
+    "_markdown_l": {
+      "fontCharacter": "\\f0c9",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_package": {
       "fontCharacter": "\\f0c4",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "octicons"
+    },
+    "_package_l": {
+      "fontCharacter": "\\f0c4",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_ruby": {
       "fontCharacter": "\\f047",
-      "fontColor": "#ffffff",
+      "fontColor": "#ee9e2e",
+      "fontId": "octicons"
+    },
+    "_ruby_l": {
+      "fontCharacter": "\\f047",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_secret": {
@@ -152,9 +237,19 @@
       "fontColor": "#ffffff",
       "fontId": "octicons"
     },
+    "_secret_l": {
+      "fontCharacter": "\\f08c",
+      "fontColor": "#000000",
+      "fontId": "octicons"
+    },
     "_squirrel": {
       "fontCharacter": "\\f0b2",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "octicons"
+    },
+    "_squirrel_l": {
+      "fontCharacter": "\\f0b2",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_text": {
@@ -162,14 +257,29 @@
       "fontColor": "#ffffff",
       "fontId": "octicons"
     },
+    "_text_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#000000",
+      "fontId": "octicons"
+    },
     "_zip": {
       "fontCharacter": "\\f013",
-      "fontColor": "#ffffff",
+      "fontColor": "#e1ad83",
+      "fontId": "octicons"
+    },
+    "_zip_l": {
+      "fontCharacter": "\\f013",
+      "fontColor": "#000000",
       "fontId": "octicons"
     },
     "_android": {
       "fontCharacter": "\\f17b",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "fontawesome"
+    },
+    "_android_l": {
+      "fontCharacter": "\\f17b",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_at": {
@@ -177,79 +287,159 @@
       "fontColor": "#ffffff",
       "fontId": "fontawesome"
     },
+    "_at_l": {
+      "fontCharacter": "\\f1fa",
+      "fontColor": "#000000",
+      "fontId": "fontawesome"
+    },
     "_audio": {
       "fontCharacter": "\\f028",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "fontawesome"
+    },
+    "_audio_l": {
+      "fontCharacter": "\\f028",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_bullhorn": {
       "fontCharacter": "\\f0a1",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "fontawesome"
+    },
+    "_bullhorn_l": {
+      "fontCharacter": "\\f0a1",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_calc": {
       "fontCharacter": "\\f1ec",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "fontawesome"
+    },
+    "_calc_l": {
+      "fontCharacter": "\\f1ec",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_coffee": {
       "fontCharacter": "\\f0f4",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "fontawesome"
+    },
+    "_coffee_l": {
+      "fontCharacter": "\\f0f4",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_css3": {
       "fontCharacter": "\\f13c",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "fontawesome"
+    },
+    "_css3_l": {
+      "fontCharacter": "\\f13c",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_circle": {
       "fontCharacter": "\\f111",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "fontawesome"
+    },
+    "_circle_l": {
+      "fontCharacter": "\\f111",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_earth": {
       "fontCharacter": "\\f0ac",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "fontawesome"
+    },
+    "_earth_l": {
+      "fontCharacter": "\\f0ac",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_gears": {
       "fontCharacter": "\\f085",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "fontawesome"
+    },
+    "_gears_l": {
+      "fontCharacter": "\\f085",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_html5": {
       "fontCharacter": "\\f13b",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "fontawesome"
+    },
+    "_html5_l": {
+      "fontCharacter": "\\f13b",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_mobile": {
       "fontCharacter": "\\f10b",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "fontawesome"
+    },
+    "_mobile_l": {
+      "fontCharacter": "\\f10b",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_moon": {
       "fontCharacter": "\\f186",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "fontawesome"
+    },
+    "_moon_l": {
+      "fontCharacter": "\\f186",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_music": {
       "fontCharacter": "\\f001",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "fontawesome"
+    },
+    "_music_l": {
+      "fontCharacter": "\\f001",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_print": {
       "fontCharacter": "\\f02f",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "fontawesome"
+    },
+    "_print_l": {
+      "fontCharacter": "\\f02f",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_recycle": {
       "fontCharacter": "\\f1b8",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "fontawesome"
+    },
+    "_recycle_l": {
+      "fontCharacter": "\\f1b8",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_rss": {
       "fontCharacter": "\\f143",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "fontawesome"
+    },
+    "_rss_l": {
+      "fontCharacter": "\\f143",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_smarty": {
@@ -257,9 +447,19 @@
       "fontColor": "#ffffff",
       "fontId": "fontawesome"
     },
+    "_smarty_l": {
+      "fontCharacter": "\\f0eb",
+      "fontColor": "#000000",
+      "fontId": "fontawesome"
+    },
     "_sourcemap": {
       "fontCharacter": "\\f279",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "fontawesome"
+    },
+    "_sourcemap_l": {
+      "fontCharacter": "\\f279",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_sun": {
@@ -267,29 +467,59 @@
       "fontColor": "#ffffff",
       "fontId": "fontawesome"
     },
+    "_sun_l": {
+      "fontCharacter": "\\f185",
+      "fontColor": "#000000",
+      "fontId": "fontawesome"
+    },
     "_toc": {
       "fontCharacter": "\\f03a",
       "fontColor": "#ffffff",
       "fontId": "fontawesome"
     },
+    "_toc_l": {
+      "fontCharacter": "\\f03a",
+      "fontColor": "#000000",
+      "fontId": "fontawesome"
+    },
     "_twig": {
       "fontCharacter": "\\f1bb",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "fontawesome"
+    },
+    "_twig_l": {
+      "fontCharacter": "\\f1bb",
+      "fontColor": "#000000",
       "fontId": "fontawesome"
     },
     "_apache": {
       "fontCharacter": "\\f102",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "mfixx"
+    },
+    "_apache_l": {
+      "fontCharacter": "\\f102",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_archlinux": {
       "fontCharacter": "A",
-      "fontColor": "#ffffff",
+      "fontColor": "#fae0bc",
+      "fontId": "mfixx"
+    },
+    "_archlinux_l": {
+      "fontCharacter": "A",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_c": {
       "fontCharacter": "\\f106",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "mfixx"
+    },
+    "_c_l": {
+      "fontCharacter": "\\f106",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_cpp": {
@@ -297,129 +527,259 @@
       "fontColor": "#ffffff",
       "fontId": "mfixx"
     },
+    "_cpp_l": {
+      "fontCharacter": "\\f10b",
+      "fontColor": "#000000",
+      "fontId": "mfixx"
+    },
     "_csharp": {
       "fontCharacter": "\\f10c",
       "fontColor": "#ffffff",
       "fontId": "mfixx"
     },
+    "_csharp_l": {
+      "fontCharacter": "\\f10c",
+      "fontColor": "#000000",
+      "fontId": "mfixx"
+    },
     "_debian": {
       "fontCharacter": "\\f111",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "mfixx"
+    },
+    "_debian_l": {
+      "fontCharacter": "\\f111",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_elixir": {
       "fontCharacter": "\\f113",
-      "fontColor": "#ffffff",
+      "fontColor": "#c7a4c0",
+      "fontId": "mfixx"
+    },
+    "_elixir_l": {
+      "fontCharacter": "\\f113",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_gnome": {
       "fontCharacter": "\\f119",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "mfixx"
+    },
+    "_gnome_l": {
+      "fontCharacter": "\\f119",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_haskell": {
       "fontCharacter": "\\f121",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "mfixx"
+    },
+    "_haskell_l": {
+      "fontCharacter": "\\f121",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_java": {
       "fontCharacter": "\\f126",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "mfixx"
+    },
+    "_java_l": {
+      "fontCharacter": "\\f126",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_js": {
       "fontCharacter": "\\f129",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "mfixx"
+    },
+    "_js_l": {
+      "fontCharacter": "\\f129",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_msql": {
       "fontCharacter": "\\f136",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "mfixx"
+    },
+    "_msql_l": {
+      "fontCharacter": "\\f136",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_objc": {
       "fontCharacter": "\\f13e",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "mfixx"
+    },
+    "_objc_l": {
+      "fontCharacter": "\\f13e",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_osx": {
       "fontCharacter": "\\f141",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "mfixx"
+    },
+    "_osx_l": {
+      "fontCharacter": "\\f141",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_perl": {
       "fontCharacter": "\\f142",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "mfixx"
+    },
+    "_perl_l": {
+      "fontCharacter": "\\f142",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_python": {
       "fontCharacter": "\\f14c",
-      "fontColor": "#ffffff",
+      "fontColor": "#573421",
+      "fontId": "mfixx"
+    },
+    "_python_l": {
+      "fontCharacter": "\\f14c",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_red-hat": {
       "fontCharacter": "\\f14e",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "mfixx"
+    },
+    "_red-hat_l": {
+      "fontCharacter": "\\f14e",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_scala": {
       "fontCharacter": "\\f154",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "mfixx"
+    },
+    "_scala_l": {
+      "fontCharacter": "\\f154",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_sql": {
       "fontCharacter": "\\f10e",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "mfixx"
+    },
+    "_sql_l": {
+      "fontCharacter": "\\f10e",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_svg": {
       "fontCharacter": "\\f15c",
-      "fontColor": "#ffffff",
+      "fontColor": "#ee9e2e",
+      "fontId": "mfixx"
+    },
+    "_svg_l": {
+      "fontCharacter": "\\f15c",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_tt": {
       "fontCharacter": "TT",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "mfixx"
+    },
+    "_tt_l": {
+      "fontCharacter": "TT",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_x11": {
       "fontCharacter": "\\f16e",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "mfixx"
+    },
+    "_x11_l": {
+      "fontCharacter": "\\f16e",
+      "fontColor": "#000000",
       "fontId": "mfixx"
     },
     "_angular": {
       "fontCharacter": "\\e653",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_angular_l": {
+      "fontCharacter": "\\e653",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_appcelerator": {
       "fontCharacter": "\\e6ab",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_appcelerator_l": {
+      "fontCharacter": "\\e6ab",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_appstore": {
       "fontCharacter": "\\e613",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "devicons"
+    },
+    "_appstore_l": {
+      "fontCharacter": "\\e613",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_asp": {
       "fontCharacter": "\\e67f",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "devicons"
+    },
+    "_asp_l": {
+      "fontCharacter": "\\e67f",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_atom": {
       "fontCharacter": "\\e664",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "devicons"
+    },
+    "_atom_l": {
+      "fontCharacter": "\\e664",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_backbone": {
       "fontCharacter": "\\e652",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "devicons"
+    },
+    "_backbone_l": {
+      "fontCharacter": "\\e652",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_bootstrap": {
       "fontCharacter": "\\e647",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "devicons"
+    },
+    "_bootstrap_l": {
+      "fontCharacter": "\\e647",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_bower": {
@@ -427,114 +787,229 @@
       "fontColor": "#ffffff",
       "fontId": "devicons"
     },
+    "_bower_l": {
+      "fontCharacter": "\\e64d",
+      "fontColor": "#000000",
+      "fontId": "devicons"
+    },
     "_chrome": {
       "fontCharacter": "\\e643",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_chrome_l": {
+      "fontCharacter": "\\e643",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_clojure": {
       "fontCharacter": "\\e668",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_clojure_l": {
+      "fontCharacter": "\\e668",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_compass": {
       "fontCharacter": "\\e661",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_compass_l": {
+      "fontCharacter": "\\e661",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_dart": {
       "fontCharacter": "\\e698",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "devicons"
+    },
+    "_dart_l": {
+      "fontCharacter": "\\e698",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_dlang": {
       "fontCharacter": "\\e6af",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_dlang_l": {
+      "fontCharacter": "\\e6af",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_dojo": {
       "fontCharacter": "\\e61c",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "devicons"
+    },
+    "_dojo_l": {
+      "fontCharacter": "\\e61c",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_dropbox": {
       "fontCharacter": "\\e607",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "devicons"
+    },
+    "_dropbox_l": {
+      "fontCharacter": "\\e607",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_eclipse": {
       "fontCharacter": "\\e69e",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_eclipse_l": {
+      "fontCharacter": "\\e69e",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_erlang": {
       "fontCharacter": "\\e6b1",
-      "fontColor": "#ffffff",
+      "fontColor": "#573421",
+      "fontId": "devicons"
+    },
+    "_erlang_l": {
+      "fontCharacter": "\\e6b1",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_extjs": {
       "fontCharacter": "\\e68e",
-      "fontColor": "#ffffff",
+      "fontColor": "#b2c38b",
+      "fontId": "devicons"
+    },
+    "_extjs_l": {
+      "fontCharacter": "\\e68e",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_fsharp": {
       "fontCharacter": "\\e6a7",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "devicons"
+    },
+    "_fsharp_l": {
+      "fontCharacter": "\\e6a7",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_git": {
       "fontCharacter": "\\e602",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_git_l": {
+      "fontCharacter": "\\e602",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_heroku": {
       "fontCharacter": "\\e67b",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "devicons"
+    },
+    "_heroku_l": {
+      "fontCharacter": "\\e67b",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_jquery": {
       "fontCharacter": "\\e650",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "devicons"
+    },
+    "_jquery_l": {
+      "fontCharacter": "\\e650",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_jqueryui": {
       "fontCharacter": "\\e654",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "devicons"
+    },
+    "_jqueryui_l": {
+      "fontCharacter": "\\e654",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_laravel": {
       "fontCharacter": "\\e63f",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "devicons"
+    },
+    "_laravel_l": {
+      "fontCharacter": "\\e63f",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_materialize": {
       "fontCharacter": "\\e6b6",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "devicons"
+    },
+    "_materialize_l": {
+      "fontCharacter": "\\e6b6",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_modernizr": {
       "fontCharacter": "\\e620",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_modernizr_l": {
+      "fontCharacter": "\\e620",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_mootools": {
       "fontCharacter": "\\e68f",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "devicons"
+    },
+    "_mootools_l": {
+      "fontCharacter": "\\e68f",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_node": {
       "fontCharacter": "\\e618",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "devicons"
+    },
+    "_node_l": {
+      "fontCharacter": "\\e618",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_pod": {
       "fontCharacter": "\\e669",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "devicons"
+    },
+    "_pod_l": {
+      "fontCharacter": "\\e669",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_prolog": {
       "fontCharacter": "\\e6a1",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "devicons"
+    },
+    "_prolog_l": {
+      "fontCharacter": "\\e6a1",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_rails": {
@@ -542,79 +1017,159 @@
       "fontColor": "#ffffff",
       "fontId": "devicons"
     },
+    "_rails_l": {
+      "fontCharacter": "\\e63b",
+      "fontColor": "#000000",
+      "fontId": "devicons"
+    },
     "_raphael": {
       "fontCharacter": "\\e65f",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "devicons"
+    },
+    "_raphael_l": {
+      "fontCharacter": "\\e65f",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_requirejs": {
       "fontCharacter": "\\e670",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "devicons"
+    },
+    "_requirejs_l": {
+      "fontCharacter": "\\e670",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_rust": {
       "fontCharacter": "\\e6a8",
-      "fontColor": "#ffffff",
+      "fontColor": "#be7953",
+      "fontId": "devicons"
+    },
+    "_rust_l": {
+      "fontCharacter": "\\e6a8",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_sass": {
       "fontCharacter": "\\e64b",
-      "fontColor": "#ffffff",
+      "fontColor": "#b3008f",
+      "fontId": "devicons"
+    },
+    "_sass_l": {
+      "fontCharacter": "\\e64b",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_sencha": {
       "fontCharacter": "\\e68c",
-      "fontColor": "#ffffff",
+      "fontColor": "#b2c38b",
+      "fontId": "devicons"
+    },
+    "_sencha_l": {
+      "fontCharacter": "\\e68c",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_snapsvg": {
       "fontCharacter": "\\e65e",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "devicons"
+    },
+    "_snapsvg_l": {
+      "fontCharacter": "\\e65e",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_swift": {
       "fontCharacter": "\\e655",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "devicons"
+    },
+    "_swift_l": {
+      "fontCharacter": "\\e655",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_travis": {
       "fontCharacter": "\\e67e",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "devicons"
+    },
+    "_travis_l": {
+      "fontCharacter": "\\e67e",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_uikit": {
       "fontCharacter": "\\e673",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "devicons"
+    },
+    "_uikit_l": {
+      "fontCharacter": "\\e673",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_unity3d": {
       "fontCharacter": "\\e621",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "devicons"
+    },
+    "_unity3d_l": {
+      "fontCharacter": "\\e621",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_vim": {
       "fontCharacter": "\\e6c5",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "devicons"
+    },
+    "_vim_l": {
+      "fontCharacter": "\\e6c5",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_vs": {
       "fontCharacter": "\\e60c",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "devicons"
+    },
+    "_vs_l": {
+      "fontCharacter": "\\e60c",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_windows": {
       "fontCharacter": "\\e60f",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "devicons"
+    },
+    "_windows_l": {
+      "fontCharacter": "\\e60f",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "_yeoman": {
       "fontCharacter": "\\e67a",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "devicons"
+    },
+    "_yeoman_l": {
+      "fontCharacter": "\\e67a",
+      "fontColor": "#000000",
       "fontId": "devicons"
     },
     "__1c": {
       "fontCharacter": "\\a5ea",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "__1c_l": {
+      "fontCharacter": "\\a5ea",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "__1c-alt": {
@@ -622,134 +1177,269 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "__1c-alt_l": {
+      "fontCharacter": "\\ea28",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_abap": {
       "fontCharacter": "\\e92b",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_abap_l": {
+      "fontCharacter": "\\e92b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_access": {
       "fontCharacter": "\\e9ea",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_access_l": {
+      "fontCharacter": "\\e9ea",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ada": {
       "fontCharacter": "\\e90b",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_ada_l": {
+      "fontCharacter": "\\e90b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ae": {
       "fontCharacter": "\\e9f3",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_ae_l": {
+      "fontCharacter": "\\e9f3",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ahk": {
       "fontCharacter": "\\e932",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_ahk_l": {
+      "fontCharacter": "\\e932",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ai": {
       "fontCharacter": "\\e6b4",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_ai_l": {
+      "fontCharacter": "\\e6b4",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_alloy": {
       "fontCharacter": "\\e935",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_alloy_l": {
+      "fontCharacter": "\\e935",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_alpine": {
       "fontCharacter": "\\e9ff",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_alpine_l": {
+      "fontCharacter": "\\e9ff",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ampl": {
       "fontCharacter": "\\e94e",
-      "fontColor": "#ffffff",
+      "fontColor": "#573421",
+      "fontId": "file-icons"
+    },
+    "_ampl_l": {
+      "fontCharacter": "\\e94e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_amx": {
       "fontCharacter": "\\e99b",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_amx_l": {
+      "fontCharacter": "\\e99b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ant": {
       "fontCharacter": "\\e93e",
-      "fontColor": "#ffffff",
+      "fontColor": "#b3008f",
+      "fontId": "file-icons"
+    },
+    "_ant_l": {
+      "fontCharacter": "\\e93e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_antlr": {
       "fontCharacter": "\\e92c",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_antlr_l": {
+      "fontCharacter": "\\e92c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_api": {
       "fontCharacter": "\\e92d",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_api_l": {
+      "fontCharacter": "\\e92d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_apl": {
       "fontCharacter": "\\234b",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_apl_l": {
+      "fontCharacter": "\\234b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_apple": {
       "fontCharacter": "\\e925",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_apple_l": {
+      "fontCharacter": "\\e925",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_appveyor": {
       "fontCharacter": "\\e923",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_appveyor_l": {
+      "fontCharacter": "\\e923",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_arc": {
       "fontCharacter": "\\e92f",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_arc_l": {
+      "fontCharacter": "\\e92f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_arduino": {
       "fontCharacter": "\\e930",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_arduino_l": {
+      "fontCharacter": "\\e930",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_arttext": {
       "fontCharacter": "\\24d0",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_arttext_l": {
+      "fontCharacter": "\\24d0",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_as": {
       "fontCharacter": "\\e92e",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_as_l": {
+      "fontCharacter": "\\e92e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_asciidoc": {
       "fontCharacter": "\\e918",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_asciidoc_l": {
+      "fontCharacter": "\\e918",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ats": {
       "fontCharacter": "\\e934",
-      "fontColor": "#ffffff",
+      "fontColor": "#ee9e2e",
+      "fontId": "file-icons"
+    },
+    "_ats_l": {
+      "fontCharacter": "\\e934",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_audacity": {
       "fontCharacter": "\\e9f9",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_audacity_l": {
+      "fontCharacter": "\\e9f9",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_augeas": {
       "fontCharacter": "\\e931",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_augeas_l": {
+      "fontCharacter": "\\e931",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_autoit": {
       "fontCharacter": "\\e933",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_autoit_l": {
+      "fontCharacter": "\\e933",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_babel": {
       "fontCharacter": "\\e91f",
-      "fontColor": "#ffffff",
+      "fontColor": "#ee9e2e",
+      "fontId": "file-icons"
+    },
+    "_babel_l": {
+      "fontCharacter": "\\e91f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_bibtex": {
@@ -757,19 +1447,39 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_bibtex_l": {
+      "fontCharacter": "\\e601",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_blender": {
       "fontCharacter": "\\e9fa",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_blender_l": {
+      "fontCharacter": "\\e9fa",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_bluespec": {
       "fontCharacter": "\\e93c",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_bluespec_l": {
+      "fontCharacter": "\\e93c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_boo": {
       "fontCharacter": "\\e939",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_boo_l": {
+      "fontCharacter": "\\e939",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_boot": {
@@ -777,64 +1487,129 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_boot_l": {
+      "fontCharacter": "\\f103",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_brain": {
       "fontCharacter": "\\e93a",
-      "fontColor": "#ffffff",
+      "fontColor": "#b3008f",
+      "fontId": "file-icons"
+    },
+    "_brain_l": {
+      "fontCharacter": "\\e93a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_brakeman": {
       "fontCharacter": "\\e9d6",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_brakeman_l": {
+      "fontCharacter": "\\e9d6",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_bro": {
       "fontCharacter": "\\e93b",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_bro_l": {
+      "fontCharacter": "\\e93b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_broccoli": {
       "fontCharacter": "\\e922",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_broccoli_l": {
+      "fontCharacter": "\\e922",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_byond": {
       "fontCharacter": "\\e962",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_byond_l": {
+      "fontCharacter": "\\e962",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cabal": {
       "fontCharacter": "\\e9c2",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_cabal_l": {
+      "fontCharacter": "\\e9c2",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cake": {
       "fontCharacter": "\\e9e3",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_cake_l": {
+      "fontCharacter": "\\e9e3",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cakefile": {
       "fontCharacter": "\\e924",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_cakefile_l": {
+      "fontCharacter": "\\e924",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cakephp": {
       "fontCharacter": "\\e9d3",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_cakephp_l": {
+      "fontCharacter": "\\e9d3",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cc": {
       "fontCharacter": "\\e9d5",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_cc_l": {
+      "fontCharacter": "\\e9d5",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ceylon": {
       "fontCharacter": "\\e94f",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_ceylon_l": {
+      "fontCharacter": "\\e94f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cf": {
       "fontCharacter": "\\e929",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_cf_l": {
+      "fontCharacter": "\\e929",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_chai": {
@@ -842,24 +1617,49 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_chai_l": {
+      "fontCharacter": "c",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_chapel": {
       "fontCharacter": "\\e950",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_chapel_l": {
+      "fontCharacter": "\\e950",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_chartjs": {
       "fontCharacter": "\\ea0b",
-      "fontColor": "#ffffff",
+      "fontColor": "#b3008f",
+      "fontId": "file-icons"
+    },
+    "_chartjs_l": {
+      "fontCharacter": "\\ea0b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_chuck": {
       "fontCharacter": "\\e943",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_chuck_l": {
+      "fontCharacter": "\\e943",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_circleci": {
       "fontCharacter": "\\ea12",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_circleci_l": {
+      "fontCharacter": "\\ea12",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cirru": {
@@ -867,29 +1667,59 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_cirru_l": {
+      "fontCharacter": "\\e951",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_cl": {
       "fontCharacter": "\\e972",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_cl_l": {
+      "fontCharacter": "\\e972",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_clarion": {
       "fontCharacter": "\\e952",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_clarion_l": {
+      "fontCharacter": "\\e952",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_clean": {
       "fontCharacter": "\\e95b",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_clean_l": {
+      "fontCharacter": "\\e95b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_click": {
       "fontCharacter": "\\e95c",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_click_l": {
+      "fontCharacter": "\\e95c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_clips": {
       "fontCharacter": "\\e940",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_clips_l": {
+      "fontCharacter": "\\e940",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cljs": {
@@ -897,89 +1727,179 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_cljs_l": {
+      "fontCharacter": "\\f104",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_cmake": {
       "fontCharacter": "\\e93f",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_cmake_l": {
+      "fontCharacter": "\\e93f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_codecov": {
       "fontCharacter": "\\2602",
-      "fontColor": "#ffffff",
+      "fontColor": "#b3008f",
+      "fontId": "file-icons"
+    },
+    "_codecov_l": {
+      "fontCharacter": "\\2602",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_composer": {
       "fontCharacter": "\\e683",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_composer_l": {
+      "fontCharacter": "\\e683",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_config": {
       "fontCharacter": "\\f07c",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_config_l": {
+      "fontCharacter": "\\f07c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cordova": {
       "fontCharacter": "\\ea11",
-      "fontColor": "#ffffff",
+      "fontColor": "#9dc0ce",
+      "fontId": "file-icons"
+    },
+    "_cordova_l": {
+      "fontCharacter": "\\ea11",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_coq": {
       "fontCharacter": "\\e95f",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_coq_l": {
+      "fontCharacter": "\\e95f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cp": {
       "fontCharacter": "\\e942",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_cp_l": {
+      "fontCharacter": "\\e942",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_creole": {
       "fontCharacter": "\\e95e",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_creole_l": {
+      "fontCharacter": "\\e95e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_crystal": {
       "fontCharacter": "\\e902",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_crystal_l": {
+      "fontCharacter": "\\e902",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_csound": {
       "fontCharacter": "\\e9f0",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_csound_l": {
+      "fontCharacter": "\\e9f0",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_csscript": {
       "fontCharacter": "\\e9e2",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_csscript_l": {
+      "fontCharacter": "\\e9e2",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cucumber": {
       "fontCharacter": "\\f02b",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_cucumber_l": {
+      "fontCharacter": "\\f02b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_cython": {
       "fontCharacter": "\\e963",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_cython_l": {
+      "fontCharacter": "\\e963",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_d3": {
       "fontCharacter": "\\ea10",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_d3_l": {
+      "fontCharacter": "\\ea10",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_darcs": {
       "fontCharacter": "\\e964",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_darcs_l": {
+      "fontCharacter": "\\e964",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_dashboard": {
       "fontCharacter": "\\f07d",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_dashboard_l": {
+      "fontCharacter": "\\f07d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_dbase": {
       "fontCharacter": "\\e9f1",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_dbase_l": {
+      "fontCharacter": "\\e9f1",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_default": {
@@ -987,64 +1907,129 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_default_l": {
+      "fontCharacter": "\\1f5cc",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_diff": {
       "fontCharacter": "\\e960",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_diff_l": {
+      "fontCharacter": "\\e960",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_docker": {
       "fontCharacter": "\\f106",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_docker_l": {
+      "fontCharacter": "\\f106",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_doxygen": {
       "fontCharacter": "\\e928",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_doxygen_l": {
+      "fontCharacter": "\\e928",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_doge": {
       "fontCharacter": "\\e946",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_doge_l": {
+      "fontCharacter": "\\e946",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_dyalog": {
       "fontCharacter": "\\e90c",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_dyalog_l": {
+      "fontCharacter": "\\e90c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_dylib": {
       "fontCharacter": "\\ea15",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_dylib_l": {
+      "fontCharacter": "\\ea15",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_e": {
       "fontCharacter": "E",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_e_l": {
+      "fontCharacter": "E",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_eagle": {
       "fontCharacter": "\\e965",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_eagle_l": {
+      "fontCharacter": "\\e965",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ec": {
       "fontCharacter": "\\e9c9",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_ec_l": {
+      "fontCharacter": "\\e9c9",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ecere": {
       "fontCharacter": "\\e966",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_ecere_l": {
+      "fontCharacter": "\\e966",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_editorconfig": {
       "fontCharacter": "\\ea1b",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_editorconfig_l": {
+      "fontCharacter": "\\ea1b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_eiffel": {
       "fontCharacter": "\\e967",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_eiffel_l": {
+      "fontCharacter": "\\e967",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_electron": {
@@ -1052,104 +2037,209 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_electron_l": {
+      "fontCharacter": "\\ea27",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_elm": {
       "fontCharacter": "\\f102",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_elm_l": {
+      "fontCharacter": "\\f102",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_em": {
       "fontCharacter": "\\e968",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_em_l": {
+      "fontCharacter": "\\e968",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ember": {
       "fontCharacter": "\\e61b",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_ember_l": {
+      "fontCharacter": "\\e61b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_emacs": {
       "fontCharacter": "\\e926",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_emacs_l": {
+      "fontCharacter": "\\e926",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_eq": {
       "fontCharacter": "\\ea0a",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_eq_l": {
+      "fontCharacter": "\\ea0a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_eslint": {
       "fontCharacter": "\\ea0f",
-      "fontColor": "#ffffff",
+      "fontColor": "#c7a4c0",
+      "fontId": "file-icons"
+    },
+    "_eslint_l": {
+      "fontCharacter": "\\ea0f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_excel": {
       "fontCharacter": "\\e9ee",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_excel_l": {
+      "fontCharacter": "\\e9ee",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_fabfile": {
       "fontCharacter": "\\e94b",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_fabfile_l": {
+      "fontCharacter": "\\e94b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_factor": {
       "fontCharacter": "\\e96a",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_factor_l": {
+      "fontCharacter": "\\e96a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_fancy": {
       "fontCharacter": "\\e96b",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_fancy_l": {
+      "fontCharacter": "\\e96b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_fantom": {
       "fontCharacter": "\\e96f",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_fantom_l": {
+      "fontCharacter": "\\e96f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_fbx": {
       "fontCharacter": "\\e9fc",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_fbx_l": {
+      "fontCharacter": "\\e9fc",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ff": {
       "fontCharacter": "\\fb00",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_ff_l": {
+      "fontCharacter": "\\fb00",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_finder": {
       "fontCharacter": "\\e9e9",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_finder_l": {
+      "fontCharacter": "\\e9e9",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_flow": {
       "fontCharacter": "\\e921",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_flow_l": {
+      "fontCharacter": "\\e921",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_flux": {
       "fontCharacter": "\\e969",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_flux_l": {
+      "fontCharacter": "\\e969",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_font": {
       "fontCharacter": "\\e90f",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_font_l": {
+      "fontCharacter": "\\e90f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_fortran": {
       "fontCharacter": "\\e90a",
-      "fontColor": "#ffffff",
+      "fontColor": "#ee9e2e",
+      "fontId": "file-icons"
+    },
+    "_fortran_l": {
+      "fontCharacter": "\\e90a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_freemarker": {
       "fontCharacter": "\\e970",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_freemarker_l": {
+      "fontCharacter": "\\e970",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_frege": {
       "fontCharacter": "\\e96e",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_frege_l": {
+      "fontCharacter": "\\e96e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_fuelux": {
@@ -1157,14 +2247,29 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_fuelux_l": {
+      "fontCharacter": "\\ea09",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_gams": {
       "fontCharacter": "\\e973",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_gams_l": {
+      "fontCharacter": "\\e973",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gap": {
       "fontCharacter": "\\e971",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_gap_l": {
+      "fontCharacter": "\\e971",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gdb": {
@@ -1172,184 +2277,369 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_gdb_l": {
+      "fontCharacter": "\\ea08",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_genshi": {
       "fontCharacter": "\\e976",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_genshi_l": {
+      "fontCharacter": "\\e976",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gentoo": {
       "fontCharacter": "\\e96d",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_gentoo_l": {
+      "fontCharacter": "\\e96d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gf": {
       "fontCharacter": "\\e978",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_gf_l": {
+      "fontCharacter": "\\e978",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_glade": {
       "fontCharacter": "\\e938",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_glade_l": {
+      "fontCharacter": "\\e938",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_glyphs": {
       "fontCharacter": "G",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_glyphs_l": {
+      "fontCharacter": "G",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gml": {
       "fontCharacter": "\\e975",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_gml_l": {
+      "fontCharacter": "\\e975",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gn": {
       "fontCharacter": "\\ea25",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_gn_l": {
+      "fontCharacter": "\\ea25",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gnu": {
       "fontCharacter": "\\e679",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_gnu_l": {
+      "fontCharacter": "\\e679",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_go": {
       "fontCharacter": "\\e624",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_go_l": {
+      "fontCharacter": "\\e624",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_godot": {
       "fontCharacter": "\\e974",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_godot_l": {
+      "fontCharacter": "\\e974",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_golo": {
       "fontCharacter": "\\e979",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_golo_l": {
+      "fontCharacter": "\\e979",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gosu": {
       "fontCharacter": "\\e97a",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_gosu_l": {
+      "fontCharacter": "\\e97a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gradle": {
       "fontCharacter": "\\e903",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_gradle_l": {
+      "fontCharacter": "\\e903",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_graphql": {
       "fontCharacter": "\\e97c",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_graphql_l": {
+      "fontCharacter": "\\e97c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_graphviz": {
       "fontCharacter": "\\e97d",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_graphviz_l": {
+      "fontCharacter": "\\e97d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_groovy": {
       "fontCharacter": "\\e904",
-      "fontColor": "#ffffff",
+      "fontColor": "#9dc0ce",
+      "fontId": "file-icons"
+    },
+    "_groovy_l": {
+      "fontCharacter": "\\e904",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_grunt": {
       "fontCharacter": "\\e611",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_grunt_l": {
+      "fontCharacter": "\\e611",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_gulp": {
       "fontCharacter": "\\e610",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_gulp_l": {
+      "fontCharacter": "\\e610",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_hack": {
       "fontCharacter": "\\e9ce",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_hack_l": {
+      "fontCharacter": "\\e9ce",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_haml": {
       "fontCharacter": "\\f15b",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_haml_l": {
+      "fontCharacter": "\\f15b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_harbour": {
       "fontCharacter": "\\e97b",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_harbour_l": {
+      "fontCharacter": "\\e97b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_hashicorp": {
       "fontCharacter": "\\e97e",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_hashicorp_l": {
+      "fontCharacter": "\\e97e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_haxe": {
       "fontCharacter": "\\e907",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_haxe_l": {
+      "fontCharacter": "\\e907",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_hy": {
       "fontCharacter": "\\e97f",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_hy_l": {
+      "fontCharacter": "\\e97f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_idl": {
       "fontCharacter": "\\e947",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_idl_l": {
+      "fontCharacter": "\\e947",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_idris": {
       "fontCharacter": "\\e983",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_idris_l": {
+      "fontCharacter": "\\e983",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_igorpro": {
       "fontCharacter": "\\e980",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_igorpro_l": {
+      "fontCharacter": "\\e980",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_indesign": {
       "fontCharacter": "\\e9f4",
-      "fontColor": "#ffffff",
+      "fontColor": "#b3008f",
+      "fontId": "file-icons"
+    },
+    "_indesign_l": {
+      "fontCharacter": "\\e9f4",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_inform7": {
       "fontCharacter": "\\e984",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_inform7_l": {
+      "fontCharacter": "\\e984",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_inno": {
       "fontCharacter": "\\e985",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_inno_l": {
+      "fontCharacter": "\\e985",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_io": {
       "fontCharacter": "\\e981",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_io_l": {
+      "fontCharacter": "\\e981",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ioke": {
       "fontCharacter": "\\e982",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_ioke_l": {
+      "fontCharacter": "\\e982",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ionic": {
       "fontCharacter": "\\f14b",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_ionic_l": {
+      "fontCharacter": "\\f14b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_isabelle": {
       "fontCharacter": "\\e945",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_isabelle_l": {
+      "fontCharacter": "\\e945",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_j": {
       "fontCharacter": "\\e937",
-      "fontColor": "#ffffff",
+      "fontColor": "#9dc0ce",
+      "fontId": "file-icons"
+    },
+    "_j_l": {
+      "fontCharacter": "\\e937",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_jade": {
       "fontCharacter": "\\e90d",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_jade_l": {
+      "fontCharacter": "\\e90d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_jake": {
@@ -1357,19 +2647,39 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_jake_l": {
+      "fontCharacter": "\\e948",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_jenkins": {
       "fontCharacter": "\\e667",
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_jenkins_l": {
+      "fontCharacter": "\\e667",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_jinja": {
       "fontCharacter": "\\e944",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_jinja_l": {
+      "fontCharacter": "\\e944",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_jsonld": {
       "fontCharacter": "\\e958",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_jsonld_l": {
+      "fontCharacter": "\\e958",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_jsx": {
@@ -1377,69 +2687,139 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_jsx_l": {
+      "fontCharacter": "\\e9e6",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_julia": {
       "fontCharacter": "\\26ec",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_julia_l": {
+      "fontCharacter": "\\26ec",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_jupyter": {
       "fontCharacter": "\\e987",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_jupyter_l": {
+      "fontCharacter": "\\e987",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_karma": {
       "fontCharacter": "\\e9cd",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_karma_l": {
+      "fontCharacter": "\\e9cd",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_keynote": {
       "fontCharacter": "\\e9e5",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_keynote_l": {
+      "fontCharacter": "\\e9e5",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_khronos": {
       "fontCharacter": "\\e9f8",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_khronos_l": {
+      "fontCharacter": "\\e9f8",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_kivy": {
       "fontCharacter": "\\e901",
-      "fontColor": "#ffffff",
+      "fontColor": "#573421",
+      "fontId": "file-icons"
+    },
+    "_kivy_l": {
+      "fontCharacter": "\\e901",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_knockout": {
       "fontCharacter": "\\4B",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_knockout_l": {
+      "fontCharacter": "\\4B",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_kotlin": {
       "fontCharacter": "\\e989",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_kotlin_l": {
+      "fontCharacter": "\\e989",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_krl": {
       "fontCharacter": "\\e988",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_krl_l": {
+      "fontCharacter": "\\e988",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_labview": {
       "fontCharacter": "\\e98a",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_labview_l": {
+      "fontCharacter": "\\e98a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_lasso": {
       "fontCharacter": "\\e98c",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_lasso_l": {
+      "fontCharacter": "\\e98c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_leaflet": {
       "fontCharacter": "\\ea07",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_leaflet_l": {
+      "fontCharacter": "\\ea07",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_lean": {
       "fontCharacter": "L",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_lean_l": {
+      "fontCharacter": "L",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_lein": {
@@ -1447,294 +2827,589 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_lein_l": {
+      "fontCharacter": "\\f105",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_lfe": {
       "fontCharacter": "\\e94c",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_lfe_l": {
+      "fontCharacter": "\\e94c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_lightwave": {
       "fontCharacter": "\\e9fb",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_lightwave_l": {
+      "fontCharacter": "\\e9fb",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_lisp": {
       "fontCharacter": "\\e908",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_lisp_l": {
+      "fontCharacter": "\\e908",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_llvm": {
       "fontCharacter": "\\e91d",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_llvm_l": {
+      "fontCharacter": "\\e91d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_logtalk": {
       "fontCharacter": "\\e98d",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_logtalk_l": {
+      "fontCharacter": "\\e98d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_lookml": {
       "fontCharacter": "\\e98e",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_lookml_l": {
+      "fontCharacter": "\\e98e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ls": {
       "fontCharacter": "\\e914",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_ls_l": {
+      "fontCharacter": "\\e914",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_lsl": {
       "fontCharacter": "\\e98b",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_lsl_l": {
+      "fontCharacter": "\\e98b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_lua": {
       "fontCharacter": "\\e91b",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_lua_l": {
+      "fontCharacter": "\\e91b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mako": {
       "fontCharacter": "\\e98f",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_mako_l": {
+      "fontCharacter": "\\e98f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mapbox": {
       "fontCharacter": "\\e941",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_mapbox_l": {
+      "fontCharacter": "\\e941",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_marko": {
       "fontCharacter": "\\e920",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_marko_l": {
+      "fontCharacter": "\\e920",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mathematica": {
       "fontCharacter": "\\e990",
-      "fontColor": "#ffffff",
+      "fontColor": "#ee9e2e",
+      "fontId": "file-icons"
+    },
+    "_mathematica_l": {
+      "fontCharacter": "\\e990",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mathjax": {
       "fontCharacter": "\\ea06",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_mathjax_l": {
+      "fontCharacter": "\\ea06",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_matlab": {
       "fontCharacter": "\\e991",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_matlab_l": {
+      "fontCharacter": "\\e991",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_max": {
       "fontCharacter": "\\e993",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_max_l": {
+      "fontCharacter": "\\e993",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_maxscript": {
       "fontCharacter": "\\e900",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_maxscript_l": {
+      "fontCharacter": "\\e900",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_maya": {
       "fontCharacter": "\\e9f6",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_maya_l": {
+      "fontCharacter": "\\e9f6",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_manpage": {
       "fontCharacter": "\\e936",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_manpage_l": {
+      "fontCharacter": "\\e936",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mediawiki": {
       "fontCharacter": "\\e954",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_mediawiki_l": {
+      "fontCharacter": "\\e954",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mercury": {
       "fontCharacter": "\\e994",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_mercury_l": {
+      "fontCharacter": "\\e994",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_metal": {
       "fontCharacter": "M",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_metal_l": {
+      "fontCharacter": "M",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_meteor": {
       "fontCharacter": "\\e6a5",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_meteor_l": {
+      "fontCharacter": "\\e6a5",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_minecraft": {
       "fontCharacter": "\\e9dc",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_minecraft_l": {
+      "fontCharacter": "\\e9dc",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mirah": {
       "fontCharacter": "\\e995",
-      "fontColor": "#ffffff",
+      "fontColor": "#9dc0ce",
+      "fontId": "file-icons"
+    },
+    "_mirah_l": {
+      "fontCharacter": "\\e995",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mocha": {
       "fontCharacter": "\\26fe",
-      "fontColor": "#ffffff",
+      "fontColor": "#be7953",
+      "fontId": "file-icons"
+    },
+    "_mocha_l": {
+      "fontCharacter": "\\26fe",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_model": {
       "fontCharacter": "\\e9e8",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_model_l": {
+      "fontCharacter": "\\e9e8",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_modula2": {
       "fontCharacter": "\\e996",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_modula2_l": {
+      "fontCharacter": "\\e996",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_monkey": {
       "fontCharacter": "\\e997",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_monkey_l": {
+      "fontCharacter": "\\e997",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mruby": {
       "fontCharacter": "\\ea18",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_mruby_l": {
+      "fontCharacter": "\\ea18",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mupad": {
       "fontCharacter": "\\e9ca",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_mupad_l": {
+      "fontCharacter": "\\e9ca",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_mustache": {
       "fontCharacter": "\\e60f",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_mustache_l": {
+      "fontCharacter": "\\e60f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nant": {
       "fontCharacter": "\\e9e1",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_nant_l": {
+      "fontCharacter": "\\e9e1",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_neko": {
       "fontCharacter": "\\ea05",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_neko_l": {
+      "fontCharacter": "\\ea05",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_netlogo": {
       "fontCharacter": "\\e99c",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_netlogo_l": {
+      "fontCharacter": "\\e99c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_newrelic": {
       "fontCharacter": "\\e9d7",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_newrelic_l": {
+      "fontCharacter": "\\e9d7",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nib": {
       "fontCharacter": "\\2712",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_nib_l": {
+      "fontCharacter": "\\2712",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nimrod": {
       "fontCharacter": "\\e998",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_nimrod_l": {
+      "fontCharacter": "\\e998",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nit": {
       "fontCharacter": "\\e999",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_nit_l": {
+      "fontCharacter": "\\e999",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nix": {
       "fontCharacter": "\\e99a",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_nix_l": {
+      "fontCharacter": "\\e99a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nmap": {
       "fontCharacter": "\\e94d",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_nmap_l": {
+      "fontCharacter": "\\e94d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nodemon": {
       "fontCharacter": "\\ea26",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_nodemon_l": {
+      "fontCharacter": "\\ea26",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_normalize": {
       "fontCharacter": "\\ea04",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_normalize_l": {
+      "fontCharacter": "\\ea04",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_npm": {
       "fontCharacter": "\\e91c",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_npm_l": {
+      "fontCharacter": "\\e91c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nsis": {
       "fontCharacter": "\\ea1e",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_nsis_l": {
+      "fontCharacter": "\\ea1e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_numpy": {
       "fontCharacter": "\\e99d",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_numpy_l": {
+      "fontCharacter": "\\e99d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nuget": {
       "fontCharacter": "\\e9d9",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_nuget_l": {
+      "fontCharacter": "\\e9d9",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nunjucks": {
       "fontCharacter": "\\e953",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_nunjucks_l": {
+      "fontCharacter": "\\e953",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_nvidia": {
       "fontCharacter": "\\e95d",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_nvidia_l": {
+      "fontCharacter": "\\e95d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_objj": {
       "fontCharacter": "\\e99e",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_objj_l": {
+      "fontCharacter": "\\e99e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ocaml": {
       "fontCharacter": "\\e91a",
-      "fontColor": "#ffffff",
+      "fontColor": "#ee9e2e",
+      "fontId": "file-icons"
+    },
+    "_ocaml_l": {
+      "fontCharacter": "\\e91a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_onenote": {
       "fontCharacter": "\\e9eb",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_onenote_l": {
+      "fontCharacter": "\\e9eb",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ooc": {
       "fontCharacter": "\\e9cb",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_ooc_l": {
+      "fontCharacter": "\\e9cb",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_opa": {
       "fontCharacter": "\\2601",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_opa_l": {
+      "fontCharacter": "\\2601",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_opencl": {
       "fontCharacter": "\\e99f",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_opencl_l": {
+      "fontCharacter": "\\e99f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_openoffice": {
       "fontCharacter": "\\e9e4",
-      "fontColor": "#ffffff",
+      "fontColor": "#ff4ddb",
+      "fontId": "file-icons"
+    },
+    "_openoffice_l": {
+      "fontCharacter": "\\e9e4",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_org": {
       "fontCharacter": "\\e917",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_org_l": {
+      "fontCharacter": "\\e917",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_owl": {
       "fontCharacter": "\\e957",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_owl_l": {
+      "fontCharacter": "\\e957",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ox": {
@@ -1742,69 +3417,139 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_ox_l": {
+      "fontCharacter": "\\e9a1",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_oxygene": {
       "fontCharacter": "\\e9bf",
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_oxygene_l": {
+      "fontCharacter": "\\e9bf",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_oz": {
       "fontCharacter": "\\e9be",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_oz_l": {
+      "fontCharacter": "\\e9be",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pan": {
       "fontCharacter": "\\e9bd",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_pan_l": {
+      "fontCharacter": "\\e9bd",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_papyrus": {
       "fontCharacter": "\\e9bc",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_papyrus_l": {
+      "fontCharacter": "\\e9bc",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_parrot": {
       "fontCharacter": "\\e9bb",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_parrot_l": {
+      "fontCharacter": "\\e9bb",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pascal": {
       "fontCharacter": "\\e92a",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_pascal_l": {
+      "fontCharacter": "\\e92a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_patch": {
       "fontCharacter": "\\e961",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_patch_l": {
+      "fontCharacter": "\\e961",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pawn": {
       "fontCharacter": "\\265f",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_pawn_l": {
+      "fontCharacter": "\\265f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_perl6": {
       "fontCharacter": "\\e96c",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_perl6_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_phalcon": {
       "fontCharacter": "\\e94a",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_phalcon_l": {
+      "fontCharacter": "\\e94a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_php": {
       "fontCharacter": "\\f147",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_php_l": {
+      "fontCharacter": "\\f147",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pickle": {
       "fontCharacter": "\\e9c4",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_pickle_l": {
+      "fontCharacter": "\\e9c4",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pike": {
       "fontCharacter": "\\e9b9",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_pike_l": {
+      "fontCharacter": "\\e9b9",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pogo": {
@@ -1812,79 +3557,159 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_pogo_l": {
+      "fontCharacter": "\\e9b8",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_pony": {
       "fontCharacter": "\\e9b7",
-      "fontColor": "#ffffff",
+      "fontColor": "#be7953",
+      "fontId": "file-icons"
+    },
+    "_pony_l": {
+      "fontCharacter": "\\e9b7",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pointwise": {
       "fontCharacter": "\\e977",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_pointwise_l": {
+      "fontCharacter": "\\e977",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_postcss": {
       "fontCharacter": "\\e910",
-      "fontColor": "#ffffff",
+      "fontColor": "#b3008f",
+      "fontId": "file-icons"
+    },
+    "_postcss_l": {
+      "fontCharacter": "\\e910",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_postscript": {
       "fontCharacter": "\\e955",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_postscript_l": {
+      "fontCharacter": "\\e955",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_povray": {
       "fontCharacter": "P",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_povray_l": {
+      "fontCharacter": "P",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_powerbuilder": {
       "fontCharacter": "\\ea14",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_powerbuilder_l": {
+      "fontCharacter": "\\ea14",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_powerpoint": {
       "fontCharacter": "\\e9ec",
-      "fontColor": "#ffffff",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_powerpoint_l": {
+      "fontCharacter": "\\e9ec",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_powershell": {
       "fontCharacter": "\\e9da",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_powershell_l": {
+      "fontCharacter": "\\e9da",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_premiere": {
       "fontCharacter": "\\e9f5",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_premiere_l": {
+      "fontCharacter": "\\e9f5",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_processing": {
       "fontCharacter": "\\e9a0",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_processing_l": {
+      "fontCharacter": "\\e9a0",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_progress": {
       "fontCharacter": "\\e9c0",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_progress_l": {
+      "fontCharacter": "\\e9c0",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_propeller": {
       "fontCharacter": "\\e9b5",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_propeller_l": {
+      "fontCharacter": "\\e9b5",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_protractor": {
       "fontCharacter": "\\e9de",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_protractor_l": {
+      "fontCharacter": "\\e9de",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_psd": {
       "fontCharacter": "\\e6b8",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_psd_l": {
+      "fontCharacter": "\\e6b8",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pug": {
       "fontCharacter": "\\ea13",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_pug_l": {
+      "fontCharacter": "\\ea13",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_pug-alt": {
@@ -1892,99 +3717,199 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_pug-alt_l": {
+      "fontCharacter": "\\e9d0",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_puppet": {
       "fontCharacter": "\\f0c3",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_puppet_l": {
+      "fontCharacter": "\\f0c3",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_purebasic": {
       "fontCharacter": "\\01b5",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_purebasic_l": {
+      "fontCharacter": "\\01b5",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_purescript": {
       "fontCharacter": "\\e9b2",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_purescript_l": {
+      "fontCharacter": "\\e9b2",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_r": {
       "fontCharacter": "\\e905",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_r_l": {
+      "fontCharacter": "\\e905",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_racket": {
       "fontCharacter": "\\e9b1",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_racket_l": {
+      "fontCharacter": "\\e9b1",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_raml": {
       "fontCharacter": "\\e913",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_raml_l": {
+      "fontCharacter": "\\e913",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_rascal": {
       "fontCharacter": "\\ea24",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_rascal_l": {
+      "fontCharacter": "\\ea24",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_rdoc": {
       "fontCharacter": "\\e9b0",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_rdoc_l": {
+      "fontCharacter": "\\e9b0",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_react": {
       "fontCharacter": "\\f100",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_react_l": {
+      "fontCharacter": "\\f100",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_rebol": {
       "fontCharacter": "\\e9ae",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_rebol_l": {
+      "fontCharacter": "\\e9ae",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_reason": {
       "fontCharacter": "\\ea1d",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_reason_l": {
+      "fontCharacter": "\\ea1d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_red": {
       "fontCharacter": "\\e9ad",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_red_l": {
+      "fontCharacter": "\\e9ad",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_regex": {
       "fontCharacter": "*",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_regex_l": {
+      "fontCharacter": "*",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_rexx": {
       "fontCharacter": "\\ea16",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_rexx_l": {
+      "fontCharacter": "\\ea16",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_riot": {
       "fontCharacter": "\\e919",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_riot_l": {
+      "fontCharacter": "\\e919",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_robot": {
       "fontCharacter": "\\e9ac",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_robot_l": {
+      "fontCharacter": "\\e9ac",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_rollup": {
       "fontCharacter": "\\ea20",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_rollup_l": {
+      "fontCharacter": "\\ea20",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_rst": {
       "fontCharacter": "\\e9cc",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_rst_l": {
+      "fontCharacter": "\\e9cc",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sage": {
       "fontCharacter": "\\e9ab",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_sage_l": {
+      "fontCharacter": "\\e9ab",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_saltstack": {
@@ -1992,139 +3917,279 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_saltstack_l": {
+      "fontCharacter": "\\e915",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_sas": {
       "fontCharacter": "\\e95a",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_sas_l": {
+      "fontCharacter": "\\e95a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sbt": {
       "fontCharacter": "\\e9d2",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_sbt_l": {
+      "fontCharacter": "\\e9d2",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_scd": {
       "fontCharacter": "\\e9a2",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_scd_l": {
+      "fontCharacter": "\\e9a2",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_scad": {
       "fontCharacter": "\\e911",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_scad_l": {
+      "fontCharacter": "\\e911",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_scheme": {
       "fontCharacter": "\\03bb",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_scheme_l": {
+      "fontCharacter": "\\03bb",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_scilab": {
       "fontCharacter": "\\e9a9",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_scilab_l": {
+      "fontCharacter": "\\e9a9",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_scrutinizer": {
       "fontCharacter": "\\e9d4",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_scrutinizer_l": {
+      "fontCharacter": "\\e9d4",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_self": {
       "fontCharacter": "\\e9a8",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_self_l": {
+      "fontCharacter": "\\e9a8",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sf": {
       "fontCharacter": "\\e9db",
-      "fontColor": "#ffffff",
+      "fontColor": "#e1ad83",
+      "fontId": "file-icons"
+    },
+    "_sf_l": {
+      "fontCharacter": "\\e9db",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_shen": {
       "fontCharacter": "\\e9a7",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_shen_l": {
+      "fontCharacter": "\\e9a7",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_shopify": {
       "fontCharacter": "\\e9cf",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_shopify_l": {
+      "fontCharacter": "\\e9cf",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_shuriken": {
       "fontCharacter": "\\272b",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_shuriken_l": {
+      "fontCharacter": "\\272b",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sigils": {
       "fontCharacter": "\\1f764",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_sigils_l": {
+      "fontCharacter": "\\1f764",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_silverstripe": {
       "fontCharacter": "\\e800",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_silverstripe_l": {
+      "fontCharacter": "\\e800",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sketch": {
       "fontCharacter": "\\e927",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_sketch_l": {
+      "fontCharacter": "\\e927",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_slash": {
       "fontCharacter": "\\e9a6",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_slash_l": {
+      "fontCharacter": "\\e9a6",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_snyk": {
       "fontCharacter": "\\ea1c",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_snyk_l": {
+      "fontCharacter": "\\ea1c",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sparql": {
       "fontCharacter": "\\e959",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_sparql_l": {
+      "fontCharacter": "\\e959",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sqf": {
       "fontCharacter": "\\e9a5",
-      "fontColor": "#ffffff",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_sqf_l": {
+      "fontCharacter": "\\e9a5",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sqlite": {
       "fontCharacter": "\\e9dd",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_sqlite_l": {
+      "fontCharacter": "\\e9dd",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_stan": {
       "fontCharacter": "\\e9a4",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_stan_l": {
+      "fontCharacter": "\\e9a4",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_stata": {
       "fontCharacter": "\\e9a3",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_stata_l": {
+      "fontCharacter": "\\e9a3",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_storyist": {
       "fontCharacter": "\\e9ef",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_storyist_l": {
+      "fontCharacter": "\\e9ef",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_strings": {
       "fontCharacter": "\\e9e0",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_strings_l": {
+      "fontCharacter": "\\e9e0",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_stylelint": {
       "fontCharacter": "\\e93d",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_stylelint_l": {
+      "fontCharacter": "\\e93d",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_stylus": {
       "fontCharacter": "s",
-      "fontColor": "#ffffff",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_stylus_l": {
+      "fontCharacter": "s",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_sublime": {
       "fontCharacter": "\\e986",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_sublime_l": {
+      "fontCharacter": "\\e986",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_svn": {
@@ -2132,34 +4197,69 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_svn_l": {
+      "fontCharacter": "\\ea17",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_sysverilog": {
       "fontCharacter": "\\e9c3",
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_sysverilog_l": {
+      "fontCharacter": "\\e9c3",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_tag": {
       "fontCharacter": "\\f015",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_tag_l": {
+      "fontCharacter": "\\f015",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_tcl": {
       "fontCharacter": "\\e956",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_tcl_l": {
+      "fontCharacter": "\\e956",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_terminal": {
       "fontCharacter": "\\f0c8",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_terminal_l": {
+      "fontCharacter": "\\f0c8",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_tern": {
       "fontCharacter": "\\1f54a",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_tern_l": {
+      "fontCharacter": "\\1f54a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_terraform": {
       "fontCharacter": "\\e916",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_terraform_l": {
+      "fontCharacter": "\\e916",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_tex": {
@@ -2167,54 +4267,109 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_tex_l": {
+      "fontCharacter": "\\e600",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_textile": {
       "fontCharacter": "t",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_textile_l": {
+      "fontCharacter": "t",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_textmate": {
       "fontCharacter": "\\2122",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_textmate_l": {
+      "fontCharacter": "\\2122",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_thor": {
       "fontCharacter": "\\e9d8",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_thor_l": {
+      "fontCharacter": "\\e9d8",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_ts": {
       "fontCharacter": "\\2a6",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_ts_l": {
+      "fontCharacter": "\\2a6",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_tsx": {
       "fontCharacter": "\\e9e7",
-      "fontColor": "#ffffff",
+      "fontColor": "#9dc0ce",
+      "fontId": "file-icons"
+    },
+    "_tsx_l": {
+      "fontCharacter": "\\e9e7",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_turing": {
       "fontCharacter": "\\e9b6",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_turing_l": {
+      "fontCharacter": "\\e9b6",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_txl": {
       "fontCharacter": "\\e9c1",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_txl_l": {
+      "fontCharacter": "\\e9c1",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_typedoc": {
       "fontCharacter": "\\e9fe",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_typedoc_l": {
+      "fontCharacter": "\\e9fe",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_typings": {
       "fontCharacter": "\\e9df",
-      "fontColor": "#ffffff",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_typings_l": {
+      "fontCharacter": "\\e9df",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_uno": {
       "fontCharacter": "\\e9b3",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_uno_l": {
+      "fontCharacter": "\\e9b3",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_unreal": {
@@ -2222,118 +4377,235 @@
       "fontColor": "#ffffff",
       "fontId": "file-icons"
     },
+    "_unreal_l": {
+      "fontCharacter": "u",
+      "fontColor": "#000000",
+      "fontId": "file-icons"
+    },
     "_urweb": {
       "fontCharacter": "\\e9ba",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_urweb_l": {
+      "fontCharacter": "\\e9ba",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_webpack": {
       "fontCharacter": "\\e91e",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_webpack_l": {
+      "fontCharacter": "\\e91e",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_wercker": {
       "fontCharacter": "\\ea19",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_wercker_l": {
+      "fontCharacter": "\\ea19",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_word": {
       "fontCharacter": "\\e9ed",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_word_l": {
+      "fontCharacter": "\\e9ed",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_v8": {
       "fontCharacter": "\\ea1f",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_v8_l": {
+      "fontCharacter": "\\ea1f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_vagrant": {
       "fontCharacter": "V",
-      "fontColor": "#ffffff",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_vagrant_l": {
+      "fontCharacter": "V",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_varnish": {
       "fontCharacter": "\\e9b4",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_varnish_l": {
+      "fontCharacter": "\\e9b4",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_verilog": {
       "fontCharacter": "\\e949",
-      "fontColor": "#ffffff",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_verilog_l": {
+      "fontCharacter": "\\e949",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_vhdl": {
       "fontCharacter": "\\e9aa",
-      "fontColor": "#ffffff",
+      "fontColor": "#a35f27",
+      "fontId": "file-icons"
+    },
+    "_vhdl_l": {
+      "fontCharacter": "\\e9aa",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_video": {
       "fontCharacter": "\\f057",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_video_l": {
+      "fontCharacter": "\\f057",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_vue": {
       "fontCharacter": "\\e906",
-      "fontColor": "#ffffff",
+      "fontColor": "#b2c38b",
+      "fontId": "file-icons"
+    },
+    "_vue_l": {
+      "fontCharacter": "\\e906",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_x10": {
       "fontCharacter": "\\2169",
-      "fontColor": "#ffffff",
+      "fontColor": "#be7953",
+      "fontId": "file-icons"
+    },
+    "_x10_l": {
+      "fontCharacter": "\\2169",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_xmos": {
       "fontCharacter": "X",
-      "fontColor": "#ffffff",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_xmos_l": {
+      "fontCharacter": "X",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_xojo": {
       "fontCharacter": "\\e9af",
-      "fontColor": "#ffffff",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_xojo_l": {
+      "fontCharacter": "\\e9af",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_xpages": {
       "fontCharacter": "\\e9c5",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_xpages_l": {
+      "fontCharacter": "\\e9c5",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_xtend": {
       "fontCharacter": "\\e9c6",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_xtend_l": {
+      "fontCharacter": "\\e9c6",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_yang": {
       "fontCharacter": "\\262f",
-      "fontColor": "#ffffff",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_yang_l": {
+      "fontCharacter": "\\262f",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_yarn": {
       "fontCharacter": "\\ea1a",
-      "fontColor": "#ffffff",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_yarn_l": {
+      "fontCharacter": "\\ea1a",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_yui": {
       "fontCharacter": "\\ea00",
-      "fontColor": "#ffffff",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_yui_l": {
+      "fontCharacter": "\\ea00",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_zbrush": {
       "fontCharacter": "\\e9f2",
-      "fontColor": "#ffffff",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_zbrush_l": {
+      "fontCharacter": "\\e9f2",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_zephir": {
       "fontCharacter": "\\e9c7",
-      "fontColor": "#ffffff",
+      "fontColor": "#ff00cc",
+      "fontId": "file-icons"
+    },
+    "_zephir_l": {
+      "fontCharacter": "\\e9c7",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     },
     "_zimpl": {
       "fontCharacter": "\\e9c8",
-      "fontColor": "#ffffff",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_zimpl_l": {
+      "fontCharacter": "\\e9c8",
+      "fontColor": "#000000",
       "fontId": "file-icons"
     }
   },
   "file": "_default",
+  "folder": "_folder",
+  "folderExpanded": "_folder_open",
   "fileExtensions": {
     "1": "_manpage",
     "2": "_manpage",
@@ -4514,9 +6786,2187 @@
   },
   "languageIds": [],
   "light": {
-    "root": {},
-    "fileNames": {},
-    "languageIds": []
+    "file": "_default",
+    "folder": "_folder_l",
+    "folderExpanded": "_folder_open_l",
+    "fileExtensions": {
+      "1": "_manpage_l",
+      "2": "_manpage_l",
+      "3": "_manpage_l",
+      "4": "_manpage_l",
+      "5": "_manpage_l",
+      "6": "_manpage_l",
+      "7": "_manpage_l",
+      "8": "_manpage_l",
+      "9": "_manpage_l",
+      "bsl": "__1c_l",
+      "sdbl": "__1c_l",
+      "os": "__1c_l",
+      "mdo": "__1c-alt_l",
+      "abap": "_abap_l",
+      "swf": "_as_l",
+      "as": "_as_l",
+      "jsfl": "_as_l",
+      "swc": "_as_l",
+      "ada": "_ada_l",
+      "adb": "_ada_l",
+      "ads": "_ada_l",
+      "aep": "_ae_l",
+      "aet": "_ae_l",
+      "ai": "_ai_l",
+      "ait": "_ai_l",
+      "indd": "_indesign_l",
+      "indl": "_indesign_l",
+      "indt": "_indesign_l",
+      "indb": "_indesign_l",
+      "inx": "_indesign_l",
+      "idml": "_indesign_l",
+      "psd": "_psd_l",
+      "psb": "_psd_l",
+      "prproj": "_premiere_l",
+      "prel": "_premiere_l",
+      "psq": "_premiere_l",
+      "als": "_alloy_l",
+      "APKBUILD": "_alpine_l",
+      "ampl": "_ampl_l",
+      "ansiweatherrc": "_sun_l",
+      "ant": "_ant_l",
+      "g": "_antlr_l",
+      "g4": "_antlr_l",
+      "apacheconf": "_apache_l",
+      "vhost": "_apache_l",
+      "thrift": "_apache_l",
+      "apib": "_api_l",
+      "apl": "_apl_l",
+      "apl.history": "_apl_l",
+      "applescript": "_apple_l",
+      "scpt": "_apple_l",
+      "arc": "_arc_l",
+      "install": "_terminal_l",
+      "SRCINFO": "_archlinux_l",
+      "ino": "_arduino_l",
+      "ad": "_asciidoc_l",
+      "adoc": "_asciidoc_l",
+      "asc": "_asciidoc_l",
+      "asciidoc": "_asciidoc_l",
+      "asp": "_asp_l",
+      "asax": "_asp_l",
+      "ascx": "_asp_l",
+      "ashx": "_asp_l",
+      "asmx": "_asp_l",
+      "aspx": "_asp_l",
+      "axd": "_asp_l",
+      "aj": "_eclipse_l",
+      "a": "_binary_l",
+      "la": "_binary_l",
+      "o": "_binary_l",
+      "lo": "_binary_l",
+      "so": "_binary_l",
+      "out": "_binary_l",
+      "s": "_binary_l",
+      "a51": "_binary_l",
+      "asm": "_binary_l",
+      "nasm": "_binary_l",
+      "axf": "_binary_l",
+      "elf": "_binary_l",
+      "prx": "_binary_l",
+      "puff": "_binary_l",
+      "wasm": "_binary_l",
+      "wast": "_binary_l",
+      "z80": "_binary_l",
+      "agc": "_binary_l",
+      "ko": "_binary_l",
+      "lst": "_binary_l",
+      "objdump": "_binary_l",
+      "cobjdump": "_binary_l",
+      "c-objdump": "_binary_l",
+      "c++objdump": "_binary_l",
+      "c++-objdump": "_binary_l",
+      "c+pobjdump": "_binary_l",
+      "c+p-objdump": "_binary_l",
+      "c+xobjdump": "_binary_l",
+      "c+x-objdump": "_binary_l",
+      "cp+objdump": "_binary_l",
+      "cp+-objdump": "_binary_l",
+      "cppobjdump": "_binary_l",
+      "cpp-objdump": "_binary_l",
+      "cpxobjdump": "_binary_l",
+      "cpx-objdump": "_binary_l",
+      "cx+objdump": "_binary_l",
+      "cx+-objdump": "_binary_l",
+      "cxpobjdump": "_binary_l",
+      "cxp-objdump": "_binary_l",
+      "cxxobjdump": "_binary_l",
+      "cxx-objdump": "_binary_l",
+      "bsdiff": "_binary_l",
+      "bin": "_binary_l",
+      "dat": "_binary_l",
+      "pak": "_binary_l",
+      "pdb": "_binary_l",
+      "d-objdump": "_binary_l",
+      "gcode": "_binary_l",
+      "gco": "_binary_l",
+      "rpyb": "_binary_l",
+      "rpyc": "_binary_l",
+      "pyc": "_binary_l",
+      "pyo": "_binary_l",
+      "swp": "_binary_l",
+      "DS_Store": "_binary_l",
+      "dats": "_ats_l",
+      "hats": "_ats_l",
+      "sats": "_ats_l",
+      "aup": "_audacity_l",
+      "mp3": "_audio_l",
+      "wav": "_audio_l",
+      "aac": "_audio_l",
+      "ac3": "_audio_l",
+      "m4p": "_audio_l",
+      "aif": "_audio_l",
+      "aifc": "_audio_l",
+      "aiff": "_audio_l",
+      "au": "_audio_l",
+      "flac": "_audio_l",
+      "f4a": "_audio_l",
+      "f4b": "_audio_l",
+      "m4a": "_audio_l",
+      "mpc": "_audio_l",
+      "mp+": "_audio_l",
+      "oga": "_audio_l",
+      "opus": "_audio_l",
+      "ra": "_audio_l",
+      "rm": "_audio_l",
+      "wma": "_audio_l",
+      "aug": "_augeas_l",
+      "ahk": "_ahk_l",
+      "ahkl": "_ahk_l",
+      "au3": "_autoit_l",
+      "awk": "_terminal_l",
+      "gawk": "_terminal_l",
+      "mawk": "_terminal_l",
+      "nawk": "_terminal_l",
+      "auk": "_terminal_l",
+      "babelrc": "_babel_l",
+      "languagebabel": "_babel_l",
+      "babel": "_babel_l",
+      "babelignore": "_babel_l",
+      "cbx": "_bibtex_l",
+      "bbx": "_bibtex_l",
+      "bib": "_bibtex_l",
+      "bst": "_bibtex_l",
+      "bison": "_gnu_l",
+      "blend": "_blender_l",
+      "bphys": "_blender_l",
+      "bsv": "_bluespec_l",
+      "boo": "_boo_l",
+      "boot": "_boot_l",
+      "bowerrc": "_bower_l",
+      "b": "_brain_l",
+      "bf": "_brain_l",
+      "bro": "_bro_l",
+      "dm": "_byond_l",
+      "c": "_c_l",
+      "h": "_c_l",
+      "cats": "_c_l",
+      "idc": "_c_l",
+      "w": "_c_l",
+      "nc": "_c_l",
+      "upc": "_c_l",
+      "c++": "_cpp_l",
+      "c+p": "_cpp_l",
+      "c+x": "_cpp_l",
+      "cp+": "_cpp_l",
+      "cpp": "_cpp_l",
+      "cpx": "_cpp_l",
+      "cx+": "_cpp_l",
+      "cxp": "_cpp_l",
+      "cxx": "_cpp_l",
+      "cc": "_cpp_l",
+      "h++": "_cpp_l",
+      "h+p": "_cpp_l",
+      "h+x": "_cpp_l",
+      "hp+": "_cpp_l",
+      "hpp": "_cpp_l",
+      "hpx": "_cpp_l",
+      "hx+": "_cpp_l",
+      "hxp": "_cpp_l",
+      "hxx": "_cpp_l",
+      "ipp": "_cpp_l",
+      "tpp": "_cpp_l",
+      "tcc": "_cpp_l",
+      "inl": "_cpp_l",
+      "cs": "_csharp_l",
+      "csx": "_csscript_l",
+      "cabal": "_cabal_l",
+      "cake": "_cake_l",
+      "ctp": "_cakephp_l",
+      "ceylon": "_ceylon_l",
+      "chpl": "_chapel_l",
+      "ck": "_chuck_l",
+      "crx": "_chrome_l",
+      "cirru": "_cirru_l",
+      "clw": "_clarion_l",
+      "icl": "_clean_l",
+      "dcl": "_clean_l",
+      "abc": "_clean_l",
+      "click": "_click_l",
+      "clp": "_clips_l",
+      "clj": "_clojure_l",
+      "cl2": "_clojure_l",
+      "cljc": "_clojure_l",
+      "cljx": "_clojure_l",
+      "hic": "_clojure_l",
+      "cljs": "_cljs_l",
+      "cljs.hl": "_cljs_l",
+      "cljscm": "_cljs_l",
+      "cmake": "_cmake_l",
+      "codeclimate.yml": "_cc_l",
+      "coffee": "_coffee_l",
+      "cjsx": "_coffee_l",
+      "coffee.ecr": "_coffee_l",
+      "coffee.erb": "_coffee_l",
+      "litcoffee": "_coffee_l",
+      "iced": "_coffee_l",
+      "cfc": "_cf_l",
+      "cfm": "_cf_l",
+      "cfml": "_cf_l",
+      "dae": "_khronos_l",
+      "cl": "_cl_l",
+      "cp": "_cp_l",
+      "cps": "_cp_l",
+      "zip": "_zip_l",
+      "z": "_zip_l",
+      "xz": "_zip_l",
+      "rar": "_zip_l",
+      "gz": "_zip_l",
+      "tgz": "_zip_l",
+      "lz": "_zip_l",
+      "lzo": "_zip_l",
+      "lzma": "_zip_l",
+      "tlz": "_zip_l",
+      "tar.lzma": "_zip_l",
+      "7z": "_zip_l",
+      "apk": "_zip_l",
+      "tar": "_zip_l",
+      "bz2": "_zip_l",
+      "iso": "_zip_l",
+      "xpi": "_zip_l",
+      "gem": "_zip_l",
+      "whl": "_zip_l",
+      "epub": "_zip_l",
+      "jar": "_zip_l",
+      "war": "_zip_l",
+      "xar": "_zip_l",
+      "egg": "_zip_l",
+      "ini": "_config_l",
+      "desktop": "_config_l",
+      "directory": "_config_l",
+      "cfg": "_config_l",
+      "conf": "_config_l",
+      "prefs": "_config_l",
+      "properties": "_config_l",
+      "toml": "_config_l",
+      "ld": "_config_l",
+      "lds": "_config_l",
+      "opts": "_config_l",
+      "terminal": "_config_l",
+      "reek": "_config_l",
+      "coq": "_coq_l",
+      "creole": "_creole_l",
+      "cr": "_crystal_l",
+      "ecr": "_crystal_l",
+      "orc": "_csound_l",
+      "udo": "_csound_l",
+      "csd": "_csound_l",
+      "sco": "_csound_l",
+      "css": "_css3_l",
+      "less": "_css3_l",
+      "feature": "_cucumber_l",
+      "cu": "_nvidia_l",
+      "cuh": "_nvidia_l",
+      "pyx": "_cython_l",
+      "pxd": "_cython_l",
+      "pxi": "_cython_l",
+      "d": "_dlang_l",
+      "di": "_dlang_l",
+      "dnh": "_yang_l",
+      "dpatch": "_darcs_l",
+      "darcspatch": "_darcs_l",
+      "dart": "_dart_l",
+      "skim": "_dashboard_l",
+      "slim": "_dashboard_l",
+      "cpuprofile": "_dashboard_l",
+      "json": "_database_l",
+      "hjson": "_database_l",
+      "geojson": "_database_l",
+      "topojson": "_database_l",
+      "yml": "_database_l",
+      "yaml": "_database_l",
+      "cson": "_database_l",
+      "json5": "_database_l",
+      "http": "_database_l",
+      "ndjson": "_database_l",
+      "fea": "_database_l",
+      "json.eex": "_database_l",
+      "proto": "_database_l",
+      "pytb": "_database_l",
+      "pydeps": "_database_l",
+      "po": "_database_l",
+      "pot": "_database_l",
+      "edn": "_database_l",
+      "eam.fs": "_database_l",
+      "qml": "_database_l",
+      "qbs": "_database_l",
+      "ston": "_database_l",
+      "ttl": "_database_l",
+      "rviz": "_database_l",
+      "syntax": "_database_l",
+      "dbf": "_dbase_l",
+      "deb": "_debian_l",
+      "diff": "_diff_l",
+      "zone": "_earth_l",
+      "arpa": "_earth_l",
+      "dockerfile": "_docker_l",
+      "dockerignore": "_docker_l",
+      "djs": "_doge_l",
+      "dyalog": "_dyalog_l",
+      "dylib": "_dylib_l",
+      "bundle": "_package_l",
+      "E": "_e_l",
+      "sch": "_eagle_l",
+      "brd": "_eagle_l",
+      "ec": "_ec_l",
+      "eh": "_ec_l",
+      "epj": "_ecere_l",
+      "project": "_eclipse_l",
+      "cproject": "_eclipse_l",
+      "classpath": "_eclipse_l",
+      "editorconfig": "_editorconfig_l",
+      "e": "_eiffel_l",
+      "ex": "_elixir_l",
+      "exs": "_elixir_l",
+      "eex": "_elixir_l",
+      "elm": "_elm_l",
+      "el": "_emacs_l",
+      "emacs": "_emacs_l",
+      "_emacs": "_emacs_l",
+      "spacemacs": "_emacs_l",
+      "emacs.desktop": "_emacs_l",
+      "abbrev-defs": "_emacs_l",
+      "abbrev_defs": "_emacs_l",
+      "elc": "_emacs_l",
+      "eld": "_emacs_l",
+      "gnus": "_emacs_l",
+      "viper": "_emacs_l",
+      "emberscript": "_em_l",
+      "em": "_mustache_l",
+      "emblem": "_mustache_l",
+      "eq": "_eq_l",
+      "erl": "_erlang_l",
+      "beam": "_erlang_l",
+      "hrl": "_erlang_l",
+      "xrl": "_erlang_l",
+      "yrl": "_erlang_l",
+      "app.src": "_erlang_l",
+      "eslintcache": "_eslint_l",
+      "eslintignore": "_eslint_l",
+      "eslintrc": "_eslint_l",
+      "eslintrc.js": "_eslint_l",
+      "eslintrc.json": "_eslint_l",
+      "eslintrc.yml": "_eslint_l",
+      "eslintrc.yaml": "_eslint_l",
+      "factor": "_factor_l",
+      "factor-rc": "_factor_l",
+      "factor-boot-rc": "_factor_l",
+      "fy": "_fancy_l",
+      "fancypack": "_fancy_l",
+      "fan": "_fantom_l",
+      "fbx": "_fbx_l",
+      "rsrc": "_finder_l",
+      "flowconfig": "_flow_l",
+      "js.flow": "_flow_l",
+      "fx": "_flux_l",
+      "flux": "_flux_l",
+      "woff2": "_font_l",
+      "woff": "_font_l",
+      "eot": "_font_l",
+      "ttc": "_font_l",
+      "ttf": "_font_l",
+      "otf": "_font_l",
+      "pfb": "_font_l",
+      "pfm": "_font_l",
+      "pe": "_ff_l",
+      "sfd": "_ff_l",
+      "f": "_fortran_l",
+      "f90": "_fortran_l",
+      "f03": "_fortran_l",
+      "f08": "_fortran_l",
+      "f77": "_fortran_l",
+      "f95": "_fortran_l",
+      "for": "_fortran_l",
+      "fpp": "_fortran_l",
+      "ftl": "_freemarker_l",
+      "fr": "_frege_l",
+      "fs": "_fsharp_l",
+      "fsi": "_fsharp_l",
+      "fsx": "_fsharp_l",
+      "gml": "_gml_l",
+      "gms": "_gams_l",
+      "gap": "_gap_l",
+      "gi": "_gap_l",
+      "tst": "_scilab_l",
+      "gdb": "_gdb_l",
+      "gd": "_godot_l",
+      "htaccess": "_gear_l",
+      "htpasswd": "_gear_l",
+      "env.": "_gear_l",
+      "lesshintrc": "_gear_l",
+      "csscomb.json": "_gear_l",
+      "csslintrc": "_gear_l",
+      "jsbeautifyrc": "_gear_l",
+      "jshintrc": "_gear_l",
+      "coffeelintignore": "_gear_l",
+      "jscsrc": "_gear_l",
+      "module": "_gear_l",
+      "codoopts": "_gear_l",
+      "yardopts": "_gear_l",
+      "arcconfig": "_gear_l",
+      "pairs": "_gear_l",
+      "python-version": "_gear_l",
+      "lintstagedrc": "_gear_l",
+      "indent.pro": "_gear_l",
+      "": "_gear_l",
+      "dll": "_gears_l",
+      "xml": "_code_l",
+      "rdf": "_code_l",
+      "config": "_code_l",
+      "4th": "_code_l",
+      "abnf": "_code_l",
+      "aepx": "_code_l",
+      "agda": "_code_l",
+      "appxmanifest": "_code_l",
+      "ash": "_code_l",
+      "asn": "_code_l",
+      "asn1": "_code_l",
+      "axml": "_code_l",
+      "befunge": "_code_l",
+      "bmx": "_code_l",
+      "bnf": "_code_l",
+      "brs": "_code_l",
+      "capnp": "_code_l",
+      "cbl": "_code_l",
+      "ccp": "_code_l",
+      "ccxml": "_code_l",
+      "ch": "_code_l",
+      "clixml": "_code_l",
+      "cob": "_code_l",
+      "cobol": "_code_l",
+      "cocci": "_code_l",
+      "cpy": "_code_l",
+      "ct": "_code_l",
+      "cw": "_code_l",
+      "cy": "_code_l",
+      "dita": "_code_l",
+      "ditamap": "_code_l",
+      "ditaval": "_code_l",
+      "dotsettings": "_code_l",
+      "dyl": "_code_l",
+      "dylan": "_code_l",
+      "ebnf": "_code_l",
+      "ecl": "_code_l",
+      "eclxml": "_code_l",
+      "filters": "_code_l",
+      "flex": "_code_l",
+      "forth": "_code_l",
+      "frt": "_code_l",
+      "fsh": "_code_l",
+      "fsproj": "_code_l",
+      "fth": "_code_l",
+      "fun": "_code_l",
+      "fxml": "_code_l",
+      "grace": "_code_l",
+      "grxml": "_code_l",
+      "iml": "_code_l",
+      "intr": "_code_l",
+      "ivy": "_code_l",
+      "jelly": "_code_l",
+      "jflex": "_code_l",
+      "jsproj": "_code_l",
+      "lagda": "_code_l",
+      "launch": "_code_l",
+      "lex": "_code_l",
+      "lid": "_code_l",
+      "lol": "_code_l",
+      "lp": "_code_l",
+      "m4": "_code_l",
+      "manifest": "_code_l",
+      "mask": "_code_l",
+      "mdpolicy": "_code_l",
+      "menu": "_code_l",
+      "ML": "_code_l",
+      "mq4": "_code_l",
+      "mq5": "_code_l",
+      "mqh": "_code_l",
+      "mtml": "_code_l",
+      "muf": "_code_l",
+      "mumps": "_code_l",
+      "mxml": "_code_l",
+      "myt": "_code_l",
+      "nproj": "_code_l",
+      "odd": "_code_l",
+      "ohm": "_code_l",
+      "omgrofl": "_code_l",
+      "osm": "_code_l",
+      "pig": "_code_l",
+      "plist": "_code_l",
+      "prg": "_code_l",
+      "prw": "_code_l",
+      "props": "_code_l",
+      "psc1": "_code_l",
+      "pt": "_code_l",
+      "resx": "_code_l",
+      "rl": "_code_l",
+      "scxml": "_code_l",
+      "sed": "_code_l",
+      "sgm": "_code_l",
+      "sgml": "_code_l",
+      "sig": "_code_l",
+      "sml": "_code_l",
+      "smt": "_code_l",
+      "smt2": "_code_l",
+      "srdf": "_code_l",
+      "st": "_code_l",
+      "storyboard": "_code_l",
+      "targets": "_code_l",
+      "tml": "_code_l",
+      "ui": "_code_l",
+      "urdf": "_code_l",
+      "ux": "_code_l",
+      "vsh": "_code_l",
+      "vxml": "_code_l",
+      "webidl": "_code_l",
+      "wisp": "_code_l",
+      "wsdl": "_code_l",
+      "wsf": "_code_l",
+      "wxi": "_code_l",
+      "wxl": "_code_l",
+      "wxs": "_code_l",
+      "x3d": "_code_l",
+      "xacro": "_code_l",
+      "xaml": "_code_l",
+      "xib": "_code_l",
+      "xlf": "_code_l",
+      "xliff": "_code_l",
+      "xmi": "_code_l",
+      "xproj": "_code_l",
+      "xsd": "_code_l",
+      "xsl": "_code_l",
+      "xslt": "_code_l",
+      "xul": "_code_l",
+      "y": "_code_l",
+      "yacc": "_code_l",
+      "yy": "_code_l",
+      "zcml": "_code_l",
+      "kid": "_genshi_l",
+      "ebuild": "_gentoo_l",
+      "eclass": "_gentoo_l",
+      "git": "_git_l",
+      "keep": "_git_l",
+      "mailmap": "_git_l",
+      "glade": "_glade_l",
+      "glf": "_pointwise_l",
+      "glyphs": "_glyphs_l",
+      "gn": "_gn_l",
+      "gni": "_gn_l",
+      "gnu": "_gnu_l",
+      "gplv2": "_gnu_l",
+      "gplv3": "_gnu_l",
+      "gp": "_graph_l",
+      "plt": "_graph_l",
+      "plot": "_graph_l",
+      "gnuplot": "_graph_l",
+      "go": "_go_l",
+      "golo": "_golo_l",
+      "gs": "_gosu_l",
+      "gst": "_gosu_l",
+      "gsx": "_gosu_l",
+      "vark": "_gosu_l",
+      "gradle": "_gradle_l",
+      "gf": "_gf_l",
+      "graphql": "_graphql_l",
+      "gql": "_graphql_l",
+      "gv": "_graphviz_l",
+      "dot": "_graphviz_l",
+      "groovy": "_groovy_l",
+      "grt": "_groovy_l",
+      "gtpl": "_groovy_l",
+      "gsp": "_groovy_l",
+      "gvy": "_groovy_l",
+      "hh": "_hack_l",
+      "haml": "_haml_l",
+      "hamlc": "_haml_l",
+      "hb": "_harbour_l",
+      "hcl": "_hashicorp_l",
+      "hs": "_haskell_l",
+      "hsc": "_haskell_l",
+      "c2hs": "_haskell_l",
+      "lhs": "_haskell_l",
+      "buildpacks": "_heroku_l",
+      "vendor_urls": "_heroku_l",
+      "htm": "_html5_l",
+      "html": "_html5_l",
+      "xhtm": "_html5_l",
+      "xhtml": "_html5_l",
+      "cshtml": "_html5_l",
+      "ejs": "_html5_l",
+      "gohtml": "_html5_l",
+      "html.eex": "_html5_l",
+      "jsp": "_html5_l",
+      "kit": "_html5_l",
+      "latte": "_html5_l",
+      "phtml": "_html5_l",
+      "shtml": "_html5_l",
+      "scaml": "_html5_l",
+      "swig": "_html5_l",
+      "vash": "_html5_l",
+      "htm.ecr": "_html5_l",
+      "html.ecr": "_html5_l",
+      "htm.erb": "_html5_l",
+      "html.erb": "_html5_l",
+      "rhtml": "_html5_l",
+      "hy": "_hy_l",
+      "dlm": "_idl_l",
+      "idr": "_idris_l",
+      "lidr": "_idris_l",
+      "ipf": "_igorpro_l",
+      "png": "_image_l",
+      "apng": "_image_l",
+      "gif": "_image_l",
+      "jpg": "_image_l",
+      "ico": "_image_l",
+      "webp": "_image_l",
+      "bmp": "_image_l",
+      "bpg": "_image_l",
+      "cin": "_image_l",
+      "cd5": "_image_l",
+      "cpc": "_image_l",
+      "cr2": "_image_l",
+      "dcm": "_image_l",
+      "dds": "_image_l",
+      "djv": "_image_l",
+      "djvu": "_image_l",
+      "dpx": "_image_l",
+      "ecw": "_image_l",
+      "exr": "_image_l",
+      "fit": "_image_l",
+      "fits": "_image_l",
+      "flif": "_image_l",
+      "fts": "_image_l",
+      "hdp": "_image_l",
+      "hdr": "_image_l",
+      "heic": "_image_l",
+      "heif": "_image_l",
+      "icns": "_image_l",
+      "iff": "_image_l",
+      "jp2": "_image_l",
+      "jpf": "_image_l",
+      "jpm": "_image_l",
+      "jpx": "_image_l",
+      "j2c": "_image_l",
+      "mj2": "_image_l",
+      "jps": "_image_l",
+      "jxr": "_image_l",
+      "lbm": "_image_l",
+      "liff": "_image_l",
+      "mpo": "_image_l",
+      "mng": "_image_l",
+      "nrrd": "_image_l",
+      "ora": "_image_l",
+      "pbm": "_image_l",
+      "pcx": "_image_l",
+      "pgf": "_image_l",
+      "pict": "_image_l",
+      "pxr": "_image_l",
+      "raw": "_image_l",
+      "sct": "_image_l",
+      "sgi": "_image_l",
+      "svgz": "_image_l",
+      "tga": "_image_l",
+      "tif": "_image_l",
+      "tiff": "_image_l",
+      "vsd": "_image_l",
+      "vsdx": "_image_l",
+      "wbm": "_image_l",
+      "wdp": "_image_l",
+      "ni": "_inform7_l",
+      "i7x": "_inform7_l",
+      "iss": "_inno_l",
+      "io": "_io_l",
+      "ik": "_ioke_l",
+      "thy": "_isabelle_l",
+      "ijs": "_j_l",
+      "jade": "_jade_l",
+      "jake": "_jake_l",
+      "java": "_java_l",
+      "js": "_js_l",
+      "_js": "_js_l",
+      "jsb": "_js_l",
+      "jsm": "_js_l",
+      "jss": "_js_l",
+      "es6": "_js_l",
+      "es": "_js_l",
+      "mjs": "_js_l",
+      "sjs": "_js_l",
+      "ssjs": "_js_l",
+      "xsjs": "_js_l",
+      "xsjslib": "_js_l",
+      "dust": "_js_l",
+      "js.ecr": "_js_l",
+      "js.erb": "_js_l",
+      "jinja": "_jinja_l",
+      "jinja2": "_jinja_l",
+      "jsonld": "_jsonld_l",
+      "jq": "_sql_l",
+      "jsx": "_jsx_l",
+      "jl": "_julia_l",
+      "ipynb": "_jupyter_l",
+      "keynote": "_keynote_l",
+      "knt": "_keynote_l",
+      "kv": "_kivy_l",
+      "kml": "_earth_l",
+      "kt": "_kotlin_l",
+      "ktm": "_kotlin_l",
+      "kts": "_kotlin_l",
+      "krl": "_krl_l",
+      "lvproj": "_labview_l",
+      "blade.php": "_laravel_l",
+      "lasso": "_lasso_l",
+      "las": "_lasso_l",
+      "lasso8": "_lasso_l",
+      "lasso9": "_lasso_l",
+      "ldml": "_lasso_l",
+      "lean": "_lean_l",
+      "hlean": "_lean_l",
+      "lfe": "_lfe_l",
+      "lwo": "_lightwave_l",
+      "lws": "_lightwave_l",
+      "lsp": "_lisp_l",
+      "lisp": "_lisp_l",
+      "l": "_lisp_l",
+      "nl": "_lisp_l",
+      "ny": "_lisp_l",
+      "podsl": "_lisp_l",
+      "sexp": "_lisp_l",
+      "ls": "_ls_l",
+      "_ls": "_ls_l",
+      "ll": "_llvm_l",
+      "clang-format": "_llvm_l",
+      "xm": "_mobile_l",
+      "xi": "_mobile_l",
+      "logtalk": "_logtalk_l",
+      "lgt": "_logtalk_l",
+      "lookml": "_lookml_l",
+      "lsl": "_lsl_l",
+      "lslp": "_lsl_l",
+      "lua": "_lua_l",
+      "pd_lua": "_lua_l",
+      "rbxs": "_lua_l",
+      "wlua": "_lua_l",
+      "mk": "_checklist_l",
+      "mak": "_checklist_l",
+      "make": "_checklist_l",
+      "am": "_checklist_l",
+      "bb": "_checklist_l",
+      "mms": "_checklist_l",
+      "mmk": "_checklist_l",
+      "pri": "_checklist_l",
+      "mao": "_mako_l",
+      "mako": "_mako_l",
+      "1b": "_manpage_l",
+      "1c": "_manpage_l",
+      "1m": "_manpage_l",
+      "1s": "_manpage_l",
+      "1x": "_manpage_l",
+      "1has": "_manpage_l",
+      "1in": "_manpage_l",
+      "3avl": "_manpage_l",
+      "3bsm": "_manpage_l",
+      "33c": "_manpage_l",
+      "3in": "_manpage_l",
+      "3m": "_manpage_l",
+      "3qt": "_manpage_l",
+      "3x": "_manpage_l",
+      "7d": "_manpage_l",
+      "7fs": "_manpage_l",
+      "7i": "_manpage_l",
+      "7ipp": "_manpage_l",
+      "7m": "_manpage_l",
+      "7p": "_manpage_l",
+      "9e": "_manpage_l",
+      "9f": "_manpage_l",
+      "9p": "_manpage_l",
+      "9s": "_manpage_l",
+      "chem": "_manpage_l",
+      "eqn": "_manpage_l",
+      "groff": "_manpage_l",
+      "man": "_manpage_l",
+      "mandoc": "_manpage_l",
+      "mdoc": "_manpage_l",
+      "me": "_manpage_l",
+      "mom": "_manpage_l",
+      "n": "_manpage_l",
+      "nroff": "_manpage_l",
+      "pic": "_manpage_l",
+      "tmac": "_manpage_l",
+      "tmac-u": "_manpage_l",
+      "tr": "_manpage_l",
+      "troff": "_manpage_l",
+      "rnh": "_manpage_l",
+      "rno": "_manpage_l",
+      "roff": "_manpage_l",
+      "run": "_manpage_l",
+      "runoff": "_manpage_l",
+      "mss": "_mapbox_l",
+      "md": "_markdown_l",
+      "mdown": "_markdown_l",
+      "markdown": "_markdown_l",
+      "mkd": "_markdown_l",
+      "mkdown": "_markdown_l",
+      "mkdn": "_markdown_l",
+      "rmd": "_markdown_l",
+      "ron": "_markdown_l",
+      "marko": "_marko_l",
+      "marko.js": "_marko_l",
+      "mathematica": "_mathematica_l",
+      "cdf": "_mathematica_l",
+      "ma": "_mathematica_l",
+      "mt": "_mathematica_l",
+      "nb": "_mathematica_l",
+      "nbp": "_mathematica_l",
+      "wl": "_mathematica_l",
+      "wlt": "_mathematica_l",
+      "matlab": "_matlab_l",
+      "maxpat": "_max_l",
+      "maxhelp": "_max_l",
+      "maxproj": "_max_l",
+      "mxt": "_max_l",
+      "pat": "_max_l",
+      "ms": "_maxscript_l",
+      "mcr": "_maxscript_l",
+      "mce": "_maxscript_l",
+      "max": "_maxscript_l",
+      "3ds": "_maxscript_l",
+      "mb": "_maya_l",
+      "mel": "_maya_l",
+      "mcfi": "_maya_l",
+      "mcfp": "_maya_l",
+      "mediawiki": "_mediawiki_l",
+      "wiki": "_mediawiki_l",
+      "mention-bot": "_bullhorn_l",
+      "moo": "_mercury_l",
+      "metal": "_metal_l",
+      "accda": "_access_l",
+      "accdb": "_access_l",
+      "accde": "_access_l",
+      "accdr": "_access_l",
+      "accdt": "_access_l",
+      "adn": "_access_l",
+      "laccdb": "_access_l",
+      "mdw": "_access_l",
+      "xls": "_excel_l",
+      "xlsx": "_excel_l",
+      "xlsm": "_excel_l",
+      "xlsb": "_excel_l",
+      "xlt": "_excel_l",
+      "one": "_onenote_l",
+      "pps": "_powerpoint_l",
+      "ppsx": "_powerpoint_l",
+      "ppt": "_powerpoint_l",
+      "pptx": "_powerpoint_l",
+      "potm": "_powerpoint_l",
+      "mpp": "_powerpoint_l",
+      "doc": "_word_l",
+      "docx": "_word_l",
+      "docm": "_word_l",
+      "docxml": "_word_l",
+      "dotm": "_word_l",
+      "dotx": "_word_l",
+      "wri": "_word_l",
+      "duby": "_mirah_l",
+      "druby": "_mirah_l",
+      "mir": "_mirah_l",
+      "mirah": "_mirah_l",
+      "obj": "_model_l",
+      "mtl": "_model_l",
+      "stl": "_model_l",
+      "u3d": "_model_l",
+      "mo": "_circle_l",
+      "mod": "_modula2_l",
+      "def": "_modula2_l",
+      "m2": "_modula2_l",
+      "monkey": "_monkey_l",
+      "moon": "_moon_l",
+      "mrb": "_mruby_l",
+      "dsql": "_msql_l",
+      "mu": "_mupad_l",
+      "chord": "_music_l",
+      "mid": "_music_l",
+      "midi": "_music_l",
+      "ly": "_music_l",
+      "ily": "_music_l",
+      "pd": "_music_l",
+      "hbs": "_mustache_l",
+      "handlebars": "_mustache_l",
+      "mustache": "_mustache_l",
+      "build": "_nant_l",
+      "ncl": "_earth_l",
+      "neko": "_neko_l",
+      "axs": "_amx_l",
+      "axi": "_amx_l",
+      "nlogo": "_netlogo_l",
+      "nginxconf": "_nginx_l",
+      "nib": "_nib_l",
+      "nim": "_nimrod_l",
+      "nimrod": "_nimrod_l",
+      "ninja": "_shuriken_l",
+      "ninja.d": "_shuriken_l",
+      "nit": "_nit_l",
+      "nix": "_nix_l",
+      "nse": "_nmap_l",
+      "njs": "_node_l",
+      "nvmrc": "_node_l",
+      "node-version": "_node_l",
+      "nodemonignore": "_nodemon_l",
+      "npmignore": "_npm_l",
+      "npmrc": "_npm_l",
+      "nsi": "_nsis_l",
+      "nsh": "_nsis_l",
+      "nu": "_recycle_l",
+      "nuspec": "_nuget_l",
+      "pkgproj": "_nuget_l",
+      "numpy": "_numpy_l",
+      "numpyw": "_numpy_l",
+      "numsc": "_numpy_l",
+      "nunjucks": "_nunjucks_l",
+      "njk": "_nunjucks_l",
+      "m": "_objc_l",
+      "mm": "_objc_l",
+      "pch": "_objc_l",
+      "x": "_objc_l",
+      "j": "_objj_l",
+      "sj": "_objj_l",
+      "ml": "_ocaml_l",
+      "mli": "_ocaml_l",
+      "eliom": "_ocaml_l",
+      "eliomi": "_ocaml_l",
+      "ml4": "_ocaml_l",
+      "mll": "_ocaml_l",
+      "mly": "_ocaml_l",
+      "ooc": "_ooc_l",
+      "opa": "_opa_l",
+      "opencl": "_opencl_l",
+      "p": "_progress_l",
+      "odt": "_openoffice_l",
+      "ott": "_openoffice_l",
+      "fodt": "_openoffice_l",
+      "ods": "_openoffice_l",
+      "ots": "_openoffice_l",
+      "fods": "_openoffice_l",
+      "odp": "_openoffice_l",
+      "otp": "_openoffice_l",
+      "fodp": "_openoffice_l",
+      "odg": "_openoffice_l",
+      "otg": "_openoffice_l",
+      "fodg": "_openoffice_l",
+      "odf": "_openoffice_l",
+      "odb": "_openoffice_l",
+      "scad": "_scad_l",
+      "jscad": "_scad_l",
+      "org": "_org_l",
+      "dmg": "_osx_l",
+      "ox": "_ox_l",
+      "oxh": "_ox_l",
+      "oxo": "_ox_l",
+      "oxygene": "_oxygene_l",
+      "oz": "_oz_l",
+      "pan": "_pan_l",
+      "psc": "_papyrus_l",
+      "parrot": "_parrot_l",
+      "pasm": "_parrot_l",
+      "pir": "_parrot_l",
+      "pas": "_pascal_l",
+      "pascal": "_pascal_l",
+      "dfm": "_pascal_l",
+      "dpr": "_pascal_l",
+      "lpr": "_pascal_l",
+      "patch": "_patch_l",
+      "pwn": "_pawn_l",
+      "pdf": "_icon-file-pdf_l",
+      "pl": "_perl_l",
+      "perl": "_perl_l",
+      "ph": "_perl_l",
+      "plx": "_perl_l",
+      "pm": "_perl_l",
+      "t": "_perl_l",
+      "psgi": "_perl_l",
+      "xs": "_perl_l",
+      "pl6": "_perl6_l",
+      "p6": "_perl6_l",
+      "t6": "_perl6_l",
+      "6pl": "_perl6_l",
+      "pm6": "_perl6_l",
+      "p6m": "_perl6_l",
+      "6pm": "_perl6_l",
+      "nqp": "_perl6_l",
+      "p6l": "_perl6_l",
+      "pod6": "_perl6_l",
+      "volt": "_phalcon_l",
+      "php": "_php_l",
+      "php0": "_php_l",
+      "php1": "_php_l",
+      "php2": "_php_l",
+      "php3": "_php_l",
+      "php4": "_php_l",
+      "php5": "_php_l",
+      "php6": "_php_l",
+      "php7": "_php_l",
+      "php8": "_php_l",
+      "php9": "_php_l",
+      "phps": "_php_l",
+      "phpt": "_php_l",
+      "php_cs": "_php_l",
+      "pkl": "_pickle_l",
+      "pike": "_pike_l",
+      "pmod": "_pike_l",
+      "pls": "_sql_l",
+      "pck": "_sql_l",
+      "pks": "_sql_l",
+      "plb": "_sql_l",
+      "plsql": "_sql_l",
+      "pkb": "_sql_l",
+      "pod": "_pod_l",
+      "pogo": "_pogo_l",
+      "pony": "_pony_l",
+      "pcss": "_postcss_l",
+      "postcss": "_postcss_l",
+      "sss": "_postcss_l",
+      "postcssrc": "_postcss_l",
+      "ps": "_postscript_l",
+      "eps": "_postscript_l",
+      "pfa": "_postscript_l",
+      "afm": "_postscript_l",
+      "pov": "_povray_l",
+      "pbl": "_powerbuilder_l",
+      "pbt": "_powerbuilder_l",
+      "srw": "_powerbuilder_l",
+      "sru": "_powerbuilder_l",
+      "srp": "_powerbuilder_l",
+      "sra": "_powerbuilder_l",
+      "srj": "_powerbuilder_l",
+      "ps1": "_powershell_l",
+      "psd1": "_powershell_l",
+      "psm1": "_powershell_l",
+      "ps1xml": "_powershell_l",
+      "ppd": "_print_l",
+      "pde": "_processing_l",
+      "pro": "_prolog_l",
+      "prolog": "_prolog_l",
+      "yap": "_prolog_l",
+      "spin": "_propeller_l",
+      "pug": "_pug_l",
+      "pug-lintrc": "_pug_l",
+      "pp": "_puppet_l",
+      "pb": "_purebasic_l",
+      "pbi": "_purebasic_l",
+      "purs": "_purescript_l",
+      "py": "_python_l",
+      "bzl": "_python_l",
+      "ipy": "_python_l",
+      "isolate": "_python_l",
+      "pep": "_python_l",
+      "gyp": "_python_l",
+      "gypi": "_python_l",
+      "pyde": "_python_l",
+      "pyp": "_python_l",
+      "pyt": "_python_l",
+      "py3": "_python_l",
+      "pyw": "_python_l",
+      "tac": "_python_l",
+      "wsgi": "_python_l",
+      "xpy": "_python_l",
+      "rpy": "_python_l",
+      "pypirc": "_python_l",
+      "pythonrc": "_python_l",
+      "python-venv": "_python_l",
+      "r": "_r_l",
+      "Rprofile": "_r_l",
+      "rsx": "_r_l",
+      "rd": "_r_l",
+      "rkt": "_racket_l",
+      "rktd": "_racket_l",
+      "rktl": "_racket_l",
+      "scrbl": "_racket_l",
+      "raml": "_raml_l",
+      "rsc": "_rascal_l",
+      "rdoc": "_rdoc_l",
+      "react.js": "_react_l",
+      "readme": "_book_l",
+      "1st": "_book_l",
+      "rbbas": "_xojo_l",
+      "rbfrm": "_xojo_l",
+      "rbmnu": "_xojo_l",
+      "rbres": "_xojo_l",
+      "rbtbar": "_xojo_l",
+      "rbuistate": "_xojo_l",
+      "re": "_reason_l",
+      "rei": "_reason_l",
+      "reb": "_rebol_l",
+      "rebol": "_rebol_l",
+      "r2": "_rebol_l",
+      "r3": "_rebol_l",
+      "red": "_red_l",
+      "reds": "_red_l",
+      "rpm": "_red-hat_l",
+      "spec": "_red-hat_l",
+      "regex": "_regex_l",
+      "regexp": "_regex_l",
+      "rsh": "_android_l",
+      "rst": "_rst_l",
+      "rst.txt": "_rst_l",
+      "rest": "_rst_l",
+      "rest.txt": "_rst_l",
+      "rex": "_rexx_l",
+      "rexx": "_rexx_l",
+      "pprx": "_rexx_l",
+      "tag": "_riot_l",
+      "robot": "_robot_l",
+      "rg": "_clojure_l",
+      "rss": "_rss_l",
+      "rb": "_ruby_l",
+      "ru": "_ruby_l",
+      "ruby": "_ruby_l",
+      "erb": "_ruby_l",
+      "gemspec": "_ruby_l",
+      "god": "_ruby_l",
+      "mspec": "_ruby_l",
+      "pluginspec": "_ruby_l",
+      "podspec": "_ruby_l",
+      "rabl": "_ruby_l",
+      "rake": "_ruby_l",
+      "opal": "_ruby_l",
+      "irbrc": "_ruby_l",
+      "gemrc": "_ruby_l",
+      "pryrc": "_ruby_l",
+      "rspec": "_ruby_l",
+      "ruby-gemset": "_ruby_l",
+      "ruby-version": "_ruby_l",
+      "jbuilder": "_ruby_l",
+      "rbuild": "_ruby_l",
+      "rbw": "_ruby_l",
+      "rbx": "_ruby_l",
+      "builder": "_ruby_l",
+      "watchr": "_ruby_l",
+      "rs": "_rust_l",
+      "rlib": "_rust_l",
+      "sage": "_sage_l",
+      "sagews": "_sage_l",
+      "sls": "_saltstack_l",
+      "sas": "_sas_l",
+      "scss": "_sass_l",
+      "sass": "_sass_l",
+      "sbt": "_sbt_l",
+      "sc": "_scala_l",
+      "scala": "_scala_l",
+      "scm": "_scheme_l",
+      "sld": "_scheme_l",
+      "sps": "_scheme_l",
+      "sci": "_scilab_l",
+      "sce": "_scilab_l",
+      "scrutinizer.yml": "_scrutinizer_l",
+      "secret": "_secret_l",
+      "self": "_self_l",
+      "csv": "_graph_l",
+      "tab": "_graph_l",
+      "tsv": "_graph_l",
+      "dif": "_graph_l",
+      "slk": "_graph_l",
+      "sfproj": "_sf_l",
+      "sh": "_terminal_l",
+      "rc": "_terminal_l",
+      "bats": "_terminal_l",
+      "bash": "_terminal_l",
+      "tool": "_terminal_l",
+      "command": "_terminal_l",
+      "bashrc": "_terminal_l",
+      "bashprofile": "_terminal_l",
+      "bashlogin": "_terminal_l",
+      "bashlogout": "_terminal_l",
+      "bashhistory": "_terminal_l",
+      "bashprompt": "_terminal_l",
+      "bash-profile": "_terminal_l",
+      "bash-login": "_terminal_l",
+      "bash-logout": "_terminal_l",
+      "bash-history": "_terminal_l",
+      "bash-prompt": "_terminal_l",
+      "bash_profile": "_terminal_l",
+      "bash_login": "_terminal_l",
+      "bash_logout": "_terminal_l",
+      "bash_history": "_terminal_l",
+      "bash_prompt": "_terminal_l",
+      "ksh": "_terminal_l",
+      "sh-session": "_terminal_l",
+      "zsh": "_terminal_l",
+      "zsh-theme": "_terminal_l",
+      "zsh_history": "_terminal_l",
+      "antigen": "_terminal_l",
+      "zpreztorc": "_terminal_l",
+      "zlogin": "_terminal_l",
+      "zlogout": "_terminal_l",
+      "zprofile": "_terminal_l",
+      "zshenv": "_terminal_l",
+      "zshrc": "_terminal_l",
+      "fish": "_terminal_l",
+      "fishrc": "_terminal_l",
+      "inputrc": "_terminal_l",
+      "tmux": "_terminal_l",
+      "tcsh": "_terminal_l",
+      "csh": "_terminal_l",
+      "shen": "_shen_l",
+      "liquid": "_shopify_l",
+      "sigils": "_sigils_l",
+      "ss": "_silverstripe_l",
+      "sketch": "_sketch_l",
+      "sl": "_slash_l",
+      "smali": "_android_l",
+      "tpl": "_smarty_l",
+      "snyk": "_snyk_l",
+      "sma": "_clojure_l",
+      "sp": "_clojure_l",
+      "css.map": "_sourcemap_l",
+      "js.map": "_sourcemap_l",
+      "sparql": "_sparql_l",
+      "rq": "_sparql_l",
+      "sqf": "_sqf_l",
+      "hqf": "_sqf_l",
+      "sql": "_sql_l",
+      "ddl": "_sql_l",
+      "udf": "_sql_l",
+      "viw": "_sql_l",
+      "db2": "_sql_l",
+      "prc": "_sql_l",
+      "sqlite": "_sqlite_l",
+      "sqlite3": "_sqlite_l",
+      "db": "_sqlite_l",
+      "db3": "_sqlite_l",
+      "nut": "_squirrel_l",
+      "pub": "_key_l",
+      "pem": "_key_l",
+      "key": "_key_l",
+      "crt": "_key_l",
+      "der": "_key_l",
+      "stan": "_stan_l",
+      "do": "_stata_l",
+      "ado": "_stata_l",
+      "doh": "_stata_l",
+      "ihlp": "_stata_l",
+      "mata": "_stata_l",
+      "matah": "_stata_l",
+      "sthlp": "_stata_l",
+      "story": "_storyist_l",
+      "strings": "_strings_l",
+      "stylelintrc.": "_stylelint_l",
+      "stylelintrc": "_stylelint_l",
+      "stylelintignore": "_stylelint_l",
+      "styl": "_stylus_l",
+      "stTheme": "_sublime_l",
+      "sublime-build": "_sublime_l",
+      "sublime-commands": "_sublime_l",
+      "sublime-completions": "_sublime_l",
+      "sublime-keymap": "_sublime_l",
+      "sublime-macro": "_sublime_l",
+      "sublime-menu": "_sublime_l",
+      "sublime-mousemap": "_sublime_l",
+      "sublime-project": "_sublime_l",
+      "sublime-settings": "_sublime_l",
+      "sublime-theme": "_sublime_l",
+      "sublime-workspace": "_sublime_l",
+      "sublime-metrics": "_sublime_l",
+      "sublime-session": "_sublime_l",
+      "sublime-snippet": "_sublime_l",
+      "sublime_build": "_sublime_l",
+      "sublime_commands": "_sublime_l",
+      "sublime_completions": "_sublime_l",
+      "sublime_keymap": "_sublime_l",
+      "sublime_macro": "_sublime_l",
+      "sublime_menu": "_sublime_l",
+      "sublime_mousemap": "_sublime_l",
+      "sublime_project": "_sublime_l",
+      "sublime_settings": "_sublime_l",
+      "sublime_theme": "_sublime_l",
+      "sublime_workspace": "_sublime_l",
+      "sublime_metrics": "_sublime_l",
+      "sublime_session": "_sublime_l",
+      "sublime_snippet": "_sublime_l",
+      "sublime-syntax": "_sublime_l",
+      "scd": "_scd_l",
+      "svg": "_svg_l",
+      "swift": "_swift_l",
+      "sv": "_sysverilog_l",
+      "svh": "_sysverilog_l",
+      "vh": "_sysverilog_l",
+      "toc": "_toc_l",
+      "tags": "_tag_l",
+      "ctags": "_tag_l",
+      "gemtags": "_tag_l",
+      "tcl": "_tcl_l",
+      "adp": "_tcl_l",
+      "tm": "_tcl_l",
+      "tea": "_coffee_l",
+      "tt": "_tt_l",
+      "tt2": "_tt_l",
+      "tt3": "_tt_l",
+      "tern-project": "_tern_l",
+      "tf": "_terraform_l",
+      "tfvars": "_terraform_l",
+      "tex": "_tex_l",
+      "ltx": "_tex_l",
+      "aux": "_tex_l",
+      "sty": "_tex_l",
+      "dtx": "_tex_l",
+      "cls": "_tex_l",
+      "ins": "_tex_l",
+      "lbx": "_tex_l",
+      "mkiv": "_tex_l",
+      "mkvi": "_tex_l",
+      "mkii": "_tex_l",
+      "texi": "_tex_l",
+      "txt": "_icon-file-text_l",
+      "text": "_icon-file-text_l",
+      "log": "_icon-file-text_l",
+      "git/description": "_icon-file-text_l",
+      "git\\description": "_icon-file-text_l",
+      "err": "_icon-file-text_l",
+      "rtf": "_icon-file-text_l",
+      "nfo": "_icon-file-text_l",
+      "info": "_icon-file-text_l",
+      "abt": "_icon-file-text_l",
+      "ans": "_icon-file-text_l",
+      "brf": "_icon-file-text_l",
+      "etx": "_icon-file-text_l",
+      "irclog": "_icon-file-text_l",
+      "msg": "_icon-file-text_l",
+      "no": "_icon-file-text_l",
+      "srt": "_icon-file-text_l",
+      "sub": "_icon-file-text_l",
+      "utxt": "_icon-file-text_l",
+      "utf8": "_icon-file-text_l",
+      "weechatlog": "_icon-file-text_l",
+      "uof": "_icon-file-text_l",
+      "uot": "_icon-file-text_l",
+      "uos": "_icon-file-text_l",
+      "uop": "_icon-file-text_l",
+      "textile": "_textile_l",
+      "tmcg": "_textmate_l",
+      "tmLanguage": "_textmate_l",
+      "tmCommand": "_textmate_l",
+      "tmPreferences": "_textmate_l",
+      "tmSnippet": "_textmate_l",
+      "tmTheme": "_textmate_l",
+      "tmMacro": "_textmate_l",
+      "yaml-tmlanguage": "_textmate_l",
+      "JSON-tmLanguage": "_textmate_l",
+      "thor": "_thor_l",
+      "8xk": "_calc_l",
+      "8xk.txt": "_calc_l",
+      "8xp": "_calc_l",
+      "8xp.txt": "_calc_l",
+      "travis": "_travis_l",
+      "tsx": "_tsx_l",
+      "tu": "_turing_l",
+      "twig": "_twig_l",
+      "txl": "_txl_l",
+      "ts": "_ts_l",
+      "anim": "_unity3d_l",
+      "asset": "_unity3d_l",
+      "mat": "_unity3d_l",
+      "meta": "_unity3d_l",
+      "prefab": "_unity3d_l",
+      "unity": "_unity3d_l",
+      "unityproj": "_unity3d_l",
+      "uno": "_uno_l",
+      "uc": "_unreal_l",
+      "url": "_link_l",
+      "ur": "_urweb_l",
+      "urs": "_urweb_l",
+      "vala": "_gnome_l",
+      "vapi": "_gnome_l",
+      "vcl": "_varnish_l",
+      "v": "_verilog_l",
+      "veo": "_verilog_l",
+      "vhdl": "_vhdl_l",
+      "vhd": "_vhdl_l",
+      "vhf": "_vhdl_l",
+      "vhi": "_vhdl_l",
+      "vho": "_vhdl_l",
+      "vhs": "_vhdl_l",
+      "vht": "_vhdl_l",
+      "vhw": "_vhdl_l",
+      "3gp": "_video_l",
+      "3gpp": "_video_l",
+      "mp4": "_video_l",
+      "m4v": "_video_l",
+      "h264": "_video_l",
+      "avi": "_video_l",
+      "mov": "_video_l",
+      "mkv": "_video_l",
+      "flv": "_video_l",
+      "webm": "_video_l",
+      "mpg": "_video_l",
+      "mpeg": "_video_l",
+      "asf": "_video_l",
+      "wmv": "_video_l",
+      "ogm": "_video_l",
+      "ogg": "_video_l",
+      "ogv": "_video_l",
+      "vim": "_vim_l",
+      "vimrc": "_vim_l",
+      "nvimrc": "_vim_l",
+      "vb": "_vs_l",
+      "vba": "_vs_l",
+      "frm": "_vs_l",
+      "frx": "_vs_l",
+      "bas": "_vs_l",
+      "vbhtml": "_vs_l",
+      "vbs": "_vs_l",
+      "csproj": "_vs_l",
+      "vbproj": "_vs_l",
+      "vcproj": "_vs_l",
+      "vcxproj": "_vs_l",
+      "vssettings": "_vs_l",
+      "builds": "_vs_l",
+      "sln": "_vs_l",
+      "vue": "_vue_l",
+      "owl": "_owl_l",
+      "bat": "_windows_l",
+      "cmd": "_windows_l",
+      "exe": "_windows_l",
+      "com": "_windows_l",
+      "msi": "_windows_l",
+      "reg": "_windows_l",
+      "lnk": "_link_l",
+      "x10": "_x10_l",
+      "Xauthority": "_x11_l",
+      "Xclients": "_x11_l",
+      "Xinitrc": "_x11_l",
+      "Xprofile": "_x11_l",
+      "Xresources": "_x11_l",
+      "Xsession-errors": "_x11_l",
+      "Xscreensaver": "_x11_l",
+      "xc": "_xmos_l",
+      "pbxproj": "_appstore_l",
+      "pbxuser": "_appstore_l",
+      "mode0v": "_appstore_l",
+      "mode1v": "_appstore_l",
+      "mode2v": "_appstore_l",
+      "mode3v": "_appstore_l",
+      "mode4v": "_appstore_l",
+      "mode5v": "_appstore_l",
+      "mode6v": "_appstore_l",
+      "mode7v": "_appstore_l",
+      "mode8v": "_appstore_l",
+      "mode9v": "_appstore_l",
+      "xcplugindata": "_appstore_l",
+      "xcrequiredplugins": "_appstore_l",
+      "xojo_code": "_xojo_l",
+      "xojo_menu": "_xojo_l",
+      "xojo_report": "_xojo_l",
+      "xojo_script": "_xojo_l",
+      "xojo_toolbar": "_xojo_l",
+      "xojo_window": "_xojo_l",
+      "xsp-config": "_xpages_l",
+      "xsp.metadata": "_xpages_l",
+      "xpl": "_xmos_l",
+      "xproc": "_xmos_l",
+      "xquery": "_sql_l",
+      "xq": "_sql_l",
+      "xql": "_sql_l",
+      "xqm": "_sql_l",
+      "xqy": "_sql_l",
+      "xtend": "_xtend_l",
+      "yang": "_yang_l",
+      "yo-rc.json": "_yeoman_l",
+      "zpr": "_zbrush_l",
+      "zep": "_zephir_l",
+      "zimpl": "_zimpl_l",
+      "zmpl": "_zimpl_l",
+      "zpl": "_zimpl_l",
+      "artx": "_arttext_l",
+      "atom": "_atom_l",
+      "dropbox.cache": "_dropbox_l",
+      "framework": "_dylib_l",
+      "github": "_github_l",
+      "meteor": "_meteor_l",
+      "svn": "_svn_l",
+      "tmBundle": "_textmate_l",
+      "vagrant": "_vagrant_l",
+      "xcodeproj": "_appstore_l"
+    },
+    "fileNames": {
+      "APKBUILD": "_alpine_l",
+      "ant.xml": "_ant_l",
+      "apache conf": "_apache_l",
+      "apache!conf": "_apache_l",
+      "apache\"conf": "_apache_l",
+      "apache#conf": "_apache_l",
+      "apache$conf": "_apache_l",
+      "apache%conf": "_apache_l",
+      "apache&conf": "_apache_l",
+      "apache'conf": "_apache_l",
+      "apache(conf": "_apache_l",
+      "apache)conf": "_apache_l",
+      "apache*conf": "_apache_l",
+      "apache+conf": "_apache_l",
+      "apache,conf": "_apache_l",
+      "apache-conf": "_apache_l",
+      "apache.conf": "_apache_l",
+      "apache/conf": "_apache_l",
+      "apache0conf": "_apache_l",
+      "apache1conf": "_apache_l",
+      "apache2conf": "_apache_l",
+      "apache3conf": "_apache_l",
+      "apache4conf": "_apache_l",
+      "apache5conf": "_apache_l",
+      "apache6conf": "_apache_l",
+      "apache7conf": "_apache_l",
+      "apache8conf": "_apache_l",
+      "apache9conf": "_apache_l",
+      "apache:conf": "_apache_l",
+      "apache;conf": "_apache_l",
+      "apache<conf": "_apache_l",
+      "apache=conf": "_apache_l",
+      "apache>conf": "_apache_l",
+      "apache?conf": "_apache_l",
+      "apache@conf": "_apache_l",
+      "apacheAconf": "_apache_l",
+      "apacheBconf": "_apache_l",
+      "apacheCconf": "_apache_l",
+      "apacheDconf": "_apache_l",
+      "apacheEconf": "_apache_l",
+      "apacheFconf": "_apache_l",
+      "apacheGconf": "_apache_l",
+      "apacheHconf": "_apache_l",
+      "apacheIconf": "_apache_l",
+      "apacheJconf": "_apache_l",
+      "apacheKconf": "_apache_l",
+      "apacheLconf": "_apache_l",
+      "apacheMconf": "_apache_l",
+      "apacheNconf": "_apache_l",
+      "apacheOconf": "_apache_l",
+      "apachePconf": "_apache_l",
+      "apacheQconf": "_apache_l",
+      "apacheRconf": "_apache_l",
+      "apacheSconf": "_apache_l",
+      "apacheTconf": "_apache_l",
+      "apacheUconf": "_apache_l",
+      "apacheVconf": "_apache_l",
+      "apacheWconf": "_apache_l",
+      "apacheXconf": "_apache_l",
+      "apacheYconf": "_apache_l",
+      "apacheZconf": "_apache_l",
+      "apache[conf": "_apache_l",
+      "apache\\conf": "_apache_l",
+      "apache]conf": "_apache_l",
+      "apache^conf": "_apache_l",
+      "apache_conf": "_apache_l",
+      "apache`conf": "_apache_l",
+      "apacheaconf": "_apache_l",
+      "apachebconf": "_apache_l",
+      "apachecconf": "_apache_l",
+      "apachedconf": "_apache_l",
+      "apacheeconf": "_apache_l",
+      "apachefconf": "_apache_l",
+      "apachegconf": "_apache_l",
+      "apachehconf": "_apache_l",
+      "apacheiconf": "_apache_l",
+      "apachejconf": "_apache_l",
+      "apachekconf": "_apache_l",
+      "apachelconf": "_apache_l",
+      "apachemconf": "_apache_l",
+      "apachenconf": "_apache_l",
+      "apacheoconf": "_apache_l",
+      "apachepconf": "_apache_l",
+      "apacheqconf": "_apache_l",
+      "apacherconf": "_apache_l",
+      "apachesconf": "_apache_l",
+      "apachetconf": "_apache_l",
+      "apacheuconf": "_apache_l",
+      "apachevconf": "_apache_l",
+      "apachewconf": "_apache_l",
+      "apachexconf": "_apache_l",
+      "apacheyconf": "_apache_l",
+      "apachezconf": "_apache_l",
+      "apache{conf": "_apache_l",
+      "apache|conf": "_apache_l",
+      "apache}conf": "_apache_l",
+      "apache~conf": "_apache_l",
+      "apache2 conf": "_apache_l",
+      "apache2!conf": "_apache_l",
+      "apache2\"conf": "_apache_l",
+      "apache2#conf": "_apache_l",
+      "apache2$conf": "_apache_l",
+      "apache2%conf": "_apache_l",
+      "apache2&conf": "_apache_l",
+      "apache2'conf": "_apache_l",
+      "apache2(conf": "_apache_l",
+      "apache2)conf": "_apache_l",
+      "apache2*conf": "_apache_l",
+      "apache2+conf": "_apache_l",
+      "apache2,conf": "_apache_l",
+      "apache2-conf": "_apache_l",
+      "apache2.conf": "_apache_l",
+      "apache2/conf": "_apache_l",
+      "apache20conf": "_apache_l",
+      "apache21conf": "_apache_l",
+      "apache22conf": "_apache_l",
+      "apache23conf": "_apache_l",
+      "apache24conf": "_apache_l",
+      "apache25conf": "_apache_l",
+      "apache26conf": "_apache_l",
+      "apache27conf": "_apache_l",
+      "apache28conf": "_apache_l",
+      "apache29conf": "_apache_l",
+      "apache2:conf": "_apache_l",
+      "apache2;conf": "_apache_l",
+      "apache2<conf": "_apache_l",
+      "apache2=conf": "_apache_l",
+      "apache2>conf": "_apache_l",
+      "apache2?conf": "_apache_l",
+      "apache2@conf": "_apache_l",
+      "apache2Aconf": "_apache_l",
+      "apache2Bconf": "_apache_l",
+      "apache2Cconf": "_apache_l",
+      "apache2Dconf": "_apache_l",
+      "apache2Econf": "_apache_l",
+      "apache2Fconf": "_apache_l",
+      "apache2Gconf": "_apache_l",
+      "apache2Hconf": "_apache_l",
+      "apache2Iconf": "_apache_l",
+      "apache2Jconf": "_apache_l",
+      "apache2Kconf": "_apache_l",
+      "apache2Lconf": "_apache_l",
+      "apache2Mconf": "_apache_l",
+      "apache2Nconf": "_apache_l",
+      "apache2Oconf": "_apache_l",
+      "apache2Pconf": "_apache_l",
+      "apache2Qconf": "_apache_l",
+      "apache2Rconf": "_apache_l",
+      "apache2Sconf": "_apache_l",
+      "apache2Tconf": "_apache_l",
+      "apache2Uconf": "_apache_l",
+      "apache2Vconf": "_apache_l",
+      "apache2Wconf": "_apache_l",
+      "apache2Xconf": "_apache_l",
+      "apache2Yconf": "_apache_l",
+      "apache2Zconf": "_apache_l",
+      "apache2[conf": "_apache_l",
+      "apache2\\conf": "_apache_l",
+      "apache2]conf": "_apache_l",
+      "apache2^conf": "_apache_l",
+      "apache2_conf": "_apache_l",
+      "apache2`conf": "_apache_l",
+      "apache2aconf": "_apache_l",
+      "apache2bconf": "_apache_l",
+      "apache2cconf": "_apache_l",
+      "apache2dconf": "_apache_l",
+      "apache2econf": "_apache_l",
+      "apache2fconf": "_apache_l",
+      "apache2gconf": "_apache_l",
+      "apache2hconf": "_apache_l",
+      "apache2iconf": "_apache_l",
+      "apache2jconf": "_apache_l",
+      "apache2kconf": "_apache_l",
+      "apache2lconf": "_apache_l",
+      "apache2mconf": "_apache_l",
+      "apache2nconf": "_apache_l",
+      "apache2oconf": "_apache_l",
+      "apache2pconf": "_apache_l",
+      "apache2qconf": "_apache_l",
+      "apache2rconf": "_apache_l",
+      "apache2sconf": "_apache_l",
+      "apache2tconf": "_apache_l",
+      "apache2uconf": "_apache_l",
+      "apache2vconf": "_apache_l",
+      "apache2wconf": "_apache_l",
+      "apache2xconf": "_apache_l",
+      "apache2yconf": "_apache_l",
+      "apache2zconf": "_apache_l",
+      "apache2{conf": "_apache_l",
+      "apache2|conf": "_apache_l",
+      "apache2}conf": "_apache_l",
+      "apache2~conf": "_apache_l",
+      "httpd conf": "_apache_l",
+      "httpd!conf": "_apache_l",
+      "httpd\"conf": "_apache_l",
+      "httpd#conf": "_apache_l",
+      "httpd$conf": "_apache_l",
+      "httpd%conf": "_apache_l",
+      "httpd&conf": "_apache_l",
+      "httpd'conf": "_apache_l",
+      "httpd(conf": "_apache_l",
+      "httpd)conf": "_apache_l",
+      "httpd*conf": "_apache_l",
+      "httpd+conf": "_apache_l",
+      "httpd,conf": "_apache_l",
+      "httpd-conf": "_apache_l",
+      "httpd.conf": "_apache_l",
+      "httpd/conf": "_apache_l",
+      "httpd0conf": "_apache_l",
+      "httpd1conf": "_apache_l",
+      "httpd2conf": "_apache_l",
+      "httpd3conf": "_apache_l",
+      "httpd4conf": "_apache_l",
+      "httpd5conf": "_apache_l",
+      "httpd6conf": "_apache_l",
+      "httpd7conf": "_apache_l",
+      "httpd8conf": "_apache_l",
+      "httpd9conf": "_apache_l",
+      "httpd:conf": "_apache_l",
+      "httpd;conf": "_apache_l",
+      "httpd<conf": "_apache_l",
+      "httpd=conf": "_apache_l",
+      "httpd>conf": "_apache_l",
+      "httpd?conf": "_apache_l",
+      "httpd@conf": "_apache_l",
+      "httpdAconf": "_apache_l",
+      "httpdBconf": "_apache_l",
+      "httpdCconf": "_apache_l",
+      "httpdDconf": "_apache_l",
+      "httpdEconf": "_apache_l",
+      "httpdFconf": "_apache_l",
+      "httpdGconf": "_apache_l",
+      "httpdHconf": "_apache_l",
+      "httpdIconf": "_apache_l",
+      "httpdJconf": "_apache_l",
+      "httpdKconf": "_apache_l",
+      "httpdLconf": "_apache_l",
+      "httpdMconf": "_apache_l",
+      "httpdNconf": "_apache_l",
+      "httpdOconf": "_apache_l",
+      "httpdPconf": "_apache_l",
+      "httpdQconf": "_apache_l",
+      "httpdRconf": "_apache_l",
+      "httpdSconf": "_apache_l",
+      "httpdTconf": "_apache_l",
+      "httpdUconf": "_apache_l",
+      "httpdVconf": "_apache_l",
+      "httpdWconf": "_apache_l",
+      "httpdXconf": "_apache_l",
+      "httpdYconf": "_apache_l",
+      "httpdZconf": "_apache_l",
+      "httpd[conf": "_apache_l",
+      "httpd\\conf": "_apache_l",
+      "httpd]conf": "_apache_l",
+      "httpd^conf": "_apache_l",
+      "httpd_conf": "_apache_l",
+      "httpd`conf": "_apache_l",
+      "httpdaconf": "_apache_l",
+      "httpdbconf": "_apache_l",
+      "httpdcconf": "_apache_l",
+      "httpddconf": "_apache_l",
+      "httpdeconf": "_apache_l",
+      "httpdfconf": "_apache_l",
+      "httpdgconf": "_apache_l",
+      "httpdhconf": "_apache_l",
+      "httpdiconf": "_apache_l",
+      "httpdjconf": "_apache_l",
+      "httpdkconf": "_apache_l",
+      "httpdlconf": "_apache_l",
+      "httpdmconf": "_apache_l",
+      "httpdnconf": "_apache_l",
+      "httpdoconf": "_apache_l",
+      "httpdpconf": "_apache_l",
+      "httpdqconf": "_apache_l",
+      "httpdrconf": "_apache_l",
+      "httpdsconf": "_apache_l",
+      "httpdtconf": "_apache_l",
+      "httpduconf": "_apache_l",
+      "httpdvconf": "_apache_l",
+      "httpdwconf": "_apache_l",
+      "httpdxconf": "_apache_l",
+      "httpdyconf": "_apache_l",
+      "httpdzconf": "_apache_l",
+      "httpd{conf": "_apache_l",
+      "httpd|conf": "_apache_l",
+      "httpd}conf": "_apache_l",
+      "httpd~conf": "_apache_l",
+      "apache2/magic": "_apache_l",
+      "appcelerator.js": "_appcelerator_l",
+      "com.apple.": "_apple_l",
+      "appveyor.yml": "_appveyor_l",
+      "pacman.conf": "_archlinux_l",
+      "pamac.conf": "_archlinux_l",
+      "PKGBUILD": "_terminal_l",
+      "yaourtrc": "_archlinux_l",
+      "backbone.js": "_backbone_l",
+      "backbone-min.js": "_backbone_l",
+      "backbone.min.js": "_backbone_l",
+      "backbonedev.js": "_backbone_l",
+      "Makefile.boot": "_boot_l",
+      "bower.json": "_bower_l",
+      "Bowerfile": "_bower_l",
+      "brakeman.yml": "_brakeman_l",
+      "brakeman.ignore": "_brakeman_l",
+      "Brewfile": "_brew_l",
+      "Brocfile.": "_broccoli_l",
+      "Cakefile": "_cakefile_l",
+      "Cargo.toml": "_package_l",
+      "Cargo.lock": "_package_l",
+      "chai.js": "_chai_l",
+      "chai.jsx": "_chai_l",
+      "chai.ts": "_chai_l",
+      "chai.tsx": "_chai_l",
+      "chai.es": "_chai_l",
+      "chai.es6": "_chai_l",
+      "chai.coffee": "_chai_l",
+      "Chart.js": "_chartjs_l",
+      "TODO": "_checklist_l",
+      "circle.yml": "_circleci_l",
+      "CMakeLists.txt": "_cmake_l",
+      "codecov.yml": "_codecov_l",
+      "codecov.yaml": "_codecov_l",
+      "compass.scss": "_compass_l",
+      "lemonade.scss": "_compass_l",
+      "_compass.scss": "_compass_l",
+      "_lemonade.scss": "_compass_l",
+      "composer.json": "_composer_l",
+      "composer.lock": "_composer_l",
+      "composer.phar": "_composer_l",
+      "ld.script": "_config_l",
+      "config": "_terminal_l",
+      "settings": "_config_l",
+      "option": "_config_l",
+      "pref": "_config_l",
+      "/etc/aliases": "_config_l",
+      "/etc/auto_home": "_config_l",
+      "/etc/auto_master": "_config_l",
+      "/etc/ftpusers": "_config_l",
+      "/etc/group": "_config_l",
+      "/etc/gettytab": "_config_l",
+      "/etc/hosts": "_config_l",
+      "/etc/hosts.equiv": "_config_l",
+      "/etc/manpaths": "_config_l",
+      "/etc/networks": "_config_l",
+      "/etc/paths": "_config_l",
+      "/etc/protocols": "_config_l",
+      "/etc/services": "_config_l",
+      "/etc/shells": "_config_l",
+      "/etc/sudoers": "_config_l",
+      "/etc/ttys": "_config_l",
+      "/private/etc/aliases": "_config_l",
+      "/private/etc/auto_home": "_config_l",
+      "/private/etc/auto_master": "_config_l",
+      "/private/etc/ftpusers": "_config_l",
+      "/private/etc/group": "_config_l",
+      "/private/etc/gettytab": "_config_l",
+      "/private/etc/hosts": "_config_l",
+      "/private/etc/hosts.equiv": "_config_l",
+      "/private/etc/manpaths": "_config_l",
+      "/private/etc/networks": "_config_l",
+      "/private/etc/paths": "_config_l",
+      "/private/etc/protocols": "_config_l",
+      "/private/etc/services": "_config_l",
+      "/private/etc/shells": "_config_l",
+      "/private/etc/sudoers": "_config_l",
+      "/private/etc/ttys": "_config_l",
+      "mime.types": "_database_l",
+      "METADATA.pb": "_database_l",
+      "lib/icons/.icondb.js": "_database_l",
+      "control": "_debian_l",
+      "rules": "_debian_l",
+      "CNAME": "_earth_l",
+      "Dockerfile": "_docker_l",
+      "docker-compose": "_docker_l",
+      "docker-sync.yml": "_docker_l",
+      "dojo.js": "_dojo_l",
+      "Doxyfile": "_doxygen_l",
+      "mix.ex": "_elixir_l",
+      "mix.exs": "_elixir_l",
+      "el": "_emacs_l",
+      "emacs": "_emacs_l",
+      "_emacs": "_emacs_l",
+      "spacemacs": "_emacs_l",
+      "emacs.desktop": "_emacs_l",
+      "abbrev-defs": "_emacs_l",
+      "abbrev_defs": "_emacs_l",
+      "elc": "_emacs_l",
+      "eld": "_emacs_l",
+      "Project.ede": "_emacs_l",
+      "authors": "_at_l",
+      "owners": "_at_l",
+      "Extjs.js": "_extjs_l",
+      "Extjs-ext.js": "_extjs_l",
+      "fabfile.py": "_fabfile_l",
+      "Fakefile": "_fancy_l",
+      "Icon\r": "_finder_l",
+      "fuelux.css": "_fuelux_l",
+      "fuelux.js": "_fuelux_l",
+      "fuelux.min.css": "_fuelux_l",
+      "fuelux.min.js": "_fuelux_l",
+      "gdbinit": "_gdb_l",
+      "_service": "_code_l",
+      "configure.ac": "_code_l",
+      "Settings.StyleCop": "_code_l",
+      "COMMIT_EDITMSG": "_git-commit_l",
+      "MERGE_HEAD": "_git-merge_l",
+      "MERGE_MODE": "_git-merge_l",
+      "MERGE_MSG": "_git-merge_l",
+      "gradlew": "_gradle_l",
+      "gruntfile.js": "_grunt_l",
+      "gruntfile.coffee": "_grunt_l",
+      "gulpfile.js": "_gulp_l",
+      "gulpfile.coffee": "_gulp_l",
+      "gulpfile.babel.js": "_gulp_l",
+      "Procfile": "_heroku_l",
+      "ionic.project": "_ionic_l",
+      "ROOT": "_isabelle_l",
+      "Jakefile": "_jake_l",
+      "Jenkinsfile": "_jenkins_l",
+      "Notebook": "_jupyter_l",
+      "karma.conf.js": "_karma_l",
+      "karma.conf.coffee": "_karma_l",
+      "Slakefile": "_ls_l",
+      "Makefile": "_checklist_l",
+      "BSDmakefile": "_checklist_l",
+      "GNUmakefile": "_checklist_l",
+      "Kbuild": "_checklist_l",
+      "makefile": "_checklist_l",
+      "mkfile": "_checklist_l",
+      "DEPS": "_checklist_l",
+      "tmac.": "_manpage_l",
+      "mmn": "_manpage_l",
+      "mmt": "_manpage_l",
+      "materialize.js": "_materialize_l",
+      "materialize.css": "_materialize_l",
+      "materialize.min.js": "_materialize_l",
+      "materialize.min.css": "_materialize_l",
+      "mcmod.info": "_minecraft_l",
+      "mocha.js": "_mocha_l",
+      "mocha.jsx": "_mocha_l",
+      "mocha.ts": "_mocha_l",
+      "mocha.tsx": "_mocha_l",
+      "mocha.es": "_mocha_l",
+      "mocha.es6": "_mocha_l",
+      "mocha.coffee": "_mocha_l",
+      "mocha.css": "_mocha_l",
+      "mocha.scss": "_mocha_l",
+      "mocha.less": "_mocha_l",
+      "mocha.styl": "_mocha_l",
+      "mocha.opts": "_mocha_l",
+      "run.n": "_neko_l",
+      "newrelic.yml": "_newrelic_l",
+      "nginx.conf": "_nginx_l",
+      "nodemon.json": "_nodemon_l",
+      "normalize.css": "_normalize_l",
+      "normalize.less": "_normalize_l",
+      "normalize.scss": "_normalize_l",
+      "normalize.styl": "_normalize_l",
+      "package.json": "_npm_l",
+      "npmrc": "_npm_l",
+      "npm-debug.log": "_npm_l",
+      "npm-shrinkwrap.json": "_npm_l",
+      "Nukefile": "_recycle_l",
+      "Rexfile": "_perl6_l",
+      "Phakefile": "_php_l",
+      "postcss.config.js": "_postcss_l",
+      "protractor.conf.": "_protractor_l",
+      "Modulefile": "_puppet_l",
+      "pypirc": "_python_l",
+      "pythonrc": "_python_l",
+      "python-venv": "_python_l",
+      "BUCK": "_python_l",
+      "BUILD": "_python_l",
+      "SConstruct": "_python_l",
+      "SConscript": "_python_l",
+      "Snakefile": "_python_l",
+      "WATCHLISTS": "_python_l",
+      "wscript": "_python_l",
+      "README": "_book_l",
+      "README_": "_book_l",
+      "licence": "_book_l",
+      "licences": "_book_l",
+      "license": "_book_l",
+      "licenses": "_book_l",
+      "read.me": "_book_l",
+      "readme.me": "_book_l",
+      "click.me": "_book_l",
+      "delete.me": "_book_l",
+      "keep.me": "_book_l",
+      "test.me": "_book_l",
+      "changelog": "_book_l",
+      "copying": "_book_l",
+      "copying0": "_book_l",
+      "copying1": "_book_l",
+      "copying2": "_book_l",
+      "copying3": "_book_l",
+      "copying4": "_book_l",
+      "copying5": "_book_l",
+      "copying6": "_book_l",
+      "copying7": "_book_l",
+      "copying8": "_book_l",
+      "copying9": "_book_l",
+      "copyingv0": "_book_l",
+      "copyingv1": "_book_l",
+      "copyingv2": "_book_l",
+      "copyingv3": "_book_l",
+      "copyingv4": "_book_l",
+      "copyingv5": "_book_l",
+      "copyingv6": "_book_l",
+      "copyingv7": "_book_l",
+      "copyingv8": "_book_l",
+      "copyingv9": "_book_l",
+      "install": "_book_l",
+      "readme": "_book_l",
+      "read-me": "_book_l",
+      "read_me": "_book_l",
+      "licence-": "_book_l",
+      "licence.": "_book_l",
+      "licence_": "_book_l",
+      "licences-": "_book_l",
+      "licences.": "_book_l",
+      "licences_": "_book_l",
+      "license-": "_book_l",
+      "license.": "_book_l",
+      "license_": "_book_l",
+      "licenses-": "_book_l",
+      "licenses.": "_book_l",
+      "licenses_": "_book_l",
+      "require.js": "_requirejs_l",
+      "require-min.js": "_requirejs_l",
+      "require.min.js": "_requirejs_l",
+      "requiredev.js": "_requirejs_l",
+      "riemann.config": "_clojure_l",
+      "rollup.config.": "_rollup_l",
+      "irbrc": "_ruby_l",
+      "gemrc": "_ruby_l",
+      "pryrc": "_ruby_l",
+      "rspec": "_ruby_l",
+      "ruby-gemset": "_ruby_l",
+      "ruby-version": "_ruby_l",
+      "Appraisals": "_ruby_l",
+      "Rakefile": "_ruby_l",
+      "Rakefile.lock": "_ruby_l",
+      "Gemfile": "_ruby_l",
+      "Gemfile.lock": "_ruby_l",
+      "Buildfile": "_ruby_l",
+      "Buildfile.lock": "_ruby_l",
+      "buildfile": "_ruby_l",
+      "buildfile.lock": "_ruby_l",
+      "Berksfile": "_ruby_l",
+      "Berksfile.lock": "_ruby_l",
+      "Capfile": "_ruby_l",
+      "Capfile.lock": "_ruby_l",
+      "Dangerfile": "_ruby_l",
+      "Dangerfile.lock": "_ruby_l",
+      "Deliverfile": "_ruby_l",
+      "Deliverfile.lock": "_ruby_l",
+      "Fastfile": "_ruby_l",
+      "Fastfile.lock": "_ruby_l",
+      "Guardfile": "_ruby_l",
+      "Guardfile.lock": "_ruby_l",
+      "Jarfile": "_ruby_l",
+      "Jarfile.lock": "_ruby_l",
+      "Mavenfile": "_ruby_l",
+      "Mavenfile.lock": "_ruby_l",
+      "Podfile": "_ruby_l",
+      "Podfile.lock": "_ruby_l",
+      "Puppetfile": "_ruby_l",
+      "Puppetfile.lock": "_ruby_l",
+      "Snapfile": "_ruby_l",
+      "Snapfile.lock": "_ruby_l",
+      "_spec.rb": "_ruby_l",
+      "rails": "_ruby_l",
+      "sencha.js": "_sencha_l",
+      "sencha.min.js": "_sencha_l",
+      "bashrc": "_terminal_l",
+      "bashprofile": "_terminal_l",
+      "bashlogin": "_terminal_l",
+      "bashlogout": "_terminal_l",
+      "bashhistory": "_terminal_l",
+      "bashprompt": "_terminal_l",
+      "bash-profile": "_terminal_l",
+      "bash-login": "_terminal_l",
+      "bash-logout": "_terminal_l",
+      "bash-history": "_terminal_l",
+      "bash-prompt": "_terminal_l",
+      "bash_profile": "_terminal_l",
+      "bash_login": "_terminal_l",
+      "bash_logout": "_terminal_l",
+      "bash_history": "_terminal_l",
+      "bash_prompt": "_terminal_l",
+      "_osc": "_terminal_l",
+      "install-sh": "_terminal_l",
+      "antigen": "_terminal_l",
+      "zpreztorc": "_terminal_l",
+      "zlogin": "_terminal_l",
+      "zlogout": "_terminal_l",
+      "zprofile": "_terminal_l",
+      "zshenv": "_terminal_l",
+      "zshrc": "_terminal_l",
+      "configure": "_terminal_l",
+      "config.guess": "_terminal_l",
+      "config.rpath": "_terminal_l",
+      "config.status": "_terminal_l",
+      "config.sub": "_terminal_l",
+      "depcomp": "_terminal_l",
+      "libtool": "_terminal_l",
+      "compile": "_terminal_l",
+      "rc": "_terminal_l",
+      "snap.svg.js": "_snapsvg_l",
+      "snap.svg-min.js": "_snapsvg_l",
+      "snap.svg.min.js": "_snapsvg_l",
+      "id_rsa": "_key_l",
+      "passwd": "_key_l",
+      "master.passwd": "_key_l",
+      "git-credential-osxkeychain": "_key_l",
+      "stylelint.config.js": "_stylelint_l",
+      "tags": "_tag_l",
+      "ctags": "_tag_l",
+      "Terminal Saved Output": "_icon-file-text_l",
+      "Terminal Saved-Output": "_icon-file-text_l",
+      "Terminal Saved_Output": "_icon-file-text_l",
+      "Terminal-Saved Output": "_icon-file-text_l",
+      "Terminal-Saved-Output": "_icon-file-text_l",
+      "Terminal-Saved_Output": "_icon-file-text_l",
+      "Terminal_Saved Output": "_icon-file-text_l",
+      "Terminal_Saved-Output": "_icon-file-text_l",
+      "Terminal_Saved_Output": "_icon-file-text_l",
+      "bug-report": "_icon-file-text_l",
+      "fdl": "_icon-file-text_l",
+      "for-release": "_icon-file-text_l",
+      "tests": "_icon-file-text_l",
+      "Thorfile": "_thor_l",
+      "typedoc.json": "_typedoc_l",
+      "typings.json": "_typings_l",
+      "uikit.js": "_uikit_l",
+      "uikit.min.js": "_uikit_l",
+      "Vagrantfile": "_vagrant_l",
+      "vimrc": "_vim_l",
+      "viminfo": "_vim_l",
+      "_vimrc": "_vim_l",
+      "_viminfo": "_vim_l",
+      "gvimrc": "_vim_l",
+      "gviminfo": "_vim_l",
+      "nvimrc": "_vim_l",
+      "nviminfo": "_vim_l",
+      "webpack.config.": "_webpack_l",
+      "webpackfile.js": "_webpack_l",
+      "wercker.yml": "_wercker_l",
+      "wercker.yaml": "_wercker_l",
+      "yarn.lock": "_yarn_l",
+      "bower-components": "_bower_l",
+      "bower_components": "_bower_l",
+      "Dropbox": "_dropbox_l",
+      "node_modules": "_node_l"
+    }
   },
-  "version": "https://github.com/file-icons/vscode/commit/4ca6f57026d631d2c76013fb0f6f084e1952b488"
+  "version": "https://github.com/file-icons/vscode/commit/2b46d90e26a4a4fc0eeead00a821c60d758baa1a"
 }
