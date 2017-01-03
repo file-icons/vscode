@@ -11,3 +11,11 @@ File-specific icons in VSCode for improved visual grepping.
 Windows: Go to **File** > **Preferences** > **File Icon Theme** > **File Icons**
 
 OSX: **Code** > **Preferences** > **File Icon Theme** > **File Icons**
+
+## Icon Fonts
+
+* [**File-Icons**](https://github.com/Alhadis/FileIcons/blob/master/charmap.md) 
+* [**FontAwesome**](http://fontawesome.io/cheatsheet/)
+* [**Mfizz**](https://github.com/Alhadis/MFixx/blob/master/charmap.md)
+* [**Devicons**](https://github.com/Alhadis/DevOpicons/blob/master/charmap.md)
+* [**Octicons**](https://octicons.github.com/)
