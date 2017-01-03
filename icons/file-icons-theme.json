@@ -2675,7 +2675,7 @@
     "djs": "_doge",
     "dyalog": "_dyalog",
     "dylib": "_dylib",
-    "bundle": "_dylib",
+    "bundle": "_package",
     "E": "_e",
     "sch": "_eagle",
     "brd": "_eagle",
@@ -3843,7 +3843,17 @@
     "zep": "_zephir",
     "zimpl": "_zimpl",
     "zmpl": "_zimpl",
-    "zpl": "_zimpl"
+    "zpl": "_zimpl",
+    "artx": "_arttext",
+    "atom": "_atom",
+    "dropbox.cache": "_dropbox",
+    "framework": "_dylib",
+    "github": "_github",
+    "meteor": "_meteor",
+    "svn": "_svn",
+    "tmBundle": "_textmate",
+    "vagrant": "_vagrant",
+    "xcodeproj": "_appstore"
   },
   "fileNames": {
     "APKBUILD": "_alpine",
@@ -4496,7 +4506,11 @@
     "webpackfile.js": "_webpack",
     "wercker.yml": "_wercker",
     "wercker.yaml": "_wercker",
-    "yarn.lock": "_yarn"
+    "yarn.lock": "_yarn",
+    "bower-components": "_bower",
+    "bower_components": "_bower",
+    "Dropbox": "_dropbox",
+    "node_modules": "_node"
   },
   "languageIds": [],
   "light": {
@@ -4504,5 +4518,5 @@
     "fileNames": {},
     "languageIds": []
   },
-  "version": "https://github.com/file-icons/vscode/commit/a13d051c9a9f99b95896b5001b46ee32bba83ef5"
+  "version": "https://github.com/file-icons/vscode/commit/4ca6f57026d631d2c76013fb0f6f084e1952b488"
 }

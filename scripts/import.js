@@ -77,8 +77,7 @@ function parseRegex(regex) {
     return gen;
 }
 
-for(let fileIcon in defs.fileIcons) {
-    let hash = defs.fileIcons[fileIcon];
+function process(hash) {
     let match = hash.match;
     let icon = hash.icon;
 
@@ -137,8 +136,12 @@ for(let fileIcon in defs.fileIcons) {
     }
 }
 
+for(let fileIcon in defs.fileIcons ) {
+    process(defs.fileIcons[fileIcon]);
+}
+
 for(let directoryIcon in defs.directoryIcons) {
-    console.log("dir: ", directoryIcon);
+    process(defs.directoryIcons[directoryIcon]);
 }
 
 var languages = [];
