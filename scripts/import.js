@@ -1,44 +1,162 @@
 const cson = require('cson');
 const fs = require('fs');
 const execSync = require('child_process').execSync;
+const parameterize = require('parameterize');
+const util = require('util');
+const genex = require('genex');
+const ret = require('ret');
 
 const path = './defs';
-const repo = 'git@github.com:DanBrooker/file-icons.git';
+const repo = 'https://github.com:DanBrooker/file-icons';
+const defs = cson.parseCSFile(path + '/config.cson');
+const stylesIcons = fs.readFileSync(path + '/styles/icons.less').toString();
+const fontColour = "#ffffff";
+// console.log("icons file: ", stylesIcons);
 
-// Checkout file-icons repo
-if (fs.existsSync(path)) {
-    execSync('cd defs; git fetch --depth 1 origin master; git merge origin/master;');
-} else {
-    execSync('git clone '+ repo +' --branch master --single-branch --depth 1 defs');
+var icons = {};
+var result;
+
+let regex = /\.(.*?)-icon:before\s+{\s+\.(\w+); content: "(.*?)"/g;
+let fontMap = {
+    "fi": "file-icons",
+    "fa": "fontawesome",
+    "octicons": "octicons",
+    "mf": "mfixx",
+    "devicons": "devicons"
+}
+while ((match = regex.exec(stylesIcons)) !== null) {
+    // console.log(match)
+    let name = "_" + match[1];
+    let font = match[2];
+    let character = match[3];
+    icons[name] = {
+        'fontCharacter': character,
+        'fontColor': fontColour,
+        'fontId': fontMap[font]
+    };
 }
 
-// Convert file-icons styles to icons/file-icons-theme.json
-const defs = cson.parseCSFile(path + '/' + 'config.cson');
+execSync("git submodule init; git submodule update")
 
-for(var directoryIcon in defs.directoryIcons) {
+let fonts = Object.values(fontMap).map(function (name){
+    return {
+        "id": name,
+        "src": [
+            {
+                "path": "./" + name +".woff2",
+                "format": "woff2"
+            }
+        ],
+        "weight": "normal",
+        "style": "normal",
+        "size": "100%"
+    };
+});
+
+var extensions = {};
+var files = {};
+
+function parseRegex(regex) {
+    // let tokens = ret(regex.source);
+    var gen = [];
+    try {
+        let count = genex(regex).count();
+    
+        if (count <= 1000) {
+            genex(regex).generate(function (output) {
+                // console.log('[*] ' + output);
+                gen.push(output);
+            });
+        } else {
+            console.log(regex + " skipped regex has too many cases to generate: " + count);
+        }
+    } catch(exception) {
+        console.log(regex + "skipped regex caused an error: " + exception);
+    }
+
+    return gen;
+}
+
+for(let fileIcon in defs.fileIcons) {
+    let hash = defs.fileIcons[fileIcon];
+    let match = hash.match;
+    let icon = hash.icon;
+
+    if(match instanceof Array) {
+        for(var m = 0; m < match.length; m++) {
+
+            let nested = match[m];
+            
+            var ext = nested[0];
+            let colour = nested[1]; // TODO do something with this colour
+
+            if(ext instanceof RegExp) {
+                console.log("regexp " + util.inspect(ext));
+                let exts = parseRegex(ext);
+                for(var i = 0; i < exts.length; i++) {
+                    let ext = exts[i];
+                    if(ext.startsWith(".")) {
+                        extensions[ext.substring(1)] = "_" + icon;
+                    } else {
+                        files[ext] = "_" + icon;
+                    }
+                    console.log(ext + " => " + icon);
+                }
+            } else if(typeof(ext) === "string") {
+                console.log("string " + util.inspect(ext));
+                if(ext.startsWith(".")) {
+                    extensions[ext.substring(1)] = "_" + icon;
+                } else {
+                    files[ext] = "_" + icon;
+                }
+                console.log(ext + " => " + icon);
+            } else {
+                console.log("skipped " + ext);
+            }
+        }
+    } else if(match instanceof RegExp) {
+        let exts = parseRegex(match);
+        for(var i = 0; i < exts.length; i++) {
+            let ext = exts[i];
+            if(ext.startsWith(".")) {
+                extensions[ext.substring(1)] = "_" + icon;
+            } else {
+                files[ext] = "_" + icon;
+            }
+            console.log(ext + " => " + icon);
+        }
+    } else if(typeof(match) === "string") {
+        if(match.startsWith('.')) {
+            extensions[match.substring(1)] = "_" + icon;
+            console.log(match + " => " + icon);
+        } else {
+            console.log(match+ " skipped not a file extension");
+        }
+    } else {
+        console.log(match+ " skipped type");
+    }
+}
+
+for(let directoryIcon in defs.directoryIcons) {
     console.log("dir: ", directoryIcon);
 }
 
-for(var fileIcon in defs.fileIcons) {
-    console.log("file: ", fileIcon);
-}
+var languages = [];
 
 // export file-icon-theme.json
 var root = {};
-root.fonts = {};
-root.iconDefinitions = {};
+root.fonts = fonts;
+root.iconDefinitions = icons;
 root.file = '_default';
-root.fileExtensions = {};
-root.fileNames = {};
-root.languageIds = {};
+root.fileExtensions = extensions;
+root.fileNames = files;
+root.languageIds = languages;
 root.light = {
     "root": {},
     "fileNames": {},
-    "languageIds": {}
+    "languageIds": languages
 };
-root.version = "https://github.com/file-icons/vscode/commit/" + execSync('git rev-parse HEAD');
+root.version = ("https://github.com/file-icons/vscode/commit/" + execSync('git rev-parse HEAD')).replace(/\n$/, '');
 
-let json = JSON.stringify(root);
-fs.writeFile('./icons/file-icons-theme.json', json);
-
-console.log(root);
+let json = JSON.stringify(root, null, 2);
+fs.writeFile('./icons/file-icons-theme.json', json, function() {});
