@@ -6,13 +6,11 @@ const util = require('util');
 const genex = require('genex');
 const ret = require('ret');
 
-const path = './defs';
 const repo = 'https://github.com:DanBrooker/file-icons';
-const defs = cson.parseCSFile(path + '/config.cson');
-const stylesIcons = fs.readFileSync(path + '/styles/icons.less').toString();
-const darkFontColour = "#ffffff";
-const lightFontColour = "#000000";
-// console.log("icons file: ", stylesIcons);
+const defs = cson.parseCSFile('./defs/config.cson');
+const stylesIcons = fs.readFileSync('./defs/styles/icons.less').toString();
+const darkFontColour = "#cccccc";
+const lightFontColour = "#6c6c6c";
 
 var icons = {};
 var result;
@@ -23,10 +21,34 @@ let fontMap = {
     "fa": "fontawesome",
     "octicons": "octicons",
     "mf": "mfixx",
-    "devicons": "devicons"
+    "devicons": "devopicons"
 }
+
+// hardcoded files and folder, i.e ones that are default in atom
+const hardcoded = {
+    "_file": "\\f011",
+    "_binary": "\\f094",
+    "_folder": "\\f016",
+    "_zip": "\\f013",
+    "_pdf": "\\f014",
+    "_code": "\\f05f"
+};
+
+for(let key in hardcoded) {
+    let value = hardcoded[key];
+    icons[key] = {
+        'fontCharacter': value,
+        'fontColor': darkFontColour,
+        'fontId': "octicons"
+    };
+    icons[key + '_l'] = {
+        'fontCharacter': value,
+        'fontColor': lightFontColour,
+        'fontId': "octicons"
+    };
+}
+
 while ((match = regex.exec(stylesIcons)) !== null) {
-    // console.log(match)
     let name = "_" + match[1];
     let font = match[2];
     let character = match[3];
@@ -41,6 +63,8 @@ while ((match = regex.exec(stylesIcons)) !== null) {
         'fontId': fontMap[font]
     };
 }
+
+let icons_c = JSON.parse(JSON.stringify(icons));
 
 execSync("git submodule init; git submodule update")
 
@@ -102,14 +126,12 @@ let colourMap = {
 };
 
 function parseRegex(regex) {
-    // let tokens = ret(regex.source);
     var gen = [];
     try {
         let count = genex(regex).count();
     
         if (count <= 1000) {
             genex(regex).generate(function (output) {
-                // console.log('[*] ' + output);
                 gen.push(output);
             });
         } else {
@@ -133,7 +155,7 @@ function process(hash) {
             let nested = match[m];
             
             var ext = nested[0];
-            let colour = nested[1]; // TODO do something with this colour
+            let colour = nested[1];
 
             if(ext instanceof RegExp) {
 
@@ -222,20 +244,20 @@ for(let directoryIcon in defs.directoryIcons) {
 
 var languages = [];
 
-// export file-icon-theme.json
+// export file-icons-theme.json
 var root = {};
 root.fonts = fonts;
 root.iconDefinitions = icons;
-root.file = '_default';
+root.file = '_file';
 root.folder = "_folder";
-root.folderExpanded = "_folder_open";
+root.folderExpanded = "_folder";
 root.fileExtensions = extensions;
 root.fileNames = files;
 root.languageIds = languages;
 root.light = {
-    "file": '_default',
+    "file": '_file_l',
     "folder": "_folder_l",
-    "folderExpanded": "_folder_open_l",
+    "folderExpanded": "_folder_l",
     "fileExtensions": extensions_l,
     "fileNames": files_l
 };
@@ -243,3 +265,7 @@ root.version = ("https://github.com/file-icons/vscode/commit/" + execSync('git r
 
 let json = JSON.stringify(root, null, 2);
 fs.writeFile('./icons/file-icons-theme.json', json, function() {});
+
+root.iconDefinitions = icons_c;
+let colourless = JSON.stringify(root, null, 2);
+fs.writeFile('./icons/file-icons-colourless-theme.json', colourless, function() {});

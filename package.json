@@ -28,6 +28,11 @@
         "id": "file-icons",
         "label": "File Icons",
         "path": "./icons/file-icons-theme.json"
+      },
+      {
+        "id": "file-icons-colourless",
+        "label": "File Icons (Colourless)",
+        "path": "./icons/file-icons-colourless-theme.json"
       }
     ]
   },
