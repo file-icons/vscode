@@ -158,42 +158,40 @@ function process(hash, set, set_l) {
             var ext = nested[0];
             let colour = nested[1];
 
+            var iconName = icon;
+
+            let darkColour = colourMap[colour];
+            if(darkColour && icons["_" + icon]) {
+                iconName = icon + "_" + colour
+
+                icons["_" + iconName] = JSON.parse(JSON.stringify(icons["_" + icon]));
+                icons["_" + iconName].fontColor = darkColour;
+            }
+
             if(ext instanceof RegExp) {
-
-                let darkColour = colourMap[colour];
-                if(darkColour && icons["_" + icon]) {
-                    icons["_" + icon].fontColor = darkColour;
-                }
-
                 console.log("regexp " + util.inspect(ext));
                 let exts = parseRegex(ext);
                 for(var i = 0; i < exts.length; i++) {
                     let ext = exts[i];
                     if(ext.startsWith(".")) {
-                        extensions[ext.substring(1)] = "_" + icon;
-                        extensions_l[ext.substring(1)] = "_" + icon + "_l";
+                        extensions[ext.substring(1)] = "_" +iconName;
+                        extensions_l[ext.substring(1)] = "_" + iconName + "_l";
                     } else {
-                        set[ext] = "_" + icon;
-                        set_l[ext] = "_" + icon + "_l";
+                        set[ext] = "_" + iconName;
+                        set_l[ext] = "_" + iconName + "_l";
                     }
-                    console.log(ext + " => " + icon);
+                    console.log(ext + " => " + iconName);
                 }
             } else if(typeof(ext) === "string") {
                 console.log("string " + util.inspect(ext));
-
-                let darkColour = colourMap[colour];
-                if (darkColour && icons["_" + icon]) {
-                    icons["_" + icon].fontColor = darkColour;
-                }
-
                 if(ext.startsWith(".")) {
-                    extensions[ext.substring(1)] = "_" + icon;
-                    extensions_l[ext.substring(1)] = "_" + icon + "_l";
+                    extensions[ext.substring(1)] = "_" + iconName;
+                    extensions_l[ext.substring(1)] = "_" + iconName + "_l";
                 } else {
-                    set[ext] = "_" + icon;
-                    set_l[ext] = "_" + icon + "_l";
+                    set[ext] = "_" + iconName;
+                    set_l[ext] = "_" + iconName + "_l";
                 }
-                console.log(ext + " => " + icon);
+                console.log(ext + " => " + iconName);
             } else {
                 console.log("skipped " + ext);
             }
@@ -203,7 +201,12 @@ function process(hash, set, set_l) {
 
         let darkColour = colourMap[colour];
         if (darkColour && icons["_" + icon]) {
-            icons["_" + icon].fontColor = darkColour;
+            let iconName = icon + "_" + colour;
+
+            icons["_" + iconName] = JSON.parse(JSON.stringify(icons["_" + icon]));
+            icons["_" + iconName].fontColor = darkColour;
+
+            icon = iconName;
         }
 
         for(var i = 0; i < exts.length; i++) {
@@ -220,8 +223,14 @@ function process(hash, set, set_l) {
     } else if(typeof(match) === "string") {
         if(match.startsWith('.')) {
             let darkColour = colourMap[colour];
+
             if (darkColour && icons["_" + icon]) {
-                icons["_" + icon].fontColor = darkColour;
+                let iconName = icon + "_" + colour;
+
+                icons["_" + iconName] = JSON.parse(JSON.stringify(icons["_" + icon]));
+                icons["_" + iconName].fontColor = darkColour;
+
+                icon = iconName;
             }
 
             extensions[match.substring(1)] = "_" + icon;
@@ -249,7 +258,7 @@ for(let directoryIcon in defs.directoryIcons) {
 
 var languages = [];
 
-// export file-icons-theme.json
+// export file-icons-icon-theme.json and file-icons-colourless-icon-theme.json
 var root = {};
 root.fonts = fonts;
 root.iconDefinitions = icons;
