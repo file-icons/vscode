@@ -85,6 +85,7 @@ let fonts = Object.values(fontMap).map(function (name){
 
 var extensions = {}, extensions_l = {};
 var files = {}, files_l = {};
+var folders = {}, folders_l = {};
 
 let colourMap = {
     // Red
@@ -144,7 +145,7 @@ function parseRegex(regex) {
     return gen;
 }
 
-function process(hash) {
+function process(hash, set, set_l) {
     let match = hash.match;
     let icon = hash.icon;
     let colour = hash.colour;
@@ -172,8 +173,8 @@ function process(hash) {
                         extensions[ext.substring(1)] = "_" + icon;
                         extensions_l[ext.substring(1)] = "_" + icon + "_l";
                     } else {
-                        files[ext] = "_" + icon;
-                        files_l[ext] = "_" + icon + "_l";
+                        set[ext] = "_" + icon;
+                        set_l[ext] = "_" + icon + "_l";
                     }
                     console.log(ext + " => " + icon);
                 }
@@ -189,8 +190,8 @@ function process(hash) {
                     extensions[ext.substring(1)] = "_" + icon;
                     extensions_l[ext.substring(1)] = "_" + icon + "_l";
                 } else {
-                    files[ext] = "_" + icon;
-                    files_l[ext] = "_" + icon + "_l";
+                    set[ext] = "_" + icon;
+                    set_l[ext] = "_" + icon + "_l";
                 }
                 console.log(ext + " => " + icon);
             } else {
@@ -211,8 +212,8 @@ function process(hash) {
                 extensions[ext.substring(1)] = "_" + icon;
                 extensions_l[ext.substring(1)] = "_" + icon + "_l";
             } else {
-                files[ext] = "_" + icon;
-                files_l[ext] = "_" + icon + "_l";
+                set[ext] = "_" + icon;
+                set_l[ext] = "_" + icon + "_l";
             }
             console.log(ext + " => " + icon);
         }
@@ -236,13 +237,14 @@ function process(hash) {
 
 // hardcoded files and folder, i.e ones that are default in atom
 extensions['gitignore'] = '_git';
+extensions['gitattributes'] = '_git';
 
 for(let fileIcon in defs.fileIcons ) {
-    process(defs.fileIcons[fileIcon]);
+    process(defs.fileIcons[fileIcon], files, files_l);
 }
 
 for(let directoryIcon in defs.directoryIcons) {
-    process(defs.directoryIcons[directoryIcon]);
+    process(defs.directoryIcons[directoryIcon], folders, folders_l);
 }
 
 var languages = [];
@@ -256,13 +258,15 @@ root.folder = "_folder";
 root.folderExpanded = "_folder";
 root.fileExtensions = extensions;
 root.fileNames = files;
+root.folderNames = folders;
 root.languageIds = languages;
 root.light = {
     "file": '_file_l',
     "folder": "_folder_l",
     "folderExpanded": "_folder_l",
     "fileExtensions": extensions_l,
-    "fileNames": files_l
+    "fileNames": files_l,
+    "folderNames": folders_l
 };
 root.version = ("https://github.com/file-icons/vscode/commit/" + execSync('git rev-parse HEAD')).replace(/\n$/, '');
 

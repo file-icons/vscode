@@ -4647,6 +4647,7 @@
     "8": "_manpage",
     "9": "_manpage",
     "gitignore": "_git",
+    "gitattributes": "_git",
     "bsl": "__1c",
     "sdbl": "__1c",
     "os": "__1c",
@@ -6809,7 +6810,9 @@
     "webpackfile.js": "_webpack",
     "wercker.yml": "_wercker",
     "wercker.yaml": "_wercker",
-    "yarn.lock": "_yarn",
+    "yarn.lock": "_yarn"
+  },
+  "folderNames": {
     "bower-components": "_bower",
     "bower_components": "_bower",
     "Dropbox": "_dropbox",
@@ -8992,12 +8995,14 @@
       "webpackfile.js": "_webpack_l",
       "wercker.yml": "_wercker_l",
       "wercker.yaml": "_wercker_l",
-      "yarn.lock": "_yarn_l",
+      "yarn.lock": "_yarn_l"
+    },
+    "folderNames": {
       "bower-components": "_bower_l",
       "bower_components": "_bower_l",
       "Dropbox": "_dropbox_l",
       "node_modules": "_node_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/01e8d9d8ee21329b87d47e6b84a521185e4a2008"
+  "version": "https://github.com/file-icons/vscode/commit/97182ed2354ae0e2dcbd39b9667ebef0360f5506"
 }
