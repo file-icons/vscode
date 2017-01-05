@@ -64,8 +64,6 @@ while ((match = regex.exec(stylesIcons)) !== null) {
     };
 }
 
-let icons_c = JSON.parse(JSON.stringify(icons));
-
 execSync("git submodule init; git submodule update")
 
 let fonts = Object.values(fontMap).map(function (name){
@@ -126,6 +124,30 @@ let colourMap = {
     "dark-pink":  "#b3008f",
 };
 
+function darkColourFor(colourName) {
+    if(colourName instanceof Array) {
+        return colourMap[colourName[0]];
+    } else if(colourMap[colourName]) {
+        return colourMap[colourName];
+    } else if(typeof(colourName) === "string" && colourName.startsWith("auto")) {
+        return colourMap[colourName.replace("auto", "light")];
+    } else {
+        return darkFontColour;
+    }
+}
+
+function lightColourFor(colourName) {
+    if(colourName instanceof Array) {
+        return colourMap[colourName[1]];
+    } else if(colourMap[colourName]) {
+        return colourMap[colourName];
+    } else if(typeof(colourName) === "string" && colourName.startsWith("auto")) {
+        return colourMap[colourName.replace("auto", "dark")];
+    } else {
+        return lightFontColour;
+    }
+}
+
 function parseRegex(regex) {
     var gen = [];
     try {
@@ -160,12 +182,23 @@ function process(hash, set, set_l) {
 
             var iconName = icon;
 
-            let darkColour = colourMap[colour];
-            if(darkColour && icons["_" + icon]) {
+            
+            if(icons["_" + icon] && colour !== undefined) {
                 iconName = icon + "_" + colour
 
+                let darkColour = darkColourFor(colour);
+                if(darkColour === undefined) {
+                    console.log("no dark colour in colourMap = " + colour);
+                }
                 icons["_" + iconName] = JSON.parse(JSON.stringify(icons["_" + icon]));
                 icons["_" + iconName].fontColor = darkColour;
+
+                let lightColour = lightColourFor(colour);
+                if(lightColour === undefined) {
+                    console.log("no light colour in colourMap = " + colour);
+                }
+                icons["_" + iconName + "_l"] = JSON.parse(JSON.stringify(icons["_" + icon + "_l"]));
+                icons["_" + iconName + "_l"].fontColor = darkColour;
             }
 
             if(ext instanceof RegExp) {
@@ -198,44 +231,61 @@ function process(hash, set, set_l) {
         }
     } else if(match instanceof RegExp) {
         let exts = parseRegex(match);
+        var iconName = icon;
 
-        let darkColour = colourMap[colour];
-        if (darkColour && icons["_" + icon]) {
-            let iconName = icon + "_" + colour;
+        if(icons["_" + icon] && colour !== undefined) {
+            iconName = icon + "_" + colour
 
+            let darkColour = darkColourFor(colour);
+            if(darkColour === undefined) {
+                console.log("no dark colour in colourMap = " + colour);
+            }
             icons["_" + iconName] = JSON.parse(JSON.stringify(icons["_" + icon]));
             icons["_" + iconName].fontColor = darkColour;
 
-            icon = iconName;
+            let lightColour = lightColourFor(colour);
+            if(lightColour === undefined) {
+                console.log("no light colour in colourMap = " + colour);
+            }
+            icons["_" + iconName + "_l"] = JSON.parse(JSON.stringify(icons["_" + icon + "_l"]));
+            icons["_" + iconName + "_l"].fontColor = darkColour;
         }
 
         for(var i = 0; i < exts.length; i++) {
             let ext = exts[i];
             if(ext.startsWith(".")) {
-                extensions[ext.substring(1)] = "_" + icon;
-                extensions_l[ext.substring(1)] = "_" + icon + "_l";
+                extensions[ext.substring(1)] = "_" + iconName;
+                extensions_l[ext.substring(1)] = "_" + iconName + "_l";
             } else {
-                set[ext] = "_" + icon;
-                set_l[ext] = "_" + icon + "_l";
+                set[ext] = "_" + iconName;
+                set_l[ext] = "_" + iconName + "_l";
             }
-            console.log(ext + " => " + icon);
+            console.log(ext + " => " + iconName);
         }
     } else if(typeof(match) === "string") {
         if(match.startsWith('.')) {
-            let darkColour = colourMap[colour];
+            var iconName = icon;
+            if(icons["_" + icon] && colour !== undefined) {
+                iconName = icon + "_" + colour
 
-            if (darkColour && icons["_" + icon]) {
-                let iconName = icon + "_" + colour;
-
+                let darkColour = darkColourFor(colour);
+                if(darkColour === undefined) {
+                    console.log("no dark colour in colourMap = " + colour);
+                }
                 icons["_" + iconName] = JSON.parse(JSON.stringify(icons["_" + icon]));
                 icons["_" + iconName].fontColor = darkColour;
 
-                icon = iconName;
+                let lightColour = lightColourFor(colour);
+                if(lightColour === undefined) {
+                    console.log("no light colour in colourMap = " + colour);
+                }
+                icons["_" + iconName + "_l"] = JSON.parse(JSON.stringify(icons["_" + icon + "_l"]));
+                icons["_" + iconName + "_l"].fontColor = darkColour;
             }
 
-            extensions[match.substring(1)] = "_" + icon;
-            extensions_l[match.substring(1)] = "_" + icon + "_l";
-            console.log(match + " => " + icon);
+            extensions[match.substring(1)] = "_" + iconName;
+            extensions_l[match.substring(1)] = "_" + iconName + "_l";
+            console.log(match + " => " + iconName);
         } else {
             console.log(match+ " skipped not a file extension");
         }
@@ -268,6 +318,7 @@ root.folderExpanded = "_folder";
 root.fileExtensions = extensions;
 root.fileNames = files;
 root.folderNames = folders;
+root.folderNamesExpanded = folders;
 root.languageIds = languages;
 root.light = {
     "file": '_file_l',
@@ -275,13 +326,22 @@ root.light = {
     "folderExpanded": "_folder_l",
     "fileExtensions": extensions_l,
     "fileNames": files_l,
-    "folderNames": folders_l
+    "folderNames": folders_l,
+    "folderNamesExpanded": folders_l
 };
 root.version = ("https://github.com/file-icons/vscode/commit/" + execSync('git rev-parse HEAD')).replace(/\n$/, '');
 
 let json = JSON.stringify(root, null, 2);
 fs.writeFile('./icons/file-icons-icon-theme.json', json, function() {});
 
-root.iconDefinitions = icons_c;
+Object.keys(icons).map(function(key, index) {
+    if(key.endsWith("_l")) {
+        icons[key].fontColor = lightFontColour;
+    } else {
+        icons[key].fontColor = darkFontColour;
+    }
+});
+// root.iconDefinitions = icons;
+
 let colourless = JSON.stringify(root, null, 2);
 fs.writeFile('./icons/file-icons-colourless-icon-theme.json', colourless, function() {});
