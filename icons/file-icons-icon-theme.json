@@ -4646,6 +4646,7 @@
     "7": "_manpage",
     "8": "_manpage",
     "9": "_manpage",
+    "gitignore": "_git",
     "bsl": "__1c",
     "sdbl": "__1c",
     "os": "__1c",
@@ -8998,5 +8999,5 @@
       "node_modules": "_node_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/a6fd0c8c33e47b5432b4c2af230b529a922e3cf2"
+  "version": "https://github.com/file-icons/vscode/commit/01e8d9d8ee21329b87d47e6b84a521185e4a2008"
 }

@@ -234,6 +234,9 @@ function process(hash) {
     }
 }
 
+// hardcoded files and folder, i.e ones that are default in atom
+extensions['gitignore'] = '_git';
+
 for(let fileIcon in defs.fileIcons ) {
     process(defs.fileIcons[fileIcon]);
 }
@@ -264,8 +267,8 @@ root.light = {
 root.version = ("https://github.com/file-icons/vscode/commit/" + execSync('git rev-parse HEAD')).replace(/\n$/, '');
 
 let json = JSON.stringify(root, null, 2);
-fs.writeFile('./icons/file-icons-theme.json', json, function() {});
+fs.writeFile('./icons/file-icons-icon-theme.json', json, function() {});
 
 root.iconDefinitions = icons_c;
 let colourless = JSON.stringify(root, null, 2);
-fs.writeFile('./icons/file-icons-colourless-theme.json', colourless, function() {});
+fs.writeFile('./icons/file-icons-colourless-icon-theme.json', colourless, function() {});
