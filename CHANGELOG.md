@@ -3,6 +3,10 @@ All notable changes to the "file-icons" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.4
+* [Fix] Remove BUILD file python icon, conflicts with build.*
+* [Support] Add colour to .git* icons
+
 ## 0.0.3
 * [Support] .gitignore and .gitattributes
 * [Support] Varying folder icons

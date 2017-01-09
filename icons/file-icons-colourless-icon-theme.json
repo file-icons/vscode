@@ -14546,8 +14546,8 @@
     "7": "_manpage_dark-green",
     "8": "_manpage_dark-green",
     "9": "_manpage_dark-green",
-    "gitignore": "_git",
-    "gitattributes": "_git",
+    "gitignore": "_git_medium-red",
+    "gitattributes": "_git_medium-red",
     "bsl": "__1c_medium-red",
     "sdbl": "__1c_dark-orange",
     "os": "__1c_dark-red",
@@ -16532,7 +16532,6 @@
     "pythonrc": "_python_dark-blue",
     "python-venv": "_python_dark-blue",
     "BUCK": "_python_dark-green",
-    "BUILD": "_python_dark-green",
     "SConstruct": "_python_dark-green",
     "SConscript": "_python_dark-green",
     "Snakefile": "_python_medium-green",
@@ -16739,6 +16738,8 @@
       "7": "_manpage_dark-green_l",
       "8": "_manpage_dark-green_l",
       "9": "_manpage_dark-green_l",
+      "gitignore": "_git_medium-red_l",
+      "gitattributes": "_git_medium-red_l",
       "bsl": "__1c_medium-red_l",
       "sdbl": "__1c_dark-orange_l",
       "os": "__1c_dark-red_l",
@@ -18723,7 +18724,6 @@
       "pythonrc": "_python_dark-blue_l",
       "python-venv": "_python_dark-blue_l",
       "BUCK": "_python_dark-green_l",
-      "BUILD": "_python_dark-green_l",
       "SConstruct": "_python_dark-green_l",
       "SConscript": "_python_dark-green_l",
       "Snakefile": "_python_medium-green_l",
@@ -18916,5 +18916,5 @@
       "node_modules": "_node_medium-green_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/0d1c9abaa6e084919a5332d0ae8400565f6720fd"
+  "version": "https://github.com/file-icons/vscode/commit/78335a75d2f5f957fe590122f403980fb8284fbd"
 }

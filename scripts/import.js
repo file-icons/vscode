@@ -295,8 +295,10 @@ function process(hash, set, set_l) {
 }
 
 // hardcoded files and folder, i.e ones that are default in atom
-extensions['gitignore'] = '_git';
-extensions['gitattributes'] = '_git';
+extensions['gitignore'] = '_git_medium-red';
+extensions['gitattributes'] = '_git_medium-red';
+extensions_l['gitignore'] = '_git_medium-red_l';
+extensions_l['gitattributes'] = '_git_medium-red_l';
 
 for(let fileIcon in defs.fileIcons ) {
     process(defs.fileIcons[fileIcon], files, files_l);
@@ -305,6 +307,10 @@ for(let fileIcon in defs.fileIcons ) {
 for(let directoryIcon in defs.directoryIcons) {
     process(defs.directoryIcons[directoryIcon], folders, folders_l);
 }
+
+// BUGFIX: BUILD as a fileName has precendence over a file extension, i.e. build.js
+delete files["BUILD"]
+delete files_l["BUILD"]
 
 var languages = [];
 
