@@ -13,6 +13,8 @@ File-specific icons in VSCode for improved visual grepping.
 `ext install file-icons`
 
 OSX: **Code** > **Preferences** > **File Icon Theme** > **File Icons**
+
+
 Windows: Go to **File** > **Preferences** > **File Icon Theme** > **File Icons**
 
 ## Icon Fonts
