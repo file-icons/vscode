@@ -3,6 +3,12 @@ All notable changes to the "file-icons" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.5
+New icons and extensions from upstream
+* [Support] 33 new icons: Ansible, Aurelia, bitHound, Brunch, Buck, Bundler, CakePHP (updated logo), Chef, COBOL, CodeKit, Delphi, Doclets, DoneJS, Drone, GitLab, HaxeDevelop, Jasmine, Jest, KitchenCI, Lerna, Lime, Microsoft InfoPath, Nuclide, Octave, PHPUnit, Redux, RSpec, Sequelize, Shipit, Shippable, Swagger, Template Toolkit, Twig
+* [Support] Blade (.blade), Erlang (Emakefile), GraphViz (.plantuml, .iuml, .puml, .pu), Jekyll (_config.yml, .nojekyll), MkDocs (mkdocs.yml), Paket (Various paket.* configs, .paket folders), Process IDs (.pid), Puppet (.epp), Tcl (.exp), Terminal (.profile), Visual Studio (.vscodeignore, .vsix, .vssettings.json, .vscode folders), Yarn (.yarnrc, .yarn-metadata.json, .yarn-integrity, .yarnclean), WeChat (.wxml, .wxss)
+* See https://github.com/file-icons/atom/releases/tag/v2.0.14 for full list
+
 ## 0.0.4
 * [Fix] Remove BUILD file python icon, conflicts with build.*
 * [Support] Add colour to .git* icons
