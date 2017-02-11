@@ -3,11 +3,17 @@ All notable changes to the "file-icons" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 0.0.6
+## 1.0.2
+* [Support] .cfignore as a default
+
+## 1.0.1
 New icons and extensions from upstream
 * [Support] ABIF (`.abif`, `.ab1`, `.fsa`), EJS (`.ejs`), Hoplon (`.hl`), KiCad (`.kicad_pcb`), Mercurial (`.hg`), PlatformIO (`platformio.ini`), Polymer (`polymer.json`), Rhino3D (`.3dm`, `.rvb`), VirtualBox (`.vbox`), VMware (`.vmdk,` `.nvram`, `.vmsd`, `.vmsn`, `.vmss`, `.vmtm`, `.vmx`, `.vmxf`)
 * [Support] LookML (`.lkml`), SQL (`.hql`)
 * See https://github.com/file-icons/atom/releases/tag/v2.0.15 for full list
+
+## 1.0.0
+Publish
 
 ## 0.0.5
 New icons and extensions from upstream
