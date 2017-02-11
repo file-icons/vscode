@@ -14548,6 +14548,7 @@
     "9": "_manpage_dark-green",
     "gitignore": "_git_medium-red",
     "gitattributes": "_git_medium-red",
+    "cfignore": "_gear_medium-yellow",
     "bsl": "__1c_medium-red",
     "sdbl": "__1c_dark-orange",
     "os": "__1c_dark-red",
@@ -16740,6 +16741,7 @@
       "9": "_manpage_dark-green_l",
       "gitignore": "_git_medium-red_l",
       "gitattributes": "_git_medium-red_l",
+      "cfignore": "_gear_medium-yellow_l",
       "bsl": "__1c_medium-red_l",
       "sdbl": "__1c_dark-orange_l",
       "os": "__1c_dark-red_l",
@@ -18916,5 +18918,5 @@
       "node_modules": "_node_medium-green_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/b66a6c69473f31c50b3ab943c8c86c873dffd4cf"
+  "version": "https://github.com/file-icons/vscode/commit/81754817b9a2c5831f12bb1d8617b73ce19f6ccf"
 }

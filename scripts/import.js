@@ -298,8 +298,10 @@ function process(hash, set, set_l) {
 // hardcoded files and folder, i.e ones that are default in atom
 extensions['gitignore'] = '_git_medium-red';
 extensions['gitattributes'] = '_git_medium-red';
+extensions['cfignore'] = '_gear_medium-yellow';
 extensions_l['gitignore'] = '_git_medium-red_l';
 extensions_l['gitattributes'] = '_git_medium-red_l';
+extensions_l['cfignore'] = '_gear_medium-yellow_l';
 
 for(let fileIcon in defs.fileIcons ) {
     process(defs.fileIcons[fileIcon], files, files_l);
