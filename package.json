@@ -2,7 +2,7 @@
     "name": "file-icons",
     "displayName": "file-icons",
     "description": "File-specific icons in VSCode for improved visual grepping.",
-    "version": "0.0.5",
+    "version": "1.0.0",
     "publisher": "file-icons",
     "engines": {
         "vscode": "^1.5.0"
@@ -37,8 +37,7 @@
         ]
     },
     "scripts": {
-        "vscode:prepublish": "tsc -p ./",
-        "compile": "node ./scripts/import.js",
+        "vscode:prepublish": "node ./scripts/import.js",
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./node_modules/vscode/bin/test",
         "import": "node ./scripts/import.js"

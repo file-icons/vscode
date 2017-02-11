@@ -65,6 +65,7 @@ while ((match = regex.exec(stylesIcons)) !== null) {
 }
 
 execSync("git submodule init; git submodule update")
+execSync("cp defs/fonts/*.woff2 icons/")
 
 let fonts = Object.values(fontMap).map(function (name){
     return {
@@ -152,7 +153,7 @@ function parseRegex(regex) {
     var gen = [];
     try {
         let count = genex(regex).count();
-    
+
         if (count <= 1000) {
             genex(regex).generate(function (output) {
                 gen.push(output);
@@ -176,13 +177,13 @@ function process(hash, set, set_l) {
         for(var m = 0; m < match.length; m++) {
 
             let nested = match[m];
-            
+
             var ext = nested[0];
             let colour = nested[1];
 
             var iconName = icon;
 
-            
+
             if(icons["_" + icon] && colour !== undefined) {
                 iconName = icon + "_" + colour
 
