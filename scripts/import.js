@@ -131,7 +131,7 @@ function darkColourFor(colourName) {
     } else if(colourMap[colourName]) {
         return colourMap[colourName];
     } else if(typeof(colourName) === "string" && colourName.startsWith("auto")) {
-        return colourMap[colourName.replace("auto", "light")];
+        return colourMap[colourName.replace("auto", "medium")];
     } else {
         return darkFontColour;
     }
