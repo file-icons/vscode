@@ -315,7 +315,7 @@ for(let directoryIcon in defs.directoryIcons) {
 delete files["BUILD"]
 delete files_l["BUILD"]
 
-var languages = [];
+var languages = {};
 
 // export file-icons-icon-theme.json and file-icons-colourless-icon-theme.json
 var root = {};
@@ -350,7 +350,6 @@ Object.keys(icons).map(function(key, index) {
         icons[key].fontColor = darkFontColour;
     }
 });
-// root.iconDefinitions = icons;
 
 let colourless = JSON.stringify(root, null, 2);
 fs.writeFile('./icons/file-icons-colourless-icon-theme.json', colourless, function() {});
