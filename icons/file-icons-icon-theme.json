@@ -16061,7 +16061,6 @@
     "xcodeproj": "_appstore"
   },
   "fileNames": {
-    "Dockerfile": "_docker_dark-blue",
     "APKBUILD": "_alpine_dark-blue",
     "ant.xml": "_ant_dark-pink",
     "apache conf": "_apache_medium-red",
@@ -16434,6 +16433,7 @@
     "control": "_debian_dark-cyan",
     "rules": "_debian_medium-cyan",
     "CNAME": "_earth_dark-blue",
+    "Dockerfile": "_docker_dark-blue",
     "docker-compose": "_docker_dark-blue",
     "docker-sync.yml": "_docker_dark-orange",
     "dojo.js": "_dojo_light-red",
@@ -18918,5 +18918,5 @@
       "node_modules": "_node_medium-green_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/d88e27ca92297755250134078b415ce1654a299b"
+  "version": "https://github.com/file-icons/vscode/commit/476eb29a218b51c41f3c192633be37d8bd8a818b"
 }

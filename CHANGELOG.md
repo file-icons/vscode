@@ -3,6 +3,10 @@ All notable changes to the "file-icons" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.4
+New icons and extensions from upstream
+Lots # TODO: add list here
+
 ## 1.0.3
 New icons and extensions from upstream
 - [Support] AngelScript (`.acs`, `.angelscript`), Bazel (`.bzl`, `BUILD`, `WORKSPACE`), BEM (`.bemjson.js`), Caddy (`Caddyfile`), DeviceTree (`.dts`, `.dtsi`), Franca (`.fdl`, `.fidl`, `.fdepl`), Jison (`.jison`, `.jisonlex`), Meson (`meson.build`, `meson_options.txt`), MiniZinc (`.mzn`, `.dzn`), Miranda (`.m`), Nanoc (`.nanoc.yaml`), P4 (`.p4`), Watchman (`.watchmanconfig`, `watchman.json`), ESDoc (`esdoc.json`), JSONT (`.jsont`), Twine (`.tw`), and Phoenix (`phoenix.{ex,js}`)

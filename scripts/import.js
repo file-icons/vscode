@@ -64,7 +64,7 @@ while ((match = regex.exec(stylesIcons)) !== null) {
     };
 }
 
-execSync("git submodule init; git submodule update")
+execSync("git submodule init; git submodule update; cd defs; git checkout master; cd ..;")
 execSync("cp defs/fonts/*.woff2 icons/")
 
 let fonts = Object.values(fontMap).map(function (name){
