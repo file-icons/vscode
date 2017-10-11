@@ -17812,6 +17812,7 @@
     "java": "_java_medium-purple",
     "js": "_js_auto-yellow",
     "_js": "_js_auto-orange",
+    "test.js": "_test-js_auto-yellow",
     "jsb": "_js_auto-maroon",
     "jsm": "_js_auto-blue",
     "jss": "_js_auto-green",
