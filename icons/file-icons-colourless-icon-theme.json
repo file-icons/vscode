@@ -83,14 +83,24 @@
       "fontId": "octicons"
     },
     "_folder": {
-      "fontCharacter": "\\f016",
+      "fontCharacter": "\\f07b",
       "fontColor": "#cccccc",
-      "fontId": "octicons"
+      "fontId": "fontawesome"
     },
     "_folder_l": {
-      "fontCharacter": "\\f016",
+      "fontCharacter": "\\f07b",
       "fontColor": "#6c6c6c",
-      "fontId": "octicons"
+      "fontId": "fontawesome"
+    },
+    "_folder_open": {
+      "fontCharacter": "\\f07c",
+      "fontColor": "#cccccc",
+      "fontId": "fontawesome"
+    },
+    "_folder_open_l": {
+      "fontCharacter": "\\f07c",
+      "fontColor": "#6c6c6c",
+      "fontId": "fontawesome"
     },
     "_zip": {
       "fontCharacter": "\\f013",
@@ -17035,7 +17045,7 @@
   },
   "file": "_file",
   "folder": "_folder",
-  "folderExpanded": "_folder",
+  "folderExpanded": "_folder_open",
   "fileExtensions": {
     "1": "_manpage_dark-green",
     "2": "_manpage_dark-green",
@@ -19607,7 +19617,7 @@
   "light": {
     "file": "_file_l",
     "folder": "_folder_l",
-    "folderExpanded": "_folder_l",
+    "folderExpanded": "_folder_open_l",
     "fileExtensions": {
       "1": "_manpage_dark-green_l",
       "2": "_manpage_dark-green_l",
