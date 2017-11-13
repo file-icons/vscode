@@ -3,6 +3,13 @@ All notable changes to the "file-icons" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.6
+New icons and extensions from upstream
+- [Fix] Dockerfile, fileNames needed to be lower cased, thanks @costela
+
+## 1.0.5
+New icons and extensions from upstream
+
 ## 1.0.4
 New icons and extensions from upstream
 Lots # TODO: add list here

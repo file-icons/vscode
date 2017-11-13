@@ -208,22 +208,22 @@ function process(hash, set, set_l) {
                 for(var i = 0; i < exts.length; i++) {
                     let ext = exts[i];
                     if(ext.startsWith(".")) {
-                        extensions[ext.substring(1)] = "_" +iconName;
-                        extensions_l[ext.substring(1)] = "_" + iconName + "_l";
+                        extensions[ext.substring(1).toLowerCase()] = "_" +iconName;
+                        extensions_l[ext.substring(1).toLowerCase()] = "_" + iconName + "_l";
                     } else {
-                        set[ext] = "_" + iconName;
-                        set_l[ext] = "_" + iconName + "_l";
+                        set[ext.toLowerCase()] = "_" + iconName;
+                        set_l[ext.toLowerCase()] = "_" + iconName + "_l";
                     }
                     console.log(ext + " => " + iconName);
                 }
             } else if(typeof(ext) === "string") {
                 console.log("string " + util.inspect(ext));
                 if(ext.startsWith(".")) {
-                    extensions[ext.substring(1)] = "_" + iconName;
-                    extensions_l[ext.substring(1)] = "_" + iconName + "_l";
+                    extensions[ext.substring(1).toLowerCase()] = "_" + iconName;
+                    extensions_l[ext.substring(1).toLowerCase()] = "_" + iconName + "_l";
                 } else {
-                    set[ext] = "_" + iconName;
-                    set_l[ext] = "_" + iconName + "_l";
+                    set[ext.toLowerCase()] = "_" + iconName;
+                    set_l[ext.toLowerCase()] = "_" + iconName + "_l";
                 }
                 console.log(ext + " => " + iconName);
             } else {
@@ -255,11 +255,11 @@ function process(hash, set, set_l) {
         for(var i = 0; i < exts.length; i++) {
             let ext = exts[i];
             if(ext.startsWith(".")) {
-                extensions[ext.substring(1)] = "_" + iconName;
-                extensions_l[ext.substring(1)] = "_" + iconName + "_l";
+                extensions[ext.substring(1).toLowerCase()] = "_" + iconName;
+                extensions_l[ext.substring(1).toLowerCase()] = "_" + iconName + "_l";
             } else {
-                set[ext] = "_" + iconName;
-                set_l[ext] = "_" + iconName + "_l";
+                set[ext.toLowerCase()] = "_" + iconName;
+                set_l[ext.toLowerCase()] = "_" + iconName + "_l";
             }
             console.log(ext + " => " + iconName);
         }
@@ -284,8 +284,8 @@ function process(hash, set, set_l) {
                 icons["_" + iconName + "_l"].fontColor = darkColour;
             }
 
-            extensions[match.substring(1)] = "_" + iconName;
-            extensions_l[match.substring(1)] = "_" + iconName + "_l";
+            extensions[match.substring(1).toLowerCase()] = "_" + iconName;
+            extensions_l[match.substring(1).toLowerCase()] = "_" + iconName + "_l";
             console.log(match + " => " + iconName);
         } else {
             console.log(match+ " skipped not a file extension");
