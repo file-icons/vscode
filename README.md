@@ -1,4 +1,4 @@
-File Icons [![Version](http://vsmarketplacebadge.apphb.com/version/file-icons.file-icons.svg)](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
+File Icons [![Version](https://vsmarketplacebadge.apphb.com/version/file-icons.file-icons.svg)](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
 
 ==========
 File-specific icons in VSCode for improved visual grepping.
