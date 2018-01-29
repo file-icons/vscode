@@ -62,6 +62,26 @@
     }
   ],
   "iconDefinitions": {
+    "_fd_root": {
+      "fontCharacter": "\\f001",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_fd_root_l": {
+      "fontCharacter": "\\f001",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_fd_root_open": {
+        "fontCharacter": "\\f001",
+        "fontColor": "#cccccc",
+        "fontId": "octicons"
+    },
+    "_fd_root_open_l": {
+        "fontCharacter": "\\f001",
+        "fontColor": "#6c6c6c",
+        "fontId": "octicons"
+    },
     "_file": {
       "fontCharacter": "\\f011",
       "fontColor": "#cccccc",
@@ -17036,6 +17056,8 @@
   "file": "_file",
   "folder": "_folder",
   "folderExpanded": "_folder",
+  "rootFolder": "_fd_root",
+  "rootFolderExpanded": "_fd_root_open",
   "fileExtensions": {
     "1": "_manpage_dark-green",
     "2": "_manpage_dark-green",
@@ -19498,6 +19520,8 @@
     "file": "_file_l",
     "folder": "_folder_l",
     "folderExpanded": "_folder_l",
+    "rootFolder": "_fd_root_l",
+    "rootFolderExpanded": "_fd_root_open_l",
     "fileExtensions": {
       "1": "_manpage_dark-green_l",
       "2": "_manpage_dark-green_l",
