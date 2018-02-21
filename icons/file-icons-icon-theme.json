@@ -19479,7 +19479,9 @@
     "webpackfile.js": "_webpack_medium-blue",
     "wercker.yml": "_wercker_medium-purple",
     "wercker.yaml": "_wercker_medium-purple",
-    "yarn.lock": "_yarn_medium-blue"
+    "yarn.lock": "_yarn_medium-blue",
+    ".env": "_gear_dark-green",
+    ".env.example": "_gear_dark-green"
   },
   "folderNames": {
     "bower-components": "_bower_medium-yellow,medium-orange",
