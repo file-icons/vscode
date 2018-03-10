@@ -332,6 +332,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "fontawesome"
     },
+    "_backup": {
+      "fontCharacter": "\\f1da",
+      "fontColor": "#cccccc",
+      "fontId": "fontawesome"
+    },
+    "_backup_l": {
+      "fontCharacter": "\\f1da",
+      "fontColor": "#6c6c6c",
+      "fontId": "fontawesome"
+    },
     "_book-alt": {
       "fontCharacter": "\\f02d",
       "fontColor": "#cccccc",
@@ -672,16 +682,6 @@
       "fontColor": "#6c6c6c",
       "fontId": "mfixx"
     },
-    "_perl": {
-      "fontCharacter": "\\f142",
-      "fontColor": "#cccccc",
-      "fontId": "mfixx"
-    },
-    "_perl_l": {
-      "fontCharacter": "\\f142",
-      "fontColor": "#6c6c6c",
-      "fontId": "mfixx"
-    },
     "_python": {
       "fontCharacter": "\\f14c",
       "fontColor": "#cccccc",
@@ -922,6 +922,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "devopicons"
     },
+    "_firefox": {
+      "fontCharacter": "\\e645",
+      "fontColor": "#cccccc",
+      "fontId": "devopicons"
+    },
+    "_firefox_l": {
+      "fontCharacter": "\\e645",
+      "fontColor": "#6c6c6c",
+      "fontId": "devopicons"
+    },
     "_fsharp": {
       "fontCharacter": "\\e6a7",
       "fontColor": "#cccccc",
@@ -1032,12 +1042,12 @@
       "fontColor": "#6c6c6c",
       "fontId": "devopicons"
     },
-    "_pod": {
+    "_perl": {
       "fontCharacter": "\\e669",
       "fontColor": "#cccccc",
       "fontId": "devopicons"
     },
-    "_pod_l": {
+    "_perl_l": {
       "fontCharacter": "\\e669",
       "fontColor": "#6c6c6c",
       "fontId": "devopicons"
@@ -1092,6 +1102,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "devopicons"
     },
+    "_safari": {
+      "fontCharacter": "\\e648",
+      "fontColor": "#cccccc",
+      "fontId": "devopicons"
+    },
+    "_safari_l": {
+      "fontCharacter": "\\e648",
+      "fontColor": "#6c6c6c",
+      "fontId": "devopicons"
+    },
     "_sass": {
       "fontCharacter": "\\e64b",
       "fontColor": "#cccccc",
@@ -1139,6 +1159,16 @@
     },
     "_travis_l": {
       "fontCharacter": "\\e67e",
+      "fontColor": "#6c6c6c",
+      "fontId": "devopicons"
+    },
+    "_typo3": {
+      "fontCharacter": "\\e672",
+      "fontColor": "#cccccc",
+      "fontId": "devopicons"
+    },
+    "_typo3_l": {
+      "fontCharacter": "\\e672",
       "fontColor": "#6c6c6c",
       "fontId": "devopicons"
     },
@@ -1482,6 +1512,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_atoum": {
+      "fontCharacter": "\\2649",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_atoum_l": {
+      "fontCharacter": "\\2649",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_ats": {
       "fontCharacter": "\\e934",
       "fontColor": "#cccccc",
@@ -1532,6 +1572,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_avro": {
+      "fontCharacter": "\\eaa3",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_avro_l": {
+      "fontCharacter": "\\eaa3",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_babel": {
       "fontCharacter": "\\e91f",
       "fontColor": "#cccccc",
@@ -1549,6 +1599,16 @@
     },
     "_bazel_l": {
       "fontCharacter": "\\ea5a",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_behat": {
+      "fontCharacter": "\\ea89",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_behat_l": {
+      "fontCharacter": "\\ea89",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -1673,12 +1733,12 @@
       "fontId": "file-icons"
     },
     "_brotli": {
-      "fontCharacter": "\\ea6c",
+      "fontCharacter": "\\eaa2",
       "fontColor": "#cccccc",
       "fontId": "file-icons"
     },
     "_brotli_l": {
-      "fontCharacter": "\\ea6c",
+      "fontCharacter": "\\eaa2",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -1689,6 +1749,16 @@
     },
     "_browserslist_l": {
       "fontCharacter": "\\ea80",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_browsersync": {
+      "fontCharacter": "b",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_browsersync_l": {
+      "fontCharacter": "b",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -1752,6 +1822,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_caffe": {
+      "fontCharacter": "\\ea9a",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_caffe_l": {
+      "fontCharacter": "\\ea9a",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_cake": {
       "fontCharacter": "\\e9e3",
       "fontColor": "#cccccc",
@@ -1779,6 +1859,16 @@
     },
     "_cakephp_l": {
       "fontCharacter": "\\ea43",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_carthage": {
+      "fontCharacter": "\\ea98",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_carthage_l": {
+      "fontCharacter": "\\ea98",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -1972,6 +2062,26 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_cocoapods": {
+      "fontCharacter": "\\ea97",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_cocoapods_l": {
+      "fontCharacter": "\\ea97",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_codacy": {
+      "fontCharacter": "\\ea8b",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_codacy_l": {
+      "fontCharacter": "\\ea8b",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_codecov": {
       "fontCharacter": "\\2602",
       "fontColor": "#cccccc",
@@ -2022,6 +2132,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_conll": {
+      "fontCharacter": "\\eaa6",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_conll_l": {
+      "fontCharacter": "\\eaa6",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_coq": {
       "fontCharacter": "\\e95f",
       "fontColor": "#cccccc",
@@ -2042,6 +2162,26 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_corel": {
+      "fontCharacter": "\\ea91",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_corel_l": {
+      "fontCharacter": "\\ea91",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_coreldraw": {
+      "fontCharacter": "\\ea90",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_coreldraw_l": {
+      "fontCharacter": "\\ea90",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_cp": {
       "fontCharacter": "\\e942",
       "fontColor": "#cccccc",
@@ -2049,6 +2189,16 @@
     },
     "_cp_l": {
       "fontCharacter": "\\e942",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_cpan": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_cpan_l": {
+      "fontCharacter": "\\ea87",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -2102,6 +2252,26 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_curl": {
+      "fontCharacter": "/",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_curl_l": {
+      "fontCharacter": "/",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_cwl": {
+      "fontCharacter": "\\29d9",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_cwl_l": {
+      "fontCharacter": "\\29d9",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_cython": {
       "fontCharacter": "\\e963",
       "fontColor": "#cccccc",
@@ -2139,6 +2309,16 @@
     },
     "_dashboard_l": {
       "fontCharacter": "\\f07d",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_dataweave": {
+      "fontCharacter": "\\ea99",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_dataweave_l": {
+      "fontCharacter": "\\ea99",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -2289,6 +2469,16 @@
     },
     "_eagle_l": {
       "fontCharacter": "\\e965",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_easybuild": {
+      "fontCharacter": "\\ea85",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_easybuild_l": {
+      "fontCharacter": "\\ea85",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -2522,6 +2712,26 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_firebase-bolt": {
+      "fontCharacter": "\\26A1",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_firebase-bolt_l": {
+      "fontCharacter": "\\26A1",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_flask": {
+      "fontCharacter": "\\1f704",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_flask_l": {
+      "fontCharacter": "\\1f704",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_flow": {
       "fontCharacter": "\\e921",
       "fontColor": "#cccccc",
@@ -2662,6 +2872,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_gimp": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_gimp_l": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_gitlab": {
       "fontCharacter": "\\ea3c",
       "fontColor": "#cccccc",
@@ -2679,6 +2899,16 @@
     },
     "_glade_l": {
       "fontCharacter": "\\e938",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_gltf": {
+      "fontCharacter": "\\eaa7",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_gltf_l": {
+      "fontCharacter": "\\eaa7",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -2769,6 +2999,16 @@
     },
     "_gradle_l": {
       "fontCharacter": "\\e903",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_graphite": {
+      "fontCharacter": "\\ea8a",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_graphite_l": {
+      "fontCharacter": "\\ea8a",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -2902,6 +3142,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_hp": {
+      "fontCharacter": "\\33cb",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_hp_l": {
+      "fontCharacter": "\\33cb",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_hy": {
       "fontCharacter": "\\e97f",
       "fontColor": "#cccccc",
@@ -2909,6 +3159,26 @@
     },
     "_hy_l": {
       "fontCharacter": "\\e97f",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_kx": {
+      "fontCharacter": "\\ea9b",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_kx_l": {
+      "fontCharacter": "\\ea9b",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_icomoon": {
+      "fontCharacter": "\\eaea",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_icomoon_l": {
+      "fontCharacter": "\\eaea",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -2979,6 +3249,16 @@
     },
     "_inno_l": {
       "fontCharacter": "\\e985",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_imba": {
+      "fontCharacter": "\\1f4a0",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_imba_l": {
+      "fontCharacter": "\\1f4a0",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -3782,6 +4062,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_nextflow": {
+      "fontCharacter": "\\eaa5",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_nextflow_l": {
+      "fontCharacter": "\\eaa5",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_nib": {
       "fontCharacter": "\\2712",
       "fontColor": "#cccccc",
@@ -3839,6 +4129,16 @@
     },
     "_nodemon_l": {
       "fontCharacter": "\\ea26",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_nomad": {
+      "fontCharacter": "\\ea96",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_nomad_l": {
+      "fontCharacter": "\\ea96",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -4222,6 +4522,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_pipenv": {
+      "fontCharacter": "\\1f381",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_pipenv_l": {
+      "fontCharacter": "\\1f381",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_platformio": {
       "fontCharacter": "\\ea2c",
       "fontColor": "#cccccc",
@@ -4239,6 +4549,16 @@
     },
     "_pm2_l": {
       "fontCharacter": "\\2630",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_pod": {
+      "fontCharacter": "\\ea84",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_pod_l": {
+      "fontCharacter": "\\ea84",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -4352,6 +4672,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_prettier": {
+      "fontCharacter": "\\eaa1",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_prettier_l": {
+      "fontCharacter": "\\eaa1",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_processing": {
       "fontCharacter": "\\e9a0",
       "fontColor": "#cccccc",
@@ -4462,6 +4792,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_pypi": {
+      "fontCharacter": "\\ea94",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_pypi_l": {
+      "fontCharacter": "\\ea94",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_r": {
       "fontCharacter": "\\e905",
       "fontColor": "#cccccc",
@@ -4562,6 +4902,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_reek": {
+      "fontCharacter": "\\eaa0",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_reek_l": {
+      "fontCharacter": "\\eaa0",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_regex": {
       "fontCharacter": "*",
       "fontColor": "#cccccc",
@@ -4592,6 +4942,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_ring": {
+      "fontCharacter": "\\1f48d",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_ring_l": {
+      "fontCharacter": "\\1f48d",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_riot": {
       "fontCharacter": "\\e919",
       "fontColor": "#cccccc",
@@ -4609,6 +4969,16 @@
     },
     "_robot_l": {
       "fontCharacter": "\\e9ac",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_robots": {
+      "fontCharacter": "\\1f916",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_robots_l": {
+      "fontCharacter": "\\1f916",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -4892,6 +5262,26 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_solidity": {
+      "fontCharacter": "\\ea86",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_solidity_l": {
+      "fontCharacter": "\\ea86",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_spacemacs": {
+      "fontCharacter": "\\eaa4",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_spacemacs_l": {
+      "fontCharacter": "\\eaa4",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_sparql": {
       "fontCharacter": "\\e959",
       "fontColor": "#cccccc",
@@ -4949,6 +5339,16 @@
     },
     "_stata_l": {
       "fontCharacter": "\\e9a3",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_stencil": {
+      "fontCharacter": "\\ea95",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_stencil_l": {
+      "fontCharacter": "\\ea95",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -5219,6 +5619,26 @@
     },
     "_thor_l": {
       "fontCharacter": "\\e9d8",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_tmux": {
+      "fontCharacter": "\\ea8c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_tmux_l": {
+      "fontCharacter": "\\ea8c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_tortoise": {
+      "fontCharacter": "\\ea93",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_tortoise_l": {
+      "fontCharacter": "\\ea93",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -5572,6 +5992,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_yaml": {
+      "fontCharacter": "y",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_yaml_l": {
+      "fontCharacter": "y",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_yang": {
       "fontCharacter": "\\262f",
       "fontColor": "#cccccc",
@@ -5579,6 +6009,16 @@
     },
     "_yang_l": {
       "fontCharacter": "\\262f",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_yara": {
+      "fontCharacter": "\\ea9f",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_yara_l": {
+      "fontCharacter": "\\ea9f",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -5941,6 +6381,36 @@
       "fontCharacter": "\\e94e",
       "fontColor": "#573421",
       "fontId": "file-icons"
+    },
+    "_android_medium-green": {
+      "fontCharacter": "\\f17b",
+      "fontColor": "#90a959",
+      "fontId": "fontawesome"
+    },
+    "_android_medium-green_l": {
+      "fontCharacter": "\\f17b",
+      "fontColor": "#90a959",
+      "fontId": "fontawesome"
+    },
+    "_android_dark-maroon": {
+      "fontCharacter": "\\f17b",
+      "fontColor": "#573421",
+      "fontId": "fontawesome"
+    },
+    "_android_dark-maroon_l": {
+      "fontCharacter": "\\f17b",
+      "fontColor": "#573421",
+      "fontId": "fontawesome"
+    },
+    "_android_dark-cyan": {
+      "fontCharacter": "\\f17b",
+      "fontColor": "#4d9085",
+      "fontId": "fontawesome"
+    },
+    "_android_dark-cyan_l": {
+      "fontCharacter": "\\f17b",
+      "fontColor": "#4d9085",
+      "fontId": "fontawesome"
     },
     "_angelscript_auto-blue": {
       "fontCharacter": "\\ea5b",
@@ -6372,6 +6842,16 @@
       "fontColor": "#825078",
       "fontId": "octicons"
     },
+    "_atoum_medium-blue": {
+      "fontCharacter": "\\2649",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_atoum_medium-blue_l": {
+      "fontCharacter": "\\2649",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
     "_ats_medium-red": {
       "fontCharacter": "\\e934",
       "fontColor": "#ac4142",
@@ -6572,6 +7052,16 @@
       "fontColor": "#aa759f",
       "fontId": "file-icons"
     },
+    "_avro_medium-blue": {
+      "fontCharacter": "\\eaa3",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_avro_medium-blue_l": {
+      "fontCharacter": "\\eaa3",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
     "_terminal_medium-blue": {
       "fontCharacter": "\\f0c8",
       "fontColor": "#6a9fb5",
@@ -6670,6 +7160,16 @@
     "_bazel_dark-blue_l": {
       "fontCharacter": "\\ea5a",
       "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_behat_medium-cyan": {
+      "fontCharacter": "\\ea89",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_behat_medium-cyan_l": {
+      "fontCharacter": "\\ea89",
+      "fontColor": "#75b5aa",
       "fontId": "file-icons"
     },
     "_bem_medium-maroon": {
@@ -6943,12 +7443,12 @@
       "fontId": "file-icons"
     },
     "_brotli_medium-orange": {
-      "fontCharacter": "\\ea6c",
+      "fontCharacter": "\\eaa2",
       "fontColor": "#d28445",
       "fontId": "file-icons"
     },
     "_brotli_medium-orange_l": {
-      "fontCharacter": "\\ea6c",
+      "fontCharacter": "\\eaa2",
       "fontColor": "#d28445",
       "fontId": "file-icons"
     },
@@ -6960,6 +7460,16 @@
     "_browserslist_medium-orange_l": {
       "fontCharacter": "\\ea80",
       "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_browsersync_medium-red": {
+      "fontCharacter": "b",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_browsersync_medium-red_l": {
+      "fontCharacter": "b",
+      "fontColor": "#ac4142",
       "fontId": "file-icons"
     },
     "_brunch_medium-green": {
@@ -7000,6 +7510,16 @@
     "_bundler_auto-blue_l": {
       "fontCharacter": "\\ea45",
       "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_bundler_auto-cyan": {
+      "fontCharacter": "\\ea45",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_bundler_auto-cyan_l": {
+      "fontCharacter": "\\ea45",
+      "fontColor": "#75b5aa",
       "fontId": "file-icons"
     },
     "_byond_medium-blue": {
@@ -7152,6 +7672,26 @@
       "fontColor": "#46788d",
       "fontId": "file-icons"
     },
+    "_caffe_medium-maroon": {
+      "fontCharacter": "\\ea9a",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_caffe_medium-maroon_l": {
+      "fontCharacter": "\\ea9a",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_caffe_medium-green": {
+      "fontCharacter": "\\ea9a",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_caffe_medium-green_l": {
+      "fontCharacter": "\\ea9a",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
     "_cake_medium-yellow": {
       "fontCharacter": "\\e9e3",
       "fontColor": "#f4bf75",
@@ -7202,6 +7742,16 @@
       "fontColor": "#a35f27",
       "fontId": "octicons"
     },
+    "_carthage_dark-pink": {
+      "fontCharacter": "\\ea98",
+      "fontColor": "#b3008f",
+      "fontId": "file-icons"
+    },
+    "_carthage_dark-pink_l": {
+      "fontCharacter": "\\ea98",
+      "fontColor": "#b3008f",
+      "fontId": "file-icons"
+    },
     "_ceylon_medium-orange": {
       "fontCharacter": "\\e94f",
       "fontColor": "#d28445",
@@ -7250,6 +7800,16 @@
     "_checklist_medium-yellow_l": {
       "fontCharacter": "\\f076",
       "fontColor": "#f4bf75",
+      "fontId": "octicons"
+    },
+    "_checklist_medium-green": {
+      "fontCharacter": "\\f076",
+      "fontColor": "#90a959",
+      "fontId": "octicons"
+    },
+    "_checklist_medium-green_l": {
+      "fontCharacter": "\\f076",
+      "fontColor": "#90a959",
       "fontId": "octicons"
     },
     "_chef_auto-orange": {
@@ -7450,6 +8010,26 @@
     "_cobol_auto-blue_l": {
       "fontCharacter": "\\ea44",
       "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_cocoapods_medium-red": {
+      "fontCharacter": "\\ea97",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_cocoapods_medium-red_l": {
+      "fontCharacter": "\\ea97",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_codacy_dark-blue": {
+      "fontCharacter": "\\ea8b",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_codacy_dark-blue_l": {
+      "fontCharacter": "\\ea8b",
+      "fontColor": "#46788d",
       "fontId": "file-icons"
     },
     "_cc_medium-green": {
@@ -7842,6 +8422,16 @@
       "fontColor": "#cccccc",
       "fontId": "file-icons"
     },
+    "_config_dark-green": {
+      "fontCharacter": "\\f07c",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_config_dark-green_l": {
+      "fontCharacter": "\\f07c",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
     "_config_dark-orange": {
       "fontCharacter": "\\f07c",
       "fontColor": "#a35f27",
@@ -7862,6 +8452,26 @@
       "fontColor": "#8f5536",
       "fontId": "file-icons"
     },
+    "_conll_medium-blue": {
+      "fontCharacter": "\\eaa6",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_conll_medium-blue_l": {
+      "fontCharacter": "\\eaa6",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_conll_medium-orange": {
+      "fontCharacter": "\\eaa6",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_conll_medium-orange_l": {
+      "fontCharacter": "\\eaa6",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
     "_coq_medium-maroon": {
       "fontCharacter": "\\e95f",
       "fontColor": "#8f5536",
@@ -7880,6 +8490,66 @@
     "_cordova_light-blue_l": {
       "fontCharacter": "\\ea11",
       "fontColor": "#9dc0ce",
+      "fontId": "file-icons"
+    },
+    "_corel_medium-blue": {
+      "fontCharacter": "\\ea91",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_corel_medium-blue_l": {
+      "fontCharacter": "\\ea91",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_coreldraw_medium-green": {
+      "fontCharacter": "\\ea90",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_coreldraw_medium-green_l": {
+      "fontCharacter": "\\ea90",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_cpan_dark-blue": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_cpan_dark-blue_l": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_cpan_medium-red": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_cpan_medium-red_l": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_cpan_auto-yellow": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_cpan_auto-yellow_l": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_cpan_medium-maroon": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_cpan_medium-maroon_l": {
+      "fontCharacter": "\\ea87",
+      "fontColor": "#8f5536",
       "fontId": "file-icons"
     },
     "_creole_medium-blue": {
@@ -7992,6 +8662,26 @@
       "fontColor": "#66783e",
       "fontId": "file-icons"
     },
+    "_curl_dark-blue": {
+      "fontCharacter": "/",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_curl_dark-blue_l": {
+      "fontCharacter": "/",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_cwl_dark-red": {
+      "fontCharacter": "\\29d9",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_cwl_dark-red_l": {
+      "fontCharacter": "\\29d9",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
     "_cython_medium-orange": {
       "fontCharacter": "\\e963",
       "fontColor": "#d28445",
@@ -8092,6 +8782,16 @@
       "fontColor": "#90a959",
       "fontId": "file-icons"
     },
+    "_dashboard_medium-blue": {
+      "fontCharacter": "\\f07d",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_dashboard_medium-blue_l": {
+      "fontCharacter": "\\f07d",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
     "_database_medium-yellow": {
       "fontCharacter": "\\f096",
       "fontColor": "#f4bf75",
@@ -8102,16 +8802,6 @@
       "fontColor": "#f4bf75",
       "fontId": "octicons"
     },
-    "_database_light-red": {
-      "fontCharacter": "\\f096",
-      "fontColor": "#c97071",
-      "fontId": "octicons"
-    },
-    "_database_light-red_l": {
-      "fontCharacter": "\\f096",
-      "fontColor": "#c97071",
-      "fontId": "octicons"
-    },
     "_database_medium-maroon": {
       "fontCharacter": "\\f096",
       "fontColor": "#8f5536",
@@ -8120,6 +8810,16 @@
     "_database_medium-maroon_l": {
       "fontCharacter": "\\f096",
       "fontColor": "#8f5536",
+      "fontId": "octicons"
+    },
+    "_database_medium-orange": {
+      "fontCharacter": "\\f096",
+      "fontColor": "#d28445",
+      "fontId": "octicons"
+    },
+    "_database_medium-orange_l": {
+      "fontCharacter": "\\f096",
+      "fontColor": "#d28445",
       "fontId": "octicons"
     },
     "_database_dark-yellow": {
@@ -8140,16 +8840,6 @@
     "_database_medium-red_l": {
       "fontCharacter": "\\f096",
       "fontColor": "#ac4142",
-      "fontId": "octicons"
-    },
-    "_database_medium-orange": {
-      "fontCharacter": "\\f096",
-      "fontColor": "#d28445",
-      "fontId": "octicons"
-    },
-    "_database_medium-orange_l": {
-      "fontCharacter": "\\f096",
-      "fontColor": "#d28445",
       "fontId": "octicons"
     },
     "_database_light-blue": {
@@ -8190,6 +8880,16 @@
     "_database_dark-blue_l": {
       "fontCharacter": "\\f096",
       "fontColor": "#46788d",
+      "fontId": "octicons"
+    },
+    "_database_dark-red": {
+      "fontCharacter": "\\f096",
+      "fontColor": "#c97071",
+      "fontId": "octicons"
+    },
+    "_database_dark-red_l": {
+      "fontCharacter": "\\f096",
+      "fontColor": "#c97071",
       "fontId": "octicons"
     },
     "_database_dark-purple": {
@@ -8242,15 +8942,35 @@
       "fontColor": "#6a9fb5",
       "fontId": "octicons"
     },
-    "_database_dark-red": {
+    "_database_dark-orange": {
       "fontCharacter": "\\f096",
-      "fontColor": "#c97071",
+      "fontColor": "#a35f27",
       "fontId": "octicons"
     },
-    "_database_dark-red_l": {
+    "_database_dark-orange_l": {
       "fontCharacter": "\\f096",
-      "fontColor": "#c97071",
+      "fontColor": "#a35f27",
       "fontId": "octicons"
+    },
+    "_database_medium-green": {
+      "fontCharacter": "\\f096",
+      "fontColor": "#90a959",
+      "fontId": "octicons"
+    },
+    "_database_medium-green_l": {
+      "fontCharacter": "\\f096",
+      "fontColor": "#90a959",
+      "fontId": "octicons"
+    },
+    "_dataweave_auto-blue": {
+      "fontCharacter": "\\ea99",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_dataweave_auto-blue_l": {
+      "fontCharacter": "\\ea99",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
     },
     "_dbase_medium-red": {
       "fontCharacter": "\\e9f1",
@@ -8492,14 +9212,14 @@
       "fontColor": "#ac4142",
       "fontId": "file-icons"
     },
-    "_eagle_dark-red": {
-      "fontCharacter": "\\e965",
-      "fontColor": "#c97071",
+    "_easybuild_dark-blue": {
+      "fontCharacter": "\\ea85",
+      "fontColor": "#46788d",
       "fontId": "file-icons"
     },
-    "_eagle_dark-red_l": {
-      "fontCharacter": "\\e965",
-      "fontColor": "#c97071",
+    "_easybuild_dark-blue_l": {
+      "fontCharacter": "\\ea85",
+      "fontColor": "#46788d",
       "fontId": "file-icons"
     },
     "_ec_dark-blue": {
@@ -8970,6 +9690,36 @@
     "_firebase_medium-orange_l": {
       "fontCharacter": "\\ea7f",
       "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_firebase-bolt_medium-yellow": {
+      "fontCharacter": "\\26A1",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_firebase-bolt_medium-yellow_l": {
+      "fontCharacter": "\\26A1",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_firefox_medium-orange": {
+      "fontCharacter": "\\e645",
+      "fontColor": "#d28445",
+      "fontId": "devopicons"
+    },
+    "_firefox_medium-orange_l": {
+      "fontCharacter": "\\e645",
+      "fontColor": "#d28445",
+      "fontId": "devopicons"
+    },
+    "_flask_dark-blue": {
+      "fontCharacter": "\\1f704",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_flask_dark-blue_l": {
+      "fontCharacter": "\\1f704",
+      "fontColor": "#46788d",
       "fontId": "file-icons"
     },
     "_flow_medium-orange": {
@@ -9512,6 +10262,16 @@
       "fontColor": "#46788d",
       "fontId": "octicons"
     },
+    "_code_dark-green": {
+      "fontCharacter": "\\f05f",
+      "fontColor": "#66783e",
+      "fontId": "octicons"
+    },
+    "_code_dark-green_l": {
+      "fontCharacter": "\\f05f",
+      "fontColor": "#66783e",
+      "fontId": "octicons"
+    },
     "_code_medium-maroon": {
       "fontCharacter": "\\f05f",
       "fontColor": "#8f5536",
@@ -9530,16 +10290,6 @@
     "_code_dark-pink_l": {
       "fontCharacter": "\\f05f",
       "fontColor": "#b3008f",
-      "fontId": "octicons"
-    },
-    "_code_dark-green": {
-      "fontCharacter": "\\f05f",
-      "fontColor": "#66783e",
-      "fontId": "octicons"
-    },
-    "_code_dark-green_l": {
-      "fontCharacter": "\\f05f",
-      "fontColor": "#66783e",
       "fontId": "octicons"
     },
     "_code_dark-purple": {
@@ -9692,6 +10442,56 @@
       "fontColor": "#6a9fb5",
       "fontId": "file-icons"
     },
+    "_gimp_medium-red": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-red_l": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-orange": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-orange_l": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-maroon": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-maroon_l": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-green": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-green_l": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-cyan": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_gimp_medium-cyan_l": {
+      "fontCharacter": "\\ea88",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
     "_git_medium-red": {
       "fontCharacter": "\\e602",
       "fontColor": "#ac4142",
@@ -9739,6 +10539,16 @@
     },
     "_glade_medium-green_l": {
       "fontCharacter": "\\e938",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_gltf_medium-green": {
+      "fontCharacter": "\\eaa7",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_gltf_medium-green_l": {
+      "fontCharacter": "\\eaa7",
       "fontColor": "#90a959",
       "fontId": "file-icons"
     },
@@ -10142,6 +10952,16 @@
       "fontColor": "#825078",
       "fontId": "devopicons"
     },
+    "_hp_medium-blue": {
+      "fontCharacter": "\\33cb",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_hp_medium-blue_l": {
+      "fontCharacter": "\\33cb",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
     "_hoplon_medium-red": {
       "fontCharacter": "\\ea4d",
       "fontColor": "#ac4142",
@@ -10260,6 +11080,16 @@
     "_idl_medium-blue_l": {
       "fontCharacter": "\\e947",
       "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_icomoon_medium-purple": {
+      "fontCharacter": "\\eaea",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_icomoon_medium-purple_l": {
+      "fontCharacter": "\\eaea",
+      "fontColor": "#aa759f",
       "fontId": "file-icons"
     },
     "_idris_dark-red": {
@@ -10481,6 +11311,26 @@
       "fontCharacter": "\\f012",
       "fontColor": "#573421",
       "fontId": "octicons"
+    },
+    "_image_dark-purple": {
+      "fontCharacter": "\\f012",
+      "fontColor": "#825078",
+      "fontId": "octicons"
+    },
+    "_image_dark-purple_l": {
+      "fontCharacter": "\\f012",
+      "fontColor": "#825078",
+      "fontId": "octicons"
+    },
+    "_imba_medium-blue": {
+      "fontCharacter": "\\1f4a0",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_imba_medium-blue_l": {
+      "fontCharacter": "\\1f4a0",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
     },
     "_inform7_medium-blue": {
       "fontCharacter": "\\e984",
@@ -10972,6 +11822,36 @@
       "fontColor": "#46788d",
       "fontId": "file-icons"
     },
+    "_kicad_dark-red": {
+      "fontCharacter": "\\ea4c",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_kicad_dark-red_l": {
+      "fontCharacter": "\\ea4c",
+      "fontColor": "#c97071",
+      "fontId": "file-icons"
+    },
+    "_kicad_medium-green": {
+      "fontCharacter": "\\ea4c",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_kicad_medium-green_l": {
+      "fontCharacter": "\\ea4c",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_kicad_medium-cyan": {
+      "fontCharacter": "\\ea4c",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_kicad_medium-cyan_l": {
+      "fontCharacter": "\\ea4c",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
     "_kitchenci_medium-green": {
       "fontCharacter": "\\ea38",
       "fontColor": "#90a959",
@@ -11282,6 +12162,16 @@
       "fontColor": "#f4bf75",
       "fontId": "file-icons"
     },
+    "_llvm_auto-red": {
+      "fontCharacter": "\\e91d",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_llvm_auto-red_l": {
+      "fontCharacter": "\\e91d",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
     "_mobile_dark-blue": {
       "fontCharacter": "\\f10b",
       "fontColor": "#46788d",
@@ -11381,16 +12271,6 @@
       "fontCharacter": "\\e91b",
       "fontColor": "#c97071",
       "fontId": "file-icons"
-    },
-    "_checklist_medium-green": {
-      "fontCharacter": "\\f076",
-      "fontColor": "#90a959",
-      "fontId": "octicons"
-    },
-    "_checklist_medium-green_l": {
-      "fontCharacter": "\\f076",
-      "fontColor": "#90a959",
-      "fontId": "octicons"
     },
     "_checklist_medium-red": {
       "fontCharacter": "\\f076",
@@ -11500,6 +12380,26 @@
     "_markdownlint_dark-green_l": {
       "fontCharacter": "\\f0c9",
       "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_markdownlint_medium-red": {
+      "fontCharacter": "\\f0c9",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_markdownlint_medium-red_l": {
+      "fontCharacter": "\\f0c9",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_markdownlint_dark-cyan": {
+      "fontCharacter": "\\f0c9",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_markdownlint_dark-cyan_l": {
+      "fontCharacter": "\\f0c9",
+      "fontColor": "#4d9085",
       "fontId": "file-icons"
     },
     "_marko_medium-blue": {
@@ -11781,6 +12681,46 @@
       "fontCharacter": "\\f0a1",
       "fontColor": "#d28445",
       "fontId": "fontawesome"
+    },
+    "_hg_medium-cyan": {
+      "fontCharacter": "\\263f",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_hg_medium-cyan_l": {
+      "fontCharacter": "\\263f",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_hg_dark-cyan": {
+      "fontCharacter": "\\263f",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_hg_dark-cyan_l": {
+      "fontCharacter": "\\263f",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_hg_dark-blue": {
+      "fontCharacter": "\\263f",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_hg_dark-blue_l": {
+      "fontCharacter": "\\263f",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_hg_medium-red": {
+      "fontCharacter": "\\263f",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_hg_medium-red_l": {
+      "fontCharacter": "\\263f",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
     },
     "_mercury_medium-cyan": {
       "fontCharacter": "\\e994",
@@ -12180,6 +13120,16 @@
     "_minecraft_dark-green_l": {
       "fontCharacter": "\\e9dc",
       "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_minecraft_light-green": {
+      "fontCharacter": "\\e9dc",
+      "fontColor": "#b2c38b",
+      "fontId": "file-icons"
+    },
+    "_minecraft_light-green_l": {
+      "fontCharacter": "\\e9dc",
+      "fontColor": "#b2c38b",
       "fontId": "file-icons"
     },
     "_minizinc_medium-blue": {
@@ -12652,6 +13602,26 @@
       "fontColor": "#75b5aa",
       "fontId": "file-icons"
     },
+    "_nextflow_medium-green": {
+      "fontCharacter": "\\eaa5",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_nextflow_medium-green_l": {
+      "fontCharacter": "\\eaa5",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_nextflow_dark-green": {
+      "fontCharacter": "\\eaa5",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_nextflow_dark-green_l": {
+      "fontCharacter": "\\eaa5",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
     "_nib_dark-orange": {
       "fontCharacter": "\\2712",
       "fontColor": "#a35f27",
@@ -12749,6 +13719,16 @@
     },
     "_nodemon_medium-green_l": {
       "fontCharacter": "\\ea26",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_nomad_medium-green": {
+      "fontCharacter": "\\ea96",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_nomad_medium-green_l": {
+      "fontCharacter": "\\ea96",
       "fontColor": "#90a959",
       "fontId": "file-icons"
     },
@@ -13443,54 +14423,54 @@
       "fontId": "file-icons"
     },
     "_perl_medium-blue": {
-      "fontCharacter": "\\f142",
+      "fontCharacter": "\\e669",
       "fontColor": "#6a9fb5",
-      "fontId": "mfixx"
+      "fontId": "devopicons"
     },
     "_perl_medium-blue_l": {
-      "fontCharacter": "\\f142",
+      "fontCharacter": "\\e669",
       "fontColor": "#6a9fb5",
-      "fontId": "mfixx"
-    },
-    "_perl_dark-purple": {
-      "fontCharacter": "\\f142",
-      "fontColor": "#825078",
-      "fontId": "mfixx"
-    },
-    "_perl_dark-purple_l": {
-      "fontCharacter": "\\f142",
-      "fontColor": "#825078",
-      "fontId": "mfixx"
-    },
-    "_perl_medium-purple": {
-      "fontCharacter": "\\f142",
-      "fontColor": "#aa759f",
-      "fontId": "mfixx"
-    },
-    "_perl_medium-purple_l": {
-      "fontCharacter": "\\f142",
-      "fontColor": "#aa759f",
-      "fontId": "mfixx"
+      "fontId": "devopicons"
     },
     "_perl_dark-blue": {
-      "fontCharacter": "\\f142",
+      "fontCharacter": "\\e669",
       "fontColor": "#46788d",
-      "fontId": "mfixx"
+      "fontId": "devopicons"
     },
     "_perl_dark-blue_l": {
-      "fontCharacter": "\\f142",
+      "fontCharacter": "\\e669",
       "fontColor": "#46788d",
-      "fontId": "mfixx"
+      "fontId": "devopicons"
+    },
+    "_perl_dark-purple": {
+      "fontCharacter": "\\e669",
+      "fontColor": "#825078",
+      "fontId": "devopicons"
+    },
+    "_perl_dark-purple_l": {
+      "fontCharacter": "\\e669",
+      "fontColor": "#825078",
+      "fontId": "devopicons"
+    },
+    "_perl_medium-purple": {
+      "fontCharacter": "\\e669",
+      "fontColor": "#aa759f",
+      "fontId": "devopicons"
+    },
+    "_perl_medium-purple_l": {
+      "fontCharacter": "\\e669",
+      "fontColor": "#aa759f",
+      "fontId": "devopicons"
     },
     "_perl_medium-red": {
-      "fontCharacter": "\\f142",
+      "fontCharacter": "\\e669",
       "fontColor": "#ac4142",
-      "fontId": "mfixx"
+      "fontId": "devopicons"
     },
     "_perl_medium-red_l": {
-      "fontCharacter": "\\f142",
+      "fontCharacter": "\\e669",
       "fontColor": "#ac4142",
-      "fontId": "mfixx"
+      "fontId": "devopicons"
     },
     "_perl6_medium-purple": {
       "fontCharacter": "\\e96c",
@@ -13642,6 +14622,16 @@
       "fontColor": "#4d9085",
       "fontId": "file-icons"
     },
+    "_pipenv_dark-blue": {
+      "fontCharacter": "\\1f381",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_pipenv_dark-blue_l": {
+      "fontCharacter": "\\1f381",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
     "_pike_dark-cyan": {
       "fontCharacter": "\\e9b9",
       "fontColor": "#4d9085",
@@ -13693,14 +14683,14 @@
       "fontId": "file-icons"
     },
     "_pod_dark-blue": {
-      "fontCharacter": "\\e669",
+      "fontCharacter": "\\ea84",
       "fontColor": "#46788d",
-      "fontId": "devopicons"
+      "fontId": "file-icons"
     },
     "_pod_dark-blue_l": {
-      "fontCharacter": "\\e669",
+      "fontCharacter": "\\ea84",
       "fontColor": "#46788d",
-      "fontId": "devopicons"
+      "fontId": "file-icons"
     },
     "_pogo_auto-orange": {
       "fontCharacter": "\\e9b8",
@@ -13922,6 +14912,16 @@
       "fontColor": "#825078",
       "fontId": "file-icons"
     },
+    "_prettier_auto-cyan": {
+      "fontCharacter": "\\eaa1",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_prettier_auto-cyan_l": {
+      "fontCharacter": "\\eaa1",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
     "_print_dark-cyan": {
       "fontCharacter": "\\f02f",
       "fontColor": "#4d9085",
@@ -14082,6 +15082,16 @@
       "fontColor": "#825078",
       "fontId": "file-icons"
     },
+    "_pypi_dark-blue": {
+      "fontCharacter": "\\ea94",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
+    "_pypi_dark-blue_l": {
+      "fontCharacter": "\\ea94",
+      "fontColor": "#46788d",
+      "fontId": "file-icons"
+    },
     "_python_dark-blue": {
       "fontCharacter": "\\f14c",
       "fontColor": "#46788d",
@@ -14201,6 +15211,26 @@
       "fontCharacter": "\\f14c",
       "fontColor": "#573421",
       "fontId": "mfixx"
+    },
+    "_kx_medium-blue": {
+      "fontCharacter": "\\ea9b",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_kx_medium-blue_l": {
+      "fontCharacter": "\\ea9b",
+      "fontColor": "#6a9fb5",
+      "fontId": "file-icons"
+    },
+    "_kx_dark-purple": {
+      "fontCharacter": "\\ea9b",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_kx_dark-purple_l": {
+      "fontCharacter": "\\ea9b",
+      "fontColor": "#825078",
+      "fontId": "file-icons"
     },
     "_r_medium-blue": {
       "fontCharacter": "\\e905",
@@ -14482,6 +15512,16 @@
       "fontColor": "#c97071",
       "fontId": "mfixx"
     },
+    "_reek_medium-red": {
+      "fontCharacter": "\\eaa0",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_reek_medium-red_l": {
+      "fontCharacter": "\\eaa0",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
     "_regex_medium-green": {
       "fontCharacter": "*",
       "fontColor": "#90a959",
@@ -14491,16 +15531,6 @@
       "fontCharacter": "*",
       "fontColor": "#90a959",
       "fontId": "file-icons"
-    },
-    "_android_dark-maroon": {
-      "fontCharacter": "\\f17b",
-      "fontColor": "#573421",
-      "fontId": "fontawesome"
-    },
-    "_android_dark-maroon_l": {
-      "fontCharacter": "\\f17b",
-      "fontColor": "#573421",
-      "fontId": "fontawesome"
     },
     "_requirejs_medium-blue": {
       "fontCharacter": "\\e670",
@@ -14572,6 +15602,16 @@
       "fontColor": "#8f5536",
       "fontId": "devopicons"
     },
+    "_ring_medium-purple": {
+      "fontCharacter": "\\1f48d",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_ring_medium-purple_l": {
+      "fontCharacter": "\\1f48d",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
     "_riot_medium-red": {
       "fontCharacter": "\\e919",
       "fontColor": "#ac4142",
@@ -14590,6 +15630,16 @@
     "_robot_medium-purple_l": {
       "fontCharacter": "\\e9ac",
       "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_robots_dark-cyan": {
+      "fontCharacter": "\\1f916",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_robots_dark-cyan_l": {
+      "fontCharacter": "\\1f916",
+      "fontColor": "#4d9085",
       "fontId": "file-icons"
     },
     "_rollup_medium-red": {
@@ -14682,6 +15732,16 @@
       "fontColor": "#be7953",
       "fontId": "devopicons"
     },
+    "_safari_medium-blue": {
+      "fontCharacter": "\\e648",
+      "fontColor": "#6a9fb5",
+      "fontId": "devopicons"
+    },
+    "_safari_medium-blue_l": {
+      "fontCharacter": "\\e648",
+      "fontColor": "#6a9fb5",
+      "fontId": "devopicons"
+    },
     "_sage_medium-blue": {
       "fontCharacter": "\\e9ab",
       "fontColor": "#6a9fb5",
@@ -14760,6 +15820,16 @@
     "_scala_medium-red_l": {
       "fontCharacter": "\\f154",
       "fontColor": "#ac4142",
+      "fontId": "mfixx"
+    },
+    "_scala_medium-green": {
+      "fontCharacter": "\\f154",
+      "fontColor": "#90a959",
+      "fontId": "mfixx"
+    },
+    "_scala_medium-green_l": {
+      "fontCharacter": "\\f154",
+      "fontColor": "#90a959",
       "fontId": "mfixx"
     },
     "_scheme_medium-red": {
@@ -15092,16 +16162,6 @@
       "fontColor": "#46788d",
       "fontId": "file-icons"
     },
-    "_android_medium-green": {
-      "fontCharacter": "\\f17b",
-      "fontColor": "#90a959",
-      "fontId": "fontawesome"
-    },
-    "_android_medium-green_l": {
-      "fontCharacter": "\\f17b",
-      "fontColor": "#90a959",
-      "fontId": "fontawesome"
-    },
     "_smarty_auto-yellow": {
       "fontCharacter": "\\f0eb",
       "fontColor": "#f4bf75",
@@ -15130,6 +16190,16 @@
     "_snyk_dark-purple_l": {
       "fontCharacter": "\\ea1c",
       "fontColor": "#825078",
+      "fontId": "file-icons"
+    },
+    "_solidity_dark-cyan": {
+      "fontCharacter": "\\ea86",
+      "fontColor": "#4d9085",
+      "fontId": "file-icons"
+    },
+    "_solidity_dark-cyan_l": {
+      "fontCharacter": "\\ea86",
+      "fontColor": "#4d9085",
       "fontId": "file-icons"
     },
     "_clojure_auto-yellow": {
@@ -15171,6 +16241,26 @@
       "fontCharacter": "\\f279",
       "fontColor": "#f4bf75",
       "fontId": "fontawesome"
+    },
+    "_sourcemap_dark-blue": {
+      "fontCharacter": "\\f279",
+      "fontColor": "#46788d",
+      "fontId": "fontawesome"
+    },
+    "_sourcemap_dark-blue_l": {
+      "fontCharacter": "\\f279",
+      "fontColor": "#46788d",
+      "fontId": "fontawesome"
+    },
+    "_spacemacs_medium-purple": {
+      "fontCharacter": "\\eaa4",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_spacemacs_medium-purple_l": {
+      "fontCharacter": "\\eaa4",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
     },
     "_sparql_medium-blue": {
       "fontCharacter": "\\e959",
@@ -15392,6 +16482,16 @@
       "fontColor": "#66783e",
       "fontId": "octicons"
     },
+    "_key_dark-blue": {
+      "fontCharacter": "\\f049",
+      "fontColor": "#46788d",
+      "fontId": "octicons"
+    },
+    "_key_dark-blue_l": {
+      "fontCharacter": "\\f049",
+      "fontColor": "#46788d",
+      "fontId": "octicons"
+    },
     "_stan_medium-red": {
       "fontCharacter": "\\e9a4",
       "fontColor": "#ac4142",
@@ -15470,6 +16570,16 @@
     "_stata_medium-purple_l": {
       "fontCharacter": "\\e9a3",
       "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_stencil_medium-orange": {
+      "fontCharacter": "\\ea95",
+      "fontColor": "#d28445",
+      "fontId": "file-icons"
+    },
+    "_stencil_medium-orange_l": {
+      "fontCharacter": "\\ea95",
+      "fontColor": "#d28445",
       "fontId": "file-icons"
     },
     "_storyist_medium-blue": {
@@ -15592,14 +16702,14 @@
       "fontColor": "#66783e",
       "fontId": "file-icons"
     },
-    "_swift_medium-green": {
+    "_swift_medium-orange": {
       "fontCharacter": "\\e655",
-      "fontColor": "#90a959",
+      "fontColor": "#d28445",
       "fontId": "devopicons"
     },
-    "_swift_medium-green_l": {
+    "_swift_medium-orange_l": {
       "fontCharacter": "\\e655",
-      "fontColor": "#90a959",
+      "fontColor": "#d28445",
       "fontId": "devopicons"
     },
     "_sysverilog_auto-blue": {
@@ -15660,6 +16770,16 @@
     "_tag_medium-red_l": {
       "fontCharacter": "\\f015",
       "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_tag_medium-cyan": {
+      "fontCharacter": "\\f015",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_tag_medium-cyan_l": {
+      "fontCharacter": "\\f015",
+      "fontColor": "#75b5aa",
       "fontId": "file-icons"
     },
     "_tag_medium-orange": {
@@ -15732,6 +16852,16 @@
       "fontColor": "#6a9fb5",
       "fontId": "file-icons"
     },
+    "_telegram_light-blue": {
+      "fontCharacter": "\\2708",
+      "fontColor": "#9dc0ce",
+      "fontId": "file-icons"
+    },
+    "_telegram_light-blue_l": {
+      "fontCharacter": "\\2708",
+      "fontColor": "#9dc0ce",
+      "fontId": "file-icons"
+    },
     "_tt_medium-blue": {
       "fontCharacter": "T",
       "fontColor": "#6a9fb5",
@@ -15762,6 +16892,16 @@
       "fontColor": "#6a9fb5",
       "fontId": "file-icons"
     },
+    "_tern_medium-purple": {
+      "fontCharacter": "\\1f54a",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
+    "_tern_medium-purple_l": {
+      "fontCharacter": "\\1f54a",
+      "fontColor": "#aa759f",
+      "fontId": "file-icons"
+    },
     "_terraform_dark-purple": {
       "fontCharacter": "\\e916",
       "fontColor": "#825078",
@@ -15772,6 +16912,26 @@
       "fontColor": "#825078",
       "fontId": "file-icons"
     },
+    "_terraform_medium-yellow": {
+      "fontCharacter": "\\e916",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_terraform_medium-yellow_l": {
+      "fontCharacter": "\\e916",
+      "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_terraform_medium-cyan": {
+      "fontCharacter": "\\e916",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
+    "_terraform_medium-cyan_l": {
+      "fontCharacter": "\\e916",
+      "fontColor": "#75b5aa",
+      "fontId": "file-icons"
+    },
     "_test-coffee_auto-maroon": {
       "fontCharacter": "\\ea62",
       "fontColor": "#8f5536",
@@ -15780,6 +16940,26 @@
     "_test-coffee_auto-maroon_l": {
       "fontCharacter": "\\ea62",
       "fontColor": "#8f5536",
+      "fontId": "file-icons"
+    },
+    "_test-generic_medium-green": {
+      "fontCharacter": "\\ea63",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_test-generic_medium-green_l": {
+      "fontCharacter": "\\ea63",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_test-generic_dark-green": {
+      "fontCharacter": "\\ea63",
+      "fontColor": "#66783e",
+      "fontId": "file-icons"
+    },
+    "_test-generic_dark-green_l": {
+      "fontCharacter": "\\ea63",
+      "fontColor": "#66783e",
       "fontId": "file-icons"
     },
     "_test-js_auto-yellow": {
@@ -16032,6 +17212,26 @@
       "fontColor": "#8f5536",
       "fontId": "fontawesome"
     },
+    "_tmux_medium-green": {
+      "fontCharacter": "\\ea8c",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_tmux_medium-green_l": {
+      "fontCharacter": "\\ea8c",
+      "fontColor": "#90a959",
+      "fontId": "file-icons"
+    },
+    "_tortoise_medium-red": {
+      "fontCharacter": "\\ea93",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_tortoise_medium-red_l": {
+      "fontCharacter": "\\ea93",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
     "_travis_medium-red": {
       "fontCharacter": "\\e67e",
       "fontColor": "#ac4142",
@@ -16121,6 +17321,16 @@
       "fontCharacter": "\\e9df",
       "fontColor": "#8f5536",
       "fontId": "file-icons"
+    },
+    "_typo3_medium-orange": {
+      "fontCharacter": "\\e672",
+      "fontColor": "#d28445",
+      "fontId": "devopicons"
+    },
+    "_typo3_medium-orange_l": {
+      "fontCharacter": "\\e672",
+      "fontColor": "#d28445",
+      "fontId": "devopicons"
     },
     "_uikit_medium-blue": {
       "fontCharacter": "\\e673",
@@ -16612,6 +17822,16 @@
       "fontColor": "#d28445",
       "fontId": "devopicons"
     },
+    "_vs_light-red": {
+      "fontCharacter": "\\e60c",
+      "fontColor": "#c97071",
+      "fontId": "devopicons"
+    },
+    "_vs_light-red_l": {
+      "fontCharacter": "\\e60c",
+      "fontColor": "#c97071",
+      "fontId": "devopicons"
+    },
     "_vmware_auto-orange": {
       "fontCharacter": "\\ea49",
       "fontColor": "#d28445",
@@ -16912,6 +18132,16 @@
       "fontColor": "#825078",
       "fontId": "file-icons"
     },
+    "_yaml_medium-red": {
+      "fontCharacter": "y",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_yaml_medium-red_l": {
+      "fontCharacter": "y",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
     "_yang_medium-yellow": {
       "fontCharacter": "\\262f",
       "fontColor": "#f4bf75",
@@ -16920,6 +18150,16 @@
     "_yang_medium-yellow_l": {
       "fontCharacter": "\\262f",
       "fontColor": "#f4bf75",
+      "fontId": "file-icons"
+    },
+    "_yara_medium-red": {
+      "fontCharacter": "\\ea9f",
+      "fontColor": "#ac4142",
+      "fontId": "file-icons"
+    },
+    "_yara_medium-red_l": {
+      "fontCharacter": "\\ea9f",
+      "fontColor": "#ac4142",
       "fontId": "file-icons"
     },
     "_yarn_medium-blue": {
@@ -17084,6 +18324,9 @@
     "als": "_alloy_medium-red",
     "apkbuild": "_alpine_dark-blue",
     "ampl": "_ampl_dark-maroon",
+    "smali": "_android_medium-green",
+    "rsh": "_android_dark-maroon",
+    "webarchivexml": "_android_dark-cyan",
     "acs": "_angelscript_auto-blue",
     "angelscript": "_angelscript_auto-blue",
     "ansible": "_ansible_dark-blue",
@@ -17103,6 +18346,7 @@
     "apl.history": "_apl_medium-maroon",
     "applescript": "_apple_medium-purple",
     "scpt": "_apple_medium-purple",
+    "appveyor.yml": "_appveyor_medium-blue",
     "arc": "_arc_medium-blue",
     "install": "_terminal_medium-purple",
     "srcinfo": "_archlinux_dark-maroon",
@@ -17199,15 +18443,22 @@
     "ahk": "_ahk_dark-blue",
     "ahkl": "_ahk_dark-purple",
     "au3": "_autoit_medium-purple",
+    "avcs": "_avro_medium-blue",
+    "avsc": "_avro_medium-blue",
+    "avdl": "_avro_medium-blue",
     "awk": "_terminal_medium-blue",
     "gawk": "_terminal_medium-red",
     "mawk": "_terminal_medium-maroon",
     "nawk": "_terminal_dark-green",
     "auk": "_terminal_dark-cyan",
     "babelrc": "_babel_medium-yellow",
+    "babelrc.js": "_babel_medium-yellow",
     "languagebabel": "_babel_medium-yellow",
     "babel": "_babel_medium-yellow",
     "babelignore": "_babel_dark-yellow",
+    "bak": "_backup",
+    "old": "_backup",
+    "orig": "_backup",
     "bzl": "_bazel_dark-blue",
     "bemjson": "_bem_medium-maroon",
     "bemjson.js": "_bem_medium-maroon",
@@ -17231,6 +18482,7 @@
     "br": "_brotli_medium-orange",
     "browserslistrc": "_browserslist_medium-orange",
     "buckconfig": "_buck_medium-blue",
+    "gemfile": "_bundler_auto-cyan",
     "dm": "_byond_medium-blue",
     "c": "_c_medium-blue",
     "h": "_c_medium-purple",
@@ -17239,6 +18491,7 @@
     "w": "_c_medium-maroon",
     "nc": "_c_dark-blue",
     "upc": "_c_medium-cyan",
+    "xpm": "_c_medium-green",
     "c++": "_cpp_auto-blue",
     "c+p": "_cpp_auto-blue",
     "c+x": "_cpp_auto-blue",
@@ -17265,12 +18518,40 @@
     "cs": "_csharp_auto-blue",
     "csx": "_csscript_dark-green",
     "cabal": "_cabal_medium-cyan",
+    "caffemodel": "_caffe_medium-maroon",
+    "solverstate": "_caffe_medium-green",
     "cake": "_cake_medium-yellow",
     "ctp": "_cakephp_medium-red",
     "ceylon": "_ceylon_medium-orange",
     "chpl": "_chapel_medium-green",
+    "todo": "_checklist_medium-yellow",
+    "taskpaper": "_checklist_medium-yellow",
     "ck": "_chuck_medium-green",
     "crx": "_chrome_medium-red",
+    "brd": "_icon-circuit-board",
+    "sch": "_icon-circuit-board",
+    "pcb": "_icon-circuit-board",
+    "gbr": "_icon-circuit-board",
+    "gtl": "_icon-circuit-board",
+    "gbl": "_icon-circuit-board",
+    "gbs": "_icon-circuit-board",
+    "gto": "_icon-circuit-board",
+    "gts": "_icon-circuit-board",
+    "gtp": "_icon-circuit-board",
+    "gbo": "_icon-circuit-board",
+    "gbp": "_icon-circuit-board",
+    "drl": "_icon-circuit-board",
+    "dsn": "_icon-circuit-board",
+    "gko": "_icon-circuit-board",
+    "gpt": "_icon-circuit-board",
+    "gpb": "_icon-circuit-board",
+    "cir": "_icon-circuit-board",
+    "ckt": "_icon-circuit-board",
+    "struct": "_icon-circuit-board",
+    "tech": "_icon-circuit-board",
+    "fab": "_icon-circuit-board",
+    "net": "_icon-circuit-board",
+    "pho": "_icon-circuit-board",
     "cirru": "_cirru_auto-pink",
     "clw": "_clarion_medium-orange",
     "icl": "_clean_dark-cyan",
@@ -17292,6 +18573,9 @@
     "cbl": "_cobol_auto-blue",
     "cobol": "_cobol_auto-blue",
     "cpy": "_cobol_auto-blue",
+    "podspec": "_ruby_medium-red",
+    "codacy.yml": "_codacy_dark-blue",
+    "codacy.yaml": "_codacy_dark-blue",
     "codeclimate.yml": "_cc_medium-green",
     "coffee": "_coffee_medium-maroon",
     "cjsx": "_coffee_dark-maroon",
@@ -17321,6 +18605,7 @@
     "apk": "_zip_medium-red",
     "tar": "_zip_dark-blue",
     "bz2": "_zip_dark-cyan",
+    "maff": "_zip_medium-orange",
     "iso": "_zip_medium-blue",
     "xpi": "_zip_medium-orange",
     "gem": "_zip_medium-red",
@@ -17328,6 +18613,7 @@
     "epub": "_zip_medium-green",
     "jar": "_zip_dark-pink",
     "war": "_zip_medium-purple",
+    "wgt": "_zip_medium-blue",
     "xar": "_zip_dark-orange",
     "egg": "_zip_light-orange",
     "ini": "_config_medium-yellow",
@@ -17342,9 +18628,17 @@
     "lds": "_config_medium-red",
     "opts": "_config_medium-green",
     "terminal": "_config_dark-blue",
-    "reek": "_config_medium-red",
     "xcompose": "_config_medium-cyan",
+    "ssh/config": "_config_dark-blue",
+    "ssh\\config": "_config_dark-blue",
+    "conll": "_conll_medium-blue",
+    "conllu": "_conll_medium-orange",
     "coq": "_coq_medium-maroon",
+    "cmx": "_corel_medium-blue",
+    "ccx": "_corel_medium-blue",
+    "cdr": "_coreldraw_medium-green",
+    "cdrx": "_coreldraw_medium-green",
+    "cdt": "_coreldraw_medium-green",
     "creole": "_creole_medium-blue",
     "cr": "_crystal_medium-cyan",
     "ecr": "_crystal_medium-cyan",
@@ -17357,6 +18651,8 @@
     "feature": "_cucumber_medium-green",
     "cu": "_nvidia_medium-green",
     "cuh": "_nvidia_dark-green",
+    "curlrc": "_curl_dark-blue",
+    "cwl": "_cwl_dark-red",
     "pyx": "_cython_medium-orange",
     "pxd": "_cython_medium-blue",
     "pxi": "_cython_dark-blue",
@@ -17369,13 +18665,13 @@
     "skim": "_dashboard_medium-orange",
     "slim": "_dashboard_medium-orange",
     "cpuprofile": "_dashboard_medium-green",
+    "cloc": "_dashboard_medium-blue",
     "json": "_database_medium-yellow",
     "hjson": "_database_medium-yellow",
     "geojson": "_database_medium-yellow",
     "topojson": "_database_medium-yellow",
-    "yml": "_database_light-red",
-    "yaml": "_database_light-red",
     "cson": "_database_medium-maroon",
+    "hson": "_database_medium-orange",
     "json5": "_database_dark-yellow",
     "http": "_database_medium-red",
     "ndjson": "_database_medium-orange",
@@ -17386,14 +18682,24 @@
     "pydeps": "_database_dark-blue",
     "po": "_database_medium-red",
     "pot": "_database_medium-red",
+    "ejson": "_database_dark-red",
     "edn": "_database_medium-purple",
     "eam.fs": "_database_dark-purple",
     "qml": "_database_medium-pink",
     "qbs": "_database_dark-pink",
     "ston": "_database_medium-maroon",
     "ttl": "_database_medium-cyan",
-    "rviz": "_database_dark-blue",
+    "schema": "_database_dark-blue",
     "syntax": "_database_medium-blue",
+    "webmanifest": "_database_medium-blue",
+    "ldj": "_database_dark-orange",
+    "ldjson": "_database_dark-orange",
+    "jsonl": "_database_dark-orange",
+    "ssh/authorized_keys": "_database_medium-green",
+    "ssh/known_hosts": "_database_medium-green",
+    "ssh\\authorized_keys": "_database_medium-green",
+    "ssh\\known_hosts": "_database_medium-green",
+    "dwl": "_dataweave_auto-blue",
     "dbf": "_dbase_medium-red",
     "deb": "_debian_medium-red",
     "dfm": "_delphi_medium-red",
@@ -17409,14 +18715,15 @@
     "doclets.yml": "_doclets_light-green,medium-green",
     "doclets.yaml": "_doclets_light-green,medium-green",
     "djs": "_doge_medium-yellow",
+    "doxyfile": "_doxygen_medium-blue",
     "drone.yml": "_drone_medium-cyan",
     "drone.yaml": "_drone_medium-cyan",
     "dyalog": "_dyalog_medium-orange",
     "dylib": "_dylib_medium-cyan",
     "bundle": "_package",
     "e": "_eiffel_medium-cyan",
-    "sch": "_eagle_medium-red",
-    "brd": "_eagle_dark-red",
+    "eup": "_eagle_medium-red",
+    "eb": "_easybuild_dark-blue",
     "ec": "_ec_dark-blue",
     "eh": "_ec_dark-purple",
     "epj": "_ecere_medium-blue",
@@ -17433,7 +18740,6 @@
     "el": "_emacs_medium-purple",
     "emacs": "_emacs_medium-purple",
     "_emacs": "_emacs_medium-purple",
-    "spacemacs": "_emacs_medium-purple",
     "emacs.desktop": "_emacs_medium-purple",
     "abbrev-defs": "_emacs_medium-purple",
     "abbrev_defs": "_emacs_medium-purple",
@@ -17468,6 +18774,8 @@
     "fbx": "_fbx_medium-maroon",
     "rsrc": "_finder_dark-blue",
     "firebaserc": "_firebase_medium-orange",
+    "bolt": "_firebase-bolt_medium-yellow",
+    "webapp": "_firefox_medium-orange",
     "flowconfig": "_flow_medium-orange",
     "js.flow": "_flow_medium-orange",
     "flow": "_flow_medium-orange",
@@ -17539,6 +18847,7 @@
     "asn": "_code_medium-cyan",
     "asn1": "_code_medium-cyan",
     "axml": "_code_dark-blue",
+    "bal": "_code_dark-green",
     "bc": "_code_dark-red",
     "befunge": "_code_medium-orange",
     "bmx": "_code_dark-blue",
@@ -17546,6 +18855,7 @@
     "brs": "_code_dark-blue",
     "capnp": "_code_dark-red",
     "ccxml": "_code_dark-blue",
+    "cgi": "_code_medium-red",
     "ch": "_code_medium-red",
     "clixml": "_code_dark-blue",
     "cocci": "_code_medium-blue",
@@ -17562,6 +18872,7 @@
     "ebnf": "_code_medium-red",
     "ecl": "_code_medium-blue",
     "eclxml": "_code_dark-green",
+    "fcgi": "_code_medium-blue",
     "filters": "_code_medium-pink",
     "flex": "_code_dark-red",
     "fo": "_code_medium-red",
@@ -17618,6 +18929,9 @@
     "sgm": "_code_dark-yellow",
     "sgml": "_code_dark-yellow",
     "sig": "_code_light-maroon",
+    "sk": "_code_light-blue",
+    "sk1": "_code_medium-blue",
+    "sk2": "_code_medium-blue",
     "sml": "_code_medium-red",
     "smt": "_code_light-blue",
     "smt2": "_code_medium-cyan",
@@ -17660,11 +18974,17 @@
     "kid": "_genshi_medium-red",
     "ebuild": "_gentoo_dark-cyan",
     "eclass": "_gentoo_medium-blue",
+    "xcf": "_gimp_medium-red",
+    "ggr": "_gimp_medium-orange",
+    "gih": "_gimp_medium-maroon",
+    "gpl": "_gimp_medium-green",
+    "vbr": "_gimp_medium-cyan",
     "git": "_git_medium-red",
     "keep": "_git_medium-red",
     "mailmap": "_git_medium-red",
     "gitlab-ci.yml": "_gitlab_medium-orange",
     "glade": "_glade_medium-green",
+    "gltf": "_gltf_medium-green",
     "glf": "_pointwise_medium-blue",
     "glyphs": "_glyphs_medium-green",
     "gn": "_gn_dark-blue",
@@ -17710,6 +19030,7 @@
     "hxproj": "_haxedevelop_auto-blue",
     "buildpacks": "_heroku_light-purple",
     "vendor_urls": "_heroku_dark-purple",
+    "hpgl": "_hp_medium-blue",
     "hl": "_hoplon_medium-red",
     "htm": "_html5_medium-orange",
     "html": "_html5_medium-orange",
@@ -17728,6 +19049,8 @@
     "vash": "_html5_medium-red",
     "xht": "_html5_medium-maroon",
     "dtml": "_html5_medium-blue",
+    "mht": "_html5_medium-blue",
+    "mhtml": "_html5_medium-blue",
     "htm.ecr": "_html5_medium-cyan",
     "html.ecr": "_html5_medium-cyan",
     "htm.erb": "_html5_medium-red",
@@ -17750,6 +19073,7 @@
     "bpg": "_image_medium-red",
     "cin": "_image_medium-orange",
     "cd5": "_image_dark-green",
+    "cgm": "_image_medium-orange",
     "cpc": "_image_light-yellow",
     "cr2": "_image_medium-orange",
     "dcm": "_image_medium-pink",
@@ -17759,6 +19083,7 @@
     "dpx": "_image_dark-orange",
     "ecw": "_image_light-blue",
     "exr": "_image_dark-yellow",
+    "fig": "_image_dark-orange",
     "fit": "_image_medium-cyan",
     "fits": "_image_medium-cyan",
     "flif": "_image_dark-red",
@@ -17798,7 +19123,13 @@
     "vsd": "_visio_medium-blue",
     "vsdx": "_visio_dark-blue",
     "wbm": "_image_dark-maroon",
+    "wmf": "_image_medium-red",
+    "emf": "_image_medium-red",
+    "wmz": "_image_medium-red",
+    "apm": "_image_medium-red",
     "wdp": "_image_dark-red",
+    "xwd": "_image_dark-purple",
+    "imba": "_imba_medium-blue",
     "ni": "_inform7_medium-blue",
     "i7x": "_inform7_dark-blue",
     "iss": "_inno_dark-blue",
@@ -17843,6 +19174,9 @@
     "keynote": "_keynote_medium-blue",
     "knt": "_keynote_dark-blue",
     "kicad_pcb": "_kicad_dark-blue",
+    "kicad_pcb-bak": "_kicad_dark-red",
+    "kicad_mod": "_kicad_medium-green",
+    "kicad_wks": "_kicad_medium-cyan",
     "kitchen.yml": "_kitchenci_medium-green",
     "kitchen.yaml": "_kitchenci_medium-green",
     "kv": "_kivy_dark-maroon",
@@ -17875,6 +19209,7 @@
     "_ls": "_ls_dark-blue",
     "ll": "_llvm_dark-green",
     "clang-format": "_llvm_auto-yellow",
+    "clang-tidy": "_llvm_auto-yellow",
     "xm": "_mobile_dark-blue",
     "xi": "_mobile_dark-red",
     "logtalk": "_logtalk_medium-red",
@@ -17958,6 +19293,9 @@
     "ron": "_markdown_medium-blue",
     "pmd": "_markdown_medium-blue",
     "markdownlintrc": "_markdownlint_dark-green",
+    "mdlrc.rb": "_markdownlint_medium-red",
+    "mdlrc.style.rb": "_markdownlint_medium-red",
+    "mdlrc": "_markdownlint_dark-cyan",
     "marko": "_marko_medium-blue",
     "marko.js": "_marko_medium-maroon",
     "mathematica": "_mathematica_dark-red",
@@ -17986,6 +19324,10 @@
     "mediawiki": "_mediawiki_medium-yellow",
     "wiki": "_mediawiki_medium-orange",
     "mention-bot": "_bullhorn_medium-orange",
+    "hgignore": "_hg_medium-cyan",
+    "hgrc": "_hg_dark-cyan",
+    "hgsub": "_hg_dark-blue",
+    "hgsubstate": "_hg_medium-red",
     "moo": "_mercury_medium-cyan",
     "metal": "_metal_dark-cyan",
     "accda": "_access_dark-maroon",
@@ -18033,6 +19375,8 @@
     "vst": "_visio_dark-blue",
     "vstm": "_visio_dark-blue",
     "vstx": "_visio_dark-blue",
+    "mcfunction": "_minecraft_light-green",
+    "png.mcmeta": "_minecraft_dark-green",
     "mzn": "_minizinc_medium-blue",
     "dzn": "_minizinc_dark-blue",
     "duby": "_mirah_medium-blue",
@@ -18055,6 +19399,8 @@
     "cginc": "_model_dark-cyan",
     "stl": "_model_dark-green",
     "u3d": "_model_medium-orange",
+    "rviz": "_model_dark-blue",
+    "vcg": "_model_dark-blue",
     "mo": "_circle_light-red",
     "mod": "_modula2_medium-blue",
     "def": "_modula2_medium-green",
@@ -18072,6 +19418,7 @@
     "pd": "_music_dark-red",
     "hbs": "_mustache_medium-orange",
     "handlebars": "_mustache_medium-orange",
+    "stache": "_mustache_medium-orange",
     "mustache": "_mustache_medium-orange",
     "nanorc": "_nano_medium-blue",
     "nanoc.yml": "_nanoc_medium-red",
@@ -18083,6 +19430,7 @@
     "axs": "_amx_medium-blue",
     "axi": "_amx_dark-blue",
     "nlogo": "_netlogo_medium-red",
+    "nf": "_nextflow_medium-green",
     "nginxconf": "_nginx",
     "nib": "_nib_dark-orange",
     "nim": "_nimrod_medium-green",
@@ -18097,6 +19445,7 @@
     "node": "_node_dark-green",
     "node-version": "_node_dark-green",
     "nodemonignore": "_nodemon_medium-green",
+    "nomad": "_nomad_medium-green",
     "npmignore": "_npm_medium-red",
     "npmrc": "_npm_medium-red",
     "nsi": "_nsis_medium-purple",
@@ -18179,6 +19528,7 @@
     "pegcoffee": "_peg_medium-maroon",
     "pl": "_perl_medium-blue",
     "perl": "_perl_medium-blue",
+    "al": "_perl_dark-blue",
     "ph": "_perl_dark-purple",
     "plx": "_perl_medium-purple",
     "pm": "_perl_dark-blue",
@@ -18245,6 +19595,11 @@
     "psd1": "_powershell_dark-blue",
     "psm1": "_powershell_medium-purple",
     "ps1xml": "_powershell_dark-purple",
+    "prettierrc": "_prettier_auto-cyan",
+    "prettierrc.js": "_prettier_auto-cyan",
+    "prettierrc.json": "_prettier_auto-cyan",
+    "prettierrc.yml": "_prettier_auto-cyan",
+    "prettierrc.yaml": "_prettier_auto-cyan",
     "ppd": "_print_dark-cyan",
     "pde": "_processing_dark-blue",
     "pro": "_prolog_medium-blue",
@@ -18278,6 +19633,8 @@
     "pypirc": "_python_dark-blue",
     "pythonrc": "_python_dark-blue",
     "python-venv": "_python_dark-blue",
+    "q": "_kx_medium-blue",
+    "k": "_kx_dark-purple",
     "r": "_r_medium-blue",
     "rprofile": "_r_medium-blue",
     "rsx": "_r_medium-blue",
@@ -18312,9 +19669,9 @@
     "reds": "_red_light-red",
     "rpm": "_red-hat_medium-red",
     "spec": "_red-hat_dark-red",
+    "reek": "_reek_medium-red",
     "regex": "_regex_medium-green",
     "regexp": "_regex_medium-green",
-    "rsh": "_android_dark-maroon",
     "rst": "_rst_dark-blue",
     "rst.txt": "_rst_dark-blue",
     "rest": "_rst_dark-blue",
@@ -18324,6 +19681,7 @@
     "pprx": "_rexx_medium-blue",
     "3dm": "_rhino_medium-blue",
     "rvb": "_rhino_medium-green",
+    "ring": "_ring_medium-purple",
     "tag": "_riot_medium-red",
     "robot": "_robot_medium-purple",
     "rg": "_clojure_medium-red",
@@ -18337,7 +19695,6 @@
     "god": "_ruby_medium-red",
     "mspec": "_ruby_medium-red",
     "pluginspec": "_ruby_medium-red",
-    "podspec": "_ruby_medium-red",
     "rabl": "_ruby_medium-red",
     "rake": "_ruby_medium-red",
     "opal": "_ruby_medium-red",
@@ -18354,6 +19711,7 @@
     "watchr": "_ruby_dark-yellow",
     "rs": "_rust_medium-maroon",
     "rlib": "_rust_light-maroon",
+    "webarchive": "_safari_medium-blue",
     "sage": "_sage_medium-blue",
     "sagews": "_sage_dark-blue",
     "sls": "_saltstack_auto-blue",
@@ -18363,6 +19721,7 @@
     "sbt": "_sbt_dark-purple",
     "sc": "_scala_medium-red",
     "scala": "_scala_medium-red",
+    "kojo": "_scala_medium-green",
     "scm": "_scheme_medium-red",
     "sld": "_scheme_medium-blue",
     "sps": "_scheme_medium-purple",
@@ -18401,6 +19760,8 @@
     "bash_history": "_terminal_dark-purple",
     "bash_prompt": "_terminal_dark-purple",
     "ksh": "_terminal_dark-yellow",
+    "mksh": "_terminal_dark-yellow",
+    "pdksh": "_terminal_dark-yellow",
     "sh-session": "_terminal_auto-yellow",
     "zsh": "_terminal_medium-blue",
     "zsh-theme": "_terminal_medium-blue",
@@ -18430,14 +19791,17 @@
     "skp": "_sketchup-mk_medium-red",
     "style": "_sketchup-sb_auto-red",
     "sl": "_slash_dark-blue",
-    "smali": "_android_medium-green",
     "tpl": "_smarty_auto-yellow",
     "snyk": "_snyk_dark-purple",
+    "sol": "_solidity_dark-cyan",
+    "solidity": "_solidity_dark-cyan",
     "sma": "_clojure_auto-yellow",
     "sp": "_clojure_auto-yellow",
     "inc": "_clojure_medium-green",
     "css.map": "_sourcemap_medium-blue",
     "js.map": "_sourcemap_auto-yellow",
+    "map": "_sourcemap_dark-blue",
+    "spacemacs": "_spacemacs_medium-purple",
     "sparql": "_sparql_medium-blue",
     "rq": "_sparql_dark-blue",
     "jsont": "_squarespace_dark-purple",
@@ -18470,6 +19834,7 @@
     "mata": "_stata_dark-cyan",
     "matah": "_stata_light-cyan",
     "sthlp": "_stata_medium-purple",
+    "stencil": "_stencil_medium-orange",
     "story": "_storyist_medium-blue",
     "strings": "_strings_medium-red",
     "stylelintrc.": "_stylelint_medium-purple",
@@ -18511,7 +19876,7 @@
     "scd": "_scd_medium-red",
     "svg": "_svg_dark-yellow",
     "swagger-codegen-ignore": "_swagger_dark-green",
-    "swift": "_swift_medium-green",
+    "swift": "_swift_medium-orange",
     "sv": "_sysverilog_auto-blue",
     "svh": "_sysverilog_auto-green",
     "vh": "_sysverilog_auto-cyan",
@@ -18519,6 +19884,7 @@
     "tags": "_tag_medium-blue",
     "ctags": "_tag_medium-blue",
     "gemtags": "_tag_medium-red",
+    "hgtags": "_tag_medium-cyan",
     "pid": "_tag_medium-orange",
     "tcl": "_tcl_dark-orange",
     "adp": "_tcl_medium-orange",
@@ -18526,13 +19892,27 @@
     "exp": "_tcl_dark-blue",
     "tea": "_coffee_medium-orange",
     "tl": "_telegram_medium-blue",
+    "xps": "_telegram_light-blue",
     "tt": "_tt_medium-blue",
     "tt2": "_tt_medium-blue",
     "tt3": "_tt_medium-purple",
     "tern-project": "_tern_medium-blue",
+    "tern-config": "_tern_medium-purple",
     "tf": "_terraform_dark-purple",
     "tfvars": "_terraform_dark-purple",
+    "tf.json": "_terraform_medium-yellow",
+    "tfstate": "_terraform_medium-cyan",
+    "tfstate.backup": "_terraform_medium-cyan",
+    "xspec": "_test-generic_dark-green",
     "t": "_test-perl_auto-blue",
+    "spec.ts": "_test-ts_auto-blue",
+    "specs.ts": "_test-ts_auto-blue",
+    "test.ts": "_test-ts_auto-blue",
+    "tests.ts": "_test-ts_auto-blue",
+    "spec.tsx": "_test-ts_light-blue,medium-blue",
+    "specs.tsx": "_test-ts_light-blue,medium-blue",
+    "test.tsx": "_test-ts_light-blue,medium-blue",
+    "tests.tsx": "_test-ts_light-blue,medium-blue",
     "tex": "_tex_auto-blue",
     "ltx": "_tex_auto-blue",
     "aux": "_tex_auto-green",
@@ -18557,10 +19937,14 @@
     "abt": "_icon-file-text",
     "ans": "_icon-file-text",
     "brf": "_icon-file-text",
+    "dri": "_icon-file-text",
     "etx": "_icon-file-text",
+    "gpi": "_icon-file-text",
     "irclog": "_icon-file-text",
+    "more": "_icon-file-text",
     "msg": "_icon-file-text",
     "no": "_icon-file-text",
+    "rpt": "_icon-file-text",
     "srt": "_icon-file-text",
     "sub": "_icon-file-text",
     "utxt": "_icon-file-text",
@@ -18585,6 +19969,8 @@
     "8xk.txt": "_calc_medium-maroon",
     "8xp": "_calc_medium-maroon",
     "8xp.txt": "_calc_medium-maroon",
+    "tmux.conf": "_tmux_medium-green",
+    "tgitconfig": "_tortoise_medium-red",
     "travis": "_travis_medium-red",
     "tsx": "_tsx_light-blue",
     "tu": "_turing_medium-red",
@@ -18592,6 +19978,8 @@
     "tw": "_twine_medium-blue",
     "txl": "_txl_medium-orange",
     "ts": "_ts_medium-blue",
+    "typoscript": "_typo3_medium-orange",
+    "tsconfig": "_typo3_medium-orange",
     "anim": "_unity3d_dark-blue",
     "asset": "_unity3d_dark-green",
     "mat": "_unity3d_medium-red",
@@ -18660,6 +20048,7 @@
     "vsixmanifest": "_vs_dark-orange",
     "builds": "_vs_medium-maroon",
     "sln": "_vs_medium-orange",
+    "njsproj": "_vs_light-red",
     "vmdk": "_vmware_auto-orange",
     "nvram": "_vmware_auto-blue",
     "vmsd": "_vmware_medium-green",
@@ -18724,7 +20113,11 @@
     "xqm": "_sql_dark-red",
     "xqy": "_sql_dark-red",
     "xtend": "_xtend_dark-purple",
+    "yml": "_yaml_medium-red",
+    "yaml": "_yaml_medium-red",
     "yang": "_yang_medium-yellow",
+    "yar": "_yara_medium-red",
+    "yara": "_yara_medium-red",
     "yarn-metadata": "_yarn_medium-blue",
     "yarn-metadata.json": "_yarn_medium-blue",
     "yarnrc": "_yarn_dark-blue",
@@ -18753,7 +20146,8 @@
     "tmbundle": "_textmate",
     "vagrant": "_vagrant_medium-cyan",
     "vscode": "_vs",
-    "xcodeproj": "_appstore"
+    "xcodeproj": "_appstore",
+    "xcworkspace": "_appstore"
   },
   "fileNames": {
     "apkbuild": "_alpine_dark-blue",
@@ -18763,213 +20157,7 @@
     "ant.xml": "_ant_dark-pink",
     "antwar.conf.js": "_antwar_dark-purple",
     "antwar.config.js": "_antwar_dark-purple",
-    "apache conf": "_apache_medium-red",
-    "apache!conf": "_apache_medium-red",
-    "apache\"conf": "_apache_medium-red",
-    "apache#conf": "_apache_medium-red",
-    "apache$conf": "_apache_medium-red",
-    "apache%conf": "_apache_medium-red",
-    "apache&conf": "_apache_medium-red",
-    "apache'conf": "_apache_medium-red",
-    "apache(conf": "_apache_medium-red",
-    "apache)conf": "_apache_medium-red",
-    "apache*conf": "_apache_medium-red",
-    "apache+conf": "_apache_medium-red",
-    "apache,conf": "_apache_medium-red",
-    "apache-conf": "_apache_medium-red",
-    "apache.conf": "_apache_medium-red",
-    "apache/conf": "_apache_medium-red",
-    "apache0conf": "_apache_medium-red",
-    "apache1conf": "_apache_medium-red",
-    "apache2conf": "_apache_medium-red",
-    "apache3conf": "_apache_medium-red",
-    "apache4conf": "_apache_medium-red",
-    "apache5conf": "_apache_medium-red",
-    "apache6conf": "_apache_medium-red",
-    "apache7conf": "_apache_medium-red",
-    "apache8conf": "_apache_medium-red",
-    "apache9conf": "_apache_medium-red",
-    "apache:conf": "_apache_medium-red",
-    "apache;conf": "_apache_medium-red",
-    "apache<conf": "_apache_medium-red",
-    "apache=conf": "_apache_medium-red",
-    "apache>conf": "_apache_medium-red",
-    "apache?conf": "_apache_medium-red",
-    "apache@conf": "_apache_medium-red",
-    "apacheaconf": "_apache_medium-red",
-    "apachebconf": "_apache_medium-red",
-    "apachecconf": "_apache_medium-red",
-    "apachedconf": "_apache_medium-red",
-    "apacheeconf": "_apache_medium-red",
-    "apachefconf": "_apache_medium-red",
-    "apachegconf": "_apache_medium-red",
-    "apachehconf": "_apache_medium-red",
-    "apacheiconf": "_apache_medium-red",
-    "apachejconf": "_apache_medium-red",
-    "apachekconf": "_apache_medium-red",
-    "apachelconf": "_apache_medium-red",
-    "apachemconf": "_apache_medium-red",
-    "apachenconf": "_apache_medium-red",
-    "apacheoconf": "_apache_medium-red",
-    "apachepconf": "_apache_medium-red",
-    "apacheqconf": "_apache_medium-red",
-    "apacherconf": "_apache_medium-red",
-    "apachesconf": "_apache_medium-red",
-    "apachetconf": "_apache_medium-red",
-    "apacheuconf": "_apache_medium-red",
-    "apachevconf": "_apache_medium-red",
-    "apachewconf": "_apache_medium-red",
-    "apachexconf": "_apache_medium-red",
-    "apacheyconf": "_apache_medium-red",
-    "apachezconf": "_apache_medium-red",
-    "apache[conf": "_apache_medium-red",
-    "apache\\conf": "_apache_medium-red",
-    "apache]conf": "_apache_medium-red",
-    "apache^conf": "_apache_medium-red",
-    "apache_conf": "_apache_medium-red",
-    "apache`conf": "_apache_medium-red",
-    "apache{conf": "_apache_medium-red",
-    "apache|conf": "_apache_medium-red",
-    "apache}conf": "_apache_medium-red",
-    "apache~conf": "_apache_medium-red",
-    "apache2 conf": "_apache_medium-red",
-    "apache2!conf": "_apache_medium-red",
-    "apache2\"conf": "_apache_medium-red",
-    "apache2#conf": "_apache_medium-red",
-    "apache2$conf": "_apache_medium-red",
-    "apache2%conf": "_apache_medium-red",
-    "apache2&conf": "_apache_medium-red",
-    "apache2'conf": "_apache_medium-red",
-    "apache2(conf": "_apache_medium-red",
-    "apache2)conf": "_apache_medium-red",
-    "apache2*conf": "_apache_medium-red",
-    "apache2+conf": "_apache_medium-red",
-    "apache2,conf": "_apache_medium-red",
-    "apache2-conf": "_apache_medium-red",
-    "apache2.conf": "_apache_medium-red",
-    "apache2/conf": "_apache_medium-red",
-    "apache20conf": "_apache_medium-red",
-    "apache21conf": "_apache_medium-red",
-    "apache22conf": "_apache_medium-red",
-    "apache23conf": "_apache_medium-red",
-    "apache24conf": "_apache_medium-red",
-    "apache25conf": "_apache_medium-red",
-    "apache26conf": "_apache_medium-red",
-    "apache27conf": "_apache_medium-red",
-    "apache28conf": "_apache_medium-red",
-    "apache29conf": "_apache_medium-red",
-    "apache2:conf": "_apache_medium-red",
-    "apache2;conf": "_apache_medium-red",
-    "apache2<conf": "_apache_medium-red",
-    "apache2=conf": "_apache_medium-red",
-    "apache2>conf": "_apache_medium-red",
-    "apache2?conf": "_apache_medium-red",
-    "apache2@conf": "_apache_medium-red",
-    "apache2aconf": "_apache_medium-red",
-    "apache2bconf": "_apache_medium-red",
-    "apache2cconf": "_apache_medium-red",
-    "apache2dconf": "_apache_medium-red",
-    "apache2econf": "_apache_medium-red",
-    "apache2fconf": "_apache_medium-red",
-    "apache2gconf": "_apache_medium-red",
-    "apache2hconf": "_apache_medium-red",
-    "apache2iconf": "_apache_medium-red",
-    "apache2jconf": "_apache_medium-red",
-    "apache2kconf": "_apache_medium-red",
-    "apache2lconf": "_apache_medium-red",
-    "apache2mconf": "_apache_medium-red",
-    "apache2nconf": "_apache_medium-red",
-    "apache2oconf": "_apache_medium-red",
-    "apache2pconf": "_apache_medium-red",
-    "apache2qconf": "_apache_medium-red",
-    "apache2rconf": "_apache_medium-red",
-    "apache2sconf": "_apache_medium-red",
-    "apache2tconf": "_apache_medium-red",
-    "apache2uconf": "_apache_medium-red",
-    "apache2vconf": "_apache_medium-red",
-    "apache2wconf": "_apache_medium-red",
-    "apache2xconf": "_apache_medium-red",
-    "apache2yconf": "_apache_medium-red",
-    "apache2zconf": "_apache_medium-red",
-    "apache2[conf": "_apache_medium-red",
-    "apache2\\conf": "_apache_medium-red",
-    "apache2]conf": "_apache_medium-red",
-    "apache2^conf": "_apache_medium-red",
-    "apache2_conf": "_apache_medium-red",
-    "apache2`conf": "_apache_medium-red",
-    "apache2{conf": "_apache_medium-red",
-    "apache2|conf": "_apache_medium-red",
-    "apache2}conf": "_apache_medium-red",
-    "apache2~conf": "_apache_medium-red",
-    "httpd conf": "_apache_medium-red",
-    "httpd!conf": "_apache_medium-red",
-    "httpd\"conf": "_apache_medium-red",
-    "httpd#conf": "_apache_medium-red",
-    "httpd$conf": "_apache_medium-red",
-    "httpd%conf": "_apache_medium-red",
-    "httpd&conf": "_apache_medium-red",
-    "httpd'conf": "_apache_medium-red",
-    "httpd(conf": "_apache_medium-red",
-    "httpd)conf": "_apache_medium-red",
-    "httpd*conf": "_apache_medium-red",
-    "httpd+conf": "_apache_medium-red",
-    "httpd,conf": "_apache_medium-red",
-    "httpd-conf": "_apache_medium-red",
     "httpd.conf": "_apache_medium-red",
-    "httpd/conf": "_apache_medium-red",
-    "httpd0conf": "_apache_medium-red",
-    "httpd1conf": "_apache_medium-red",
-    "httpd2conf": "_apache_medium-red",
-    "httpd3conf": "_apache_medium-red",
-    "httpd4conf": "_apache_medium-red",
-    "httpd5conf": "_apache_medium-red",
-    "httpd6conf": "_apache_medium-red",
-    "httpd7conf": "_apache_medium-red",
-    "httpd8conf": "_apache_medium-red",
-    "httpd9conf": "_apache_medium-red",
-    "httpd:conf": "_apache_medium-red",
-    "httpd;conf": "_apache_medium-red",
-    "httpd<conf": "_apache_medium-red",
-    "httpd=conf": "_apache_medium-red",
-    "httpd>conf": "_apache_medium-red",
-    "httpd?conf": "_apache_medium-red",
-    "httpd@conf": "_apache_medium-red",
-    "httpdaconf": "_apache_medium-red",
-    "httpdbconf": "_apache_medium-red",
-    "httpdcconf": "_apache_medium-red",
-    "httpddconf": "_apache_medium-red",
-    "httpdeconf": "_apache_medium-red",
-    "httpdfconf": "_apache_medium-red",
-    "httpdgconf": "_apache_medium-red",
-    "httpdhconf": "_apache_medium-red",
-    "httpdiconf": "_apache_medium-red",
-    "httpdjconf": "_apache_medium-red",
-    "httpdkconf": "_apache_medium-red",
-    "httpdlconf": "_apache_medium-red",
-    "httpdmconf": "_apache_medium-red",
-    "httpdnconf": "_apache_medium-red",
-    "httpdoconf": "_apache_medium-red",
-    "httpdpconf": "_apache_medium-red",
-    "httpdqconf": "_apache_medium-red",
-    "httpdrconf": "_apache_medium-red",
-    "httpdsconf": "_apache_medium-red",
-    "httpdtconf": "_apache_medium-red",
-    "httpduconf": "_apache_medium-red",
-    "httpdvconf": "_apache_medium-red",
-    "httpdwconf": "_apache_medium-red",
-    "httpdxconf": "_apache_medium-red",
-    "httpdyconf": "_apache_medium-red",
-    "httpdzconf": "_apache_medium-red",
-    "httpd[conf": "_apache_medium-red",
-    "httpd\\conf": "_apache_medium-red",
-    "httpd]conf": "_apache_medium-red",
-    "httpd^conf": "_apache_medium-red",
-    "httpd_conf": "_apache_medium-red",
-    "httpd`conf": "_apache_medium-red",
-    "httpd{conf": "_apache_medium-red",
-    "httpd|conf": "_apache_medium-red",
-    "httpd}conf": "_apache_medium-red",
-    "httpd~conf": "_apache_medium-red",
     "apache2/magic": "_apache_medium-purple",
     "appcelerator.js": "_appcelerator_medium-red",
     "com.apple.": "_apple_medium-blue",
@@ -18983,8 +20171,6 @@
     "backbone-min.js": "_backbone_dark-blue",
     "backbone.min.js": "_backbone_dark-blue",
     "backbonedev.js": "_backbone_dark-blue",
-    "build": "_bazel_medium-green",
-    "workspace": "_bazel_medium-green",
     "makefile.boot": "_boot_auto-green",
     "bower.json": "_bower_medium-yellow,medium-orange",
     "bowerfile": "_bower_medium-yellow,medium-orange",
@@ -18993,6 +20179,10 @@
     "brewfile": "_brew_medium-orange",
     "brocfile.": "_broccoli_medium-green",
     "browserslist": "_browserslist_medium-orange",
+    "bs-config.js": "_browsersync_medium-red",
+    "bs-config.json": "_browsersync_medium-red",
+    "browser-sync.js": "_browsersync_medium-red",
+    "browser-sync.json": "_browsersync_medium-red",
     "brunch-config.js": "_brunch_medium-green",
     "brunch-config.coffee": "_brunch_medium-green",
     "brunch-config.ts": "_brunch_medium-green",
@@ -19005,6 +20195,8 @@
     "cakefile": "_cakefile_medium-red",
     "cargo.toml": "_package_light-orange",
     "cargo.lock": "_package_dark-orange",
+    "cartfile.": "_carthage_dark-pink",
+    "cartfile": "_carthage_dark-pink",
     "chai.js": "_chai_auto-red",
     "chai.jsx": "_chai_auto-red",
     "chai.ts": "_chai_auto-red",
@@ -19017,6 +20209,75 @@
     "chart.bundle.js": "_chartjs_dark-pink",
     "chart.bundle.min.js": "_chartjs_dark-pink",
     "todo": "_checklist_medium-yellow",
+    "todo txt": "_checklist_medium-green",
+    "todo!txt": "_checklist_medium-green",
+    "todo\"txt": "_checklist_medium-green",
+    "todo#txt": "_checklist_medium-green",
+    "todo$txt": "_checklist_medium-green",
+    "todo%txt": "_checklist_medium-green",
+    "todo&txt": "_checklist_medium-green",
+    "todo'txt": "_checklist_medium-green",
+    "todo(txt": "_checklist_medium-green",
+    "todo)txt": "_checklist_medium-green",
+    "todo*txt": "_checklist_medium-green",
+    "todo+txt": "_checklist_medium-green",
+    "todo,txt": "_checklist_medium-green",
+    "todo-txt": "_checklist_medium-green",
+    "todo.txt": "_checklist_medium-green",
+    "todo/txt": "_checklist_medium-green",
+    "todo0txt": "_checklist_medium-green",
+    "todo1txt": "_checklist_medium-green",
+    "todo2txt": "_checklist_medium-green",
+    "todo3txt": "_checklist_medium-green",
+    "todo4txt": "_checklist_medium-green",
+    "todo5txt": "_checklist_medium-green",
+    "todo6txt": "_checklist_medium-green",
+    "todo7txt": "_checklist_medium-green",
+    "todo8txt": "_checklist_medium-green",
+    "todo9txt": "_checklist_medium-green",
+    "todo:txt": "_checklist_medium-green",
+    "todo;txt": "_checklist_medium-green",
+    "todo<txt": "_checklist_medium-green",
+    "todo=txt": "_checklist_medium-green",
+    "todo>txt": "_checklist_medium-green",
+    "todo?txt": "_checklist_medium-green",
+    "todo@txt": "_checklist_medium-green",
+    "todoatxt": "_checklist_medium-green",
+    "todobtxt": "_checklist_medium-green",
+    "todoctxt": "_checklist_medium-green",
+    "tododtxt": "_checklist_medium-green",
+    "todoetxt": "_checklist_medium-green",
+    "todoftxt": "_checklist_medium-green",
+    "todogtxt": "_checklist_medium-green",
+    "todohtxt": "_checklist_medium-green",
+    "todoitxt": "_checklist_medium-green",
+    "todojtxt": "_checklist_medium-green",
+    "todoktxt": "_checklist_medium-green",
+    "todoltxt": "_checklist_medium-green",
+    "todomtxt": "_checklist_medium-green",
+    "todontxt": "_checklist_medium-green",
+    "todootxt": "_checklist_medium-green",
+    "todoptxt": "_checklist_medium-green",
+    "todoqtxt": "_checklist_medium-green",
+    "todortxt": "_checklist_medium-green",
+    "todostxt": "_checklist_medium-green",
+    "todottxt": "_checklist_medium-green",
+    "todoutxt": "_checklist_medium-green",
+    "todovtxt": "_checklist_medium-green",
+    "todowtxt": "_checklist_medium-green",
+    "todoxtxt": "_checklist_medium-green",
+    "todoytxt": "_checklist_medium-green",
+    "todoztxt": "_checklist_medium-green",
+    "todo[txt": "_checklist_medium-green",
+    "todo\\txt": "_checklist_medium-green",
+    "todo]txt": "_checklist_medium-green",
+    "todo^txt": "_checklist_medium-green",
+    "todo_txt": "_checklist_medium-green",
+    "todo`txt": "_checklist_medium-green",
+    "todo{txt": "_checklist_medium-green",
+    "todo|txt": "_checklist_medium-green",
+    "todo}txt": "_checklist_medium-green",
+    "todo~txt": "_checklist_medium-green",
     "chefignore": "_chef_auto-orange",
     "berksfile": "_chef_auto-orange",
     "berksfile.lock": "_chef_auto-orange",
@@ -19035,10 +20296,15 @@
     "composer.phar": "_composer_dark-blue",
     "ld.script": "_config_medium-orange",
     "xcompose": "_config_medium-cyan",
+    "buildozer.spec": "_config_dark-blue",
     "config": "_terminal_dark-purple",
     "settings": "_config_null",
     "option": "_config_null",
     "pref": "_config_null",
+    "/.ssh/config": "_config_dark-blue",
+    "/.ssh\\config": "_config_dark-blue",
+    "\\.ssh/config": "_config_dark-blue",
+    "\\.ssh\\config": "_config_dark-blue",
     "/etc/aliases": "_config_medium-maroon",
     "/etc/auto_home": "_config_medium-maroon",
     "/etc/auto_master": "_config_medium-maroon",
@@ -19071,6 +20337,10 @@
     "/private/etc/shells": "_config_medium-maroon",
     "/private/etc/sudoers": "_config_medium-maroon",
     "/private/etc/ttys": "_config_medium-maroon",
+    "cpanfile": "_cpan_dark-blue",
+    "meta.yml": "_cpan_medium-red",
+    "meta.json": "_cpan_auto-yellow",
+    "manifest.skip": "_cpan_medium-maroon",
     "pkginfo": "_database_medium-blue",
     "mime.types": "_database_medium-maroon",
     "metadata.pb": "_database_medium-red",
@@ -19093,7 +20363,6 @@
     "el": "_emacs_medium-purple",
     "emacs": "_emacs_medium-purple",
     "_emacs": "_emacs_medium-purple",
-    "spacemacs": "_emacs_medium-purple",
     "emacs.desktop": "_emacs_medium-purple",
     "abbrev-defs": "_emacs_medium-purple",
     "abbrev_defs": "_emacs_medium-purple",
@@ -19103,6 +20372,7 @@
     "project.ede": "_emacs_medium-blue",
     "authors": "_at_auto-red",
     "owners": "_at_auto-red",
+    "codeowners": "_at_auto-red",
     "emakefile": "_erlang_dark-green",
     "rebar.lock": "_erlang_medium-red",
     "rebar.config.lock": "_erlang_medium-red",
@@ -19118,10 +20388,12 @@
     "fuelux.min.css": "_fuelux_auto-orange",
     "fuelux.min.js": "_fuelux_auto-orange",
     "gdbinit": "_gdb_auto-cyan",
+    "text.enc": "_gear_dark-green",
     "_service": "_code_medium-blue",
     "configure.ac": "_code_medium-red",
     "settings.stylecop": "_code_medium-green",
     "commit_editmsg": "_git-commit_medium-red",
+    "atom_commit_editmsg": "_git-commit_medium-red",
     "merge_head": "_git-merge_medium-red",
     "merge_mode": "_git-merge_medium-red",
     "merge_msg": "_git-merge_medium-red",
@@ -19132,22 +20404,30 @@
     "gulpfile.coffee": "_gulp_medium-maroon",
     "gulpfile.babel.js": "_gulp_medium-red",
     "procfile": "_heroku_medium-purple",
+    "aptfile": "_heroku_medium-purple",
     "ionic.project": "_ionic_medium-blue",
+    "ionic.config.json": "_ionic_medium-blue",
     "root": "_isabelle_dark-blue",
     "jakefile": "_jake_auto-maroon",
     "_config.yml": "_jekyll_medium-red",
     "jenkinsfile": "_jenkins_auto-red",
+    "jest.js": "_jest_medium-red",
     "jest.json": "_jest_medium-red",
+    "jest.config.js": "_jest_medium-red",
     "jest.config.json": "_jest_medium-red",
     "notebook": "_jupyter_dark-cyan",
     "karma.conf.js": "_karma_medium-cyan",
     "karma.config.js": "_karma_medium-cyan",
     "karma.conf.coffee": "_karma_medium-maroon",
     "karma.config.coffee": "_karma_medium-maroon",
+    "karma.conf.ts": "_karma_medium-cyan",
+    "karma.config.ts": "_karma_medium-cyan",
+    "fp-lib-table": "_kicad_dark-blue",
     "kitchen.yml": "_kitchenci_medium-green",
     "kitchen.yaml": "_kitchenci_medium-green",
     "lerna.json": "_lerna_auto-blue",
     "slakefile": "_ls_medium-green",
+    "ubsan.blacklist": "_llvm_auto-red",
     "makefile": "_checklist_medium-yellow",
     "mk.config": "_checklist_medium-green",
     "bsdmakefile": "_checklist_medium-red",
@@ -19161,13 +20441,18 @@
     "mmn": "_manpage_dark-green",
     "mmt": "_manpage_dark-green",
     "toc.entries": "_manpage_dark-green",
+    "mdlrc.rb": "_markdownlint_medium-red",
+    "mdlrc.style.rb": "_markdownlint_medium-red",
+    "mdlrc": "_markdownlint_dark-cyan",
     "materialize.js": "_materialize_light-red",
     "materialize.css": "_materialize_light-red",
     "materialize.min.js": "_materialize_light-red",
     "materialize.min.css": "_materialize_light-red",
+    "hgrc": "_hg_dark-cyan",
     "meson.build": "_meson_medium-green",
     "meson_options.txt": "_meson_medium-green",
     "mcmod.info": "_minecraft_dark-green",
+    "pack.mcmeta": "_minecraft_dark-green",
     "mkdocs.yml": "_book-alt_medium-blue",
     "mkdocs.yaml": "_book-alt_medium-blue",
     "mocha.js": "_mocha_medium-maroon",
@@ -19190,7 +20475,7 @@
     "nanoc.yaml": "_nanoc_medium-red",
     "run.n": "_neko_dark-orange",
     "newrelic.yml": "_newrelic_medium-cyan",
-    "nginx.conf": "_nginx",
+    "nextflow.config": "_nextflow_dark-green",
     "bundled_node_version": "_node_dark-green",
     "nodemon.json": "_nodemon_medium-green",
     "normalize.css": "_normalize_medium-red",
@@ -19213,12 +20498,16 @@
     "phpunit.xml": "_phpunit_medium-purple",
     "phoenix.ex": "_phoenix_medium-red",
     "phoenix.js": "_phoenix_medium-orange",
+    "pipfile": "_pipenv_dark-blue",
+    "pipfile.lock": "_pipenv_dark-blue",
     "platformio.ini": "_platformio_medium-orange",
     "polymer.json": "_polymer_medium-purple",
     "postcss.config.js": "_postcss_auto-yellow",
+    "prettier.config.js": "_prettier_auto-cyan",
     "protractor.conf.": "_protractor_medium-red",
     "protractor.config.": "_protractor_medium-red",
     "modulefile": "_puppet_dark-blue",
+    "requirements.in": "_pypi_dark-blue",
     "pypirc": "_python_dark-blue",
     "pythonrc": "_python_dark-blue",
     "python-venv": "_python_dark-blue",
@@ -19285,6 +20574,7 @@
     "require.min.js": "_requirejs_medium-blue",
     "requiredev.js": "_requirejs_medium-blue",
     "riemann.config": "_clojure_auto-maroon",
+    "robots.txt": "_robots_dark-cyan",
     "rollup.config.": "_rollup_medium-red",
     "irbrc": "_ruby_medium-red",
     "gemrc": "_ruby_medium-red",
@@ -19294,6 +20584,8 @@
     "appraisals": "_ruby_medium-red",
     "rakefile": "_ruby_medium-red",
     "rakefile.lock": "_ruby_medium-red",
+    "appfile": "_ruby_medium-red",
+    "appfile.lock": "_ruby_medium-red",
     "buildfile": "_ruby_medium-red",
     "buildfile.lock": "_ruby_medium-red",
     "capfile": "_ruby_medium-red",
@@ -19360,12 +20652,15 @@
     "snap.svg.js": "_snapsvg_medium-cyan",
     "snap.svg-min.js": "_snapsvg_medium-cyan",
     "snap.svg.min.js": "_snapsvg_medium-cyan",
+    "spacemacs": "_spacemacs_medium-purple",
     "id_rsa": "_key_medium-red",
     "passwd": "_key_dark-green",
     "master.passwd": "_key_dark-green",
     "git-credential-osxkeychain": "_key_medium-green",
     "stylelint.config.js": "_stylelint_auto-yellow",
     "swagger.json": "_swagger_medium-green",
+    "swagger.yaml": "_swagger_medium-green",
+    "swagger.yml": "_swagger_medium-green",
     " swagger-codegen-ignore": "_swagger_dark-green",
     "!swagger-codegen-ignore": "_swagger_dark-green",
     "\"swagger-codegen-ignore": "_swagger_dark-green",
@@ -19436,6 +20731,23 @@
     "~swagger-codegen-ignore": "_swagger_dark-green",
     "tags": "_tag_medium-blue",
     "ctags": "_tag_medium-blue",
+    "localtags": "_tag_medium-cyan",
+    "-spec.ts": "_test-ts_auto-blue",
+    "-specs.ts": "_test-ts_auto-blue",
+    "-test.ts": "_test-ts_auto-blue",
+    "-tests.ts": "_test-ts_auto-blue",
+    "_spec.ts": "_test-ts_auto-blue",
+    "_specs.ts": "_test-ts_auto-blue",
+    "_test.ts": "_test-ts_auto-blue",
+    "_tests.ts": "_test-ts_auto-blue",
+    "-spec.tsx": "_test-ts_light-blue,medium-blue",
+    "-specs.tsx": "_test-ts_light-blue,medium-blue",
+    "-test.tsx": "_test-ts_light-blue,medium-blue",
+    "-tests.tsx": "_test-ts_light-blue,medium-blue",
+    "_spec.tsx": "_test-ts_light-blue,medium-blue",
+    "_specs.tsx": "_test-ts_light-blue,medium-blue",
+    "_test.tsx": "_test-ts_light-blue,medium-blue",
+    "_tests.tsx": "_test-ts_light-blue,medium-blue",
     "hyphen.cs": "_tex_auto-red",
     "hyphen.den": "_tex_auto-red",
     "hyphen.det": "_tex_auto-red",
@@ -19462,6 +20774,76 @@
     "for-release": "_icon-file-text",
     "tests": "_icon-file-text",
     "thorfile": "_thor_dark-orange",
+    "_tmux.conf": "_tmux_medium-green",
+    "tmux.conf": "_tmux_medium-green",
+    " tgitconfig": "_tortoise_medium-red",
+    "!tgitconfig": "_tortoise_medium-red",
+    "\"tgitconfig": "_tortoise_medium-red",
+    "#tgitconfig": "_tortoise_medium-red",
+    "$tgitconfig": "_tortoise_medium-red",
+    "%tgitconfig": "_tortoise_medium-red",
+    "&tgitconfig": "_tortoise_medium-red",
+    "'tgitconfig": "_tortoise_medium-red",
+    "(tgitconfig": "_tortoise_medium-red",
+    ")tgitconfig": "_tortoise_medium-red",
+    "*tgitconfig": "_tortoise_medium-red",
+    "+tgitconfig": "_tortoise_medium-red",
+    ",tgitconfig": "_tortoise_medium-red",
+    "-tgitconfig": "_tortoise_medium-red",
+    "/tgitconfig": "_tortoise_medium-red",
+    "0tgitconfig": "_tortoise_medium-red",
+    "1tgitconfig": "_tortoise_medium-red",
+    "2tgitconfig": "_tortoise_medium-red",
+    "3tgitconfig": "_tortoise_medium-red",
+    "4tgitconfig": "_tortoise_medium-red",
+    "5tgitconfig": "_tortoise_medium-red",
+    "6tgitconfig": "_tortoise_medium-red",
+    "7tgitconfig": "_tortoise_medium-red",
+    "8tgitconfig": "_tortoise_medium-red",
+    "9tgitconfig": "_tortoise_medium-red",
+    ":tgitconfig": "_tortoise_medium-red",
+    ";tgitconfig": "_tortoise_medium-red",
+    "<tgitconfig": "_tortoise_medium-red",
+    "=tgitconfig": "_tortoise_medium-red",
+    ">tgitconfig": "_tortoise_medium-red",
+    "?tgitconfig": "_tortoise_medium-red",
+    "@tgitconfig": "_tortoise_medium-red",
+    "atgitconfig": "_tortoise_medium-red",
+    "btgitconfig": "_tortoise_medium-red",
+    "ctgitconfig": "_tortoise_medium-red",
+    "dtgitconfig": "_tortoise_medium-red",
+    "etgitconfig": "_tortoise_medium-red",
+    "ftgitconfig": "_tortoise_medium-red",
+    "gtgitconfig": "_tortoise_medium-red",
+    "htgitconfig": "_tortoise_medium-red",
+    "itgitconfig": "_tortoise_medium-red",
+    "jtgitconfig": "_tortoise_medium-red",
+    "ktgitconfig": "_tortoise_medium-red",
+    "ltgitconfig": "_tortoise_medium-red",
+    "mtgitconfig": "_tortoise_medium-red",
+    "ntgitconfig": "_tortoise_medium-red",
+    "otgitconfig": "_tortoise_medium-red",
+    "ptgitconfig": "_tortoise_medium-red",
+    "qtgitconfig": "_tortoise_medium-red",
+    "rtgitconfig": "_tortoise_medium-red",
+    "stgitconfig": "_tortoise_medium-red",
+    "ttgitconfig": "_tortoise_medium-red",
+    "utgitconfig": "_tortoise_medium-red",
+    "vtgitconfig": "_tortoise_medium-red",
+    "wtgitconfig": "_tortoise_medium-red",
+    "xtgitconfig": "_tortoise_medium-red",
+    "ytgitconfig": "_tortoise_medium-red",
+    "ztgitconfig": "_tortoise_medium-red",
+    "[tgitconfig": "_tortoise_medium-red",
+    "\\tgitconfig": "_tortoise_medium-red",
+    "]tgitconfig": "_tortoise_medium-red",
+    "^tgitconfig": "_tortoise_medium-red",
+    "_tgitconfig": "_tortoise_medium-red",
+    "`tgitconfig": "_tortoise_medium-red",
+    "{tgitconfig": "_tortoise_medium-red",
+    "|tgitconfig": "_tortoise_medium-red",
+    "}tgitconfig": "_tortoise_medium-red",
+    "~tgitconfig": "_tortoise_medium-red",
     "typedoc.json": "_typedoc_dark-purple",
     "typings.json": "_typings_medium-maroon",
     "uikit.js": "_uikit_medium-blue",
@@ -19546,6 +20928,9 @@
       "als": "_alloy_medium-red_l",
       "apkbuild": "_alpine_dark-blue_l",
       "ampl": "_ampl_dark-maroon_l",
+      "smali": "_android_medium-green_l",
+      "rsh": "_android_dark-maroon_l",
+      "webarchivexml": "_android_dark-cyan_l",
       "acs": "_angelscript_auto-blue_l",
       "angelscript": "_angelscript_auto-blue_l",
       "ansible": "_ansible_dark-blue_l",
@@ -19565,6 +20950,7 @@
       "apl.history": "_apl_medium-maroon_l",
       "applescript": "_apple_medium-purple_l",
       "scpt": "_apple_medium-purple_l",
+      "appveyor.yml": "_appveyor_medium-blue_l",
       "arc": "_arc_medium-blue_l",
       "install": "_terminal_medium-purple_l",
       "srcinfo": "_archlinux_dark-maroon_l",
@@ -19661,15 +21047,22 @@
       "ahk": "_ahk_dark-blue_l",
       "ahkl": "_ahk_dark-purple_l",
       "au3": "_autoit_medium-purple_l",
+      "avcs": "_avro_medium-blue_l",
+      "avsc": "_avro_medium-blue_l",
+      "avdl": "_avro_medium-blue_l",
       "awk": "_terminal_medium-blue_l",
       "gawk": "_terminal_medium-red_l",
       "mawk": "_terminal_medium-maroon_l",
       "nawk": "_terminal_dark-green_l",
       "auk": "_terminal_dark-cyan_l",
       "babelrc": "_babel_medium-yellow_l",
+      "babelrc.js": "_babel_medium-yellow_l",
       "languagebabel": "_babel_medium-yellow_l",
       "babel": "_babel_medium-yellow_l",
       "babelignore": "_babel_dark-yellow_l",
+      "bak": "_backup_l",
+      "old": "_backup_l",
+      "orig": "_backup_l",
       "bzl": "_bazel_dark-blue_l",
       "bemjson": "_bem_medium-maroon_l",
       "bemjson.js": "_bem_medium-maroon_l",
@@ -19693,6 +21086,7 @@
       "br": "_brotli_medium-orange_l",
       "browserslistrc": "_browserslist_medium-orange_l",
       "buckconfig": "_buck_medium-blue_l",
+      "gemfile": "_bundler_auto-cyan_l",
       "dm": "_byond_medium-blue_l",
       "c": "_c_medium-blue_l",
       "h": "_c_medium-purple_l",
@@ -19701,6 +21095,7 @@
       "w": "_c_medium-maroon_l",
       "nc": "_c_dark-blue_l",
       "upc": "_c_medium-cyan_l",
+      "xpm": "_c_medium-green_l",
       "c++": "_cpp_auto-blue_l",
       "c+p": "_cpp_auto-blue_l",
       "c+x": "_cpp_auto-blue_l",
@@ -19727,12 +21122,40 @@
       "cs": "_csharp_auto-blue_l",
       "csx": "_csscript_dark-green_l",
       "cabal": "_cabal_medium-cyan_l",
+      "caffemodel": "_caffe_medium-maroon_l",
+      "solverstate": "_caffe_medium-green_l",
       "cake": "_cake_medium-yellow_l",
       "ctp": "_cakephp_medium-red_l",
       "ceylon": "_ceylon_medium-orange_l",
       "chpl": "_chapel_medium-green_l",
+      "todo": "_checklist_medium-yellow_l",
+      "taskpaper": "_checklist_medium-yellow_l",
       "ck": "_chuck_medium-green_l",
       "crx": "_chrome_medium-red_l",
+      "brd": "_icon-circuit-board_l",
+      "sch": "_icon-circuit-board_l",
+      "pcb": "_icon-circuit-board_l",
+      "gbr": "_icon-circuit-board_l",
+      "gtl": "_icon-circuit-board_l",
+      "gbl": "_icon-circuit-board_l",
+      "gbs": "_icon-circuit-board_l",
+      "gto": "_icon-circuit-board_l",
+      "gts": "_icon-circuit-board_l",
+      "gtp": "_icon-circuit-board_l",
+      "gbo": "_icon-circuit-board_l",
+      "gbp": "_icon-circuit-board_l",
+      "drl": "_icon-circuit-board_l",
+      "dsn": "_icon-circuit-board_l",
+      "gko": "_icon-circuit-board_l",
+      "gpt": "_icon-circuit-board_l",
+      "gpb": "_icon-circuit-board_l",
+      "cir": "_icon-circuit-board_l",
+      "ckt": "_icon-circuit-board_l",
+      "struct": "_icon-circuit-board_l",
+      "tech": "_icon-circuit-board_l",
+      "fab": "_icon-circuit-board_l",
+      "net": "_icon-circuit-board_l",
+      "pho": "_icon-circuit-board_l",
       "cirru": "_cirru_auto-pink_l",
       "clw": "_clarion_medium-orange_l",
       "icl": "_clean_dark-cyan_l",
@@ -19754,6 +21177,9 @@
       "cbl": "_cobol_auto-blue_l",
       "cobol": "_cobol_auto-blue_l",
       "cpy": "_cobol_auto-blue_l",
+      "podspec": "_ruby_medium-red_l",
+      "codacy.yml": "_codacy_dark-blue_l",
+      "codacy.yaml": "_codacy_dark-blue_l",
       "codeclimate.yml": "_cc_medium-green_l",
       "coffee": "_coffee_medium-maroon_l",
       "cjsx": "_coffee_dark-maroon_l",
@@ -19783,6 +21209,7 @@
       "apk": "_zip_medium-red_l",
       "tar": "_zip_dark-blue_l",
       "bz2": "_zip_dark-cyan_l",
+      "maff": "_zip_medium-orange_l",
       "iso": "_zip_medium-blue_l",
       "xpi": "_zip_medium-orange_l",
       "gem": "_zip_medium-red_l",
@@ -19790,6 +21217,7 @@
       "epub": "_zip_medium-green_l",
       "jar": "_zip_dark-pink_l",
       "war": "_zip_medium-purple_l",
+      "wgt": "_zip_medium-blue_l",
       "xar": "_zip_dark-orange_l",
       "egg": "_zip_light-orange_l",
       "ini": "_config_medium-yellow_l",
@@ -19804,9 +21232,17 @@
       "lds": "_config_medium-red_l",
       "opts": "_config_medium-green_l",
       "terminal": "_config_dark-blue_l",
-      "reek": "_config_medium-red_l",
       "xcompose": "_config_medium-cyan_l",
+      "ssh/config": "_config_dark-blue_l",
+      "ssh\\config": "_config_dark-blue_l",
+      "conll": "_conll_medium-blue_l",
+      "conllu": "_conll_medium-orange_l",
       "coq": "_coq_medium-maroon_l",
+      "cmx": "_corel_medium-blue_l",
+      "ccx": "_corel_medium-blue_l",
+      "cdr": "_coreldraw_medium-green_l",
+      "cdrx": "_coreldraw_medium-green_l",
+      "cdt": "_coreldraw_medium-green_l",
       "creole": "_creole_medium-blue_l",
       "cr": "_crystal_medium-cyan_l",
       "ecr": "_crystal_medium-cyan_l",
@@ -19819,6 +21255,8 @@
       "feature": "_cucumber_medium-green_l",
       "cu": "_nvidia_medium-green_l",
       "cuh": "_nvidia_dark-green_l",
+      "curlrc": "_curl_dark-blue_l",
+      "cwl": "_cwl_dark-red_l",
       "pyx": "_cython_medium-orange_l",
       "pxd": "_cython_medium-blue_l",
       "pxi": "_cython_dark-blue_l",
@@ -19831,13 +21269,13 @@
       "skim": "_dashboard_medium-orange_l",
       "slim": "_dashboard_medium-orange_l",
       "cpuprofile": "_dashboard_medium-green_l",
+      "cloc": "_dashboard_medium-blue_l",
       "json": "_database_medium-yellow_l",
       "hjson": "_database_medium-yellow_l",
       "geojson": "_database_medium-yellow_l",
       "topojson": "_database_medium-yellow_l",
-      "yml": "_database_light-red_l",
-      "yaml": "_database_light-red_l",
       "cson": "_database_medium-maroon_l",
+      "hson": "_database_medium-orange_l",
       "json5": "_database_dark-yellow_l",
       "http": "_database_medium-red_l",
       "ndjson": "_database_medium-orange_l",
@@ -19848,14 +21286,24 @@
       "pydeps": "_database_dark-blue_l",
       "po": "_database_medium-red_l",
       "pot": "_database_medium-red_l",
+      "ejson": "_database_dark-red_l",
       "edn": "_database_medium-purple_l",
       "eam.fs": "_database_dark-purple_l",
       "qml": "_database_medium-pink_l",
       "qbs": "_database_dark-pink_l",
       "ston": "_database_medium-maroon_l",
       "ttl": "_database_medium-cyan_l",
-      "rviz": "_database_dark-blue_l",
+      "schema": "_database_dark-blue_l",
       "syntax": "_database_medium-blue_l",
+      "webmanifest": "_database_medium-blue_l",
+      "ldj": "_database_dark-orange_l",
+      "ldjson": "_database_dark-orange_l",
+      "jsonl": "_database_dark-orange_l",
+      "ssh/authorized_keys": "_database_medium-green_l",
+      "ssh/known_hosts": "_database_medium-green_l",
+      "ssh\\authorized_keys": "_database_medium-green_l",
+      "ssh\\known_hosts": "_database_medium-green_l",
+      "dwl": "_dataweave_auto-blue_l",
       "dbf": "_dbase_medium-red_l",
       "deb": "_debian_medium-red_l",
       "dfm": "_delphi_medium-red_l",
@@ -19871,14 +21319,15 @@
       "doclets.yml": "_doclets_light-green,medium-green_l",
       "doclets.yaml": "_doclets_light-green,medium-green_l",
       "djs": "_doge_medium-yellow_l",
+      "doxyfile": "_doxygen_medium-blue_l",
       "drone.yml": "_drone_medium-cyan_l",
       "drone.yaml": "_drone_medium-cyan_l",
       "dyalog": "_dyalog_medium-orange_l",
       "dylib": "_dylib_medium-cyan_l",
       "bundle": "_package_l",
       "e": "_eiffel_medium-cyan_l",
-      "sch": "_eagle_medium-red_l",
-      "brd": "_eagle_dark-red_l",
+      "eup": "_eagle_medium-red_l",
+      "eb": "_easybuild_dark-blue_l",
       "ec": "_ec_dark-blue_l",
       "eh": "_ec_dark-purple_l",
       "epj": "_ecere_medium-blue_l",
@@ -19895,7 +21344,6 @@
       "el": "_emacs_medium-purple_l",
       "emacs": "_emacs_medium-purple_l",
       "_emacs": "_emacs_medium-purple_l",
-      "spacemacs": "_emacs_medium-purple_l",
       "emacs.desktop": "_emacs_medium-purple_l",
       "abbrev-defs": "_emacs_medium-purple_l",
       "abbrev_defs": "_emacs_medium-purple_l",
@@ -19930,6 +21378,8 @@
       "fbx": "_fbx_medium-maroon_l",
       "rsrc": "_finder_dark-blue_l",
       "firebaserc": "_firebase_medium-orange_l",
+      "bolt": "_firebase-bolt_medium-yellow_l",
+      "webapp": "_firefox_medium-orange_l",
       "flowconfig": "_flow_medium-orange_l",
       "js.flow": "_flow_medium-orange_l",
       "flow": "_flow_medium-orange_l",
@@ -20001,6 +21451,7 @@
       "asn": "_code_medium-cyan_l",
       "asn1": "_code_medium-cyan_l",
       "axml": "_code_dark-blue_l",
+      "bal": "_code_dark-green_l",
       "bc": "_code_dark-red_l",
       "befunge": "_code_medium-orange_l",
       "bmx": "_code_dark-blue_l",
@@ -20008,6 +21459,7 @@
       "brs": "_code_dark-blue_l",
       "capnp": "_code_dark-red_l",
       "ccxml": "_code_dark-blue_l",
+      "cgi": "_code_medium-red_l",
       "ch": "_code_medium-red_l",
       "clixml": "_code_dark-blue_l",
       "cocci": "_code_medium-blue_l",
@@ -20024,6 +21476,7 @@
       "ebnf": "_code_medium-red_l",
       "ecl": "_code_medium-blue_l",
       "eclxml": "_code_dark-green_l",
+      "fcgi": "_code_medium-blue_l",
       "filters": "_code_medium-pink_l",
       "flex": "_code_dark-red_l",
       "fo": "_code_medium-red_l",
@@ -20080,6 +21533,9 @@
       "sgm": "_code_dark-yellow_l",
       "sgml": "_code_dark-yellow_l",
       "sig": "_code_light-maroon_l",
+      "sk": "_code_light-blue_l",
+      "sk1": "_code_medium-blue_l",
+      "sk2": "_code_medium-blue_l",
       "sml": "_code_medium-red_l",
       "smt": "_code_light-blue_l",
       "smt2": "_code_medium-cyan_l",
@@ -20122,11 +21578,17 @@
       "kid": "_genshi_medium-red_l",
       "ebuild": "_gentoo_dark-cyan_l",
       "eclass": "_gentoo_medium-blue_l",
+      "xcf": "_gimp_medium-red_l",
+      "ggr": "_gimp_medium-orange_l",
+      "gih": "_gimp_medium-maroon_l",
+      "gpl": "_gimp_medium-green_l",
+      "vbr": "_gimp_medium-cyan_l",
       "git": "_git_medium-red_l",
       "keep": "_git_medium-red_l",
       "mailmap": "_git_medium-red_l",
       "gitlab-ci.yml": "_gitlab_medium-orange_l",
       "glade": "_glade_medium-green_l",
+      "gltf": "_gltf_medium-green_l",
       "glf": "_pointwise_medium-blue_l",
       "glyphs": "_glyphs_medium-green_l",
       "gn": "_gn_dark-blue_l",
@@ -20172,6 +21634,7 @@
       "hxproj": "_haxedevelop_auto-blue_l",
       "buildpacks": "_heroku_light-purple_l",
       "vendor_urls": "_heroku_dark-purple_l",
+      "hpgl": "_hp_medium-blue_l",
       "hl": "_hoplon_medium-red_l",
       "htm": "_html5_medium-orange_l",
       "html": "_html5_medium-orange_l",
@@ -20190,6 +21653,8 @@
       "vash": "_html5_medium-red_l",
       "xht": "_html5_medium-maroon_l",
       "dtml": "_html5_medium-blue_l",
+      "mht": "_html5_medium-blue_l",
+      "mhtml": "_html5_medium-blue_l",
       "htm.ecr": "_html5_medium-cyan_l",
       "html.ecr": "_html5_medium-cyan_l",
       "htm.erb": "_html5_medium-red_l",
@@ -20212,6 +21677,7 @@
       "bpg": "_image_medium-red_l",
       "cin": "_image_medium-orange_l",
       "cd5": "_image_dark-green_l",
+      "cgm": "_image_medium-orange_l",
       "cpc": "_image_light-yellow_l",
       "cr2": "_image_medium-orange_l",
       "dcm": "_image_medium-pink_l",
@@ -20221,6 +21687,7 @@
       "dpx": "_image_dark-orange_l",
       "ecw": "_image_light-blue_l",
       "exr": "_image_dark-yellow_l",
+      "fig": "_image_dark-orange_l",
       "fit": "_image_medium-cyan_l",
       "fits": "_image_medium-cyan_l",
       "flif": "_image_dark-red_l",
@@ -20260,7 +21727,13 @@
       "vsd": "_visio_medium-blue_l",
       "vsdx": "_visio_dark-blue_l",
       "wbm": "_image_dark-maroon_l",
+      "wmf": "_image_medium-red_l",
+      "emf": "_image_medium-red_l",
+      "wmz": "_image_medium-red_l",
+      "apm": "_image_medium-red_l",
       "wdp": "_image_dark-red_l",
+      "xwd": "_image_dark-purple_l",
+      "imba": "_imba_medium-blue_l",
       "ni": "_inform7_medium-blue_l",
       "i7x": "_inform7_dark-blue_l",
       "iss": "_inno_dark-blue_l",
@@ -20305,6 +21778,9 @@
       "keynote": "_keynote_medium-blue_l",
       "knt": "_keynote_dark-blue_l",
       "kicad_pcb": "_kicad_dark-blue_l",
+      "kicad_pcb-bak": "_kicad_dark-red_l",
+      "kicad_mod": "_kicad_medium-green_l",
+      "kicad_wks": "_kicad_medium-cyan_l",
       "kitchen.yml": "_kitchenci_medium-green_l",
       "kitchen.yaml": "_kitchenci_medium-green_l",
       "kv": "_kivy_dark-maroon_l",
@@ -20337,6 +21813,7 @@
       "_ls": "_ls_dark-blue_l",
       "ll": "_llvm_dark-green_l",
       "clang-format": "_llvm_auto-yellow_l",
+      "clang-tidy": "_llvm_auto-yellow_l",
       "xm": "_mobile_dark-blue_l",
       "xi": "_mobile_dark-red_l",
       "logtalk": "_logtalk_medium-red_l",
@@ -20420,6 +21897,9 @@
       "ron": "_markdown_medium-blue_l",
       "pmd": "_markdown_medium-blue_l",
       "markdownlintrc": "_markdownlint_dark-green_l",
+      "mdlrc.rb": "_markdownlint_medium-red_l",
+      "mdlrc.style.rb": "_markdownlint_medium-red_l",
+      "mdlrc": "_markdownlint_dark-cyan_l",
       "marko": "_marko_medium-blue_l",
       "marko.js": "_marko_medium-maroon_l",
       "mathematica": "_mathematica_dark-red_l",
@@ -20448,6 +21928,10 @@
       "mediawiki": "_mediawiki_medium-yellow_l",
       "wiki": "_mediawiki_medium-orange_l",
       "mention-bot": "_bullhorn_medium-orange_l",
+      "hgignore": "_hg_medium-cyan_l",
+      "hgrc": "_hg_dark-cyan_l",
+      "hgsub": "_hg_dark-blue_l",
+      "hgsubstate": "_hg_medium-red_l",
       "moo": "_mercury_medium-cyan_l",
       "metal": "_metal_dark-cyan_l",
       "accda": "_access_dark-maroon_l",
@@ -20495,6 +21979,8 @@
       "vst": "_visio_dark-blue_l",
       "vstm": "_visio_dark-blue_l",
       "vstx": "_visio_dark-blue_l",
+      "mcfunction": "_minecraft_light-green_l",
+      "png.mcmeta": "_minecraft_dark-green_l",
       "mzn": "_minizinc_medium-blue_l",
       "dzn": "_minizinc_dark-blue_l",
       "duby": "_mirah_medium-blue_l",
@@ -20517,6 +22003,8 @@
       "cginc": "_model_dark-cyan_l",
       "stl": "_model_dark-green_l",
       "u3d": "_model_medium-orange_l",
+      "rviz": "_model_dark-blue_l",
+      "vcg": "_model_dark-blue_l",
       "mo": "_circle_light-red_l",
       "mod": "_modula2_medium-blue_l",
       "def": "_modula2_medium-green_l",
@@ -20534,6 +22022,7 @@
       "pd": "_music_dark-red_l",
       "hbs": "_mustache_medium-orange_l",
       "handlebars": "_mustache_medium-orange_l",
+      "stache": "_mustache_medium-orange_l",
       "mustache": "_mustache_medium-orange_l",
       "nanorc": "_nano_medium-blue_l",
       "nanoc.yml": "_nanoc_medium-red_l",
@@ -20545,6 +22034,7 @@
       "axs": "_amx_medium-blue_l",
       "axi": "_amx_dark-blue_l",
       "nlogo": "_netlogo_medium-red_l",
+      "nf": "_nextflow_medium-green_l",
       "nginxconf": "_nginx_l",
       "nib": "_nib_dark-orange_l",
       "nim": "_nimrod_medium-green_l",
@@ -20559,6 +22049,7 @@
       "node": "_node_dark-green_l",
       "node-version": "_node_dark-green_l",
       "nodemonignore": "_nodemon_medium-green_l",
+      "nomad": "_nomad_medium-green_l",
       "npmignore": "_npm_medium-red_l",
       "npmrc": "_npm_medium-red_l",
       "nsi": "_nsis_medium-purple_l",
@@ -20641,6 +22132,7 @@
       "pegcoffee": "_peg_medium-maroon_l",
       "pl": "_perl_medium-blue_l",
       "perl": "_perl_medium-blue_l",
+      "al": "_perl_dark-blue_l",
       "ph": "_perl_dark-purple_l",
       "plx": "_perl_medium-purple_l",
       "pm": "_perl_dark-blue_l",
@@ -20707,6 +22199,11 @@
       "psd1": "_powershell_dark-blue_l",
       "psm1": "_powershell_medium-purple_l",
       "ps1xml": "_powershell_dark-purple_l",
+      "prettierrc": "_prettier_auto-cyan_l",
+      "prettierrc.js": "_prettier_auto-cyan_l",
+      "prettierrc.json": "_prettier_auto-cyan_l",
+      "prettierrc.yml": "_prettier_auto-cyan_l",
+      "prettierrc.yaml": "_prettier_auto-cyan_l",
       "ppd": "_print_dark-cyan_l",
       "pde": "_processing_dark-blue_l",
       "pro": "_prolog_medium-blue_l",
@@ -20740,6 +22237,8 @@
       "pypirc": "_python_dark-blue_l",
       "pythonrc": "_python_dark-blue_l",
       "python-venv": "_python_dark-blue_l",
+      "q": "_kx_medium-blue_l",
+      "k": "_kx_dark-purple_l",
       "r": "_r_medium-blue_l",
       "rprofile": "_r_medium-blue_l",
       "rsx": "_r_medium-blue_l",
@@ -20774,9 +22273,9 @@
       "reds": "_red_light-red_l",
       "rpm": "_red-hat_medium-red_l",
       "spec": "_red-hat_dark-red_l",
+      "reek": "_reek_medium-red_l",
       "regex": "_regex_medium-green_l",
       "regexp": "_regex_medium-green_l",
-      "rsh": "_android_dark-maroon_l",
       "rst": "_rst_dark-blue_l",
       "rst.txt": "_rst_dark-blue_l",
       "rest": "_rst_dark-blue_l",
@@ -20786,6 +22285,7 @@
       "pprx": "_rexx_medium-blue_l",
       "3dm": "_rhino_medium-blue_l",
       "rvb": "_rhino_medium-green_l",
+      "ring": "_ring_medium-purple_l",
       "tag": "_riot_medium-red_l",
       "robot": "_robot_medium-purple_l",
       "rg": "_clojure_medium-red_l",
@@ -20799,7 +22299,6 @@
       "god": "_ruby_medium-red_l",
       "mspec": "_ruby_medium-red_l",
       "pluginspec": "_ruby_medium-red_l",
-      "podspec": "_ruby_medium-red_l",
       "rabl": "_ruby_medium-red_l",
       "rake": "_ruby_medium-red_l",
       "opal": "_ruby_medium-red_l",
@@ -20816,6 +22315,7 @@
       "watchr": "_ruby_dark-yellow_l",
       "rs": "_rust_medium-maroon_l",
       "rlib": "_rust_light-maroon_l",
+      "webarchive": "_safari_medium-blue_l",
       "sage": "_sage_medium-blue_l",
       "sagews": "_sage_dark-blue_l",
       "sls": "_saltstack_auto-blue_l",
@@ -20825,6 +22325,7 @@
       "sbt": "_sbt_dark-purple_l",
       "sc": "_scala_medium-red_l",
       "scala": "_scala_medium-red_l",
+      "kojo": "_scala_medium-green_l",
       "scm": "_scheme_medium-red_l",
       "sld": "_scheme_medium-blue_l",
       "sps": "_scheme_medium-purple_l",
@@ -20863,6 +22364,8 @@
       "bash_history": "_terminal_dark-purple_l",
       "bash_prompt": "_terminal_dark-purple_l",
       "ksh": "_terminal_dark-yellow_l",
+      "mksh": "_terminal_dark-yellow_l",
+      "pdksh": "_terminal_dark-yellow_l",
       "sh-session": "_terminal_auto-yellow_l",
       "zsh": "_terminal_medium-blue_l",
       "zsh-theme": "_terminal_medium-blue_l",
@@ -20892,14 +22395,17 @@
       "skp": "_sketchup-mk_medium-red_l",
       "style": "_sketchup-sb_auto-red_l",
       "sl": "_slash_dark-blue_l",
-      "smali": "_android_medium-green_l",
       "tpl": "_smarty_auto-yellow_l",
       "snyk": "_snyk_dark-purple_l",
+      "sol": "_solidity_dark-cyan_l",
+      "solidity": "_solidity_dark-cyan_l",
       "sma": "_clojure_auto-yellow_l",
       "sp": "_clojure_auto-yellow_l",
       "inc": "_clojure_medium-green_l",
       "css.map": "_sourcemap_medium-blue_l",
       "js.map": "_sourcemap_auto-yellow_l",
+      "map": "_sourcemap_dark-blue_l",
+      "spacemacs": "_spacemacs_medium-purple_l",
       "sparql": "_sparql_medium-blue_l",
       "rq": "_sparql_dark-blue_l",
       "jsont": "_squarespace_dark-purple_l",
@@ -20932,6 +22438,7 @@
       "mata": "_stata_dark-cyan_l",
       "matah": "_stata_light-cyan_l",
       "sthlp": "_stata_medium-purple_l",
+      "stencil": "_stencil_medium-orange_l",
       "story": "_storyist_medium-blue_l",
       "strings": "_strings_medium-red_l",
       "stylelintrc.": "_stylelint_medium-purple_l",
@@ -20973,7 +22480,7 @@
       "scd": "_scd_medium-red_l",
       "svg": "_svg_dark-yellow_l",
       "swagger-codegen-ignore": "_swagger_dark-green_l",
-      "swift": "_swift_medium-green_l",
+      "swift": "_swift_medium-orange_l",
       "sv": "_sysverilog_auto-blue_l",
       "svh": "_sysverilog_auto-green_l",
       "vh": "_sysverilog_auto-cyan_l",
@@ -20981,6 +22488,7 @@
       "tags": "_tag_medium-blue_l",
       "ctags": "_tag_medium-blue_l",
       "gemtags": "_tag_medium-red_l",
+      "hgtags": "_tag_medium-cyan_l",
       "pid": "_tag_medium-orange_l",
       "tcl": "_tcl_dark-orange_l",
       "adp": "_tcl_medium-orange_l",
@@ -20988,13 +22496,27 @@
       "exp": "_tcl_dark-blue_l",
       "tea": "_coffee_medium-orange_l",
       "tl": "_telegram_medium-blue_l",
+      "xps": "_telegram_light-blue_l",
       "tt": "_tt_medium-blue_l",
       "tt2": "_tt_medium-blue_l",
       "tt3": "_tt_medium-purple_l",
       "tern-project": "_tern_medium-blue_l",
+      "tern-config": "_tern_medium-purple_l",
       "tf": "_terraform_dark-purple_l",
       "tfvars": "_terraform_dark-purple_l",
+      "tf.json": "_terraform_medium-yellow_l",
+      "tfstate": "_terraform_medium-cyan_l",
+      "tfstate.backup": "_terraform_medium-cyan_l",
+      "xspec": "_test-generic_dark-green_l",
       "t": "_test-perl_auto-blue_l",
+      "spec.ts": "_test-ts_auto-blue_l",
+      "specs.ts": "_test-ts_auto-blue_l",
+      "test.ts": "_test-ts_auto-blue_l",
+      "tests.ts": "_test-ts_auto-blue_l",
+      "spec.tsx": "_test-ts_light-blue,medium-blue_l",
+      "specs.tsx": "_test-ts_light-blue,medium-blue_l",
+      "test.tsx": "_test-ts_light-blue,medium-blue_l",
+      "tests.tsx": "_test-ts_light-blue,medium-blue_l",
       "tex": "_tex_auto-blue_l",
       "ltx": "_tex_auto-blue_l",
       "aux": "_tex_auto-green_l",
@@ -21019,10 +22541,14 @@
       "abt": "_icon-file-text_l",
       "ans": "_icon-file-text_l",
       "brf": "_icon-file-text_l",
+      "dri": "_icon-file-text_l",
       "etx": "_icon-file-text_l",
+      "gpi": "_icon-file-text_l",
       "irclog": "_icon-file-text_l",
+      "more": "_icon-file-text_l",
       "msg": "_icon-file-text_l",
       "no": "_icon-file-text_l",
+      "rpt": "_icon-file-text_l",
       "srt": "_icon-file-text_l",
       "sub": "_icon-file-text_l",
       "utxt": "_icon-file-text_l",
@@ -21047,6 +22573,8 @@
       "8xk.txt": "_calc_medium-maroon_l",
       "8xp": "_calc_medium-maroon_l",
       "8xp.txt": "_calc_medium-maroon_l",
+      "tmux.conf": "_tmux_medium-green_l",
+      "tgitconfig": "_tortoise_medium-red_l",
       "travis": "_travis_medium-red_l",
       "tsx": "_tsx_light-blue_l",
       "tu": "_turing_medium-red_l",
@@ -21054,6 +22582,8 @@
       "tw": "_twine_medium-blue_l",
       "txl": "_txl_medium-orange_l",
       "ts": "_ts_medium-blue_l",
+      "typoscript": "_typo3_medium-orange_l",
+      "tsconfig": "_typo3_medium-orange_l",
       "anim": "_unity3d_dark-blue_l",
       "asset": "_unity3d_dark-green_l",
       "mat": "_unity3d_medium-red_l",
@@ -21122,6 +22652,7 @@
       "vsixmanifest": "_vs_dark-orange_l",
       "builds": "_vs_medium-maroon_l",
       "sln": "_vs_medium-orange_l",
+      "njsproj": "_vs_light-red_l",
       "vmdk": "_vmware_auto-orange_l",
       "nvram": "_vmware_auto-blue_l",
       "vmsd": "_vmware_medium-green_l",
@@ -21186,7 +22717,11 @@
       "xqm": "_sql_dark-red_l",
       "xqy": "_sql_dark-red_l",
       "xtend": "_xtend_dark-purple_l",
+      "yml": "_yaml_medium-red_l",
+      "yaml": "_yaml_medium-red_l",
       "yang": "_yang_medium-yellow_l",
+      "yar": "_yara_medium-red_l",
+      "yara": "_yara_medium-red_l",
       "yarn-metadata": "_yarn_medium-blue_l",
       "yarn-metadata.json": "_yarn_medium-blue_l",
       "yarnrc": "_yarn_dark-blue_l",
@@ -21215,7 +22750,8 @@
       "tmbundle": "_textmate_l",
       "vagrant": "_vagrant_medium-cyan_l",
       "vscode": "_vs_l",
-      "xcodeproj": "_appstore_l"
+      "xcodeproj": "_appstore_l",
+      "xcworkspace": "_appstore_l"
     },
     "fileNames": {
       "apkbuild": "_alpine_dark-blue_l",
@@ -21225,213 +22761,7 @@
       "ant.xml": "_ant_dark-pink_l",
       "antwar.conf.js": "_antwar_dark-purple_l",
       "antwar.config.js": "_antwar_dark-purple_l",
-      "apache conf": "_apache_medium-red_l",
-      "apache!conf": "_apache_medium-red_l",
-      "apache\"conf": "_apache_medium-red_l",
-      "apache#conf": "_apache_medium-red_l",
-      "apache$conf": "_apache_medium-red_l",
-      "apache%conf": "_apache_medium-red_l",
-      "apache&conf": "_apache_medium-red_l",
-      "apache'conf": "_apache_medium-red_l",
-      "apache(conf": "_apache_medium-red_l",
-      "apache)conf": "_apache_medium-red_l",
-      "apache*conf": "_apache_medium-red_l",
-      "apache+conf": "_apache_medium-red_l",
-      "apache,conf": "_apache_medium-red_l",
-      "apache-conf": "_apache_medium-red_l",
-      "apache.conf": "_apache_medium-red_l",
-      "apache/conf": "_apache_medium-red_l",
-      "apache0conf": "_apache_medium-red_l",
-      "apache1conf": "_apache_medium-red_l",
-      "apache2conf": "_apache_medium-red_l",
-      "apache3conf": "_apache_medium-red_l",
-      "apache4conf": "_apache_medium-red_l",
-      "apache5conf": "_apache_medium-red_l",
-      "apache6conf": "_apache_medium-red_l",
-      "apache7conf": "_apache_medium-red_l",
-      "apache8conf": "_apache_medium-red_l",
-      "apache9conf": "_apache_medium-red_l",
-      "apache:conf": "_apache_medium-red_l",
-      "apache;conf": "_apache_medium-red_l",
-      "apache<conf": "_apache_medium-red_l",
-      "apache=conf": "_apache_medium-red_l",
-      "apache>conf": "_apache_medium-red_l",
-      "apache?conf": "_apache_medium-red_l",
-      "apache@conf": "_apache_medium-red_l",
-      "apacheaconf": "_apache_medium-red_l",
-      "apachebconf": "_apache_medium-red_l",
-      "apachecconf": "_apache_medium-red_l",
-      "apachedconf": "_apache_medium-red_l",
-      "apacheeconf": "_apache_medium-red_l",
-      "apachefconf": "_apache_medium-red_l",
-      "apachegconf": "_apache_medium-red_l",
-      "apachehconf": "_apache_medium-red_l",
-      "apacheiconf": "_apache_medium-red_l",
-      "apachejconf": "_apache_medium-red_l",
-      "apachekconf": "_apache_medium-red_l",
-      "apachelconf": "_apache_medium-red_l",
-      "apachemconf": "_apache_medium-red_l",
-      "apachenconf": "_apache_medium-red_l",
-      "apacheoconf": "_apache_medium-red_l",
-      "apachepconf": "_apache_medium-red_l",
-      "apacheqconf": "_apache_medium-red_l",
-      "apacherconf": "_apache_medium-red_l",
-      "apachesconf": "_apache_medium-red_l",
-      "apachetconf": "_apache_medium-red_l",
-      "apacheuconf": "_apache_medium-red_l",
-      "apachevconf": "_apache_medium-red_l",
-      "apachewconf": "_apache_medium-red_l",
-      "apachexconf": "_apache_medium-red_l",
-      "apacheyconf": "_apache_medium-red_l",
-      "apachezconf": "_apache_medium-red_l",
-      "apache[conf": "_apache_medium-red_l",
-      "apache\\conf": "_apache_medium-red_l",
-      "apache]conf": "_apache_medium-red_l",
-      "apache^conf": "_apache_medium-red_l",
-      "apache_conf": "_apache_medium-red_l",
-      "apache`conf": "_apache_medium-red_l",
-      "apache{conf": "_apache_medium-red_l",
-      "apache|conf": "_apache_medium-red_l",
-      "apache}conf": "_apache_medium-red_l",
-      "apache~conf": "_apache_medium-red_l",
-      "apache2 conf": "_apache_medium-red_l",
-      "apache2!conf": "_apache_medium-red_l",
-      "apache2\"conf": "_apache_medium-red_l",
-      "apache2#conf": "_apache_medium-red_l",
-      "apache2$conf": "_apache_medium-red_l",
-      "apache2%conf": "_apache_medium-red_l",
-      "apache2&conf": "_apache_medium-red_l",
-      "apache2'conf": "_apache_medium-red_l",
-      "apache2(conf": "_apache_medium-red_l",
-      "apache2)conf": "_apache_medium-red_l",
-      "apache2*conf": "_apache_medium-red_l",
-      "apache2+conf": "_apache_medium-red_l",
-      "apache2,conf": "_apache_medium-red_l",
-      "apache2-conf": "_apache_medium-red_l",
-      "apache2.conf": "_apache_medium-red_l",
-      "apache2/conf": "_apache_medium-red_l",
-      "apache20conf": "_apache_medium-red_l",
-      "apache21conf": "_apache_medium-red_l",
-      "apache22conf": "_apache_medium-red_l",
-      "apache23conf": "_apache_medium-red_l",
-      "apache24conf": "_apache_medium-red_l",
-      "apache25conf": "_apache_medium-red_l",
-      "apache26conf": "_apache_medium-red_l",
-      "apache27conf": "_apache_medium-red_l",
-      "apache28conf": "_apache_medium-red_l",
-      "apache29conf": "_apache_medium-red_l",
-      "apache2:conf": "_apache_medium-red_l",
-      "apache2;conf": "_apache_medium-red_l",
-      "apache2<conf": "_apache_medium-red_l",
-      "apache2=conf": "_apache_medium-red_l",
-      "apache2>conf": "_apache_medium-red_l",
-      "apache2?conf": "_apache_medium-red_l",
-      "apache2@conf": "_apache_medium-red_l",
-      "apache2aconf": "_apache_medium-red_l",
-      "apache2bconf": "_apache_medium-red_l",
-      "apache2cconf": "_apache_medium-red_l",
-      "apache2dconf": "_apache_medium-red_l",
-      "apache2econf": "_apache_medium-red_l",
-      "apache2fconf": "_apache_medium-red_l",
-      "apache2gconf": "_apache_medium-red_l",
-      "apache2hconf": "_apache_medium-red_l",
-      "apache2iconf": "_apache_medium-red_l",
-      "apache2jconf": "_apache_medium-red_l",
-      "apache2kconf": "_apache_medium-red_l",
-      "apache2lconf": "_apache_medium-red_l",
-      "apache2mconf": "_apache_medium-red_l",
-      "apache2nconf": "_apache_medium-red_l",
-      "apache2oconf": "_apache_medium-red_l",
-      "apache2pconf": "_apache_medium-red_l",
-      "apache2qconf": "_apache_medium-red_l",
-      "apache2rconf": "_apache_medium-red_l",
-      "apache2sconf": "_apache_medium-red_l",
-      "apache2tconf": "_apache_medium-red_l",
-      "apache2uconf": "_apache_medium-red_l",
-      "apache2vconf": "_apache_medium-red_l",
-      "apache2wconf": "_apache_medium-red_l",
-      "apache2xconf": "_apache_medium-red_l",
-      "apache2yconf": "_apache_medium-red_l",
-      "apache2zconf": "_apache_medium-red_l",
-      "apache2[conf": "_apache_medium-red_l",
-      "apache2\\conf": "_apache_medium-red_l",
-      "apache2]conf": "_apache_medium-red_l",
-      "apache2^conf": "_apache_medium-red_l",
-      "apache2_conf": "_apache_medium-red_l",
-      "apache2`conf": "_apache_medium-red_l",
-      "apache2{conf": "_apache_medium-red_l",
-      "apache2|conf": "_apache_medium-red_l",
-      "apache2}conf": "_apache_medium-red_l",
-      "apache2~conf": "_apache_medium-red_l",
-      "httpd conf": "_apache_medium-red_l",
-      "httpd!conf": "_apache_medium-red_l",
-      "httpd\"conf": "_apache_medium-red_l",
-      "httpd#conf": "_apache_medium-red_l",
-      "httpd$conf": "_apache_medium-red_l",
-      "httpd%conf": "_apache_medium-red_l",
-      "httpd&conf": "_apache_medium-red_l",
-      "httpd'conf": "_apache_medium-red_l",
-      "httpd(conf": "_apache_medium-red_l",
-      "httpd)conf": "_apache_medium-red_l",
-      "httpd*conf": "_apache_medium-red_l",
-      "httpd+conf": "_apache_medium-red_l",
-      "httpd,conf": "_apache_medium-red_l",
-      "httpd-conf": "_apache_medium-red_l",
       "httpd.conf": "_apache_medium-red_l",
-      "httpd/conf": "_apache_medium-red_l",
-      "httpd0conf": "_apache_medium-red_l",
-      "httpd1conf": "_apache_medium-red_l",
-      "httpd2conf": "_apache_medium-red_l",
-      "httpd3conf": "_apache_medium-red_l",
-      "httpd4conf": "_apache_medium-red_l",
-      "httpd5conf": "_apache_medium-red_l",
-      "httpd6conf": "_apache_medium-red_l",
-      "httpd7conf": "_apache_medium-red_l",
-      "httpd8conf": "_apache_medium-red_l",
-      "httpd9conf": "_apache_medium-red_l",
-      "httpd:conf": "_apache_medium-red_l",
-      "httpd;conf": "_apache_medium-red_l",
-      "httpd<conf": "_apache_medium-red_l",
-      "httpd=conf": "_apache_medium-red_l",
-      "httpd>conf": "_apache_medium-red_l",
-      "httpd?conf": "_apache_medium-red_l",
-      "httpd@conf": "_apache_medium-red_l",
-      "httpdaconf": "_apache_medium-red_l",
-      "httpdbconf": "_apache_medium-red_l",
-      "httpdcconf": "_apache_medium-red_l",
-      "httpddconf": "_apache_medium-red_l",
-      "httpdeconf": "_apache_medium-red_l",
-      "httpdfconf": "_apache_medium-red_l",
-      "httpdgconf": "_apache_medium-red_l",
-      "httpdhconf": "_apache_medium-red_l",
-      "httpdiconf": "_apache_medium-red_l",
-      "httpdjconf": "_apache_medium-red_l",
-      "httpdkconf": "_apache_medium-red_l",
-      "httpdlconf": "_apache_medium-red_l",
-      "httpdmconf": "_apache_medium-red_l",
-      "httpdnconf": "_apache_medium-red_l",
-      "httpdoconf": "_apache_medium-red_l",
-      "httpdpconf": "_apache_medium-red_l",
-      "httpdqconf": "_apache_medium-red_l",
-      "httpdrconf": "_apache_medium-red_l",
-      "httpdsconf": "_apache_medium-red_l",
-      "httpdtconf": "_apache_medium-red_l",
-      "httpduconf": "_apache_medium-red_l",
-      "httpdvconf": "_apache_medium-red_l",
-      "httpdwconf": "_apache_medium-red_l",
-      "httpdxconf": "_apache_medium-red_l",
-      "httpdyconf": "_apache_medium-red_l",
-      "httpdzconf": "_apache_medium-red_l",
-      "httpd[conf": "_apache_medium-red_l",
-      "httpd\\conf": "_apache_medium-red_l",
-      "httpd]conf": "_apache_medium-red_l",
-      "httpd^conf": "_apache_medium-red_l",
-      "httpd_conf": "_apache_medium-red_l",
-      "httpd`conf": "_apache_medium-red_l",
-      "httpd{conf": "_apache_medium-red_l",
-      "httpd|conf": "_apache_medium-red_l",
-      "httpd}conf": "_apache_medium-red_l",
-      "httpd~conf": "_apache_medium-red_l",
       "apache2/magic": "_apache_medium-purple_l",
       "appcelerator.js": "_appcelerator_medium-red_l",
       "com.apple.": "_apple_medium-blue_l",
@@ -21445,8 +22775,6 @@
       "backbone-min.js": "_backbone_dark-blue_l",
       "backbone.min.js": "_backbone_dark-blue_l",
       "backbonedev.js": "_backbone_dark-blue_l",
-      "build": "_bazel_medium-green_l",
-      "workspace": "_bazel_medium-green_l",
       "makefile.boot": "_boot_auto-green_l",
       "bower.json": "_bower_medium-yellow,medium-orange_l",
       "bowerfile": "_bower_medium-yellow,medium-orange_l",
@@ -21455,6 +22783,10 @@
       "brewfile": "_brew_medium-orange_l",
       "brocfile.": "_broccoli_medium-green_l",
       "browserslist": "_browserslist_medium-orange_l",
+      "bs-config.js": "_browsersync_medium-red_l",
+      "bs-config.json": "_browsersync_medium-red_l",
+      "browser-sync.js": "_browsersync_medium-red_l",
+      "browser-sync.json": "_browsersync_medium-red_l",
       "brunch-config.js": "_brunch_medium-green_l",
       "brunch-config.coffee": "_brunch_medium-green_l",
       "brunch-config.ts": "_brunch_medium-green_l",
@@ -21467,6 +22799,8 @@
       "cakefile": "_cakefile_medium-red_l",
       "cargo.toml": "_package_light-orange_l",
       "cargo.lock": "_package_dark-orange_l",
+      "cartfile.": "_carthage_dark-pink_l",
+      "cartfile": "_carthage_dark-pink_l",
       "chai.js": "_chai_auto-red_l",
       "chai.jsx": "_chai_auto-red_l",
       "chai.ts": "_chai_auto-red_l",
@@ -21479,6 +22813,75 @@
       "chart.bundle.js": "_chartjs_dark-pink_l",
       "chart.bundle.min.js": "_chartjs_dark-pink_l",
       "todo": "_checklist_medium-yellow_l",
+      "todo txt": "_checklist_medium-green_l",
+      "todo!txt": "_checklist_medium-green_l",
+      "todo\"txt": "_checklist_medium-green_l",
+      "todo#txt": "_checklist_medium-green_l",
+      "todo$txt": "_checklist_medium-green_l",
+      "todo%txt": "_checklist_medium-green_l",
+      "todo&txt": "_checklist_medium-green_l",
+      "todo'txt": "_checklist_medium-green_l",
+      "todo(txt": "_checklist_medium-green_l",
+      "todo)txt": "_checklist_medium-green_l",
+      "todo*txt": "_checklist_medium-green_l",
+      "todo+txt": "_checklist_medium-green_l",
+      "todo,txt": "_checklist_medium-green_l",
+      "todo-txt": "_checklist_medium-green_l",
+      "todo.txt": "_checklist_medium-green_l",
+      "todo/txt": "_checklist_medium-green_l",
+      "todo0txt": "_checklist_medium-green_l",
+      "todo1txt": "_checklist_medium-green_l",
+      "todo2txt": "_checklist_medium-green_l",
+      "todo3txt": "_checklist_medium-green_l",
+      "todo4txt": "_checklist_medium-green_l",
+      "todo5txt": "_checklist_medium-green_l",
+      "todo6txt": "_checklist_medium-green_l",
+      "todo7txt": "_checklist_medium-green_l",
+      "todo8txt": "_checklist_medium-green_l",
+      "todo9txt": "_checklist_medium-green_l",
+      "todo:txt": "_checklist_medium-green_l",
+      "todo;txt": "_checklist_medium-green_l",
+      "todo<txt": "_checklist_medium-green_l",
+      "todo=txt": "_checklist_medium-green_l",
+      "todo>txt": "_checklist_medium-green_l",
+      "todo?txt": "_checklist_medium-green_l",
+      "todo@txt": "_checklist_medium-green_l",
+      "todoatxt": "_checklist_medium-green_l",
+      "todobtxt": "_checklist_medium-green_l",
+      "todoctxt": "_checklist_medium-green_l",
+      "tododtxt": "_checklist_medium-green_l",
+      "todoetxt": "_checklist_medium-green_l",
+      "todoftxt": "_checklist_medium-green_l",
+      "todogtxt": "_checklist_medium-green_l",
+      "todohtxt": "_checklist_medium-green_l",
+      "todoitxt": "_checklist_medium-green_l",
+      "todojtxt": "_checklist_medium-green_l",
+      "todoktxt": "_checklist_medium-green_l",
+      "todoltxt": "_checklist_medium-green_l",
+      "todomtxt": "_checklist_medium-green_l",
+      "todontxt": "_checklist_medium-green_l",
+      "todootxt": "_checklist_medium-green_l",
+      "todoptxt": "_checklist_medium-green_l",
+      "todoqtxt": "_checklist_medium-green_l",
+      "todortxt": "_checklist_medium-green_l",
+      "todostxt": "_checklist_medium-green_l",
+      "todottxt": "_checklist_medium-green_l",
+      "todoutxt": "_checklist_medium-green_l",
+      "todovtxt": "_checklist_medium-green_l",
+      "todowtxt": "_checklist_medium-green_l",
+      "todoxtxt": "_checklist_medium-green_l",
+      "todoytxt": "_checklist_medium-green_l",
+      "todoztxt": "_checklist_medium-green_l",
+      "todo[txt": "_checklist_medium-green_l",
+      "todo\\txt": "_checklist_medium-green_l",
+      "todo]txt": "_checklist_medium-green_l",
+      "todo^txt": "_checklist_medium-green_l",
+      "todo_txt": "_checklist_medium-green_l",
+      "todo`txt": "_checklist_medium-green_l",
+      "todo{txt": "_checklist_medium-green_l",
+      "todo|txt": "_checklist_medium-green_l",
+      "todo}txt": "_checklist_medium-green_l",
+      "todo~txt": "_checklist_medium-green_l",
       "chefignore": "_chef_auto-orange_l",
       "berksfile": "_chef_auto-orange_l",
       "berksfile.lock": "_chef_auto-orange_l",
@@ -21497,10 +22900,15 @@
       "composer.phar": "_composer_dark-blue_l",
       "ld.script": "_config_medium-orange_l",
       "xcompose": "_config_medium-cyan_l",
+      "buildozer.spec": "_config_dark-blue_l",
       "config": "_terminal_dark-purple_l",
       "settings": "_config_null_l",
       "option": "_config_null_l",
       "pref": "_config_null_l",
+      "/.ssh/config": "_config_dark-blue_l",
+      "/.ssh\\config": "_config_dark-blue_l",
+      "\\.ssh/config": "_config_dark-blue_l",
+      "\\.ssh\\config": "_config_dark-blue_l",
       "/etc/aliases": "_config_medium-maroon_l",
       "/etc/auto_home": "_config_medium-maroon_l",
       "/etc/auto_master": "_config_medium-maroon_l",
@@ -21533,6 +22941,10 @@
       "/private/etc/shells": "_config_medium-maroon_l",
       "/private/etc/sudoers": "_config_medium-maroon_l",
       "/private/etc/ttys": "_config_medium-maroon_l",
+      "cpanfile": "_cpan_dark-blue_l",
+      "meta.yml": "_cpan_medium-red_l",
+      "meta.json": "_cpan_auto-yellow_l",
+      "manifest.skip": "_cpan_medium-maroon_l",
       "pkginfo": "_database_medium-blue_l",
       "mime.types": "_database_medium-maroon_l",
       "metadata.pb": "_database_medium-red_l",
@@ -21555,7 +22967,6 @@
       "el": "_emacs_medium-purple_l",
       "emacs": "_emacs_medium-purple_l",
       "_emacs": "_emacs_medium-purple_l",
-      "spacemacs": "_emacs_medium-purple_l",
       "emacs.desktop": "_emacs_medium-purple_l",
       "abbrev-defs": "_emacs_medium-purple_l",
       "abbrev_defs": "_emacs_medium-purple_l",
@@ -21565,6 +22976,7 @@
       "project.ede": "_emacs_medium-blue_l",
       "authors": "_at_auto-red_l",
       "owners": "_at_auto-red_l",
+      "codeowners": "_at_auto-red_l",
       "emakefile": "_erlang_dark-green_l",
       "rebar.lock": "_erlang_medium-red_l",
       "rebar.config.lock": "_erlang_medium-red_l",
@@ -21580,10 +22992,12 @@
       "fuelux.min.css": "_fuelux_auto-orange_l",
       "fuelux.min.js": "_fuelux_auto-orange_l",
       "gdbinit": "_gdb_auto-cyan_l",
+      "text.enc": "_gear_dark-green_l",
       "_service": "_code_medium-blue_l",
       "configure.ac": "_code_medium-red_l",
       "settings.stylecop": "_code_medium-green_l",
       "commit_editmsg": "_git-commit_medium-red_l",
+      "atom_commit_editmsg": "_git-commit_medium-red_l",
       "merge_head": "_git-merge_medium-red_l",
       "merge_mode": "_git-merge_medium-red_l",
       "merge_msg": "_git-merge_medium-red_l",
@@ -21594,22 +23008,30 @@
       "gulpfile.coffee": "_gulp_medium-maroon_l",
       "gulpfile.babel.js": "_gulp_medium-red_l",
       "procfile": "_heroku_medium-purple_l",
+      "aptfile": "_heroku_medium-purple_l",
       "ionic.project": "_ionic_medium-blue_l",
+      "ionic.config.json": "_ionic_medium-blue_l",
       "root": "_isabelle_dark-blue_l",
       "jakefile": "_jake_auto-maroon_l",
       "_config.yml": "_jekyll_medium-red_l",
       "jenkinsfile": "_jenkins_auto-red_l",
+      "jest.js": "_jest_medium-red_l",
       "jest.json": "_jest_medium-red_l",
+      "jest.config.js": "_jest_medium-red_l",
       "jest.config.json": "_jest_medium-red_l",
       "notebook": "_jupyter_dark-cyan_l",
       "karma.conf.js": "_karma_medium-cyan_l",
       "karma.config.js": "_karma_medium-cyan_l",
       "karma.conf.coffee": "_karma_medium-maroon_l",
       "karma.config.coffee": "_karma_medium-maroon_l",
+      "karma.conf.ts": "_karma_medium-cyan_l",
+      "karma.config.ts": "_karma_medium-cyan_l",
+      "fp-lib-table": "_kicad_dark-blue_l",
       "kitchen.yml": "_kitchenci_medium-green_l",
       "kitchen.yaml": "_kitchenci_medium-green_l",
       "lerna.json": "_lerna_auto-blue_l",
       "slakefile": "_ls_medium-green_l",
+      "ubsan.blacklist": "_llvm_auto-red_l",
       "makefile": "_checklist_medium-yellow_l",
       "mk.config": "_checklist_medium-green_l",
       "bsdmakefile": "_checklist_medium-red_l",
@@ -21623,13 +23045,18 @@
       "mmn": "_manpage_dark-green_l",
       "mmt": "_manpage_dark-green_l",
       "toc.entries": "_manpage_dark-green_l",
+      "mdlrc.rb": "_markdownlint_medium-red_l",
+      "mdlrc.style.rb": "_markdownlint_medium-red_l",
+      "mdlrc": "_markdownlint_dark-cyan_l",
       "materialize.js": "_materialize_light-red_l",
       "materialize.css": "_materialize_light-red_l",
       "materialize.min.js": "_materialize_light-red_l",
       "materialize.min.css": "_materialize_light-red_l",
+      "hgrc": "_hg_dark-cyan_l",
       "meson.build": "_meson_medium-green_l",
       "meson_options.txt": "_meson_medium-green_l",
       "mcmod.info": "_minecraft_dark-green_l",
+      "pack.mcmeta": "_minecraft_dark-green_l",
       "mkdocs.yml": "_book-alt_medium-blue_l",
       "mkdocs.yaml": "_book-alt_medium-blue_l",
       "mocha.js": "_mocha_medium-maroon_l",
@@ -21652,7 +23079,7 @@
       "nanoc.yaml": "_nanoc_medium-red_l",
       "run.n": "_neko_dark-orange_l",
       "newrelic.yml": "_newrelic_medium-cyan_l",
-      "nginx.conf": "_nginx_l",
+      "nextflow.config": "_nextflow_dark-green_l",
       "bundled_node_version": "_node_dark-green_l",
       "nodemon.json": "_nodemon_medium-green_l",
       "normalize.css": "_normalize_medium-red_l",
@@ -21675,12 +23102,16 @@
       "phpunit.xml": "_phpunit_medium-purple_l",
       "phoenix.ex": "_phoenix_medium-red_l",
       "phoenix.js": "_phoenix_medium-orange_l",
+      "pipfile": "_pipenv_dark-blue_l",
+      "pipfile.lock": "_pipenv_dark-blue_l",
       "platformio.ini": "_platformio_medium-orange_l",
       "polymer.json": "_polymer_medium-purple_l",
       "postcss.config.js": "_postcss_auto-yellow_l",
+      "prettier.config.js": "_prettier_auto-cyan_l",
       "protractor.conf.": "_protractor_medium-red_l",
       "protractor.config.": "_protractor_medium-red_l",
       "modulefile": "_puppet_dark-blue_l",
+      "requirements.in": "_pypi_dark-blue_l",
       "pypirc": "_python_dark-blue_l",
       "pythonrc": "_python_dark-blue_l",
       "python-venv": "_python_dark-blue_l",
@@ -21747,6 +23178,7 @@
       "require.min.js": "_requirejs_medium-blue_l",
       "requiredev.js": "_requirejs_medium-blue_l",
       "riemann.config": "_clojure_auto-maroon_l",
+      "robots.txt": "_robots_dark-cyan_l",
       "rollup.config.": "_rollup_medium-red_l",
       "irbrc": "_ruby_medium-red_l",
       "gemrc": "_ruby_medium-red_l",
@@ -21756,6 +23188,8 @@
       "appraisals": "_ruby_medium-red_l",
       "rakefile": "_ruby_medium-red_l",
       "rakefile.lock": "_ruby_medium-red_l",
+      "appfile": "_ruby_medium-red_l",
+      "appfile.lock": "_ruby_medium-red_l",
       "buildfile": "_ruby_medium-red_l",
       "buildfile.lock": "_ruby_medium-red_l",
       "capfile": "_ruby_medium-red_l",
@@ -21822,12 +23256,15 @@
       "snap.svg.js": "_snapsvg_medium-cyan_l",
       "snap.svg-min.js": "_snapsvg_medium-cyan_l",
       "snap.svg.min.js": "_snapsvg_medium-cyan_l",
+      "spacemacs": "_spacemacs_medium-purple_l",
       "id_rsa": "_key_medium-red_l",
       "passwd": "_key_dark-green_l",
       "master.passwd": "_key_dark-green_l",
       "git-credential-osxkeychain": "_key_medium-green_l",
       "stylelint.config.js": "_stylelint_auto-yellow_l",
       "swagger.json": "_swagger_medium-green_l",
+      "swagger.yaml": "_swagger_medium-green_l",
+      "swagger.yml": "_swagger_medium-green_l",
       " swagger-codegen-ignore": "_swagger_dark-green_l",
       "!swagger-codegen-ignore": "_swagger_dark-green_l",
       "\"swagger-codegen-ignore": "_swagger_dark-green_l",
@@ -21898,6 +23335,23 @@
       "~swagger-codegen-ignore": "_swagger_dark-green_l",
       "tags": "_tag_medium-blue_l",
       "ctags": "_tag_medium-blue_l",
+      "localtags": "_tag_medium-cyan_l",
+      "-spec.ts": "_test-ts_auto-blue_l",
+      "-specs.ts": "_test-ts_auto-blue_l",
+      "-test.ts": "_test-ts_auto-blue_l",
+      "-tests.ts": "_test-ts_auto-blue_l",
+      "_spec.ts": "_test-ts_auto-blue_l",
+      "_specs.ts": "_test-ts_auto-blue_l",
+      "_test.ts": "_test-ts_auto-blue_l",
+      "_tests.ts": "_test-ts_auto-blue_l",
+      "-spec.tsx": "_test-ts_light-blue,medium-blue_l",
+      "-specs.tsx": "_test-ts_light-blue,medium-blue_l",
+      "-test.tsx": "_test-ts_light-blue,medium-blue_l",
+      "-tests.tsx": "_test-ts_light-blue,medium-blue_l",
+      "_spec.tsx": "_test-ts_light-blue,medium-blue_l",
+      "_specs.tsx": "_test-ts_light-blue,medium-blue_l",
+      "_test.tsx": "_test-ts_light-blue,medium-blue_l",
+      "_tests.tsx": "_test-ts_light-blue,medium-blue_l",
       "hyphen.cs": "_tex_auto-red_l",
       "hyphen.den": "_tex_auto-red_l",
       "hyphen.det": "_tex_auto-red_l",
@@ -21924,6 +23378,76 @@
       "for-release": "_icon-file-text_l",
       "tests": "_icon-file-text_l",
       "thorfile": "_thor_dark-orange_l",
+      "_tmux.conf": "_tmux_medium-green_l",
+      "tmux.conf": "_tmux_medium-green_l",
+      " tgitconfig": "_tortoise_medium-red_l",
+      "!tgitconfig": "_tortoise_medium-red_l",
+      "\"tgitconfig": "_tortoise_medium-red_l",
+      "#tgitconfig": "_tortoise_medium-red_l",
+      "$tgitconfig": "_tortoise_medium-red_l",
+      "%tgitconfig": "_tortoise_medium-red_l",
+      "&tgitconfig": "_tortoise_medium-red_l",
+      "'tgitconfig": "_tortoise_medium-red_l",
+      "(tgitconfig": "_tortoise_medium-red_l",
+      ")tgitconfig": "_tortoise_medium-red_l",
+      "*tgitconfig": "_tortoise_medium-red_l",
+      "+tgitconfig": "_tortoise_medium-red_l",
+      ",tgitconfig": "_tortoise_medium-red_l",
+      "-tgitconfig": "_tortoise_medium-red_l",
+      "/tgitconfig": "_tortoise_medium-red_l",
+      "0tgitconfig": "_tortoise_medium-red_l",
+      "1tgitconfig": "_tortoise_medium-red_l",
+      "2tgitconfig": "_tortoise_medium-red_l",
+      "3tgitconfig": "_tortoise_medium-red_l",
+      "4tgitconfig": "_tortoise_medium-red_l",
+      "5tgitconfig": "_tortoise_medium-red_l",
+      "6tgitconfig": "_tortoise_medium-red_l",
+      "7tgitconfig": "_tortoise_medium-red_l",
+      "8tgitconfig": "_tortoise_medium-red_l",
+      "9tgitconfig": "_tortoise_medium-red_l",
+      ":tgitconfig": "_tortoise_medium-red_l",
+      ";tgitconfig": "_tortoise_medium-red_l",
+      "<tgitconfig": "_tortoise_medium-red_l",
+      "=tgitconfig": "_tortoise_medium-red_l",
+      ">tgitconfig": "_tortoise_medium-red_l",
+      "?tgitconfig": "_tortoise_medium-red_l",
+      "@tgitconfig": "_tortoise_medium-red_l",
+      "atgitconfig": "_tortoise_medium-red_l",
+      "btgitconfig": "_tortoise_medium-red_l",
+      "ctgitconfig": "_tortoise_medium-red_l",
+      "dtgitconfig": "_tortoise_medium-red_l",
+      "etgitconfig": "_tortoise_medium-red_l",
+      "ftgitconfig": "_tortoise_medium-red_l",
+      "gtgitconfig": "_tortoise_medium-red_l",
+      "htgitconfig": "_tortoise_medium-red_l",
+      "itgitconfig": "_tortoise_medium-red_l",
+      "jtgitconfig": "_tortoise_medium-red_l",
+      "ktgitconfig": "_tortoise_medium-red_l",
+      "ltgitconfig": "_tortoise_medium-red_l",
+      "mtgitconfig": "_tortoise_medium-red_l",
+      "ntgitconfig": "_tortoise_medium-red_l",
+      "otgitconfig": "_tortoise_medium-red_l",
+      "ptgitconfig": "_tortoise_medium-red_l",
+      "qtgitconfig": "_tortoise_medium-red_l",
+      "rtgitconfig": "_tortoise_medium-red_l",
+      "stgitconfig": "_tortoise_medium-red_l",
+      "ttgitconfig": "_tortoise_medium-red_l",
+      "utgitconfig": "_tortoise_medium-red_l",
+      "vtgitconfig": "_tortoise_medium-red_l",
+      "wtgitconfig": "_tortoise_medium-red_l",
+      "xtgitconfig": "_tortoise_medium-red_l",
+      "ytgitconfig": "_tortoise_medium-red_l",
+      "ztgitconfig": "_tortoise_medium-red_l",
+      "[tgitconfig": "_tortoise_medium-red_l",
+      "\\tgitconfig": "_tortoise_medium-red_l",
+      "]tgitconfig": "_tortoise_medium-red_l",
+      "^tgitconfig": "_tortoise_medium-red_l",
+      "_tgitconfig": "_tortoise_medium-red_l",
+      "`tgitconfig": "_tortoise_medium-red_l",
+      "{tgitconfig": "_tortoise_medium-red_l",
+      "|tgitconfig": "_tortoise_medium-red_l",
+      "}tgitconfig": "_tortoise_medium-red_l",
+      "~tgitconfig": "_tortoise_medium-red_l",
       "typedoc.json": "_typedoc_dark-purple_l",
       "typings.json": "_typings_medium-maroon_l",
       "uikit.js": "_uikit_medium-blue_l",
@@ -21956,5 +23480,5 @@
       "node_modules": "_node_medium-green_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/c59b68954de46d20f729a56cf3b71a22c5d76550"
+  "version": "https://github.com/file-icons/vscode/commit/fec85ba46e6192d9d354152a9e4696a6605bd2f5"
 }
