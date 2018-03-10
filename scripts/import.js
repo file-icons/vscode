@@ -6,7 +6,7 @@ const util = require('util');
 const genex = require('genex');
 const ret = require('ret');
 
-const repo = 'https://github.com:DanBrooker/file-icons';
+// const repo = 'https://github.com:file-icons/atom';
 const defs = cson.parseCSFile('./defs/config.cson');
 const stylesIcons = fs.readFileSync('./defs/styles/icons.less').toString();
 const darkFontColour = "#cccccc";
@@ -64,7 +64,7 @@ while ((match = regex.exec(stylesIcons)) !== null) {
     };
 }
 
-execSync("git submodule init; git submodule update; cd defs; git checkout master; cd ..;")
+execSync("git submodule update --remote --merge")
 execSync("cp defs/fonts/*.woff2 icons/")
 
 let fonts = Object.values(fontMap).map(function (name){
