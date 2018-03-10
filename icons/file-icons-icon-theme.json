@@ -62,26 +62,6 @@
     }
   ],
   "iconDefinitions": {
-    "_file": {
-      "fontCharacter": "\\f011",
-      "fontColor": "#cccccc",
-      "fontId": "octicons"
-    },
-    "_file_l": {
-      "fontCharacter": "\\f011",
-      "fontColor": "#6c6c6c",
-      "fontId": "octicons"
-    },
-    "_binary": {
-      "fontCharacter": "\\f094",
-      "fontColor": "#cccccc",
-      "fontId": "octicons"
-    },
-    "_binary_l": {
-      "fontCharacter": "\\f094",
-      "fontColor": "#6c6c6c",
-      "fontId": "octicons"
-    },
     "_folder": {
       "fontCharacter": "\\f016",
       "fontColor": "#cccccc",
@@ -92,33 +72,93 @@
       "fontColor": "#6c6c6c",
       "fontId": "octicons"
     },
-    "_zip": {
+    "_file": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_file_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_icon-file-text": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_icon-file-binary": {
+      "fontCharacter": "\\f094",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_icon-file-binary_l": {
+      "fontCharacter": "\\f094",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_icon-file-zip": {
       "fontCharacter": "\\f013",
       "fontColor": "#cccccc",
       "fontId": "octicons"
     },
-    "_zip_l": {
+    "_icon-file-zip_l": {
       "fontCharacter": "\\f013",
       "fontColor": "#6c6c6c",
       "fontId": "octicons"
     },
-    "_pdf": {
+    "_icon-file-pdf": {
       "fontCharacter": "\\f014",
       "fontColor": "#cccccc",
       "fontId": "octicons"
     },
-    "_pdf_l": {
+    "_icon-file-pdf_l": {
       "fontCharacter": "\\f014",
       "fontColor": "#6c6c6c",
       "fontId": "octicons"
     },
-    "_code": {
+    "_icon-file-code": {
       "fontCharacter": "\\f05f",
       "fontColor": "#cccccc",
       "fontId": "octicons"
     },
-    "_code_l": {
+    "_icon-file-code_l": {
       "fontCharacter": "\\f05f",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_fd_root": {
+      "fontCharacter": "\\f001",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_fd_root_l": {
+      "fontCharacter": "\\f001",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_fd_root_open": {
+      "fontCharacter": "\\f001",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_fd_root_open_l": {
+      "fontCharacter": "\\f001",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_binary": {
+      "fontCharacter": "\\f094",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_binary_l": {
+      "fontCharacter": "\\f094",
       "fontColor": "#6c6c6c",
       "fontId": "octicons"
     },
@@ -149,6 +189,16 @@
     },
     "_checklist_l": {
       "fontCharacter": "\\f076",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_code": {
+      "fontCharacter": "\\f05f",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_code_l": {
+      "fontCharacter": "\\f05f",
       "fontColor": "#6c6c6c",
       "fontId": "octicons"
     },
@@ -299,6 +349,16 @@
     },
     "_text_l": {
       "fontCharacter": "\\f011",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_zip": {
+      "fontCharacter": "\\f013",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_zip_l": {
+      "fontCharacter": "\\f013",
       "fontColor": "#6c6c6c",
       "fontId": "octicons"
     },
@@ -14402,6 +14462,16 @@
       "fontColor": "#d28445",
       "fontId": "file-icons"
     },
+    "_icon-file-pdf_medium-red": {
+      "fontCharacter": "\\f014",
+      "fontColor": "#ac4142",
+      "fontId": "octicons"
+    },
+    "_icon-file-pdf_medium-red_l": {
+      "fontCharacter": "\\f014",
+      "fontColor": "#ac4142",
+      "fontId": "octicons"
+    },
     "_peg_medium-red": {
       "fontCharacter": "\\ea74",
       "fontColor": "#ac4142",
@@ -17082,6 +17152,126 @@
       "fontColor": "#d28445",
       "fontId": "file-icons"
     },
+    "_icon-file-text_medium-blue": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#6a9fb5",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-blue_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#6a9fb5",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-maroon": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#8f5536",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-maroon_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#8f5536",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_dark-red": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#c97071",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_dark-red_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#c97071",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-red": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#ac4142",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-red_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#ac4142",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_dark-blue": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#46788d",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_dark-blue_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#46788d",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_dark-purple": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#825078",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_dark-purple_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#825078",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_dark-orange": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#a35f27",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_dark-orange_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#a35f27",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-yellow": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#f4bf75",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-yellow_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#f4bf75",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-purple": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#aa759f",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-purple_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#aa759f",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-orange": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#d28445",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-orange_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#d28445",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-cyan": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#75b5aa",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-cyan_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#75b5aa",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-green": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#90a959",
+      "fontId": "octicons"
+    },
+    "_icon-file-text_medium-green_l": {
+      "fontCharacter": "\\f011",
+      "fontColor": "#90a959",
+      "fontId": "octicons"
+    },
     "_textile_medium-orange": {
       "fontCharacter": "t",
       "fontColor": "#d28445",
@@ -18276,6 +18466,8 @@
   "file": "_file",
   "folder": "_folder",
   "folderExpanded": "_folder",
+  "rootFolder": "_fd_root",
+  "rootFolderExpanded": "_fd_root_open",
   "fileExtensions": {
     "1": "_manpage_dark-green",
     "2": "_manpage_dark-green",
@@ -18287,6 +18479,7 @@
     "8": "_manpage_dark-green",
     "9": "_manpage_dark-green",
     "gitignore": "_git_medium-red",
+    "gitmodules": "_git_medium-red",
     "gitattributes": "_git_medium-red",
     "cfignore": "_gear_medium-yellow",
     "bsl": "__1c_medium-red",
@@ -19523,7 +19716,7 @@
     "lpr": "_pascal_dark-purple",
     "patch": "_patch_medium-green",
     "pwn": "_pawn_medium-orange",
-    "pdf": "_icon-file-pdf",
+    "pdf": "_icon-file-pdf_medium-red",
     "pegjs": "_peg_medium-red",
     "pegcoffee": "_peg_medium-maroon",
     "pl": "_perl_medium-blue",
@@ -19925,35 +20118,35 @@
     "mkvi": "_tex_auto-orange",
     "mkii": "_tex_auto-orange",
     "texi": "_tex_auto-red",
-    "txt": "_icon-file-text",
-    "text": "_icon-file-text",
-    "log": "_icon-file-text",
-    "git/description": "_icon-file-text",
-    "git\\description": "_icon-file-text",
-    "err": "_icon-file-text",
-    "rtf": "_icon-file-text",
-    "nfo": "_icon-file-text",
-    "info": "_icon-file-text",
-    "abt": "_icon-file-text",
-    "ans": "_icon-file-text",
-    "brf": "_icon-file-text",
-    "dri": "_icon-file-text",
-    "etx": "_icon-file-text",
-    "gpi": "_icon-file-text",
-    "irclog": "_icon-file-text",
-    "more": "_icon-file-text",
-    "msg": "_icon-file-text",
-    "no": "_icon-file-text",
-    "rpt": "_icon-file-text",
-    "srt": "_icon-file-text",
-    "sub": "_icon-file-text",
-    "utxt": "_icon-file-text",
-    "utf8": "_icon-file-text",
-    "weechatlog": "_icon-file-text",
-    "uof": "_icon-file-text",
-    "uot": "_icon-file-text",
-    "uos": "_icon-file-text",
-    "uop": "_icon-file-text",
+    "txt": "_icon-file-text_medium-blue",
+    "text": "_icon-file-text_medium-blue",
+    "log": "_icon-file-text_medium-maroon",
+    "git/description": "_icon-file-text_dark-red",
+    "git\\description": "_icon-file-text_dark-red",
+    "err": "_icon-file-text_medium-red",
+    "rtf": "_icon-file-text_dark-red",
+    "nfo": "_icon-file-text_dark-blue",
+    "info": "_icon-file-text_dark-blue",
+    "abt": "_icon-file-text_dark-purple",
+    "ans": "_icon-file-text_dark-orange",
+    "brf": "_icon-file-text_medium-maroon",
+    "dri": "_icon-file-text_medium-blue",
+    "etx": "_icon-file-text_medium-yellow",
+    "gpi": "_icon-file-text_medium-red",
+    "irclog": "_icon-file-text_medium-blue",
+    "more": "_icon-file-text_medium-purple",
+    "msg": "_icon-file-text_medium-orange",
+    "no": "_icon-file-text_medium-red",
+    "rpt": "_icon-file-text_medium-maroon",
+    "srt": "_icon-file-text_medium-purple",
+    "sub": "_icon-file-text_dark-purple",
+    "utxt": "_icon-file-text_medium-cyan",
+    "utf8": "_icon-file-text_medium-cyan",
+    "weechatlog": "_icon-file-text_medium-green",
+    "uof": "_icon-file-text_dark-red",
+    "uot": "_icon-file-text_medium-blue",
+    "uos": "_icon-file-text_medium-green",
+    "uop": "_icon-file-text_medium-purple",
     "textile": "_textile_medium-orange",
     "tmcg": "_textmate_medium-green",
     "tmlanguage": "_textmate_dark-purple",
@@ -20760,19 +20953,19 @@
     "hyphenex.fr": "_tex_auto-red",
     "hyphenex.sv": "_tex_auto-red",
     "hyphenex.us": "_tex_auto-red",
-    "terminal saved output": "_icon-file-text",
-    "terminal saved-output": "_icon-file-text",
-    "terminal saved_output": "_icon-file-text",
-    "terminal-saved output": "_icon-file-text",
-    "terminal-saved-output": "_icon-file-text",
-    "terminal-saved_output": "_icon-file-text",
-    "terminal_saved output": "_icon-file-text",
-    "terminal_saved-output": "_icon-file-text",
-    "terminal_saved_output": "_icon-file-text",
-    "bug-report": "_icon-file-text",
-    "fdl": "_icon-file-text",
-    "for-release": "_icon-file-text",
-    "tests": "_icon-file-text",
+    "terminal saved output": "_icon-file-text_medium-maroon",
+    "terminal saved-output": "_icon-file-text_medium-maroon",
+    "terminal saved_output": "_icon-file-text_medium-maroon",
+    "terminal-saved output": "_icon-file-text_medium-maroon",
+    "terminal-saved-output": "_icon-file-text_medium-maroon",
+    "terminal-saved_output": "_icon-file-text_medium-maroon",
+    "terminal_saved output": "_icon-file-text_medium-maroon",
+    "terminal_saved-output": "_icon-file-text_medium-maroon",
+    "terminal_saved_output": "_icon-file-text_medium-maroon",
+    "bug-report": "_icon-file-text_medium-red",
+    "fdl": "_icon-file-text_medium-red",
+    "for-release": "_icon-file-text_medium-red",
+    "tests": "_icon-file-text_medium-red",
     "thorfile": "_thor_dark-orange",
     "_tmux.conf": "_tmux_medium-green",
     "tmux.conf": "_tmux_medium-green",
@@ -20891,6 +21084,7 @@
       "8": "_manpage_dark-green_l",
       "9": "_manpage_dark-green_l",
       "gitignore": "_git_medium-red_l",
+      "gitmodules": "_git_medium-red_l",
       "gitattributes": "_git_medium-red_l",
       "cfignore": "_gear_medium-yellow_l",
       "bsl": "__1c_medium-red_l",
@@ -22127,7 +22321,7 @@
       "lpr": "_pascal_dark-purple_l",
       "patch": "_patch_medium-green_l",
       "pwn": "_pawn_medium-orange_l",
-      "pdf": "_icon-file-pdf_l",
+      "pdf": "_icon-file-pdf_medium-red_l",
       "pegjs": "_peg_medium-red_l",
       "pegcoffee": "_peg_medium-maroon_l",
       "pl": "_perl_medium-blue_l",
@@ -22529,35 +22723,35 @@
       "mkvi": "_tex_auto-orange_l",
       "mkii": "_tex_auto-orange_l",
       "texi": "_tex_auto-red_l",
-      "txt": "_icon-file-text_l",
-      "text": "_icon-file-text_l",
-      "log": "_icon-file-text_l",
-      "git/description": "_icon-file-text_l",
-      "git\\description": "_icon-file-text_l",
-      "err": "_icon-file-text_l",
-      "rtf": "_icon-file-text_l",
-      "nfo": "_icon-file-text_l",
-      "info": "_icon-file-text_l",
-      "abt": "_icon-file-text_l",
-      "ans": "_icon-file-text_l",
-      "brf": "_icon-file-text_l",
-      "dri": "_icon-file-text_l",
-      "etx": "_icon-file-text_l",
-      "gpi": "_icon-file-text_l",
-      "irclog": "_icon-file-text_l",
-      "more": "_icon-file-text_l",
-      "msg": "_icon-file-text_l",
-      "no": "_icon-file-text_l",
-      "rpt": "_icon-file-text_l",
-      "srt": "_icon-file-text_l",
-      "sub": "_icon-file-text_l",
-      "utxt": "_icon-file-text_l",
-      "utf8": "_icon-file-text_l",
-      "weechatlog": "_icon-file-text_l",
-      "uof": "_icon-file-text_l",
-      "uot": "_icon-file-text_l",
-      "uos": "_icon-file-text_l",
-      "uop": "_icon-file-text_l",
+      "txt": "_icon-file-text_medium-blue_l",
+      "text": "_icon-file-text_medium-blue_l",
+      "log": "_icon-file-text_medium-maroon_l",
+      "git/description": "_icon-file-text_dark-red_l",
+      "git\\description": "_icon-file-text_dark-red_l",
+      "err": "_icon-file-text_medium-red_l",
+      "rtf": "_icon-file-text_dark-red_l",
+      "nfo": "_icon-file-text_dark-blue_l",
+      "info": "_icon-file-text_dark-blue_l",
+      "abt": "_icon-file-text_dark-purple_l",
+      "ans": "_icon-file-text_dark-orange_l",
+      "brf": "_icon-file-text_medium-maroon_l",
+      "dri": "_icon-file-text_medium-blue_l",
+      "etx": "_icon-file-text_medium-yellow_l",
+      "gpi": "_icon-file-text_medium-red_l",
+      "irclog": "_icon-file-text_medium-blue_l",
+      "more": "_icon-file-text_medium-purple_l",
+      "msg": "_icon-file-text_medium-orange_l",
+      "no": "_icon-file-text_medium-red_l",
+      "rpt": "_icon-file-text_medium-maroon_l",
+      "srt": "_icon-file-text_medium-purple_l",
+      "sub": "_icon-file-text_dark-purple_l",
+      "utxt": "_icon-file-text_medium-cyan_l",
+      "utf8": "_icon-file-text_medium-cyan_l",
+      "weechatlog": "_icon-file-text_medium-green_l",
+      "uof": "_icon-file-text_dark-red_l",
+      "uot": "_icon-file-text_medium-blue_l",
+      "uos": "_icon-file-text_medium-green_l",
+      "uop": "_icon-file-text_medium-purple_l",
       "textile": "_textile_medium-orange_l",
       "tmcg": "_textmate_medium-green_l",
       "tmlanguage": "_textmate_dark-purple_l",
@@ -23364,19 +23558,19 @@
       "hyphenex.fr": "_tex_auto-red_l",
       "hyphenex.sv": "_tex_auto-red_l",
       "hyphenex.us": "_tex_auto-red_l",
-      "terminal saved output": "_icon-file-text_l",
-      "terminal saved-output": "_icon-file-text_l",
-      "terminal saved_output": "_icon-file-text_l",
-      "terminal-saved output": "_icon-file-text_l",
-      "terminal-saved-output": "_icon-file-text_l",
-      "terminal-saved_output": "_icon-file-text_l",
-      "terminal_saved output": "_icon-file-text_l",
-      "terminal_saved-output": "_icon-file-text_l",
-      "terminal_saved_output": "_icon-file-text_l",
-      "bug-report": "_icon-file-text_l",
-      "fdl": "_icon-file-text_l",
-      "for-release": "_icon-file-text_l",
-      "tests": "_icon-file-text_l",
+      "terminal saved output": "_icon-file-text_medium-maroon_l",
+      "terminal saved-output": "_icon-file-text_medium-maroon_l",
+      "terminal saved_output": "_icon-file-text_medium-maroon_l",
+      "terminal-saved output": "_icon-file-text_medium-maroon_l",
+      "terminal-saved-output": "_icon-file-text_medium-maroon_l",
+      "terminal-saved_output": "_icon-file-text_medium-maroon_l",
+      "terminal_saved output": "_icon-file-text_medium-maroon_l",
+      "terminal_saved-output": "_icon-file-text_medium-maroon_l",
+      "terminal_saved_output": "_icon-file-text_medium-maroon_l",
+      "bug-report": "_icon-file-text_medium-red_l",
+      "fdl": "_icon-file-text_medium-red_l",
+      "for-release": "_icon-file-text_medium-red_l",
+      "tests": "_icon-file-text_medium-red_l",
       "thorfile": "_thor_dark-orange_l",
       "_tmux.conf": "_tmux_medium-green_l",
       "tmux.conf": "_tmux_medium-green_l",
@@ -23480,5 +23674,5 @@
       "node_modules": "_node_medium-green_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/fec85ba46e6192d9d354152a9e4696a6605bd2f5"
+  "version": "https://github.com/file-icons/vscode/commit/c0b6b8ad9e2bc40db354f508b65556e5b36f4410"
 }

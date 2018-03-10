@@ -26,12 +26,15 @@ let fontMap = {
 
 // hardcoded files and folder, i.e ones that are default in atom
 const hardcoded = {
-    "_file": "\\f011",
-    "_binary": "\\f094",
     "_folder": "\\f016",
-    "_zip": "\\f013",
-    "_pdf": "\\f014",
-    "_code": "\\f05f"
+    "_file": "\\f011",
+    "_icon-file-text": "\\f011",
+    "_icon-file-binary": "\\f094",
+    "_icon-file-zip": "\\f013",
+    "_icon-file-pdf": "\\f014",
+    "_icon-file-code": "\\f05f",
+    "_fd_root": "\\f001",
+    "_fd_root_open": "\\f001",
 };
 
 for(let key in hardcoded) {
@@ -297,9 +300,11 @@ function process(hash, set, set_l) {
 
 // hardcoded files and folder, i.e ones that are default in atom
 extensions['gitignore'] = '_git_medium-red';
+extensions['gitmodules'] = '_git_medium-red';
 extensions['gitattributes'] = '_git_medium-red';
 extensions['cfignore'] = '_gear_medium-yellow';
 extensions_l['gitignore'] = '_git_medium-red_l';
+extensions_l['gitmodules'] = '_git_medium-red_l';
 extensions_l['gitattributes'] = '_git_medium-red_l';
 extensions_l['cfignore'] = '_gear_medium-yellow_l';
 
@@ -324,6 +329,8 @@ root.iconDefinitions = icons;
 root.file = '_file';
 root.folder = "_folder";
 root.folderExpanded = "_folder";
+root.rootFolder = "_fd_root",
+root.rootFolderExpanded = "_fd_root_open",
 root.fileExtensions = extensions;
 root.fileNames = files;
 root.folderNames = folders;
