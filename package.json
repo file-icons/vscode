@@ -2,7 +2,7 @@
     "name": "file-icons",
     "displayName": "file-icons",
     "description": "File-specific icons in VSCode for improved visual grepping.",
-    "version": "1.0.7",
+    "version": "1.0.10",
     "publisher": "file-icons",
     "engines": {
         "vscode": "^1.5.0"
@@ -53,7 +53,8 @@
         "cson": "^4.0.0",
         "genex": "^0.1.3",
         "parameterize": "0.0.7",
-        "ret": "^0.1.13"
+        "ret": "^0.1.13",
+        "vsce": "^1.37.5"
     },
     "author": "Daniel Brooker <dan@nocturnalcode.com>",
     "license": "MIT"
