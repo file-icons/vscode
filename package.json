@@ -2,7 +2,7 @@
     "name": "file-icons",
     "displayName": "file-icons",
     "description": "File-specific icons in VSCode for improved visual grepping.",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "publisher": "file-icons",
     "engines": {
         "vscode": "^1.5.0"
