@@ -22116,10 +22116,12 @@
     "nvimrc": "_vim_dark-green",
     "nviminfo": "_vim_dark-green",
     "watchman.json": "_watchman_medium-blue",
+    "webpack.config.js": "_webpack_medium-blue",
     "wercker.yml": "_wercker_medium-purple",
     "wercker.yaml": "_wercker_medium-purple",
     "workbox-config.js": "_workbox_medium-orange",
-    "yarn.lock": "_yarn_medium-blue"
+    "yarn.lock": "_yarn_medium-blue",
+    ".travis.yml": "_travis_medium-red"
   },
   "folderNames": {
     "bower-components": "_bower_medium-yellow,medium-orange",
