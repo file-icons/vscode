@@ -24186,6 +24186,7 @@
     "spec.react.js": "_test-react_auto-blue",
     "specs.jsx": "_test-react_auto-blue",
     "specs.react.js": "_test-react_auto-blue",
+    "test.js": "_test-js_auto-yellow_l",
     "test.jsx": "_test-react_auto-blue",
     "test.react.js": "_test-react_auto-blue",
     "tests.jsx": "_test-react_auto-blue",
@@ -25464,10 +25465,12 @@
     "nviminfo": "_vim_dark-green",
     "vue.config.js": "_vue_light-green",
     "watchman.json": "_watchman_medium-blue",
+    "webpack.config.js": "_webpack_medium-blue",
     "wercker.yml": "_wercker_medium-purple",
     "wercker.yaml": "_wercker_medium-purple",
     "workbox-config.js": "_workbox_medium-orange",
     "yarn.lock": "_yarn_medium-blue",
+    ".travis.yml": "_travis_medium-red"
     "s4.errors": "_zork_dark-green"
   },
   "folderNames": {
