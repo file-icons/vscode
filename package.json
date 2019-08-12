@@ -45,16 +45,14 @@
     "devDependencies": {
         "@types/mocha": "^5.2.6",
         "@types/node": "^12.0.2",
-        "mocha": "^6.1.4",
-        "typescript": "^3.4.5",
-        "vscode": "^1.0.0"
-    },
-    "dependencies": {
         "cson": "^4.0.0",
         "genex": "^1.1.0",
+        "mocha": "^6.1.4",
         "parameterize": "0.0.7",
         "ret": "^0.1.13",
-        "vsce": "^1.61.0"
+        "typescript": "^3.4.5",
+        "vsce": "^1.61.0",
+        "vscode": "^1.0.0"
     },
     "author": "Daniel Brooker <dan@nocturnalcode.com>",
     "license": "MIT"
