@@ -24096,6 +24096,8 @@
     "psd1": "_powershell_dark-blue",
     "psm1": "_powershell_medium-purple",
     "ps1xml": "_powershell_dark-purple",
+    "pre-commit-config.yml": "_precommit_auto-yellow",
+    "pre-commit-config.yaml": "_precommit_auto-yellow",
     "prettierrc": "_prettier_auto-cyan",
     "prettierrc.js": "_prettier_auto-cyan",
     "prettierrc.json": "_prettier_auto-cyan",
@@ -27468,6 +27470,8 @@
       "psd1": "_powershell_dark-blue_l",
       "psm1": "_powershell_medium-purple_l",
       "ps1xml": "_powershell_dark-purple_l",
+      "pre-commit-config.yml": "_precommit_auto-yellow_l",
+      "pre-commit-config.yaml": "_precommit_auto-yellow_l",
       "prettierrc": "_prettier_auto-cyan_l",
       "prettierrc.js": "_prettier_auto-cyan_l",
       "prettierrc.json": "_prettier_auto-cyan_l",
@@ -29198,5 +29202,5 @@
       "node_modules": "_node_medium-green_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/303efe6518bf737240e7766088f0c728726832ed"
+  "version": "https://github.com/file-icons/vscode/commit/5d66c78f4e13db0b9d695c3f9e210552cff1a004"
 }

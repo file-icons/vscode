@@ -13,6 +13,9 @@ const stylesIcons = fs.readFileSync('./defs/styles/icons.less').toString();
 const darkFontColour = "#cccccc";
 const lightFontColour = "#6c6c6c";
 
+// HACK(#42)
+defs.fileIcons["Pre-commit"].match = /^\.pre-commit-config\.(ya?ml)$/i;
+
 var icons = {};
 var result;
 
