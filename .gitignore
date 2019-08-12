@@ -1,3 +1,20 @@
-out
+.DS_Store
+Thumbs.db
+Desktop.ini
 node_modules
+.nyc_output
+._*
+.\#*
+\#*\#
+*~
+*.log
+*.lock
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-v][a-z]
+[._]sw[a-p]
+
+# Project-specific
+out
 !yarn.lock
+*.vsix
