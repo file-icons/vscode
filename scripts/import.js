@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const cson = require('cson');
 const fs = require('fs');
 const execSync = require('child_process').execSync;
