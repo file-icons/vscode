@@ -1,4 +1,4 @@
-File Icons [![Version](https://vsmarketplacebadge.apphb.com/version/file-icons.file-icons.svg)](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
+[![Package version](https://vsmarketplacebadge.apphb.com/version/file-icons.file-icons.svg)](https://marketplace.visualstudio.com/items?itemName=file-icons.file-icons)
 
 # File-specific icons in VSCode for improved visual grepping.
 
@@ -12,17 +12,16 @@ File Icons [![Version](https://vsmarketplacebadge.apphb.com/version/file-icons.f
 
 `ext install file-icons`
 
-OSX: **Code** > **Preferences** > **File Icon Theme** > **File Icons**
+macOS: **Code** → **Preferences** → **File Icon Theme** → **File Icons**
 
-
-Windows: Go to **File** > **Preferences** > **File Icon Theme** > **File Icons**
+Windows: Go to **File** → **Preferences** → **File Icon Theme** → **File Icons**
 
 ## Icon Fonts
 
-* [**File-Icons**](https://github.com/file-icons/source/blob/master/charmap.md) 
+* [**File-Icons**](https://github.com/file-icons/icons/blob/master/charmap.md) 
 * [**FontAwesome**](http://fontawesome.io/cheatsheet/)
-* [**Mfizz**](https://github.com/Alhadis/MFixx/blob/master/charmap.md)
-* [**Devicons**](https://github.com/Alhadis/DevOpicons/blob/master/charmap.md)
+* [**Mfizz**](https://github.com/file-icons/MFixx/blob/master/charmap.md)
+* [**Devicons**](https://github.com/file-icons/DevOpicons/blob/master/charmap.md)
 * [**Octicons**](https://octicons.github.com/)
 
 ## New Icons
