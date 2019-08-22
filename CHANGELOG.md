@@ -1,7 +1,11 @@
-# Change Log
-All notable changes to the "file-icons" extension will be documented in this file.
+Change Log
+==========
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+**NOTE:** Since 1.0.10 (March 2018), all notable changes are being tracked in the change-logs of
+[`file-icons/atom`](https://github.com/file-icons/atom/blob/master/CHANGELOG.md).
+
+Only bug-fixes and updates specific to VSCode will continue to be documented here.
+
 
 ## 1.0.10
 New icons and extensions from upstream
