@@ -1522,6 +1522,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_amusewiki": {
+      "fontCharacter": "\\eb32",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_amusewiki_l": {
+      "fontCharacter": "\\eb32",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_amx": {
       "fontCharacter": "\\e99b",
       "fontColor": "#cccccc",
@@ -2392,6 +2402,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_conda": {
+      "fontCharacter": "\\eb3c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_conda_l": {
+      "fontCharacter": "\\eb3c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_config": {
       "fontCharacter": "\\f07c",
       "fontColor": "#cccccc",
@@ -2769,6 +2789,16 @@
     },
     "_deno_l": {
       "fontCharacter": "\\eaef",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_dependabot": {
+      "fontCharacter": "\\eb3e",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_dependabot_l": {
+      "fontCharacter": "\\eb3e",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -3162,6 +3192,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_faust": {
+      "fontCharacter": "\\22c0",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_faust_l": {
+      "fontCharacter": "\\22c0",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_fbx": {
       "fontCharacter": "\\e9fc",
       "fontColor": "#cccccc",
@@ -3552,6 +3592,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_gnuplot": {
+      "fontCharacter": "\\1f4c8",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_gnuplot_l": {
+      "fontCharacter": "\\1f4c8",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_go": {
       "fontCharacter": "\\eaae",
       "fontColor": "#cccccc",
@@ -3819,6 +3869,16 @@
     },
     "_hy_l": {
       "fontCharacter": "\\e97f",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_hyper": {
+      "fontCharacter": "\\eb37",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_hyper_l": {
+      "fontCharacter": "\\eb37",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -4722,6 +4782,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_mirc": {
+      "fontCharacter": "\\eb3a",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_mirc_l": {
+      "fontCharacter": "\\eb3a",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_mjml": {
       "fontCharacter": "\\ea6f",
       "fontColor": "#cccccc",
@@ -5102,6 +5172,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_noon": {
+      "fontCharacter": "\\eb33",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_noon_l": {
+      "fontCharacter": "\\eb33",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_normalize": {
       "fontCharacter": "\\ea04",
       "fontColor": "#cccccc",
@@ -5222,6 +5302,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_oberon": {
+      "fontCharacter": "\\eb3f",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_oberon_l": {
+      "fontCharacter": "\\eb3f",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_objj": {
       "fontCharacter": "\\e99e",
       "fontColor": "#cccccc",
@@ -5249,6 +5339,16 @@
     },
     "_octave_l": {
       "fontCharacter": "\\ea33",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_odin": {
+      "fontCharacter": "\\eb36",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_odin_l": {
+      "fontCharacter": "\\eb36",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -5309,6 +5409,16 @@
     },
     "_openoffice_l": {
       "fontCharacter": "\\e9e4",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_openpolicy": {
+      "fontCharacter": "\\eb39",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_openpolicy_l": {
+      "fontCharacter": "\\eb39",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -5449,6 +5559,16 @@
     },
     "_patch_l": {
       "fontCharacter": "\\e961",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_patreon": {
+      "fontCharacter": "\\eb42",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_patreon_l": {
+      "fontCharacter": "\\eb42",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -6012,6 +6132,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_razzle": {
+      "fontCharacter": "R",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_razzle_l": {
+      "fontCharacter": "R",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_rdoc": {
       "fontCharacter": "\\e9b0",
       "fontColor": "#cccccc",
@@ -6572,6 +6702,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_sorbet": {
+      "fontCharacter": "\\1f366",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_sorbet_l": {
+      "fontCharacter": "\\1f366",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_spacemacs": {
       "fontCharacter": "\\eaa4",
       "fontColor": "#cccccc",
@@ -6842,6 +6982,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_terser": {
+      "fontCharacter": "\\272c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_terser_l": {
+      "fontCharacter": "\\272c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_test-coffee": {
       "fontCharacter": "\\ea62",
       "fontColor": "#cccccc",
@@ -7059,6 +7209,26 @@
     },
     "_tortoise_l": {
       "fontCharacter": "\\ea93",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_totvs": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_totvs_l": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_truffle": {
+      "fontCharacter": "\\eb3b",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_truffle_l": {
+      "fontCharacter": "\\eb3b",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -7342,6 +7512,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_vyper": {
+      "fontCharacter": "\\eb31",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_vyper_l": {
+      "fontCharacter": "\\eb31",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_vsts": {
       "fontCharacter": "\\eac0",
       "fontColor": "#cccccc",
@@ -7412,6 +7592,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_webhint": {
+      "fontCharacter": "\\eb35",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_webhint_l": {
+      "fontCharacter": "\\eb35",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_webpack": {
       "fontCharacter": "\\ea61",
       "fontColor": "#cccccc",
@@ -7439,6 +7629,16 @@
     },
     "_wercker_l": {
       "fontCharacter": "\\ea19",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_wget": {
+      "fontCharacter": "\\eb38",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_wget_l": {
+      "fontCharacter": "\\eb38",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -7609,6 +7809,16 @@
     },
     "_zbrush_l": {
       "fontCharacter": "\\e9f2",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_zeit": {
+      "fontCharacter": "\\25B2",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_zeit_l": {
+      "fontCharacter": "\\25B2",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -7922,6 +8132,46 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_totvs_medium-maroon": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_totvs_medium-maroon_l": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_totvs_medium-green": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_totvs_medium-green_l": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_totvs_dark-green": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_totvs_dark-green_l": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_totvs_dark-blue": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_totvs_dark-blue_l": {
+      "fontCharacter": "\\eb34",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_affectscript_medium-pink": {
       "fontCharacter": "\\eb2c",
       "fontColor": "#cccccc",
@@ -8019,6 +8269,16 @@
     },
     "_ampl_dark-maroon_l": {
       "fontCharacter": "\\e94e",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_amusewiki_dark-red": {
+      "fontCharacter": "\\eb32",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_amusewiki_dark-red_l": {
+      "fontCharacter": "\\eb32",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -10222,6 +10482,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_conda_medium-green": {
+      "fontCharacter": "\\eb3c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_conda_medium-green_l": {
+      "fontCharacter": "\\eb3c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_config_medium-yellow": {
       "fontCharacter": "\\f07c",
       "fontColor": "#cccccc",
@@ -11882,6 +12152,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_faust_dark-orange": {
+      "fontCharacter": "\\22c0",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_faust_dark-orange_l": {
+      "fontCharacter": "\\22c0",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_fbx_medium-maroon": {
       "fontCharacter": "\\e9fc",
       "fontColor": "#cccccc",
@@ -13062,15 +13342,15 @@
       "fontColor": "#6c6c6c",
       "fontId": "mfixx"
     },
-    "_graph_medium-red": {
-      "fontCharacter": "\\f043",
+    "_gnuplot_medium-red": {
+      "fontCharacter": "\\1f4c8",
       "fontColor": "#cccccc",
-      "fontId": "octicons"
+      "fontId": "file-icons"
     },
-    "_graph_medium-red_l": {
-      "fontCharacter": "\\f043",
+    "_gnuplot_medium-red_l": {
+      "fontCharacter": "\\1f4c8",
       "fontColor": "#6c6c6c",
-      "fontId": "octicons"
+      "fontId": "file-icons"
     },
     "_go_medium-blue": {
       "fontCharacter": "\\eaae",
@@ -13432,6 +13712,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "mfixx"
     },
+    "_haskell_medium-maroon": {
+      "fontCharacter": "\\f121",
+      "fontColor": "#cccccc",
+      "fontId": "mfixx"
+    },
+    "_haskell_medium-maroon_l": {
+      "fontCharacter": "\\f121",
+      "fontColor": "#6c6c6c",
+      "fontId": "mfixx"
+    },
     "_haxe_medium-orange": {
       "fontCharacter": "\\e907",
       "fontColor": "#cccccc",
@@ -13679,6 +13969,16 @@
     },
     "_hy_dark-blue_l": {
       "fontCharacter": "\\e97f",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_hyper_dark-purple": {
+      "fontCharacter": "\\eb37",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_hyper_dark-purple_l": {
+      "fontCharacter": "\\eb37",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -14282,6 +14582,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "mfixx"
     },
+    "_js_medium-blue": {
+      "fontCharacter": "\\f129",
+      "fontColor": "#cccccc",
+      "fontId": "mfixx"
+    },
+    "_js_medium-blue_l": {
+      "fontCharacter": "\\f129",
+      "fontColor": "#6c6c6c",
+      "fontId": "mfixx"
+    },
     "_jekyll_medium-red": {
       "fontCharacter": "\\e60d",
       "fontColor": "#cccccc",
@@ -14328,6 +14638,16 @@
       "fontId": "file-icons"
     },
     "_jest_auto-yellow_l": {
+      "fontCharacter": "\\ea39",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_jest_medium-blue": {
+      "fontCharacter": "\\ea39",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_jest_medium-blue_l": {
       "fontCharacter": "\\ea39",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
@@ -14418,6 +14738,16 @@
       "fontId": "file-icons"
     },
     "_json_medium-cyan_l": {
+      "fontCharacter": "\\eabe",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_json_dark-blue": {
+      "fontCharacter": "\\eabe",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_json_dark-blue_l": {
       "fontCharacter": "\\eabe",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
@@ -14801,6 +15131,26 @@
       "fontCharacter": "L",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
+    },
+    "_graph_medium-blue": {
+      "fontCharacter": "\\f043",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_graph_medium-blue_l": {
+      "fontCharacter": "\\f043",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
+    },
+    "_graph_medium-green": {
+      "fontCharacter": "\\f043",
+      "fontColor": "#cccccc",
+      "fontId": "octicons"
+    },
+    "_graph_medium-green_l": {
+      "fontCharacter": "\\f043",
+      "fontColor": "#6c6c6c",
+      "fontId": "octicons"
     },
     "_lektor_dark-purple": {
       "fontCharacter": "\\eab9",
@@ -16232,6 +16582,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_mirc_medium-red": {
+      "fontCharacter": "\\eb3a",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_mirc_medium-red_l": {
+      "fontCharacter": "\\eb3a",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_mjml_medium-red": {
       "fontCharacter": "\\ea6f",
       "fontColor": "#cccccc",
@@ -16992,6 +17352,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_noon_dark-grey": {
+      "fontCharacter": "\\eb33",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_noon_dark-grey_l": {
+      "fontCharacter": "\\eb33",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_normalize_medium-red": {
       "fontCharacter": "\\ea04",
       "fontColor": "#cccccc",
@@ -17162,6 +17532,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_oberon_medium-purple": {
+      "fontCharacter": "\\eb3f",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_oberon_medium-purple_l": {
+      "fontCharacter": "\\eb3f",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_objc_medium-blue": {
       "fontCharacter": "\\f13e",
       "fontColor": "#cccccc",
@@ -17299,6 +17679,16 @@
     },
     "_octave_dark-orange_l": {
       "fontCharacter": "\\ea33",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_odin_medium-blue": {
+      "fontCharacter": "\\eb36",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_odin_medium-blue_l": {
+      "fontCharacter": "\\eb36",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -17509,6 +17899,16 @@
     },
     "_openoffice_light-pink_l": {
       "fontCharacter": "\\e9e4",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_openpolicy_medium-cyan": {
+      "fontCharacter": "\\eb39",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_openpolicy_medium-cyan_l": {
+      "fontCharacter": "\\eb39",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -17762,6 +18162,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_patreon_medium-orange": {
+      "fontCharacter": "\\eb42",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_patreon_medium-orange_l": {
+      "fontCharacter": "\\eb42",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_pawn_medium-orange": {
       "fontCharacter": "\\265f",
       "fontColor": "#cccccc",
@@ -17861,86 +18271,6 @@
       "fontCharacter": "\\e669",
       "fontColor": "#6c6c6c",
       "fontId": "devopicons"
-    },
-    "_perl6_medium-purple": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#cccccc",
-      "fontId": "file-icons"
-    },
-    "_perl6_medium-purple_l": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#6c6c6c",
-      "fontId": "file-icons"
-    },
-    "_perl6_light-blue": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#cccccc",
-      "fontId": "file-icons"
-    },
-    "_perl6_light-blue_l": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#6c6c6c",
-      "fontId": "file-icons"
-    },
-    "_perl6_dark-pink": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#cccccc",
-      "fontId": "file-icons"
-    },
-    "_perl6_dark-pink_l": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#6c6c6c",
-      "fontId": "file-icons"
-    },
-    "_perl6_dark-cyan": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#cccccc",
-      "fontId": "file-icons"
-    },
-    "_perl6_dark-cyan_l": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#6c6c6c",
-      "fontId": "file-icons"
-    },
-    "_perl6_dark-purple": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#cccccc",
-      "fontId": "file-icons"
-    },
-    "_perl6_dark-purple_l": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#6c6c6c",
-      "fontId": "file-icons"
-    },
-    "_perl6_medium-blue": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#cccccc",
-      "fontId": "file-icons"
-    },
-    "_perl6_medium-blue_l": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#6c6c6c",
-      "fontId": "file-icons"
-    },
-    "_perl6_dark-green": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#cccccc",
-      "fontId": "file-icons"
-    },
-    "_perl6_dark-green_l": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#6c6c6c",
-      "fontId": "file-icons"
-    },
-    "_perl6_medium-green": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#cccccc",
-      "fontId": "file-icons"
-    },
-    "_perl6_medium-green_l": {
-      "fontCharacter": "\\e96c",
-      "fontColor": "#6c6c6c",
-      "fontId": "file-icons"
     },
     "_phalcon_medium-cyan": {
       "fontCharacter": "\\e94a",
@@ -18862,6 +19192,96 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_perl6_medium-purple": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_medium-purple_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_perl6_light-blue": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_light-blue_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-pink": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-pink_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-cyan": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-cyan_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-purple": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-purple_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_perl6_medium-blue": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_medium-blue_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-green": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-green_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-blue": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_dark-blue_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_perl6_medium-green": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_perl6_medium-green_l": {
+      "fontCharacter": "\\e96c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_raml_medium-cyan": {
       "fontCharacter": "\\e913",
       "fontColor": "#cccccc",
@@ -18889,6 +19309,16 @@
     },
     "_rascal_medium-yellow_l": {
       "fontCharacter": "\\ea24",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_razzle_dark-blue": {
+      "fontCharacter": "R",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_razzle_dark-blue_l": {
+      "fontCharacter": "R",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -19682,16 +20112,6 @@
       "fontColor": "#6c6c6c",
       "fontId": "octicons"
     },
-    "_graph_medium-green": {
-      "fontCharacter": "\\f043",
-      "fontColor": "#cccccc",
-      "fontId": "octicons"
-    },
-    "_graph_medium-green_l": {
-      "fontCharacter": "\\f043",
-      "fontColor": "#6c6c6c",
-      "fontId": "octicons"
-    },
     "_graph_medium-cyan": {
       "fontCharacter": "\\f043",
       "fontColor": "#cccccc",
@@ -20009,6 +20429,16 @@
     },
     "_solidity_dark-cyan_l": {
       "fontCharacter": "\\ea86",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_sorbet_auto-purple": {
+      "fontCharacter": "\\1f366",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_sorbet_auto-purple_l": {
+      "fontCharacter": "\\1f366",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -20852,6 +21282,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_terser_medium-orange": {
+      "fontCharacter": "\\272c",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_terser_medium-orange_l": {
+      "fontCharacter": "\\272c",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_test-coffee_auto-maroon": {
       "fontCharacter": "\\ea62",
       "fontColor": "#cccccc",
@@ -21352,6 +21792,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "devopicons"
     },
+    "_truffle_auto-maroon": {
+      "fontCharacter": "\\eb3b",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_truffle_auto-maroon_l": {
+      "fontCharacter": "\\eb3b",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_tsx_light-blue": {
       "fontCharacter": "\\e9e7",
       "fontColor": "#cccccc",
@@ -21588,6 +22038,16 @@
       "fontId": "file-icons"
     },
     "_v8_medium-blue_l": {
+      "fontCharacter": "\\ea1f",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_v8_dark-blue": {
+      "fontCharacter": "\\ea1f",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_v8_dark-blue_l": {
       "fontCharacter": "\\ea1f",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
@@ -22042,6 +22502,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_vyper_medium-grey": {
+      "fontCharacter": "\\eb31",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_vyper_medium-grey_l": {
+      "fontCharacter": "\\eb31",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_wallaby_medium-green": {
       "fontCharacter": "\\231f",
       "fontColor": "#cccccc",
@@ -22102,6 +22572,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_webhint_dark-purple": {
+      "fontCharacter": "\\eb35",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_webhint_dark-purple_l": {
+      "fontCharacter": "\\eb35",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_webgl_dark-red": {
       "fontCharacter": "\\ea7b",
       "fontColor": "#cccccc",
@@ -22139,6 +22619,26 @@
     },
     "_webvtt_dark-blue_l": {
       "fontCharacter": "\\eb24",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_wget_medium-purple": {
+      "fontCharacter": "\\eb38",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_wget_medium-purple_l": {
+      "fontCharacter": "\\eb38",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_wget_medium-maroon": {
+      "fontCharacter": "\\eb38",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_wget_medium-maroon_l": {
+      "fontCharacter": "\\eb38",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -22492,6 +22992,26 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_yaml_medium-orange": {
+      "fontCharacter": "y",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_yaml_medium-orange_l": {
+      "fontCharacter": "y",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_yaml_dark-green": {
+      "fontCharacter": "y",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_yaml_dark-green_l": {
+      "fontCharacter": "y",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_yandex_medium-red": {
       "fontCharacter": "\\42f",
       "fontColor": "#cccccc",
@@ -22569,6 +23089,26 @@
     },
     "_zbrush_dark-purple_l": {
       "fontCharacter": "\\e9f2",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_zeit_auto-grey": {
+      "fontCharacter": "\\25B2",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_zeit_auto-grey_l": {
+      "fontCharacter": "\\25B2",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
+    "_zeit_auto-maroon": {
+      "fontCharacter": "\\25B2",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_zeit_auto-maroon_l": {
+      "fontCharacter": "\\25B2",
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
@@ -22702,6 +23242,16 @@
       "fontColor": "#6c6c6c",
       "fontId": "file-icons"
     },
+    "_dependabot_medium-blue": {
+      "fontCharacter": "\\eb3e",
+      "fontColor": "#cccccc",
+      "fontId": "file-icons"
+    },
+    "_dependabot_medium-blue_l": {
+      "fontCharacter": "\\eb3e",
+      "fontColor": "#6c6c6c",
+      "fontId": "file-icons"
+    },
     "_dropbox_medium-blue": {
       "fontCharacter": "\\e607",
       "fontColor": "#cccccc",
@@ -22781,6 +23331,10 @@
     "prproj": "_premiere_dark-purple",
     "prel": "_premiere_medium-maroon",
     "psq": "_premiere_medium-purple",
+    "prw": "_totvs_medium-maroon",
+    "ahu": "_totvs_medium-green",
+    "aph": "_totvs_dark-green",
+    "tlpp": "_totvs_dark-blue",
     "affect": "_affectscript_medium-pink",
     "afdesign": "_affinity_medium-blue",
     "afphoto": "_affinity_medium-pink",
@@ -22792,6 +23346,7 @@
     "als": "_alloy_medium-red",
     "apkbuild": "_alpine_dark-blue",
     "ampl": "_ampl_dark-maroon",
+    "muse": "_amusewiki_dark-red",
     "smali": "_android_medium-green",
     "rsh": "_android_dark-maroon",
     "webarchivexml": "_android_dark-cyan",
@@ -23121,6 +23676,7 @@
     "xar": "_zip_dark-orange",
     "egg": "_zip_light-orange",
     "sit": "_zip_medium-blue",
+    "condarc": "_conda_medium-green",
     "ini": "_config_medium-yellow",
     "desktop": "_config_medium-yellow",
     "directory": "_config_medium-yellow",
@@ -23219,7 +23775,6 @@
     "jsonl": "_database_dark-orange",
     "irb-history": "_database_medium-red",
     "lesshst": "_database_medium-red",
-    "wget-hsts": "_database_medium-red",
     "ssh/authorized_keys": "_database_medium-green",
     "ssh/known_hosts": "_database_medium-green",
     "ssh\\authorized_keys": "_database_medium-green",
@@ -23282,6 +23837,7 @@
     "ex": "_elixir_dark-purple",
     "exs": "_elixir_medium-purple",
     "eex": "_elixir_medium-purple",
+    "leex": "_elixir_medium-purple",
     "elm": "_elm_medium-blue",
     "el": "_emacs_medium-purple",
     "emacs": "_emacs_medium-purple",
@@ -23333,6 +23889,7 @@
     "ffn": "_dna_medium-red",
     "frn": "_dna_medium-blue",
     "sam": "_dna_dark-yellow",
+    "dsp": "_faust_dark-orange",
     "fbx": "_fbx_medium-maroon",
     "fxl": "_fexl_medium-cyan",
     "rsrc": "_finder_dark-blue",
@@ -23538,6 +24095,7 @@
     "intr": "_code_dark-blue",
     "ivy": "_code_dark-green",
     "jelly": "_code_medium-yellow",
+    "jlex": "_code_medium-red",
     "jflex": "_code_medium-red",
     "jsproj": "_code_dark-yellow",
     "lagda": "_code_medium-cyan",
@@ -23567,11 +24125,11 @@
     "pig": "_code_medium-pink",
     "plist": "_code_dark-cyan",
     "prg": "_code_medium-red",
-    "prw": "_code_dark-red",
     "proj": "_code_dark-green",
     "props": "_code_medium-cyan",
     "psc1": "_code_light-blue",
     "pt": "_code_medium-red",
+    "qhelp": "_code_medium-purple",
     "resx": "_code_medium-cyan",
     "rl": "_code_medium-red",
     "scxml": "_code_light-cyan",
@@ -23644,10 +24202,10 @@
     "vala": "_gnome_medium-purple",
     "vapi": "_gnome_dark-purple",
     "gtk": "_gnome_null",
-    "gp": "_graph_medium-red",
-    "plt": "_graph_medium-red",
-    "plot": "_graph_medium-red",
-    "gnuplot": "_graph_medium-red",
+    "gp": "_gnuplot_medium-red",
+    "plt": "_gnuplot_medium-red",
+    "plot": "_gnuplot_medium-red",
+    "gnuplot": "_gnuplot_medium-red",
     "go": "_go_medium-blue",
     "golo": "_golo_medium-orange",
     "gs": "_gosu_medium-blue",
@@ -23683,6 +24241,8 @@
     "hsc": "_haskell_medium-blue",
     "c2hs": "_haskell_dark-purple",
     "lhs": "_haskell_dark-blue",
+    "hs-boot": "_haskell_medium-maroon",
+    "hsig": "_haskell_medium-maroon",
     "hx": "_haxe_medium-orange",
     "hxml": "_haxe_medium-orange",
     "hxsl": "_haxe_medium-orange",
@@ -23729,6 +24289,7 @@
     "huskyrc.js": "_husky_auto-orange",
     "huskyrc.json": "_husky_auto-yellow",
     "hy": "_hy_dark-blue",
+    "hyper.js": "_hyper_dark-purple",
     "dlm": "_idl_medium-blue",
     "idr": "_idris_dark-red",
     "lidr": "_idris_medium-maroon",
@@ -23860,6 +24421,9 @@
     "nojekyll": "_jekyll_medium-green",
     "js.snap": "_jest_auto-yellow",
     "jsx.snap": "_jest_auto-yellow",
+    "mjs.snap": "_jest_medium-blue",
+    "ts.snap": "_jest_medium-blue",
+    "tsx.snap": "_jest_medium-blue",
     "jinja": "_jinja_dark-red",
     "j2": "_jinja_medium-red",
     "jinja2": "_jinja_medium-red",
@@ -23870,6 +24434,7 @@
     "json": "_json_medium-cyan",
     "geojson": "_json_medium-cyan",
     "topojson": "_json_medium-cyan",
+    "jsonc": "_json_dark-blue",
     "json5": "_json5_dark-yellow",
     "jsonld": "_jsonld_medium-blue",
     "jq": "_sql_medium-blue",
@@ -23904,6 +24469,8 @@
     "ldml": "_lasso_medium-red",
     "lean": "_lean_dark-purple",
     "hlean": "_lean_dark-red",
+    "ledger": "_graph_medium-blue",
+    "hledger": "_graph_medium-green",
     "lr": "_lektor_dark-purple",
     "lektorproject": "_lektor_medium-orange",
     "lfe": "_lfe_dark-red",
@@ -24129,12 +24696,16 @@
     "mir": "_mirah_light-blue",
     "mirah": "_mirah_light-blue",
     "m": "_objc_medium-blue",
+    "mrc": "_mirc_medium-red",
     "mjml": "_mjml_medium-red",
     "mjmlslim": "_mjml_medium-orange",
     "mkdocs.yml": "_book-alt_medium-blue",
     "mkdocs.yaml": "_book-alt_medium-blue",
     "mocharc.json": "_mocha_medium-maroon",
+    "mocharc.jsonc": "_mocha_medium-maroon",
     "mocharc.js": "_mocha_medium-maroon",
+    "mocharc.cjs": "_mocha_medium-maroon",
+    "mocharc.mjs": "_mocha_medium-maroon",
     "mocharc.yml": "_mocha_medium-maroon",
     "mocharc.yaml": "_mocha_medium-maroon",
     "obj": "_model_medium-red",
@@ -24152,6 +24723,7 @@
     "u3d": "_model_medium-orange",
     "rviz": "_model_dark-blue",
     "vcg": "_model_dark-blue",
+    "x": "_objc_dark-green",
     "mo": "_modelica_auto-red",
     "mod": "_modula2_medium-blue",
     "def": "_modula2_medium-green",
@@ -24216,8 +24788,10 @@
     "nvmrc": "_node_medium-green",
     "node": "_node_dark-green",
     "node-version": "_node_dark-green",
+    "node_repl_history": "_node_dark-green",
     "nodemonignore": "_nodemon_medium-green",
     "nomad": "_nomad_medium-green",
+    "noon": "_noon_dark-grey",
     "npmignore": "_npm_medium-red",
     "npmrc": "_npm_medium-red",
     "nsi": "_nsis_medium-purple",
@@ -24244,9 +24818,9 @@
     "nunjucks": "_nunjucks_dark-green",
     "njk": "_nunjucks_dark-green",
     "nxc": "_nxc_medium-orange",
+    "ob2": "_oberon_medium-purple",
     "mm": "_objc_medium-blue",
     "pch": "_objc_dark-red",
-    "x": "_objc_dark-green",
     "j": "_objj_dark-orange",
     "sj": "_objj_dark-red",
     "mli": "_ocaml_dark-orange",
@@ -24258,6 +24832,7 @@
     "octave": "_octave_medium-orange",
     "octave_hist": "_octave_medium-orange",
     "octaverc": "_octave_dark-orange",
+    "odin": "_odin_medium-blue",
     "ooc": "_ooc_medium-green",
     "opa": "_opa_medium-blue",
     "opencl": "_opencl_medium-red",
@@ -24291,6 +24866,7 @@
     "fodg": "_openoffice_dark-orange",
     "odf": "_openoffice_medium-maroon",
     "odb": "_openoffice_light-pink",
+    "rego": "_openpolicy_medium-cyan",
     "scad": "_scad_medium-orange",
     "jscad": "_scad_medium-yellow",
     "hlb": "_openvms_medium-blue",
@@ -24325,16 +24901,6 @@
     "pm": "_perl_dark-blue",
     "psgi": "_perl_medium-red",
     "xs": "_perl_medium-red",
-    "pl6": "_perl6_medium-purple",
-    "p6": "_perl6_light-blue",
-    "t6": "_perl6_light-blue",
-    "6pl": "_perl6_light-blue",
-    "pm6": "_perl6_dark-pink",
-    "p6m": "_perl6_dark-pink",
-    "6pm": "_perl6_dark-cyan",
-    "nqp": "_perl6_dark-purple",
-    "p6l": "_perl6_medium-blue",
-    "pod6": "_perl6_dark-green",
     "volt": "_phalcon_medium-cyan",
     "php": "_php_dark-blue",
     "php0": "_php_dark-blue",
@@ -24459,6 +25025,19 @@
     "rktd": "_racket_medium-blue",
     "rktl": "_racket_light-red",
     "scrbl": "_racket_dark-blue",
+    "pl6": "_perl6_medium-purple",
+    "p6": "_perl6_light-blue",
+    "t6": "_perl6_light-blue",
+    "6pl": "_perl6_light-blue",
+    "pm6": "_perl6_dark-pink",
+    "p6m": "_perl6_dark-pink",
+    "6pm": "_perl6_dark-cyan",
+    "nqp": "_perl6_dark-purple",
+    "p6l": "_perl6_medium-blue",
+    "pod6": "_perl6_dark-green",
+    "raku": "_perl6_medium-blue",
+    "rakumod": "_perl6_dark-blue",
+    "rakutest": "_perl6_dark-purple",
     "raml": "_raml_medium-cyan",
     "rsc": "_rascal_medium-yellow",
     "rehyperc": "_remark_medium-yellow",
@@ -24488,6 +25067,7 @@
     "license": "_book_medium-blue",
     "licenses": "_book_medium-blue",
     "changes": "_book_medium-blue",
+    "journal": "_book_medium-blue",
     "faq": "_book_medium-blue",
     "rbbas": "_xojo_medium-green",
     "rbfrm": "_xojo_dark-green",
@@ -24636,6 +25216,10 @@
     "fishrc": "_terminal_medium-green",
     "login": "_terminal_medium-red",
     "profile": "_terminal_dark-purple",
+    "dircolors": "_terminal_medium-green",
+    "dir_colors": "_terminal_medium-green",
+    "_dircolors": "_terminal_medium-green",
+    "_dir_colors": "_terminal_medium-green",
     "inputrc": "_terminal_medium-red",
     "tmux": "_terminal_medium-blue",
     "cshrc": "_terminal_medium-orange",
@@ -24658,6 +25242,7 @@
     "solidarity.json": "_solidarity_dark-red",
     "sol": "_solidity_dark-cyan",
     "solidity": "_solidity_dark-cyan",
+    "rbi": "_sorbet_auto-purple",
     "sma": "_clojure_auto-yellow",
     "sp": "_clojure_auto-yellow",
     "inc": "_clojure_medium-green",
@@ -24717,6 +25302,8 @@
     "stylelintrc": "_stylelint_medium-purple",
     "stylelintignore": "_stylelint_dark-blue",
     "stylelintcache": "_stylelint_dark-blue",
+    "stylish-haskell.yml": "_stylishhaskell",
+    "stylish-haskell.yaml": "_stylishhaskell",
     "styl": "_stylus_medium-green",
     "stylus": "_stylus_medium-green",
     "sttheme": "_sublime_medium-orange",
@@ -24763,6 +25350,9 @@
     "gemtags": "_tag_medium-red",
     "hgtags": "_tag_medium-cyan",
     "pid": "_tag_medium-orange",
+    "sha": "_tag_medium-green",
+    "sha256": "_tag_medium-green",
+    "shasum": "_tag_medium-green",
     "tailwind.js": "_tailwind_medium-cyan",
     "tailwind.mjs": "_tailwind_medium-cyan",
     "tailwind.ts": "_tailwind_medium-cyan",
@@ -24936,6 +25526,7 @@
     "toml": "_toml_medium-green",
     "tgitconfig": "_tortoise_medium-red",
     "travis": "_travis_medium-red",
+    "truffle.js": "_truffle_auto-maroon",
     "tsx": "_tsx_light-blue",
     "ttcn": "_ttcn3_medium-blue",
     "ttcn3": "_ttcn3_medium-blue",
@@ -24964,6 +25555,8 @@
     "urs": "_urweb_dark-blue",
     "v": "_verilog_dark-green",
     "v8flags": "_v8_medium-blue",
+    "c8rc": "_v8_dark-blue",
+    "c8rc.json": "_v8_dark-blue",
     "vcl": "_varnish_dark-blue",
     "vm": "_velocity_dark-blue",
     "veo": "_verilog_medium-red",
@@ -25022,6 +25615,7 @@
     "vscodeignore.json": "_vs_medium-blue",
     "vstemplate": "_vs_medium-purple",
     "vsixmanifest": "_vs_dark-orange",
+    "code-workspace": "_vs_dark-blue",
     "builds": "_vs_medium-maroon",
     "sln": "_vs_medium-orange",
     "njsproj": "_vs_light-red",
@@ -25036,6 +25630,7 @@
     "vsts-ci.yml": "_vsts_medium-blue",
     "vsts-ci.yaml": "_vsts_medium-blue",
     "vue": "_vue_light-green",
+    "vy": "_vyper_medium-grey",
     "wallaby.js": "_wallaby_medium-green",
     "walt": "_walt_medium-purple",
     "watchmanconfig": "_watchman_medium-blue",
@@ -25043,9 +25638,12 @@
     "wat": "_wasm_medium-blue",
     "wast": "_wasm_medium-blue",
     "wasm": "_wasm_medium-red",
+    "hintrc": "_webhint_dark-purple",
     "webgl": "_webgl_dark-red",
     "owl": "_owl_dark-blue",
     "vtt": "_webvtt_dark-blue",
+    "wgetrc": "_wget_medium-purple",
+    "wget-hsts": "_wget_medium-maroon",
     "wxml": "_wechat_medium-green",
     "wxss": "_wechat_medium-blue",
     "bat": "_windows_medium-purple",
@@ -25109,6 +25707,10 @@
     "xtend": "_xtend_dark-purple",
     "yml": "_yaml_medium-red",
     "yaml": "_yaml_medium-red",
+    "yml.mysql": "_yaml_medium-orange",
+    "yaml.mysql": "_yaml_medium-orange",
+    "yml.sed": "_yaml_dark-green",
+    "yaml.sed": "_yaml_dark-green",
     "yaspellerrc": "_yandex_medium-red",
     "yaspellerrc.": "_yandex_medium-red",
     "yaspeller.json": "_yandex_medium-red",
@@ -25122,6 +25724,7 @@
     "yarn-integrity": "_yarn_dark-blue",
     "yo-rc.json": "_yeoman_medium-cyan",
     "zpr": "_zbrush_dark-purple",
+    "nowignore": "_zeit_auto-maroon",
     "zep": "_zephir_medium-pink",
     "zig": "_zig_medium-orange",
     "zimpl": "_zimpl_medium-orange",
@@ -25145,7 +25748,9 @@
     "chef": "_chef",
     "circleci": "_circleci",
     "cpan": "_cpan_medium-blue",
+    "cpanplus": "_cpan_dark-blue",
     "deno": "_deno_dark-purple",
+    "dependabot": "_dependabot_medium-blue",
     "docker": "_docker_dark-blue",
     "dropbox.cache": "_dropbox_medium-blue",
     "emacs.d": "_emacs_medium-purple",
@@ -25159,6 +25764,7 @@
     "nyc_output": "_istanbul_medium-orange",
     "meteor": "_meteor_dark-orange",
     "hg": "_hg_medium-grey",
+    "node-gyp": "_node_dark-green",
     "paket": "_package",
     "svn": "_svn",
     "tmbundle": "_textmate",
@@ -25398,6 +26004,7 @@
     "conanfile.txt": "_conan_auto-blue",
     "conanfile.py": "_conan_auto-blue",
     "conan.conf": "_conan_auto-blue",
+    "condarc": "_conda_medium-green",
     "mimeapps.list": "_config_medium-blue",
     "terminal": "_config_dark-blue",
     "terminalrc": "_config_dark-blue",
@@ -25466,6 +26073,8 @@
     "manifest.skip": "_cpan_medium-maroon",
     "crowdin.yml": "_crowdin_medium-green",
     "crowdin.yaml": "_crowdin_medium-green",
+    "curlrc": "_curl_dark-blue",
+    "_curlrc": "_curl_dark-blue",
     "fonts.dir": "_database_medium-red",
     "fonts.scale": "_database_medium-red",
     "fonts.alias": "_database_medium-red",
@@ -25524,6 +26133,7 @@
     "fakefile": "_fancy_medium-green",
     "icon\r": "_finder_medium-blue",
     "firebase.json": "_firebase_medium-yellow",
+    "firestore.indexes.json": "_firebase_medium-yellow",
     "firestore.rule": "_firebase_medium-orange",
     "firestore.rules": "_firebase_medium-orange",
     "fuelux.css": "_fuelux_auto-orange",
@@ -25676,7 +26286,8 @@
     "paket.references": "_package_medium-blue",
     "paket.local": "_package_medium-blue",
     "paket.template": "_package_medium-blue",
-    "rexfile": "_perl6_medium-green",
+    "patrons.md": "_patreon_medium-orange",
+    "patreon.md": "_patreon_medium-orange",
     "phakefile": "_php_dark-green",
     "phpunit.xml": "_phpunit_medium-purple",
     "phoenix.ex": "_phoenix_medium-red",
@@ -25702,22 +26313,76 @@
     "watchlists": "_python_medium-green",
     "wscript": "_python_dark-maroon",
     "quasar.conf.js": "_quasar_medium-blue",
+    "rexfile": "_perl6_medium-green",
+    "razzle.config.": "_razzle_dark-blue",
     "readme": "_book_medium-blue",
     "readme_": "_book_medium-blue",
     "licence": "_book_medium-blue",
+    "licence.md": "_book_medium-blue",
+    "licence.txt": "_book_medium-blue",
     "licence.mysql": "_book_medium-blue",
+    "licence.mysql.md": "_book_medium-blue",
+    "licence.mysql.txt": "_book_medium-blue",
     "licences": "_book_medium-blue",
+    "licences.md": "_book_medium-blue",
+    "licences.txt": "_book_medium-blue",
     "licences.mysql": "_book_medium-blue",
+    "licences.mysql.md": "_book_medium-blue",
+    "licences.mysql.txt": "_book_medium-blue",
     "license": "_book_medium-blue",
+    "license.md": "_book_medium-blue",
+    "license.txt": "_book_medium-blue",
     "license.mysql": "_book_medium-blue",
+    "license.mysql.md": "_book_medium-blue",
+    "license.mysql.txt": "_book_medium-blue",
     "licenses": "_book_medium-blue",
+    "licenses.md": "_book_medium-blue",
+    "licenses.txt": "_book_medium-blue",
     "licenses.mysql": "_book_medium-blue",
+    "licenses.mysql.md": "_book_medium-blue",
+    "licenses.mysql.txt": "_book_medium-blue",
+    "unlicence": "_book_medium-blue",
+    "unlicence.md": "_book_medium-blue",
+    "unlicence.txt": "_book_medium-blue",
+    "unlicence.mysql": "_book_medium-blue",
+    "unlicence.mysql.md": "_book_medium-blue",
+    "unlicence.mysql.txt": "_book_medium-blue",
+    "unlicences": "_book_medium-blue",
+    "unlicences.md": "_book_medium-blue",
+    "unlicences.txt": "_book_medium-blue",
+    "unlicences.mysql": "_book_medium-blue",
+    "unlicences.mysql.md": "_book_medium-blue",
+    "unlicences.mysql.txt": "_book_medium-blue",
+    "unlicense": "_book_medium-blue",
+    "unlicense.md": "_book_medium-blue",
+    "unlicense.txt": "_book_medium-blue",
+    "unlicense.mysql": "_book_medium-blue",
+    "unlicense.mysql.md": "_book_medium-blue",
+    "unlicense.mysql.txt": "_book_medium-blue",
+    "unlicenses": "_book_medium-blue",
+    "unlicenses.md": "_book_medium-blue",
+    "unlicenses.txt": "_book_medium-blue",
+    "unlicenses.mysql": "_book_medium-blue",
+    "unlicenses.mysql.md": "_book_medium-blue",
+    "unlicenses.mysql.txt": "_book_medium-blue",
     "read.me": "_book_medium-blue",
+    "read.me.md": "_book_medium-blue",
+    "read.me.txt": "_book_medium-blue",
     "readme.me": "_book_medium-blue",
+    "readme.me.md": "_book_medium-blue",
+    "readme.me.txt": "_book_medium-blue",
     "click.me": "_book_medium-blue",
+    "click.me.md": "_book_medium-blue",
+    "click.me.txt": "_book_medium-blue",
     "delete.me": "_book_medium-blue",
+    "delete.me.md": "_book_medium-blue",
+    "delete.me.txt": "_book_medium-blue",
     "keep.me": "_book_medium-blue",
+    "keep.me.md": "_book_medium-blue",
+    "keep.me.txt": "_book_medium-blue",
     "test.me": "_book_medium-blue",
+    "test.me.md": "_book_medium-blue",
+    "test.me.txt": "_book_medium-blue",
     "changelog": "_book_medium-blue",
     "licence-": "_book_medium-blue",
     "licence.": "_book_medium-blue",
@@ -25817,6 +26482,10 @@
     "zshrc": "_terminal_medium-blue",
     "login": "_terminal_medium-red",
     "profile": "_terminal_medium-red",
+    "dircolors": "_terminal_medium-green",
+    "dir_colors": "_terminal_medium-green",
+    "_dircolors": "_terminal_medium-green",
+    "_dir_colors": "_terminal_medium-green",
     "configure": "_terminal_medium-red",
     "config.guess": "_terminal_medium-red",
     "config.rpath": "_terminal_medium-red",
@@ -25848,6 +26517,9 @@
     "tags": "_tag_medium-blue",
     "ctags": "_tag_medium-blue",
     "localtags": "_tag_medium-cyan",
+    "sha": "_tag_medium-green",
+    "sha256": "_tag_medium-green",
+    "shasum": "_tag_medium-green",
     "tailwind.js": "_tailwind_medium-cyan",
     "tailwind.mjs": "_tailwind_medium-cyan",
     "tailwind.ts": "_tailwind_medium-cyan",
@@ -26108,6 +26780,7 @@
     "|tgitconfig": "_tortoise_medium-red",
     "}tgitconfig": "_tortoise_medium-red",
     "~tgitconfig": "_tortoise_medium-red",
+    "truffle.js": "_truffle_auto-maroon",
     "typedoc.json": "_typedoc_dark-purple",
     "typings.json": "_typings_medium-maroon",
     "uikit.js": "_uikit_medium-blue",
@@ -26124,10 +26797,12 @@
     "nviminfo": "_vim_dark-green",
     "vue.config.js": "_vue_light-green",
     "watchman.json": "_watchman_medium-blue",
+    "wgetrc": "_wget_medium-purple",
     "wercker.yml": "_wercker_medium-purple",
     "wercker.yaml": "_wercker_medium-purple",
     "workbox-config.js": "_workbox_medium-orange",
     "yarn.lock": "_yarn_medium-blue",
+    "now.json": "_zeit_auto-grey",
     "s4.errors": "_zork_dark-green"
   },
   "folderNames": {
@@ -26196,6 +26871,10 @@
       "prproj": "_premiere_dark-purple_l",
       "prel": "_premiere_medium-maroon_l",
       "psq": "_premiere_medium-purple_l",
+      "prw": "_totvs_medium-maroon_l",
+      "ahu": "_totvs_medium-green_l",
+      "aph": "_totvs_dark-green_l",
+      "tlpp": "_totvs_dark-blue_l",
       "affect": "_affectscript_medium-pink_l",
       "afdesign": "_affinity_medium-blue_l",
       "afphoto": "_affinity_medium-pink_l",
@@ -26207,6 +26886,7 @@
       "als": "_alloy_medium-red_l",
       "apkbuild": "_alpine_dark-blue_l",
       "ampl": "_ampl_dark-maroon_l",
+      "muse": "_amusewiki_dark-red_l",
       "smali": "_android_medium-green_l",
       "rsh": "_android_dark-maroon_l",
       "webarchivexml": "_android_dark-cyan_l",
@@ -26536,6 +27216,7 @@
       "xar": "_zip_dark-orange_l",
       "egg": "_zip_light-orange_l",
       "sit": "_zip_medium-blue_l",
+      "condarc": "_conda_medium-green_l",
       "ini": "_config_medium-yellow_l",
       "desktop": "_config_medium-yellow_l",
       "directory": "_config_medium-yellow_l",
@@ -26634,7 +27315,6 @@
       "jsonl": "_database_dark-orange_l",
       "irb-history": "_database_medium-red_l",
       "lesshst": "_database_medium-red_l",
-      "wget-hsts": "_database_medium-red_l",
       "ssh/authorized_keys": "_database_medium-green_l",
       "ssh/known_hosts": "_database_medium-green_l",
       "ssh\\authorized_keys": "_database_medium-green_l",
@@ -26697,6 +27377,7 @@
       "ex": "_elixir_dark-purple_l",
       "exs": "_elixir_medium-purple_l",
       "eex": "_elixir_medium-purple_l",
+      "leex": "_elixir_medium-purple_l",
       "elm": "_elm_medium-blue_l",
       "el": "_emacs_medium-purple_l",
       "emacs": "_emacs_medium-purple_l",
@@ -26748,6 +27429,7 @@
       "ffn": "_dna_medium-red_l",
       "frn": "_dna_medium-blue_l",
       "sam": "_dna_dark-yellow_l",
+      "dsp": "_faust_dark-orange_l",
       "fbx": "_fbx_medium-maroon_l",
       "fxl": "_fexl_medium-cyan_l",
       "rsrc": "_finder_dark-blue_l",
@@ -26953,6 +27635,7 @@
       "intr": "_code_dark-blue_l",
       "ivy": "_code_dark-green_l",
       "jelly": "_code_medium-yellow_l",
+      "jlex": "_code_medium-red_l",
       "jflex": "_code_medium-red_l",
       "jsproj": "_code_dark-yellow_l",
       "lagda": "_code_medium-cyan_l",
@@ -26982,11 +27665,11 @@
       "pig": "_code_medium-pink_l",
       "plist": "_code_dark-cyan_l",
       "prg": "_code_medium-red_l",
-      "prw": "_code_dark-red_l",
       "proj": "_code_dark-green_l",
       "props": "_code_medium-cyan_l",
       "psc1": "_code_light-blue_l",
       "pt": "_code_medium-red_l",
+      "qhelp": "_code_medium-purple_l",
       "resx": "_code_medium-cyan_l",
       "rl": "_code_medium-red_l",
       "scxml": "_code_light-cyan_l",
@@ -27059,10 +27742,10 @@
       "vala": "_gnome_medium-purple_l",
       "vapi": "_gnome_dark-purple_l",
       "gtk": "_gnome_null_l",
-      "gp": "_graph_medium-red_l",
-      "plt": "_graph_medium-red_l",
-      "plot": "_graph_medium-red_l",
-      "gnuplot": "_graph_medium-red_l",
+      "gp": "_gnuplot_medium-red_l",
+      "plt": "_gnuplot_medium-red_l",
+      "plot": "_gnuplot_medium-red_l",
+      "gnuplot": "_gnuplot_medium-red_l",
       "go": "_go_medium-blue_l",
       "golo": "_golo_medium-orange_l",
       "gs": "_gosu_medium-blue_l",
@@ -27098,6 +27781,8 @@
       "hsc": "_haskell_medium-blue_l",
       "c2hs": "_haskell_dark-purple_l",
       "lhs": "_haskell_dark-blue_l",
+      "hs-boot": "_haskell_medium-maroon_l",
+      "hsig": "_haskell_medium-maroon_l",
       "hx": "_haxe_medium-orange_l",
       "hxml": "_haxe_medium-orange_l",
       "hxsl": "_haxe_medium-orange_l",
@@ -27144,6 +27829,7 @@
       "huskyrc.js": "_husky_auto-orange_l",
       "huskyrc.json": "_husky_auto-yellow_l",
       "hy": "_hy_dark-blue_l",
+      "hyper.js": "_hyper_dark-purple_l",
       "dlm": "_idl_medium-blue_l",
       "idr": "_idris_dark-red_l",
       "lidr": "_idris_medium-maroon_l",
@@ -27275,6 +27961,9 @@
       "nojekyll": "_jekyll_medium-green_l",
       "js.snap": "_jest_auto-yellow_l",
       "jsx.snap": "_jest_auto-yellow_l",
+      "mjs.snap": "_jest_medium-blue_l",
+      "ts.snap": "_jest_medium-blue_l",
+      "tsx.snap": "_jest_medium-blue_l",
       "jinja": "_jinja_dark-red_l",
       "j2": "_jinja_medium-red_l",
       "jinja2": "_jinja_medium-red_l",
@@ -27285,6 +27974,7 @@
       "json": "_json_medium-cyan_l",
       "geojson": "_json_medium-cyan_l",
       "topojson": "_json_medium-cyan_l",
+      "jsonc": "_json_dark-blue_l",
       "json5": "_json5_dark-yellow_l",
       "jsonld": "_jsonld_medium-blue_l",
       "jq": "_sql_medium-blue_l",
@@ -27319,6 +28009,8 @@
       "ldml": "_lasso_medium-red_l",
       "lean": "_lean_dark-purple_l",
       "hlean": "_lean_dark-red_l",
+      "ledger": "_graph_medium-blue_l",
+      "hledger": "_graph_medium-green_l",
       "lr": "_lektor_dark-purple_l",
       "lektorproject": "_lektor_medium-orange_l",
       "lfe": "_lfe_dark-red_l",
@@ -27544,12 +28236,16 @@
       "mir": "_mirah_light-blue_l",
       "mirah": "_mirah_light-blue_l",
       "m": "_objc_medium-blue_l",
+      "mrc": "_mirc_medium-red_l",
       "mjml": "_mjml_medium-red_l",
       "mjmlslim": "_mjml_medium-orange_l",
       "mkdocs.yml": "_book-alt_medium-blue_l",
       "mkdocs.yaml": "_book-alt_medium-blue_l",
       "mocharc.json": "_mocha_medium-maroon_l",
+      "mocharc.jsonc": "_mocha_medium-maroon_l",
       "mocharc.js": "_mocha_medium-maroon_l",
+      "mocharc.cjs": "_mocha_medium-maroon_l",
+      "mocharc.mjs": "_mocha_medium-maroon_l",
       "mocharc.yml": "_mocha_medium-maroon_l",
       "mocharc.yaml": "_mocha_medium-maroon_l",
       "obj": "_model_medium-red_l",
@@ -27567,6 +28263,7 @@
       "u3d": "_model_medium-orange_l",
       "rviz": "_model_dark-blue_l",
       "vcg": "_model_dark-blue_l",
+      "x": "_objc_dark-green_l",
       "mo": "_modelica_auto-red_l",
       "mod": "_modula2_medium-blue_l",
       "def": "_modula2_medium-green_l",
@@ -27631,8 +28328,10 @@
       "nvmrc": "_node_medium-green_l",
       "node": "_node_dark-green_l",
       "node-version": "_node_dark-green_l",
+      "node_repl_history": "_node_dark-green_l",
       "nodemonignore": "_nodemon_medium-green_l",
       "nomad": "_nomad_medium-green_l",
+      "noon": "_noon_dark-grey_l",
       "npmignore": "_npm_medium-red_l",
       "npmrc": "_npm_medium-red_l",
       "nsi": "_nsis_medium-purple_l",
@@ -27659,9 +28358,9 @@
       "nunjucks": "_nunjucks_dark-green_l",
       "njk": "_nunjucks_dark-green_l",
       "nxc": "_nxc_medium-orange_l",
+      "ob2": "_oberon_medium-purple_l",
       "mm": "_objc_medium-blue_l",
       "pch": "_objc_dark-red_l",
-      "x": "_objc_dark-green_l",
       "j": "_objj_dark-orange_l",
       "sj": "_objj_dark-red_l",
       "mli": "_ocaml_dark-orange_l",
@@ -27673,6 +28372,7 @@
       "octave": "_octave_medium-orange_l",
       "octave_hist": "_octave_medium-orange_l",
       "octaverc": "_octave_dark-orange_l",
+      "odin": "_odin_medium-blue_l",
       "ooc": "_ooc_medium-green_l",
       "opa": "_opa_medium-blue_l",
       "opencl": "_opencl_medium-red_l",
@@ -27706,6 +28406,7 @@
       "fodg": "_openoffice_dark-orange_l",
       "odf": "_openoffice_medium-maroon_l",
       "odb": "_openoffice_light-pink_l",
+      "rego": "_openpolicy_medium-cyan_l",
       "scad": "_scad_medium-orange_l",
       "jscad": "_scad_medium-yellow_l",
       "hlb": "_openvms_medium-blue_l",
@@ -27740,16 +28441,6 @@
       "pm": "_perl_dark-blue_l",
       "psgi": "_perl_medium-red_l",
       "xs": "_perl_medium-red_l",
-      "pl6": "_perl6_medium-purple_l",
-      "p6": "_perl6_light-blue_l",
-      "t6": "_perl6_light-blue_l",
-      "6pl": "_perl6_light-blue_l",
-      "pm6": "_perl6_dark-pink_l",
-      "p6m": "_perl6_dark-pink_l",
-      "6pm": "_perl6_dark-cyan_l",
-      "nqp": "_perl6_dark-purple_l",
-      "p6l": "_perl6_medium-blue_l",
-      "pod6": "_perl6_dark-green_l",
       "volt": "_phalcon_medium-cyan_l",
       "php": "_php_dark-blue_l",
       "php0": "_php_dark-blue_l",
@@ -27874,6 +28565,19 @@
       "rktd": "_racket_medium-blue_l",
       "rktl": "_racket_light-red_l",
       "scrbl": "_racket_dark-blue_l",
+      "pl6": "_perl6_medium-purple_l",
+      "p6": "_perl6_light-blue_l",
+      "t6": "_perl6_light-blue_l",
+      "6pl": "_perl6_light-blue_l",
+      "pm6": "_perl6_dark-pink_l",
+      "p6m": "_perl6_dark-pink_l",
+      "6pm": "_perl6_dark-cyan_l",
+      "nqp": "_perl6_dark-purple_l",
+      "p6l": "_perl6_medium-blue_l",
+      "pod6": "_perl6_dark-green_l",
+      "raku": "_perl6_medium-blue_l",
+      "rakumod": "_perl6_dark-blue_l",
+      "rakutest": "_perl6_dark-purple_l",
       "raml": "_raml_medium-cyan_l",
       "rsc": "_rascal_medium-yellow_l",
       "rehyperc": "_remark_medium-yellow_l",
@@ -27903,6 +28607,7 @@
       "license": "_book_medium-blue_l",
       "licenses": "_book_medium-blue_l",
       "changes": "_book_medium-blue_l",
+      "journal": "_book_medium-blue_l",
       "faq": "_book_medium-blue_l",
       "rbbas": "_xojo_medium-green_l",
       "rbfrm": "_xojo_dark-green_l",
@@ -28051,6 +28756,10 @@
       "fishrc": "_terminal_medium-green_l",
       "login": "_terminal_medium-red_l",
       "profile": "_terminal_dark-purple_l",
+      "dircolors": "_terminal_medium-green_l",
+      "dir_colors": "_terminal_medium-green_l",
+      "_dircolors": "_terminal_medium-green_l",
+      "_dir_colors": "_terminal_medium-green_l",
       "inputrc": "_terminal_medium-red_l",
       "tmux": "_terminal_medium-blue_l",
       "cshrc": "_terminal_medium-orange_l",
@@ -28073,6 +28782,7 @@
       "solidarity.json": "_solidarity_dark-red_l",
       "sol": "_solidity_dark-cyan_l",
       "solidity": "_solidity_dark-cyan_l",
+      "rbi": "_sorbet_auto-purple_l",
       "sma": "_clojure_auto-yellow_l",
       "sp": "_clojure_auto-yellow_l",
       "inc": "_clojure_medium-green_l",
@@ -28132,6 +28842,8 @@
       "stylelintrc": "_stylelint_medium-purple_l",
       "stylelintignore": "_stylelint_dark-blue_l",
       "stylelintcache": "_stylelint_dark-blue_l",
+      "stylish-haskell.yml": "_stylishhaskell_l",
+      "stylish-haskell.yaml": "_stylishhaskell_l",
       "styl": "_stylus_medium-green_l",
       "stylus": "_stylus_medium-green_l",
       "sttheme": "_sublime_medium-orange_l",
@@ -28178,6 +28890,9 @@
       "gemtags": "_tag_medium-red_l",
       "hgtags": "_tag_medium-cyan_l",
       "pid": "_tag_medium-orange_l",
+      "sha": "_tag_medium-green_l",
+      "sha256": "_tag_medium-green_l",
+      "shasum": "_tag_medium-green_l",
       "tailwind.js": "_tailwind_medium-cyan_l",
       "tailwind.mjs": "_tailwind_medium-cyan_l",
       "tailwind.ts": "_tailwind_medium-cyan_l",
@@ -28351,6 +29066,7 @@
       "toml": "_toml_medium-green_l",
       "tgitconfig": "_tortoise_medium-red_l",
       "travis": "_travis_medium-red_l",
+      "truffle.js": "_truffle_auto-maroon_l",
       "tsx": "_tsx_light-blue_l",
       "ttcn": "_ttcn3_medium-blue_l",
       "ttcn3": "_ttcn3_medium-blue_l",
@@ -28379,6 +29095,8 @@
       "urs": "_urweb_dark-blue_l",
       "v": "_verilog_dark-green_l",
       "v8flags": "_v8_medium-blue_l",
+      "c8rc": "_v8_dark-blue_l",
+      "c8rc.json": "_v8_dark-blue_l",
       "vcl": "_varnish_dark-blue_l",
       "vm": "_velocity_dark-blue_l",
       "veo": "_verilog_medium-red_l",
@@ -28437,6 +29155,7 @@
       "vscodeignore.json": "_vs_medium-blue_l",
       "vstemplate": "_vs_medium-purple_l",
       "vsixmanifest": "_vs_dark-orange_l",
+      "code-workspace": "_vs_dark-blue_l",
       "builds": "_vs_medium-maroon_l",
       "sln": "_vs_medium-orange_l",
       "njsproj": "_vs_light-red_l",
@@ -28451,6 +29170,7 @@
       "vsts-ci.yml": "_vsts_medium-blue_l",
       "vsts-ci.yaml": "_vsts_medium-blue_l",
       "vue": "_vue_light-green_l",
+      "vy": "_vyper_medium-grey_l",
       "wallaby.js": "_wallaby_medium-green_l",
       "walt": "_walt_medium-purple_l",
       "watchmanconfig": "_watchman_medium-blue_l",
@@ -28458,9 +29178,12 @@
       "wat": "_wasm_medium-blue_l",
       "wast": "_wasm_medium-blue_l",
       "wasm": "_wasm_medium-red_l",
+      "hintrc": "_webhint_dark-purple_l",
       "webgl": "_webgl_dark-red_l",
       "owl": "_owl_dark-blue_l",
       "vtt": "_webvtt_dark-blue_l",
+      "wgetrc": "_wget_medium-purple_l",
+      "wget-hsts": "_wget_medium-maroon_l",
       "wxml": "_wechat_medium-green_l",
       "wxss": "_wechat_medium-blue_l",
       "bat": "_windows_medium-purple_l",
@@ -28524,6 +29247,10 @@
       "xtend": "_xtend_dark-purple_l",
       "yml": "_yaml_medium-red_l",
       "yaml": "_yaml_medium-red_l",
+      "yml.mysql": "_yaml_medium-orange_l",
+      "yaml.mysql": "_yaml_medium-orange_l",
+      "yml.sed": "_yaml_dark-green_l",
+      "yaml.sed": "_yaml_dark-green_l",
       "yaspellerrc": "_yandex_medium-red_l",
       "yaspellerrc.": "_yandex_medium-red_l",
       "yaspeller.json": "_yandex_medium-red_l",
@@ -28537,6 +29264,7 @@
       "yarn-integrity": "_yarn_dark-blue_l",
       "yo-rc.json": "_yeoman_medium-cyan_l",
       "zpr": "_zbrush_dark-purple_l",
+      "nowignore": "_zeit_auto-maroon_l",
       "zep": "_zephir_medium-pink_l",
       "zig": "_zig_medium-orange_l",
       "zimpl": "_zimpl_medium-orange_l",
@@ -28560,7 +29288,9 @@
       "chef": "_chef_l",
       "circleci": "_circleci_l",
       "cpan": "_cpan_medium-blue_l",
+      "cpanplus": "_cpan_dark-blue_l",
       "deno": "_deno_dark-purple_l",
+      "dependabot": "_dependabot_medium-blue_l",
       "docker": "_docker_dark-blue_l",
       "dropbox.cache": "_dropbox_medium-blue_l",
       "emacs.d": "_emacs_medium-purple_l",
@@ -28574,6 +29304,7 @@
       "nyc_output": "_istanbul_medium-orange_l",
       "meteor": "_meteor_dark-orange_l",
       "hg": "_hg_medium-grey_l",
+      "node-gyp": "_node_dark-green_l",
       "paket": "_package_l",
       "svn": "_svn_l",
       "tmbundle": "_textmate_l",
@@ -28813,6 +29544,7 @@
       "conanfile.txt": "_conan_auto-blue_l",
       "conanfile.py": "_conan_auto-blue_l",
       "conan.conf": "_conan_auto-blue_l",
+      "condarc": "_conda_medium-green_l",
       "mimeapps.list": "_config_medium-blue_l",
       "terminal": "_config_dark-blue_l",
       "terminalrc": "_config_dark-blue_l",
@@ -28881,6 +29613,8 @@
       "manifest.skip": "_cpan_medium-maroon_l",
       "crowdin.yml": "_crowdin_medium-green_l",
       "crowdin.yaml": "_crowdin_medium-green_l",
+      "curlrc": "_curl_dark-blue_l",
+      "_curlrc": "_curl_dark-blue_l",
       "fonts.dir": "_database_medium-red_l",
       "fonts.scale": "_database_medium-red_l",
       "fonts.alias": "_database_medium-red_l",
@@ -28939,6 +29673,7 @@
       "fakefile": "_fancy_medium-green_l",
       "icon\r": "_finder_medium-blue_l",
       "firebase.json": "_firebase_medium-yellow_l",
+      "firestore.indexes.json": "_firebase_medium-yellow_l",
       "firestore.rule": "_firebase_medium-orange_l",
       "firestore.rules": "_firebase_medium-orange_l",
       "fuelux.css": "_fuelux_auto-orange_l",
@@ -29091,7 +29826,8 @@
       "paket.references": "_package_medium-blue_l",
       "paket.local": "_package_medium-blue_l",
       "paket.template": "_package_medium-blue_l",
-      "rexfile": "_perl6_medium-green_l",
+      "patrons.md": "_patreon_medium-orange_l",
+      "patreon.md": "_patreon_medium-orange_l",
       "phakefile": "_php_dark-green_l",
       "phpunit.xml": "_phpunit_medium-purple_l",
       "phoenix.ex": "_phoenix_medium-red_l",
@@ -29117,22 +29853,76 @@
       "watchlists": "_python_medium-green_l",
       "wscript": "_python_dark-maroon_l",
       "quasar.conf.js": "_quasar_medium-blue_l",
+      "rexfile": "_perl6_medium-green_l",
+      "razzle.config.": "_razzle_dark-blue_l",
       "readme": "_book_medium-blue_l",
       "readme_": "_book_medium-blue_l",
       "licence": "_book_medium-blue_l",
+      "licence.md": "_book_medium-blue_l",
+      "licence.txt": "_book_medium-blue_l",
       "licence.mysql": "_book_medium-blue_l",
+      "licence.mysql.md": "_book_medium-blue_l",
+      "licence.mysql.txt": "_book_medium-blue_l",
       "licences": "_book_medium-blue_l",
+      "licences.md": "_book_medium-blue_l",
+      "licences.txt": "_book_medium-blue_l",
       "licences.mysql": "_book_medium-blue_l",
+      "licences.mysql.md": "_book_medium-blue_l",
+      "licences.mysql.txt": "_book_medium-blue_l",
       "license": "_book_medium-blue_l",
+      "license.md": "_book_medium-blue_l",
+      "license.txt": "_book_medium-blue_l",
       "license.mysql": "_book_medium-blue_l",
+      "license.mysql.md": "_book_medium-blue_l",
+      "license.mysql.txt": "_book_medium-blue_l",
       "licenses": "_book_medium-blue_l",
+      "licenses.md": "_book_medium-blue_l",
+      "licenses.txt": "_book_medium-blue_l",
       "licenses.mysql": "_book_medium-blue_l",
+      "licenses.mysql.md": "_book_medium-blue_l",
+      "licenses.mysql.txt": "_book_medium-blue_l",
+      "unlicence": "_book_medium-blue_l",
+      "unlicence.md": "_book_medium-blue_l",
+      "unlicence.txt": "_book_medium-blue_l",
+      "unlicence.mysql": "_book_medium-blue_l",
+      "unlicence.mysql.md": "_book_medium-blue_l",
+      "unlicence.mysql.txt": "_book_medium-blue_l",
+      "unlicences": "_book_medium-blue_l",
+      "unlicences.md": "_book_medium-blue_l",
+      "unlicences.txt": "_book_medium-blue_l",
+      "unlicences.mysql": "_book_medium-blue_l",
+      "unlicences.mysql.md": "_book_medium-blue_l",
+      "unlicences.mysql.txt": "_book_medium-blue_l",
+      "unlicense": "_book_medium-blue_l",
+      "unlicense.md": "_book_medium-blue_l",
+      "unlicense.txt": "_book_medium-blue_l",
+      "unlicense.mysql": "_book_medium-blue_l",
+      "unlicense.mysql.md": "_book_medium-blue_l",
+      "unlicense.mysql.txt": "_book_medium-blue_l",
+      "unlicenses": "_book_medium-blue_l",
+      "unlicenses.md": "_book_medium-blue_l",
+      "unlicenses.txt": "_book_medium-blue_l",
+      "unlicenses.mysql": "_book_medium-blue_l",
+      "unlicenses.mysql.md": "_book_medium-blue_l",
+      "unlicenses.mysql.txt": "_book_medium-blue_l",
       "read.me": "_book_medium-blue_l",
+      "read.me.md": "_book_medium-blue_l",
+      "read.me.txt": "_book_medium-blue_l",
       "readme.me": "_book_medium-blue_l",
+      "readme.me.md": "_book_medium-blue_l",
+      "readme.me.txt": "_book_medium-blue_l",
       "click.me": "_book_medium-blue_l",
+      "click.me.md": "_book_medium-blue_l",
+      "click.me.txt": "_book_medium-blue_l",
       "delete.me": "_book_medium-blue_l",
+      "delete.me.md": "_book_medium-blue_l",
+      "delete.me.txt": "_book_medium-blue_l",
       "keep.me": "_book_medium-blue_l",
+      "keep.me.md": "_book_medium-blue_l",
+      "keep.me.txt": "_book_medium-blue_l",
       "test.me": "_book_medium-blue_l",
+      "test.me.md": "_book_medium-blue_l",
+      "test.me.txt": "_book_medium-blue_l",
       "changelog": "_book_medium-blue_l",
       "licence-": "_book_medium-blue_l",
       "licence.": "_book_medium-blue_l",
@@ -29232,6 +30022,10 @@
       "zshrc": "_terminal_medium-blue_l",
       "login": "_terminal_medium-red_l",
       "profile": "_terminal_medium-red_l",
+      "dircolors": "_terminal_medium-green_l",
+      "dir_colors": "_terminal_medium-green_l",
+      "_dircolors": "_terminal_medium-green_l",
+      "_dir_colors": "_terminal_medium-green_l",
       "configure": "_terminal_medium-red_l",
       "config.guess": "_terminal_medium-red_l",
       "config.rpath": "_terminal_medium-red_l",
@@ -29263,6 +30057,9 @@
       "tags": "_tag_medium-blue_l",
       "ctags": "_tag_medium-blue_l",
       "localtags": "_tag_medium-cyan_l",
+      "sha": "_tag_medium-green_l",
+      "sha256": "_tag_medium-green_l",
+      "shasum": "_tag_medium-green_l",
       "tailwind.js": "_tailwind_medium-cyan_l",
       "tailwind.mjs": "_tailwind_medium-cyan_l",
       "tailwind.ts": "_tailwind_medium-cyan_l",
@@ -29523,6 +30320,7 @@
       "|tgitconfig": "_tortoise_medium-red_l",
       "}tgitconfig": "_tortoise_medium-red_l",
       "~tgitconfig": "_tortoise_medium-red_l",
+      "truffle.js": "_truffle_auto-maroon_l",
       "typedoc.json": "_typedoc_dark-purple_l",
       "typings.json": "_typings_medium-maroon_l",
       "uikit.js": "_uikit_medium-blue_l",
@@ -29539,10 +30337,12 @@
       "nviminfo": "_vim_dark-green_l",
       "vue.config.js": "_vue_light-green_l",
       "watchman.json": "_watchman_medium-blue_l",
+      "wgetrc": "_wget_medium-purple_l",
       "wercker.yml": "_wercker_medium-purple_l",
       "wercker.yaml": "_wercker_medium-purple_l",
       "workbox-config.js": "_workbox_medium-orange_l",
       "yarn.lock": "_yarn_medium-blue_l",
+      "now.json": "_zeit_auto-grey_l",
       "s4.errors": "_zork_dark-green_l"
     },
     "folderNames": {
@@ -29564,5 +30364,5 @@
       "node_modules": "_node_medium-green_l"
     }
   },
-  "version": "https://github.com/file-icons/vscode/commit/c16057569218ee83e3b5d5d10b76fc238ce0242c"
+  "version": "https://github.com/file-icons/vscode/commit/28650436c5c6df04f8cbc645d9268675d9a90629"
 }
