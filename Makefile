@@ -39,6 +39,7 @@ release: tmp
 	cd tmp && zip -r "$$vsix" *
 	mv tmp/*.vsix .
 	rm -rf version tmp
+	open 'https://marketplace.visualstudio.com/manage/publishers/file-icons'
 
 tmp:; mkdir $@
 
