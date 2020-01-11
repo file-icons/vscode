@@ -1,0 +1,2 @@
+# Fix comment highlighting
+/.vscode/*.json linguist-language=JSONC

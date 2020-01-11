@@ -1,58 +1,66 @@
 {
-    "name": "file-icons",
-    "displayName": "file-icons",
-    "description": "File-specific icons in VSCode for improved visual grepping.",
-    "version": "1.0.20",
-    "publisher": "file-icons",
-    "engines": {
-        "vscode": "^1.5.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/file-icons/vscode"
-    },
-    "bugs": {
-        "url": "https://github.com/file-icons/vscode/issues",
-        "email": "dan@nocturnalcode.com"
-    },
-    "preview": true,
-    "homepage": "https://github.com/file-icons/vscode",
-    "icon": "icon.png",
-    "categories": [
-        "Themes",
-        "Other"
-    ],
-    "contributes": {
-        "iconThemes": [
-            {
-                "id": "file-icons",
-                "label": "File Icons",
-                "path": "./icons/file-icons-icon-theme.json"
-            },
-            {
-                "id": "file-icons-colourless",
-                "label": "File Icons (Colourless)",
-                "path": "./icons/file-icons-colourless-icon-theme.json"
-            }
-        ]
-    },
-    "scripts": {
-        "postinstall": "node ./node_modules/vscode/bin/install",
-        "test": "node ./node_modules/vscode/bin/test",
-        "import": "node ./scripts/import.js"
-    },
-    "devDependencies": {
-        "@types/mocha": "^5.2.6",
-        "@types/node": "^12.0.2",
-        "cson": "^4.0.0",
-        "genex": "^1.1.0",
-        "mocha": "^6.1.4",
-        "parameterize": "0.0.7",
-        "ret": "^0.1.13",
-        "typescript": "^3.4.5",
-        "vsce": "^1.61.0",
-        "vscode": "^1.0.0"
-    },
-    "author": "Daniel Brooker <dan@nocturnalcode.com>",
-    "license": "MIT"
+	"name": "file-icons",
+	"displayName": "file-icons",
+	"description": "File-specific icons in VSCode for improved visual grepping.",
+	"version": "1.0.20",
+	"publisher": "file-icons",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/file-icons/vscode"
+	},
+	"bugs": {
+		"url": "https://github.com/file-icons/vscode/issues",
+		"email": "dan@nocturnalcode.com"
+	},
+	"preview": true,
+	"homepage": "https://github.com/file-icons/vscode",
+	"icon": "icon.png",
+	"categories": [
+		"Themes",
+		"Other"
+	],
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "file-icons",
+				"label": "File Icons",
+				"path": "./icons/file-icons-icon-theme.json"
+			},
+			{
+				"id": "file-icons-colourless",
+				"label": "File Icons (Colourless)",
+				"path": "./icons/file-icons-colourless-icon-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test",
+		"import": "node ./scripts/import.js",
+		"lint": "npx eslint ."
+	},
+	"eslintConfig": {
+		"extends": "@alhadis",
+		"rules": {"camelcase": 0}
+	},
+	"eslintIgnore": ["defs"],
+	"devDependencies": {
+		"@alhadis/eslint-config": "^2.1.0", 
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^12.0.2",
+		"babel-eslint": "^10.0.3",
+		"cson": "^4.0.0",
+		"eslint": "^v6.8.0",
+		"eslint-plugin-import": "^2.18.2",
+		"genex": "^1.1.0",
+		"mocha": "^6.1.4",
+		"typescript": "^3.4.5",
+		"vsce": "^1.61.0",
+		"vscode": "^1.0.0"
+	},
+	"author": "Daniel Brooker <dan@nocturnalcode.com>",
+	"license": "MIT"
 }
