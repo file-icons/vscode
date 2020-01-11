@@ -11,3 +11,5 @@ vsc-extension-quickstart.md
 # Exclude development-specific files from distribution
 defs/**
 scripts/**
+tmp/**
+/version

@@ -18,3 +18,5 @@ node_modules
 out
 !yarn.lock
 *.vsix
+/tmp
+/version

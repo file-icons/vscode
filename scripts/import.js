@@ -68,9 +68,6 @@ while(null !== (match = regex.exec(stylesIcons))){
 	};
 }
 
-execSync("git submodule update --remote --merge");
-execSync("cp defs/fonts/*.woff2 icons/");
-
 const fonts = Object.values(fontMap).map(name => ({
 	id: name,
 	src: [{path: `./${name}.woff2`, format: "woff2"}],

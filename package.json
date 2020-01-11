@@ -39,8 +39,8 @@
 	"scripts": {
 		"postinstall": "node ./node_modules/vscode/bin/install",
 		"test": "node ./node_modules/vscode/bin/test",
-		"import": "node ./scripts/import.js",
-		"lint": "npx eslint ."
+		"import": "make update",
+		"lint": "make lint"
 	},
 	"eslintConfig": {
 		"extends": "@alhadis",
