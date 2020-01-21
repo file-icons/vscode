@@ -26716,12 +26716,12 @@
 		"com": "_windows",
 		"msi": "_windows",
 		"reg": "_windows_medium-blue",
-		"wix": "_wix_auto-maroon",
 		"wixproj": "_wix_medium-orange",
 		"wixobj": "_wix_medium-red",
 		"wxs": "_wix_dark-purple",
 		"wxi": "_wix_auto-orange",
 		"wxl": "_wix_auto-maroon",
+		"wix": "_wix_auto-maroon",
 		"wurst": "_wurst_medium-maroon",
 		"x10": "_x10_light-maroon",
 		"xauthority": "_x11_medium-orange",
@@ -30379,12 +30379,12 @@
 			"com": "_windows_l",
 			"msi": "_windows_l",
 			"reg": "_windows_medium-blue_l",
-			"wix": "_wix_auto-maroon_l",
 			"wixproj": "_wix_medium-orange_l",
 			"wixobj": "_wix_medium-red_l",
 			"wxs": "_wix_dark-purple_l",
 			"wxi": "_wix_auto-orange_l",
 			"wxl": "_wix_auto-maroon_l",
+			"wix": "_wix_auto-maroon_l",
 			"wurst": "_wurst_medium-maroon_l",
 			"x10": "_x10_light-maroon_l",
 			"xauthority": "_x11_medium-orange_l",
@@ -31550,5 +31550,5 @@
 			"node_modules": "_node_medium-green_l"
 		}
 	},
-	"version": "https://github.com/file-icons/vscode/commit/43cf75629c3d09460b70d7b65ae17c171b918ffe"
+	"version": "https://github.com/file-icons/vscode/commit/41a5317e66dc9fa6b0b0694536572e568a9456b9"
 }
