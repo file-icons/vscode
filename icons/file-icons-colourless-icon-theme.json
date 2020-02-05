@@ -1372,6 +1372,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"__4d": {
+			"fontCharacter": "\\eb73",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"__4d_l": {
+			"fontCharacter": "\\eb73",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_abap": {
 			"fontCharacter": "\\e92b",
 			"fontColor": "#cccccc",
@@ -4582,6 +4592,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_lefthook": {
+			"fontCharacter": "\\1f44a",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_lefthook_l": {
+			"fontCharacter": "\\1f44a",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_lein": {
 			"fontCharacter": "\\f105",
 			"fontColor": "#cccccc",
@@ -5242,6 +5262,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_nessus": {
+			"fontCharacter": "\\23e3",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_nessus_l": {
+			"fontCharacter": "\\23e3",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_netlify": {
 			"fontCharacter": "\\eabf",
 			"fontColor": "#cccccc",
@@ -5279,6 +5309,16 @@
 		},
 		"_nextflow_l": {
 			"fontCharacter": "\\eaa5",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_nextjs": {
+			"fontCharacter": "\\24c3",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_nextjs_l": {
+			"fontCharacter": "\\24c3",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -6702,6 +6742,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_semrelease": {
+			"fontCharacter": "\\1f7cd",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_semrelease_l": {
+			"fontCharacter": "\\1f7cd",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_sentry": {
 			"fontCharacter": "\\eb1c",
 			"fontColor": "#cccccc",
@@ -6999,6 +7049,16 @@
 		},
 		"_stata_l": {
 			"fontCharacter": "\\e9a3",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_stdlibjs": {
+			"fontCharacter": "\\eb70",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_stdlibjs_l": {
+			"fontCharacter": "\\eb70",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -8129,6 +8189,16 @@
 		},
 		"__1c-alt_auto-red_l": {
 			"fontCharacter": "\\ea28",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"__4d_dark-blue": {
+			"fontCharacter": "\\eb73",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"__4d_dark-blue_l": {
+			"fontCharacter": "\\eb73",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -15762,6 +15832,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "octicons"
 		},
+		"_lefthook_medium-red": {
+			"fontCharacter": "\\1f44a",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_lefthook_medium-red_l": {
+			"fontCharacter": "\\1f44a",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_lektor_dark-purple": {
 			"fontCharacter": "\\eab9",
 			"fontColor": "#cccccc",
@@ -17822,6 +17902,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_nessus_auto-cyan": {
+			"fontCharacter": "\\23e3",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_nessus_auto-cyan_l": {
+			"fontCharacter": "\\23e3",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_amx_medium-blue": {
 			"fontCharacter": "\\e99b",
 			"fontColor": "#cccccc",
@@ -17889,6 +17979,16 @@
 		},
 		"_nextflow_dark-green_l": {
 			"fontCharacter": "\\eaa5",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_nextjs_dark-grey": {
+			"fontCharacter": "\\24c3",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_nextjs_dark-grey_l": {
+			"fontCharacter": "\\24c3",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -19218,6 +19318,36 @@
 			"fontId": "mfixx"
 		},
 		"_sql_medium-red_l": {
+			"fontCharacter": "\\f10e",
+			"fontColor": "#6c6c6c",
+			"fontId": "mfixx"
+		},
+		"_sql_medium-orange": {
+			"fontCharacter": "\\f10e",
+			"fontColor": "#cccccc",
+			"fontId": "mfixx"
+		},
+		"_sql_medium-orange_l": {
+			"fontCharacter": "\\f10e",
+			"fontColor": "#6c6c6c",
+			"fontId": "mfixx"
+		},
+		"_sql_medium-purple": {
+			"fontCharacter": "\\f10e",
+			"fontColor": "#cccccc",
+			"fontId": "mfixx"
+		},
+		"_sql_medium-purple_l": {
+			"fontCharacter": "\\f10e",
+			"fontColor": "#6c6c6c",
+			"fontId": "mfixx"
+		},
+		"_sql_dark-red": {
+			"fontCharacter": "\\f10e",
+			"fontColor": "#cccccc",
+			"fontId": "mfixx"
+		},
+		"_sql_dark-red_l": {
 			"fontCharacter": "\\f10e",
 			"fontColor": "#6c6c6c",
 			"fontId": "mfixx"
@@ -20942,6 +21072,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_semrelease_medium-grey": {
+			"fontCharacter": "\\1f7cd",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_semrelease_medium-grey_l": {
+			"fontCharacter": "\\1f7cd",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_sencha_light-green": {
 			"fontCharacter": "\\e68c",
 			"fontColor": "#cccccc",
@@ -21392,16 +21532,6 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
-		"_sql_medium-orange": {
-			"fontCharacter": "\\f10e",
-			"fontColor": "#cccccc",
-			"fontId": "mfixx"
-		},
-		"_sql_medium-orange_l": {
-			"fontCharacter": "\\f10e",
-			"fontColor": "#6c6c6c",
-			"fontId": "mfixx"
-		},
 		"_sql_medium-green": {
 			"fontCharacter": "\\f10e",
 			"fontColor": "#cccccc",
@@ -21428,16 +21558,6 @@
 			"fontId": "mfixx"
 		},
 		"_sql_dark-blue_l": {
-			"fontCharacter": "\\f10e",
-			"fontColor": "#6c6c6c",
-			"fontId": "mfixx"
-		},
-		"_sql_medium-purple": {
-			"fontCharacter": "\\f10e",
-			"fontColor": "#cccccc",
-			"fontId": "mfixx"
-		},
-		"_sql_medium-purple_l": {
 			"fontCharacter": "\\f10e",
 			"fontColor": "#6c6c6c",
 			"fontId": "mfixx"
@@ -21669,6 +21789,26 @@
 		},
 		"_stencil_medium-orange_l": {
 			"fontCharacter": "\\ea95",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_stdlibjs_medium-orange": {
+			"fontCharacter": "\\eb70",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_stdlibjs_medium-orange_l": {
+			"fontCharacter": "\\eb70",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_stdlibjs_medium-blue": {
+			"fontCharacter": "\\eb70",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_stdlibjs_medium-blue_l": {
+			"fontCharacter": "\\eb70",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -23882,16 +24022,6 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
-		"_sql_dark-red": {
-			"fontCharacter": "\\f10e",
-			"fontColor": "#cccccc",
-			"fontId": "mfixx"
-		},
-		"_sql_dark-red_l": {
-			"fontCharacter": "\\f10e",
-			"fontColor": "#6c6c6c",
-			"fontId": "mfixx"
-		},
 		"_xtend_dark-purple": {
 			"fontCharacter": "\\e9c6",
 			"fontColor": "#cccccc",
@@ -24249,10 +24379,35 @@
 		"-test.js": "_test-js_auto-yellow",
 		"tests.js": "_test-js_auto-yellow",
 		"test.js": "_test-js_auto-yellow",
+		"_tests.cjs": "_test-js_auto-yellow",
+		"_test.cjs": "_test-js_auto-yellow",
+		"-tests.cjs": "_test-js_auto-yellow",
+		"-test.cjs": "_test-js_auto-yellow",
+		"tests.cjs": "_test-js_auto-yellow",
+		"test.cjs": "_test-js_auto-yellow",
+		"_tests.mjs": "_test-js_auto-yellow",
+		"_test.mjs": "_test-js_auto-yellow",
+		"-tests.mjs": "_test-js_auto-yellow",
+		"-test.mjs": "_test-js_auto-yellow",
+		"tests.mjs": "_test-js_auto-yellow",
+		"test.mjs": "_test-js_auto-yellow",
+		"_tests.ts": "_test-ts_auto-blue",
+		"_test.ts": "_test-ts_auto-blue",
+		"-tests.ts": "_test-ts_auto-blue",
+		"-test.ts": "_test-ts_auto-blue",
+		"tests.ts": "_test-ts_auto-blue",
+		"test.ts": "_test-ts_auto-blue",
+		"_tests.tsx": "_test-ts_auto-blue",
+		"_test.tsx": "_test-ts_auto-blue",
+		"-tests.tsx": "_test-ts_auto-blue",
+		"-test.tsx": "_test-ts_auto-blue",
+		"tests.tsx": "_test-ts_light-blue,medium-blue",
+		"test.tsx": "_test-ts_light-blue,medium-blue",
 		"bsl": "__1c_medium-red",
 		"sdbl": "__1c_dark-orange",
 		"os": "__1c_dark-red",
 		"mdo": "__1c-alt_auto-red",
+		"4dm": "__4d_dark-blue",
 		"abap": "_abap_medium-orange",
 		"abif": "_abif_medium-blue",
 		"ab1": "_abif_medium-green",
@@ -25792,6 +25947,7 @@
 		"neko": "_neko_medium-orange",
 		"cyp": "_neo4j_auto-blue",
 		"cypher": "_neo4j_auto-blue",
+		"nasl": "_nessus_auto-cyan",
 		"axs": "_amx_medium-blue",
 		"axi": "_amx_dark-blue",
 		"nlogo": "_netlogo_medium-red",
@@ -25963,11 +26119,11 @@
 		"pmod": "_pike_medium-blue",
 		"pine": "_pinescript_medium-green",
 		"pls": "_sql_medium-red",
-		"pck": "_sql_medium-red",
-		"pks": "_sql_medium-red",
-		"plb": "_sql_medium-red",
+		"pck": "_sql_medium-orange",
+		"pks": "_sql_medium-blue",
+		"plb": "_sql_medium-purple",
 		"plsql": "_sql_medium-red",
-		"pkb": "_sql_medium-red",
+		"pkb": "_sql_dark-red",
 		"pod": "_pod_dark-blue",
 		"pogo": "_pogo_auto-orange",
 		"pony": "_pony_light-maroon",
@@ -26212,6 +26368,11 @@
 		"scrutinizer.yml": "_scrutinizer_dark-blue",
 		"secret": "_secret",
 		"self": "_self_dark-blue",
+		"releaserc": "_semrelease_medium-grey",
+		"releaserc.yml": "_semrelease_medium-grey",
+		"releaserc.yaml": "_semrelease_medium-grey",
+		"releaserc.js": "_semrelease_medium-grey",
+		"releaserc.json": "_semrelease_medium-grey",
 		"sentryclirc": "_sentry_medium-red,light-red",
 		"csv": "_graph_light-red",
 		"tab": "_graph_light-green",
@@ -26505,12 +26666,8 @@
 		"tests.rs": "_test-rust_auto-maroon",
 		"spec.ts": "_test-ts_auto-blue",
 		"specs.ts": "_test-ts_auto-blue",
-		"test.ts": "_test-ts_auto-blue",
-		"tests.ts": "_test-ts_auto-blue",
 		"spec.tsx": "_test-ts_light-blue,medium-blue",
 		"specs.tsx": "_test-ts_light-blue,medium-blue",
-		"test.tsx": "_test-ts_light-blue,medium-blue",
-		"tests.tsx": "_test-ts_light-blue,medium-blue",
 		"tex": "_tex_auto-blue",
 		"ltx": "_tex_auto-blue",
 		"aux": "_tex_auto-green",
@@ -26837,7 +26994,8 @@
 		"tmbundle": "_textmate",
 		"vagrant": "_vagrant_medium-cyan",
 		"vagrant.d": "_vagrant_dark-cyan",
-		"vscode": "_vs"
+		"vscode": "_vs",
+		"yarn": "_yarn_medium-blue"
 	},
 	"fileNames": {
 		"acre.config": "_acre_medium-blue",
@@ -27250,6 +27408,10 @@
 		"keybase.txt": "_keybase_medium-blue",
 		"fp-lib-table": "_kicad_dark-blue",
 		"kazelcfg.json": "_kubernetes_medium-blue",
+		"lefthook.yml": "_lefthook_medium-red",
+		"lefthook.yaml": "_lefthook_medium-red",
+		"lefthook-local.yml": "_lefthook_medium-red",
+		"lefthook-local.yaml": "_lefthook_medium-red",
 		"lerna.json": "_lerna_auto-blue",
 		"slakefile": "_ls_medium-green",
 		"ubsan.blacklist": "_llvm_auto-red",
@@ -27322,6 +27484,7 @@
 		"netlify.toml": "_netlify_dark-blue",
 		"newrelic.yml": "_newrelic_medium-cyan",
 		"nextflow.config": "_nextflow_dark-green",
+		"next.config.js": "_nextjs_dark-grey",
 		"nestconfig.json": "_nestjs_medium-red",
 		"nightwatch.conf.js": "_nightwatch_dark-maroon",
 		"nightwatch.config.js": "_nightwatch_dark-maroon",
@@ -27912,10 +28075,35 @@
 			"-test.js": "_test-js_auto-yellow_l",
 			"tests.js": "_test-js_auto-yellow_l",
 			"test.js": "_test-js_auto-yellow_l",
+			"_tests.cjs": "_test-js_auto-yellow_l",
+			"_test.cjs": "_test-js_auto-yellow_l",
+			"-tests.cjs": "_test-js_auto-yellow_l",
+			"-test.cjs": "_test-js_auto-yellow_l",
+			"tests.cjs": "_test-js_auto-yellow_l",
+			"test.cjs": "_test-js_auto-yellow_l",
+			"_tests.mjs": "_test-js_auto-yellow_l",
+			"_test.mjs": "_test-js_auto-yellow_l",
+			"-tests.mjs": "_test-js_auto-yellow_l",
+			"-test.mjs": "_test-js_auto-yellow_l",
+			"tests.mjs": "_test-js_auto-yellow_l",
+			"test.mjs": "_test-js_auto-yellow_l",
+			"_tests.ts": "_test-ts_auto-blue_l",
+			"_test.ts": "_test-ts_auto-blue_l",
+			"-tests.ts": "_test-ts_auto-blue_l",
+			"-test.ts": "_test-ts_auto-blue_l",
+			"tests.ts": "_test-ts_auto-blue_l",
+			"test.ts": "_test-ts_auto-blue_l",
+			"_tests.tsx": "_test-ts_auto-blue_l",
+			"_test.tsx": "_test-ts_auto-blue_l",
+			"-tests.tsx": "_test-ts_auto-blue_l",
+			"-test.tsx": "_test-ts_auto-blue_l",
+			"tests.tsx": "_test-ts_light-blue,medium-blue_l",
+			"test.tsx": "_test-ts_light-blue,medium-blue_l",
 			"bsl": "__1c_medium-red_l",
 			"sdbl": "__1c_dark-orange_l",
 			"os": "__1c_dark-red_l",
 			"mdo": "__1c-alt_auto-red_l",
+			"4dm": "__4d_dark-blue_l",
 			"abap": "_abap_medium-orange_l",
 			"abif": "_abif_medium-blue_l",
 			"ab1": "_abif_medium-green_l",
@@ -29455,6 +29643,7 @@
 			"neko": "_neko_medium-orange_l",
 			"cyp": "_neo4j_auto-blue_l",
 			"cypher": "_neo4j_auto-blue_l",
+			"nasl": "_nessus_auto-cyan_l",
 			"axs": "_amx_medium-blue_l",
 			"axi": "_amx_dark-blue_l",
 			"nlogo": "_netlogo_medium-red_l",
@@ -29626,11 +29815,11 @@
 			"pmod": "_pike_medium-blue_l",
 			"pine": "_pinescript_medium-green_l",
 			"pls": "_sql_medium-red_l",
-			"pck": "_sql_medium-red_l",
-			"pks": "_sql_medium-red_l",
-			"plb": "_sql_medium-red_l",
+			"pck": "_sql_medium-orange_l",
+			"pks": "_sql_medium-blue_l",
+			"plb": "_sql_medium-purple_l",
 			"plsql": "_sql_medium-red_l",
-			"pkb": "_sql_medium-red_l",
+			"pkb": "_sql_dark-red_l",
 			"pod": "_pod_dark-blue_l",
 			"pogo": "_pogo_auto-orange_l",
 			"pony": "_pony_light-maroon_l",
@@ -29875,6 +30064,11 @@
 			"scrutinizer.yml": "_scrutinizer_dark-blue_l",
 			"secret": "_secret_l",
 			"self": "_self_dark-blue_l",
+			"releaserc": "_semrelease_medium-grey_l",
+			"releaserc.yml": "_semrelease_medium-grey_l",
+			"releaserc.yaml": "_semrelease_medium-grey_l",
+			"releaserc.js": "_semrelease_medium-grey_l",
+			"releaserc.json": "_semrelease_medium-grey_l",
 			"sentryclirc": "_sentry_medium-red,light-red_l",
 			"csv": "_graph_light-red_l",
 			"tab": "_graph_light-green_l",
@@ -30168,12 +30362,8 @@
 			"tests.rs": "_test-rust_auto-maroon_l",
 			"spec.ts": "_test-ts_auto-blue_l",
 			"specs.ts": "_test-ts_auto-blue_l",
-			"test.ts": "_test-ts_auto-blue_l",
-			"tests.ts": "_test-ts_auto-blue_l",
 			"spec.tsx": "_test-ts_light-blue,medium-blue_l",
 			"specs.tsx": "_test-ts_light-blue,medium-blue_l",
-			"test.tsx": "_test-ts_light-blue,medium-blue_l",
-			"tests.tsx": "_test-ts_light-blue,medium-blue_l",
 			"tex": "_tex_auto-blue_l",
 			"ltx": "_tex_auto-blue_l",
 			"aux": "_tex_auto-green_l",
@@ -30500,7 +30690,8 @@
 			"tmbundle": "_textmate_l",
 			"vagrant": "_vagrant_medium-cyan_l",
 			"vagrant.d": "_vagrant_dark-cyan_l",
-			"vscode": "_vs_l"
+			"vscode": "_vs_l",
+			"yarn": "_yarn_medium-blue_l"
 		},
 		"fileNames": {
 			"acre.config": "_acre_medium-blue_l",
@@ -30913,6 +31104,10 @@
 			"keybase.txt": "_keybase_medium-blue_l",
 			"fp-lib-table": "_kicad_dark-blue_l",
 			"kazelcfg.json": "_kubernetes_medium-blue_l",
+			"lefthook.yml": "_lefthook_medium-red_l",
+			"lefthook.yaml": "_lefthook_medium-red_l",
+			"lefthook-local.yml": "_lefthook_medium-red_l",
+			"lefthook-local.yaml": "_lefthook_medium-red_l",
 			"lerna.json": "_lerna_auto-blue_l",
 			"slakefile": "_ls_medium-green_l",
 			"ubsan.blacklist": "_llvm_auto-red_l",
@@ -30985,6 +31180,7 @@
 			"netlify.toml": "_netlify_dark-blue_l",
 			"newrelic.yml": "_newrelic_medium-cyan_l",
 			"nextflow.config": "_nextflow_dark-green_l",
+			"next.config.js": "_nextjs_dark-grey_l",
 			"nestconfig.json": "_nestjs_medium-red_l",
 			"nightwatch.conf.js": "_nightwatch_dark-maroon_l",
 			"nightwatch.config.js": "_nightwatch_dark-maroon_l",
@@ -31550,5 +31746,5 @@
 			"node_modules": "_node_medium-green_l"
 		}
 	},
-	"version": "https://github.com/file-icons/vscode/commit/41a5317e66dc9fa6b0b0694536572e568a9456b9"
+	"version": "https://github.com/file-icons/vscode/commit/b87d5606b03ca29b2bfed8de0de900082db3ed6b"
 }
