@@ -1,0 +1,20 @@
+{
+	"_git_medium-red": [
+		"gitignore",
+		"gitmodules",
+		"gitattributes"
+	],
+	
+	"_gear_medium-yellow": [
+		"cfignore"
+	],
+	
+	"_test-js_auto-yellow": [
+		"_tests.js",
+		"_test.js",
+		"-tests.js",
+		"-test.js",
+		"tests.js",
+		"test.js"
+	]
+}

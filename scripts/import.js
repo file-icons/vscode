@@ -281,29 +281,14 @@ function process(hash, set, set_l){
 	else console.warn(`${match} skipped type`);
 }
 
-// Hardcoded file- and folder-icons (i.e, those that are default in Atom)
-extensions["gitattributes"]   =
-extensions["gitmodules"]      =
-extensions["gitignore"]       = "_git_medium-red";
-extensions["cfignore"]        = "_gear_medium-yellow";
-extensions_l["gitattributes"] =
-extensions_l["gitmodules"]    =
-extensions_l["gitignore"]     = "_git_medium-red_l";
-extensions_l["cfignore"]      = "_gear_medium-yellow_l";
-
-// HACK(#47): Include JS test-file icons dropped by `genex` module
-extensions["test.js"]     =
-extensions["tests.js"]    =
-extensions["-test.js"]    =
-extensions["-tests.js"]   =
-extensions["_test.js"]    =
-extensions["_tests.js"]   = "_test-js_auto-yellow";
-extensions_l["test.js"]   =
-extensions_l["tests.js"]  =
-extensions_l["-test.js"]  =
-extensions_l["-tests.js"] =
-extensions_l["_test.js"]  =
-extensions_l["_tests.js"] = "_test-js_auto-yellow_l";
+// HACK: Include file-icons dropped by `genex` module
+const fixes = require("./import-fixes.json");
+for(const icon in fixes){
+	for(const ext of fixes[icon]){
+		extensions[ext]   = icon;
+		extensions_l[ext] = icon + "_l";
+	}
+}
 
 for(const fileIcon in defs.fileIcons)
 	process(defs.fileIcons[fileIcon], files, files_l);
