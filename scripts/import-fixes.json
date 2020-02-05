@@ -15,6 +15,36 @@
 		"-tests.js",
 		"-test.js",
 		"tests.js",
-		"test.js"
+		"test.js",
+		
+		"_tests.cjs",
+		"_test.cjs",
+		"-tests.cjs",
+		"-test.cjs",
+		"tests.cjs",
+		"test.cjs",
+		
+		"_tests.mjs",
+		"_test.mjs",
+		"-tests.mjs",
+		"-test.mjs",
+		"tests.mjs",
+		"test.mjs"
+	],
+	
+	"_test-ts_auto-blue": [
+		"_tests.ts",
+		"_test.ts",
+		"-tests.ts",
+		"-test.ts",
+		"tests.ts",
+		"test.ts",
+		
+		"_tests.tsx",
+		"_test.tsx",
+		"-tests.tsx",
+		"-test.tsx",
+		"tests.tsx",
+		"test.tsx"
 	]
 }
