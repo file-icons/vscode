@@ -144,7 +144,14 @@ function lightColourFor(colourName){
 function parseRegex(regex){
 	const gen = [];
 	try{
-		const count = genex(regex).count();
+		let count = genex(regex).count();
+		
+		// Strip variable-length sequences so /foo.*\.bar/ will at least match "foo.bar"
+		const rmquant = /(?<!^)(?:\.|\[\^(?:[^\\\[\]]|\\.)+\])[*+]\??(?!$)/;
+		if(!isFinite(count) && rmquant.test(regex.source)){
+			regex = new RegExp(regex.source.replace(rmquant, ""), regex.flags);
+			count = genex(regex).count();
+		}
 		count <= 1000
 			? genex(regex).generate(output => gen.push(output))
 			: console.warn(`${regex} skipped; too many cases to generate: ${count}`);
