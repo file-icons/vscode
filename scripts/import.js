@@ -147,7 +147,7 @@ function parseRegex(regex){
 		let count = genex(regex).count();
 		
 		// Strip variable-length sequences so /foo.*\.bar/ will at least match "foo.bar"
-		const rmquant = /(?<!^)(?:\.|\[\^(?:[^\\\[\]]|\\.)+\])[*+]\??(?!$)/;
+		const rmquant = /(?<!^)(?:\.|\[\^(?:[^\\[\]]|\\.)+\])[*+]\??(?!$)/;
 		if(!isFinite(count) && rmquant.test(regex.source)){
 			regex = new RegExp(regex.source.replace(rmquant, ""), regex.flags);
 			count = genex(regex).count();
