@@ -172,16 +172,6 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "octicons"
 		},
-		"_brew": {
-			"fontCharacter": "\\f069",
-			"fontColor": "#cccccc",
-			"fontId": "octicons"
-		},
-		"_brew_l": {
-			"fontCharacter": "\\f069",
-			"fontColor": "#6c6c6c",
-			"fontId": "octicons"
-		},
 		"_checklist": {
 			"fontCharacter": "\\f076",
 			"fontColor": "#cccccc",
@@ -492,6 +482,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "fontawesome"
 		},
+		"_filter": {
+			"fontCharacter": "\\f0b0",
+			"fontColor": "#cccccc",
+			"fontId": "fontawesome"
+		},
+		"_filter_l": {
+			"fontCharacter": "\\f0b0",
+			"fontColor": "#6c6c6c",
+			"fontId": "fontawesome"
+		},
 		"_gears": {
 			"fontCharacter": "\\f085",
 			"fontColor": "#cccccc",
@@ -589,6 +589,16 @@
 		},
 		"_rss_l": {
 			"fontCharacter": "\\f143",
+			"fontColor": "#6c6c6c",
+			"fontId": "fontawesome"
+		},
+		"_scales": {
+			"fontCharacter": "\\f24e",
+			"fontColor": "#cccccc",
+			"fontId": "fontawesome"
+		},
+		"_scales_l": {
+			"fontCharacter": "\\f24e",
 			"fontColor": "#6c6c6c",
 			"fontId": "fontawesome"
 		},
@@ -2122,6 +2132,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_brew": {
+			"fontCharacter": "\\1f37a",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_brew_l": {
+			"fontCharacter": "\\1f37a",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_bro": {
 			"fontCharacter": "\\e93b",
 			"fontColor": "#cccccc",
@@ -2562,6 +2582,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_codemeta": {
+			"fontCharacter": "\\eb8f",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_codemeta_l": {
+			"fontCharacter": "\\eb8f",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_codeship": {
 			"fontCharacter": "\\ea6a",
 			"fontColor": "#cccccc",
@@ -2569,6 +2599,16 @@
 		},
 		"_codeship_l": {
 			"fontCharacter": "\\ea6a",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_commitlint": {
+			"fontCharacter": "\\1f191",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_commitlint_l": {
+			"fontCharacter": "\\1f191",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -2792,6 +2832,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_cpcdosc": {
+			"fontCharacter": "\\eb8d",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_cpcdosc_l": {
+			"fontCharacter": "\\eb8d",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_crafttweaker": {
 			"fontCharacter": "\\eb89",
 			"fontColor": "#cccccc",
@@ -2929,6 +2979,16 @@
 		},
 		"_d3_l": {
 			"fontCharacter": "\\ea10",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_dafny": {
+			"fontCharacter": "\\eb8c",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_dafny_l": {
+			"fontCharacter": "\\eb8c",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -3962,6 +4022,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_goreleaser": {
+			"fontCharacter": "\\eb90",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_goreleaser_l": {
+			"fontCharacter": "\\eb90",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_gosu": {
 			"fontCharacter": "\\e97a",
 			"fontColor": "#cccccc",
@@ -4572,6 +4642,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_kaitai": {
+			"fontCharacter": "\\30ab",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_kaitai_l": {
+			"fontCharacter": "\\30ab",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_karma": {
 			"fontCharacter": "\\e9cd",
 			"fontColor": "#cccccc",
@@ -4912,6 +4992,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_macaulay2": {
+			"fontCharacter": "\\2644",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_macaulay2_l": {
+			"fontCharacter": "\\2644",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_mako": {
 			"fontCharacter": "\\e98f",
 			"fontColor": "#cccccc",
@@ -5069,6 +5159,16 @@
 		},
 		"_mercury_l": {
 			"fontCharacter": "\\e994",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_mermaid": {
+			"fontCharacter": "\\eb84",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_mermaid_l": {
+			"fontCharacter": "\\eb84",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -5409,6 +5509,16 @@
 		},
 		"_neo4j_l": {
 			"fontCharacter": "\\eab3",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_neon": {
+			"fontCharacter": "\\eb8e",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_neon_l": {
+			"fontCharacter": "\\eb8e",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -5789,6 +5899,16 @@
 		},
 		"_opa_l": {
 			"fontCharacter": "\\2601",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_openbsd": {
+			"fontCharacter": "\\1f421",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_openbsd_l": {
+			"fontCharacter": "\\1f421",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -7689,6 +7809,16 @@
 		},
 		"_thor_l": {
 			"fontCharacter": "\\e9d8",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_tilt": {
+			"fontCharacter": "\\eb8a",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_tilt_l": {
+			"fontCharacter": "\\eb8a",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -9952,46 +10082,6 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
-		"_bazel_dark-green": {
-			"fontCharacter": "\\ead2",
-			"fontColor": "#cccccc",
-			"fontId": "file-icons"
-		},
-		"_bazel_dark-green_l": {
-			"fontCharacter": "\\ead2",
-			"fontColor": "#6c6c6c",
-			"fontId": "file-icons"
-		},
-		"_bazel_medium-green": {
-			"fontCharacter": "\\ead2",
-			"fontColor": "#cccccc",
-			"fontId": "file-icons"
-		},
-		"_bazel_medium-green_l": {
-			"fontCharacter": "\\ead2",
-			"fontColor": "#6c6c6c",
-			"fontId": "file-icons"
-		},
-		"_bazel_dark-blue": {
-			"fontCharacter": "\\ead2",
-			"fontColor": "#cccccc",
-			"fontId": "file-icons"
-		},
-		"_bazel_dark-blue_l": {
-			"fontCharacter": "\\ead2",
-			"fontColor": "#6c6c6c",
-			"fontId": "file-icons"
-		},
-		"_bazel_medium-cyan": {
-			"fontCharacter": "\\ead2",
-			"fontColor": "#cccccc",
-			"fontId": "file-icons"
-		},
-		"_bazel_medium-cyan_l": {
-			"fontCharacter": "\\ead2",
-			"fontColor": "#6c6c6c",
-			"fontId": "file-icons"
-		},
 		"_behat_medium-cyan": {
 			"fontCharacter": "\\ea89",
 			"fontColor": "#cccccc",
@@ -10411,16 +10501,6 @@
 			"fontCharacter": "\\e9d6",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
-		},
-		"_brew_medium-orange": {
-			"fontCharacter": "\\f069",
-			"fontColor": "#cccccc",
-			"fontId": "octicons"
-		},
-		"_brew_medium-orange_l": {
-			"fontCharacter": "\\f069",
-			"fontColor": "#6c6c6c",
-			"fontId": "octicons"
 		},
 		"_bro_dark-cyan": {
 			"fontCharacter": "\\e93b",
@@ -11122,6 +11202,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_codemeta_auto-grey": {
+			"fontCharacter": "\\eb8f",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_codemeta_auto-grey_l": {
+			"fontCharacter": "\\eb8f",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_codeship_dark-blue": {
 			"fontCharacter": "\\ea6a",
 			"fontColor": "#cccccc",
@@ -11219,6 +11309,16 @@
 		},
 		"_khronos_medium-orange_l": {
 			"fontCharacter": "\\e9f8",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_commitlint_medium-blue": {
+			"fontCharacter": "\\1f191",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_commitlint_medium-blue_l": {
+			"fontCharacter": "\\1f191",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -11348,6 +11448,16 @@
 			"fontId": "octicons"
 		},
 		"_zip_medium-orange_l": {
+			"fontCharacter": "\\f013",
+			"fontColor": "#6c6c6c",
+			"fontId": "octicons"
+		},
+		"_zip_medium-cyan": {
+			"fontCharacter": "\\f013",
+			"fontColor": "#cccccc",
+			"fontId": "octicons"
+		},
+		"_zip_medium-cyan_l": {
 			"fontCharacter": "\\f013",
 			"fontColor": "#6c6c6c",
 			"fontId": "octicons"
@@ -11822,6 +11932,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_cpcdosc_medium-blue": {
+			"fontCharacter": "\\eb8d",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_cpcdosc_medium-blue_l": {
+			"fontCharacter": "\\eb8d",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_creole_medium-blue": {
 			"fontCharacter": "\\e95e",
 			"fontColor": "#cccccc",
@@ -12042,6 +12162,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_dafny_medium-yellow,medium-orange": {
+			"fontCharacter": "\\eb8c",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_dafny_medium-yellow,medium-orange_l": {
+			"fontCharacter": "\\eb8c",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_yang_medium-red": {
 			"fontCharacter": "\\262f",
 			"fontColor": "#cccccc",
@@ -12172,6 +12302,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "octicons"
 		},
+		"_database_medium-cyan": {
+			"fontCharacter": "\\f096",
+			"fontColor": "#cccccc",
+			"fontId": "octicons"
+		},
+		"_database_medium-cyan_l": {
+			"fontCharacter": "\\f096",
+			"fontColor": "#6c6c6c",
+			"fontId": "octicons"
+		},
 		"_database_dark-cyan": {
 			"fontCharacter": "\\f096",
 			"fontColor": "#cccccc",
@@ -12218,16 +12358,6 @@
 			"fontId": "octicons"
 		},
 		"_database_dark-green_l": {
-			"fontCharacter": "\\f096",
-			"fontColor": "#6c6c6c",
-			"fontId": "octicons"
-		},
-		"_database_medium-cyan": {
-			"fontCharacter": "\\f096",
-			"fontColor": "#cccccc",
-			"fontId": "octicons"
-		},
-		"_database_medium-cyan_l": {
 			"fontCharacter": "\\f096",
 			"fontColor": "#6c6c6c",
 			"fontId": "octicons"
@@ -14482,6 +14612,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_goreleaser_medium-blue": {
+			"fontCharacter": "\\eb90",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_goreleaser_medium-blue_l": {
+			"fontCharacter": "\\eb90",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_gosu_medium-blue": {
 			"fontCharacter": "\\e97a",
 			"fontColor": "#cccccc",
@@ -14972,6 +15112,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_brew_auto-orange": {
+			"fontCharacter": "\\1f37a",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_brew_auto-orange_l": {
+			"fontCharacter": "\\1f37a",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_hoplon_medium-red": {
 			"fontCharacter": "\\ea4d",
 			"fontColor": "#cccccc",
@@ -15272,16 +15422,6 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "octicons"
 		},
-		"_image_light-yellow": {
-			"fontCharacter": "\\f012",
-			"fontColor": "#cccccc",
-			"fontId": "octicons"
-		},
-		"_image_light-yellow_l": {
-			"fontCharacter": "\\f012",
-			"fontColor": "#6c6c6c",
-			"fontId": "octicons"
-		},
 		"_image_medium-pink": {
 			"fontCharacter": "\\f012",
 			"fontColor": "#cccccc",
@@ -15478,6 +15618,16 @@
 			"fontId": "file-icons"
 		},
 		"_inno_dark-blue_l": {
+			"fontCharacter": "\\e985",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_inno_medium-cyan": {
+			"fontCharacter": "\\e985",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_inno_medium-cyan_l": {
 			"fontCharacter": "\\e985",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
@@ -16089,6 +16239,16 @@
 		},
 		"_jupyter_dark-cyan_l": {
 			"fontCharacter": "\\e987",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_kaitai_medium-maroon": {
+			"fontCharacter": "\\30ab",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_kaitai_medium-maroon_l": {
+			"fontCharacter": "\\30ab",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -16792,6 +16952,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_macaulay2_light-cyan,dark-cyan": {
+			"fontCharacter": "\\2644",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_macaulay2_light-cyan,dark-cyan_l": {
+			"fontCharacter": "\\2644",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_checklist_medium-red": {
 			"fontCharacter": "\\f076",
 			"fontColor": "#cccccc",
@@ -17369,6 +17539,16 @@
 		},
 		"_mercury_medium-cyan_l": {
 			"fontCharacter": "\\e994",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_mermaid_medium-blue": {
+			"fontCharacter": "\\eb84",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_mermaid_medium-blue_l": {
+			"fontCharacter": "\\eb84",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -18202,16 +18382,6 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
-		"_modula2_medium-red": {
-			"fontCharacter": "\\e996",
-			"fontColor": "#cccccc",
-			"fontId": "file-icons"
-		},
-		"_modula2_medium-red_l": {
-			"fontCharacter": "\\e996",
-			"fontColor": "#6c6c6c",
-			"fontId": "file-icons"
-		},
 		"_modula3_medium-blue": {
 			"fontCharacter": "\\2778",
 			"fontColor": "#cccccc",
@@ -18489,6 +18659,16 @@
 		},
 		"_nasm_dark-blue_l": {
 			"fontCharacter": "\\ea72",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_neon_medium-grey": {
+			"fontCharacter": "\\eb8e",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_neon_medium-grey_l": {
+			"fontCharacter": "\\eb8e",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -19159,6 +19339,16 @@
 		},
 		"_opa_medium-blue_l": {
 			"fontCharacter": "\\2601",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_openbsd_auto-orange": {
+			"fontCharacter": "\\1f421",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_openbsd_auto-orange_l": {
+			"fontCharacter": "\\1f421",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -22012,6 +22202,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_filter_medium-red": {
+			"fontCharacter": "\\f0b0",
+			"fontColor": "#cccccc",
+			"fontId": "fontawesome"
+		},
+		"_filter_medium-red_l": {
+			"fontCharacter": "\\f0b0",
+			"fontColor": "#6c6c6c",
+			"fontId": "fontawesome"
+		},
 		"_sigils_dark-red": {
 			"fontCharacter": "\\1f764",
 			"fontColor": "#cccccc",
@@ -22449,6 +22649,46 @@
 		},
 		"_stan_medium-red_l": {
 			"fontCharacter": "\\e9a4",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_bazel_dark-green": {
+			"fontCharacter": "\\ead2",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_bazel_dark-green_l": {
+			"fontCharacter": "\\ead2",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_bazel_medium-green": {
+			"fontCharacter": "\\ead2",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_bazel_medium-green_l": {
+			"fontCharacter": "\\ead2",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_bazel_dark-blue": {
+			"fontCharacter": "\\ead2",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_bazel_dark-blue_l": {
+			"fontCharacter": "\\ead2",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_bazel_medium-cyan": {
+			"fontCharacter": "\\ead2",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_bazel_medium-cyan_l": {
+			"fontCharacter": "\\ead2",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -23522,6 +23762,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "fontawesome"
 		},
+		"_tilt_medium-green": {
+			"fontCharacter": "\\eb8a",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_tilt_medium-green_l": {
+			"fontCharacter": "\\eb8a",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_tipe_medium-cyan": {
 			"fontCharacter": "\\eaa9",
 			"fontColor": "#cccccc",
@@ -23712,6 +23962,26 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_scales_auto-green": {
+			"fontCharacter": "\\f24e",
+			"fontColor": "#cccccc",
+			"fontId": "fontawesome"
+		},
+		"_scales_auto-green_l": {
+			"fontCharacter": "\\f24e",
+			"fontColor": "#6c6c6c",
+			"fontId": "fontawesome"
+		},
+		"_scales_auto-red": {
+			"fontCharacter": "\\f24e",
+			"fontColor": "#cccccc",
+			"fontId": "fontawesome"
+		},
+		"_scales_auto-red_l": {
+			"fontCharacter": "\\f24e",
+			"fontColor": "#6c6c6c",
+			"fontId": "fontawesome"
+		},
 		"_unity3d_dark-blue": {
 			"fontCharacter": "\\e621",
 			"fontColor": "#cccccc",
@@ -23799,6 +24069,26 @@
 		},
 		"_uno_dark-blue_l": {
 			"fontCharacter": "\\e9b3",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_unreal_medium-grey": {
+			"fontCharacter": "u",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_unreal_medium-grey_l": {
+			"fontCharacter": "u",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_unreal_dark-blue": {
+			"fontCharacter": "u",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_unreal_dark-blue_l": {
+			"fontCharacter": "u",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -25707,9 +25997,6 @@
 		"bal": "_ballerina_medium-cyan",
 		"balx": "_ballerina_dark-green",
 		"bzrignore": "_bazaar_auto-yellow",
-		"bazelrc": "_bazel_dark-green",
-		"bzl": "_bazel_dark-blue",
-		"gazelcfg.json": "_bazel_medium-cyan",
 		"bemjson": "_bem_medium-maroon",
 		"bemjson.js": "_bem_medium-maroon",
 		"bemjson.cjs": "_bem_medium-maroon",
@@ -25899,6 +26186,10 @@
 		"cfml": "_cf_medium-cyan",
 		"dae": "_khronos_medium-orange",
 		"collada": "_khronos_medium-orange",
+		"commitlintrc.json": "_commitlint_medium-blue",
+		"commitlintrc.js": "_commitlint_medium-blue",
+		"commitlintrc.yml": "_commitlint_medium-blue",
+		"commitlintrc.yaml": "_commitlint_medium-blue",
 		"cl": "_cl_medium-orange",
 		"cp": "_cp_medium-maroon",
 		"cps": "_cp_dark-red",
@@ -25919,6 +26210,7 @@
 		"bz2": "_zip_dark-cyan",
 		"maff": "_zip_medium-orange",
 		"iso": "_zip_medium-blue",
+		"hqx": "_zip_medium-cyan",
 		"xpi": "_zip_medium-orange",
 		"gem": "_zip_medium-red",
 		"whl": "_zip_dark-blue",
@@ -25962,6 +26254,7 @@
 		"cdt": "_coreldraw_medium-green",
 		"coveralls.yml": "_coveralls_medium-red",
 		"coveralls.yaml": "_coveralls_medium-red",
+		"cpc": "_cpcdosc_medium-blue",
 		"creole": "_creole_medium-blue",
 		"cr": "_crystal_medium-cyan",
 		"ecr": "_crystal_medium-cyan",
@@ -25984,6 +26277,8 @@
 		"pxi": "_cython_dark-blue",
 		"d": "_dlang_medium-red",
 		"di": "_dlang_medium-red",
+		"dfy": "_dafny_medium-yellow,medium-orange",
+		"dafny": "_dafny_medium-yellow,medium-orange",
 		"dnh": "_yang_medium-red",
 		"dpatch": "_darcs_medium-green",
 		"darcspatch": "_darcs_medium-green",
@@ -26002,6 +26297,7 @@
 		"ndjson": "_database_medium-orange",
 		"fea": "_database_light-blue",
 		"json.eex": "_database_medium-purple",
+		"cbor": "_database_medium-cyan",
 		"proto": "_database_dark-cyan",
 		"prototxt": "_database_dark-cyan",
 		"prototext": "_database_dark-cyan",
@@ -26270,6 +26566,7 @@
 		"snf": "_font-bitmap_dark-orange",
 		"flf": "_font-bitmap_medium-red",
 		"tlf": "_font-bitmap_medium-orange",
+		"ff": "_ff_medium-orange",
 		"pe": "_ff_medium-orange",
 		"sfd": "_ff_dark-blue",
 		"issuetracker": "_fork_medium-blue",
@@ -26489,6 +26786,8 @@
 		"tscn": "_godot_medium-green",
 		"import": "_godot_medium-red",
 		"golo": "_golo_medium-orange",
+		"goreleaser.yml": "_goreleaser_medium-blue",
+		"goreleaser.yaml": "_goreleaser_medium-blue",
 		"gs": "_gosu_medium-blue",
 		"gst": "_gosu_medium-green",
 		"gsx": "_gosu_dark-green",
@@ -26594,7 +26893,6 @@
 		"cin": "_image_medium-orange",
 		"cd5": "_image_dark-green",
 		"cgm": "_image_medium-orange",
-		"cpc": "_image_light-yellow",
 		"cr2": "_image_medium-orange",
 		"dcm": "_image_medium-pink",
 		"dds": "_image_dark-green",
@@ -26664,6 +26962,7 @@
 		"ink2": "_ink_dark-purple",
 		"inx": "_inkscape_dark-purple",
 		"iss": "_inno_dark-blue",
+		"isl": "_inno_medium-cyan",
 		"io": "_io_dark-purple",
 		"ik": "_ioke_medium-red",
 		"thy": "_isabelle_dark-red",
@@ -26737,6 +27036,7 @@
 		"jos": "_junos_medium-cyan",
 		"slax": "_junos_medium-blue",
 		"ipynb": "_jupyter_dark-orange",
+		"ksy": "_kaitai_medium-maroon",
 		"ks": "_kos_dark-green",
 		"keynote": "_keynote_medium-blue",
 		"knt": "_keynote_dark-blue",
@@ -26804,6 +27104,7 @@
 		"wlua": "_lua_dark-red",
 		"luacheckrc": "_lua_medium-green",
 		"rockspec": "_lua_medium-purple",
+		"m2": "_macaulay2_light-cyan,dark-cyan",
 		"mk": "_checklist_medium-yellow",
 		"mak": "_checklist_medium-yellow",
 		"make": "_checklist_medium-yellow",
@@ -26889,6 +27190,7 @@
 		"rmd": "_markdown_medium-blue",
 		"ron": "_markdown_medium-blue",
 		"pmd": "_markdown_medium-blue",
+		"jmd": "_markdown_medium-blue",
 		"markdownlint": "_markdownlint_dark-green",
 		"mdlrc.rb": "_markdownlint_medium-red",
 		"mdlrc.style.rb": "_markdownlint_medium-red",
@@ -26936,6 +27238,8 @@
 		"hgsub": "_hg_dark-cyan",
 		"hgsubstate": "_hg_medium-cyan",
 		"moo": "_mercury_medium-cyan",
+		"mmd": "_mermaid_medium-blue",
+		"mermaid": "_mermaid_medium-blue",
 		"metal": "_metal_dark-cyan",
 		"accda": "_access_dark-maroon",
 		"accdb": "_access_medium-maroon",
@@ -27046,7 +27350,6 @@
 		"lxo": "_modo_medium-cyan",
 		"mod": "_modula2_medium-blue",
 		"def": "_modula2_medium-green",
-		"m2": "_modula2_medium-red",
 		"i3": "_modula3_medium-blue",
 		"ig": "_modula3_medium-green",
 		"m3": "_modula3_dark-blue",
@@ -27078,6 +27381,7 @@
 		"build": "_nant_medium-orange",
 		"nasm": "_nasm_dark-blue",
 		"ncl": "_earth_medium-green",
+		"neon": "_neon_medium-grey",
 		"nproj": "_ndepend_medium-blue",
 		"ndproj": "_ndepend_medium-blue",
 		"neko": "_neko_medium-orange",
@@ -27605,6 +27909,7 @@
 		"csh": "_terminal_medium-yellow",
 		"shen": "_shen_dark-cyan",
 		"liquid": "_shopify_medium-green",
+		"sieve": "_filter_medium-red",
 		"sigils": "_sigils_dark-red",
 		"ss": "_silverstripe_medium-blue",
 		"sketch": "_sketch_medium-orange",
@@ -27657,6 +27962,10 @@
 		"ssh/": "_key_dark-blue",
 		"ssh\\": "_key_dark-blue",
 		"stan": "_stan_medium-red",
+		"bazelrc": "_bazel_dark-green",
+		"bzl": "_bazel_dark-blue",
+		"star": "_bazel_dark-blue",
+		"gazelcfg.json": "_bazel_medium-cyan",
 		"do": "_stata_medium-blue",
 		"ado": "_stata_dark-blue",
 		"doh": "_stata_light-blue",
@@ -27798,6 +28107,10 @@
 		"tests.litcoffee": "_test-coffee_auto-maroon",
 		"tests.iced": "_test-coffee_auto-maroon",
 		"tests.cjsx": "_test-coffee_auto-maroon",
+		"spec.sh": "_test-generic_medium-green",
+		"specs.sh": "_test-generic_medium-green",
+		"test.sh": "_test-generic_medium-green",
+		"tests.sh": "_test-generic_medium-green",
 		"test": "_test-generic_medium-green",
 		"xspec": "_test-generic_dark-green",
 		"spec.go": "_test-go_auto-cyan",
@@ -27883,6 +28196,8 @@
 		"pgf": "_tex_auto-purple",
 		"tikz": "_tex_auto-purple",
 		"texi": "_tex_auto-red",
+		"texinfo": "_tex_auto-red",
+		"txi": "_tex_auto-red",
 		"txt": "_icon-file-text_medium-blue",
 		"text": "_icon-file-text_medium-blue",
 		"log": "_icon-file-text_medium-maroon",
@@ -27894,6 +28209,7 @@
 		"rtf": "_icon-file-text_dark-red",
 		"nfo": "_icon-file-text_dark-blue",
 		"info": "_icon-file-text_dark-blue",
+		"lcov": "_icon-file-text_dark-blue",
 		"abt": "_icon-file-text_dark-purple",
 		"ans": "_icon-file-text_dark-orange",
 		"brf": "_icon-file-text_medium-maroon",
@@ -27955,6 +28271,10 @@
 		"unibeautifyrc.json": "_unibeautify",
 		"unibeautifyrc.yml": "_unibeautify",
 		"unibeautifyrc.yaml": "_unibeautify",
+		"units": "_scales_auto-green",
+		"unitshistory": "_scales_auto-red",
+		"units-history": "_scales_auto-red",
+		"units_history": "_scales_auto-red",
 		"anim": "_unity3d_dark-blue",
 		"asset": "_unity3d_dark-green",
 		"cubemap": "_unity3d_medium-cyan",
@@ -27969,7 +28289,8 @@
 		"unityproj": "_unity3d_medium-maroon",
 		"unitypackage": "_unity3d_dark-green",
 		"uno": "_uno_dark-blue",
-		"uc": "_unreal",
+		"uc": "_unreal_medium-grey",
+		"uasset": "_unreal_dark-blue",
 		"ur": "_urweb_medium-maroon",
 		"urs": "_urweb_dark-blue",
 		"v": "_verilog_dark-green",
@@ -28324,8 +28645,6 @@
 		"backbonedev.js": "_backbone_dark-blue",
 		"backbonedev.cjs": "_backbone_dark-blue",
 		"backbonedev.mjs": "_backbone_dark-blue",
-		"bazel.rc": "_bazel_dark-green",
-		"bazel.bazelrc": "_bazel_dark-green",
 		"bitbucket-pipelines.yml": "_bitbucket_medium-blue",
 		"bitbucket-pipelines.yaml": "_bitbucket_medium-blue",
 		"makefile.boot": "_boot_auto-green",
@@ -28333,7 +28652,6 @@
 		"bowerfile": "_bower_medium-yellow,medium-orange",
 		"brakeman.yml": "_brakeman_medium-red",
 		"brakeman.ignore": "_brakeman_dark-red",
-		"brewfile": "_brew_medium-orange",
 		"brocfile.": "_broccoli_medium-green",
 		"browserslist": "_browserslist_medium-orange",
 		"bs-config.js": "_browsersync_medium-red",
@@ -28352,6 +28670,94 @@
 		"buck": "_buck_dark-blue",
 		"gemfile": "_bundler_auto-blue",
 		"gemfile.lock": "_bundler_auto-blue",
+		"\\share\\getopt": "_c_medium-blue",
+		"\\share\\getopt0": "_c_medium-blue",
+		"\\share\\getopt1": "_c_medium-blue",
+		"\\share\\getopt2": "_c_medium-blue",
+		"\\share\\getopt3": "_c_medium-blue",
+		"\\share\\getopt4": "_c_medium-blue",
+		"\\share\\getopt5": "_c_medium-blue",
+		"\\share\\getopt6": "_c_medium-blue",
+		"\\share\\getopt7": "_c_medium-blue",
+		"\\share\\getopt8": "_c_medium-blue",
+		"\\share\\getopt9": "_c_medium-blue",
+		"\\share\\getopts": "_c_medium-blue",
+		"\\share\\getopts0": "_c_medium-blue",
+		"\\share\\getopts1": "_c_medium-blue",
+		"\\share\\getopts2": "_c_medium-blue",
+		"\\share\\getopts3": "_c_medium-blue",
+		"\\share\\getopts4": "_c_medium-blue",
+		"\\share\\getopts5": "_c_medium-blue",
+		"\\share\\getopts6": "_c_medium-blue",
+		"\\share\\getopts7": "_c_medium-blue",
+		"\\share\\getopts8": "_c_medium-blue",
+		"\\share\\getopts9": "_c_medium-blue",
+		"\\share\\misc\\getopt": "_c_medium-blue",
+		"\\share\\misc\\getopt0": "_c_medium-blue",
+		"\\share\\misc\\getopt1": "_c_medium-blue",
+		"\\share\\misc\\getopt2": "_c_medium-blue",
+		"\\share\\misc\\getopt3": "_c_medium-blue",
+		"\\share\\misc\\getopt4": "_c_medium-blue",
+		"\\share\\misc\\getopt5": "_c_medium-blue",
+		"\\share\\misc\\getopt6": "_c_medium-blue",
+		"\\share\\misc\\getopt7": "_c_medium-blue",
+		"\\share\\misc\\getopt8": "_c_medium-blue",
+		"\\share\\misc\\getopt9": "_c_medium-blue",
+		"\\share\\misc\\getopts": "_c_medium-blue",
+		"\\share\\misc\\getopts0": "_c_medium-blue",
+		"\\share\\misc\\getopts1": "_c_medium-blue",
+		"\\share\\misc\\getopts2": "_c_medium-blue",
+		"\\share\\misc\\getopts3": "_c_medium-blue",
+		"\\share\\misc\\getopts4": "_c_medium-blue",
+		"\\share\\misc\\getopts5": "_c_medium-blue",
+		"\\share\\misc\\getopts6": "_c_medium-blue",
+		"\\share\\misc\\getopts7": "_c_medium-blue",
+		"\\share\\misc\\getopts8": "_c_medium-blue",
+		"\\share\\misc\\getopts9": "_c_medium-blue",
+		"/share/getopt": "_c_medium-blue",
+		"/share/getopt0": "_c_medium-blue",
+		"/share/getopt1": "_c_medium-blue",
+		"/share/getopt2": "_c_medium-blue",
+		"/share/getopt3": "_c_medium-blue",
+		"/share/getopt4": "_c_medium-blue",
+		"/share/getopt5": "_c_medium-blue",
+		"/share/getopt6": "_c_medium-blue",
+		"/share/getopt7": "_c_medium-blue",
+		"/share/getopt8": "_c_medium-blue",
+		"/share/getopt9": "_c_medium-blue",
+		"/share/getopts": "_c_medium-blue",
+		"/share/getopts0": "_c_medium-blue",
+		"/share/getopts1": "_c_medium-blue",
+		"/share/getopts2": "_c_medium-blue",
+		"/share/getopts3": "_c_medium-blue",
+		"/share/getopts4": "_c_medium-blue",
+		"/share/getopts5": "_c_medium-blue",
+		"/share/getopts6": "_c_medium-blue",
+		"/share/getopts7": "_c_medium-blue",
+		"/share/getopts8": "_c_medium-blue",
+		"/share/getopts9": "_c_medium-blue",
+		"/share/misc/getopt": "_c_medium-blue",
+		"/share/misc/getopt0": "_c_medium-blue",
+		"/share/misc/getopt1": "_c_medium-blue",
+		"/share/misc/getopt2": "_c_medium-blue",
+		"/share/misc/getopt3": "_c_medium-blue",
+		"/share/misc/getopt4": "_c_medium-blue",
+		"/share/misc/getopt5": "_c_medium-blue",
+		"/share/misc/getopt6": "_c_medium-blue",
+		"/share/misc/getopt7": "_c_medium-blue",
+		"/share/misc/getopt8": "_c_medium-blue",
+		"/share/misc/getopt9": "_c_medium-blue",
+		"/share/misc/getopts": "_c_medium-blue",
+		"/share/misc/getopts0": "_c_medium-blue",
+		"/share/misc/getopts1": "_c_medium-blue",
+		"/share/misc/getopts2": "_c_medium-blue",
+		"/share/misc/getopts3": "_c_medium-blue",
+		"/share/misc/getopts4": "_c_medium-blue",
+		"/share/misc/getopts5": "_c_medium-blue",
+		"/share/misc/getopts6": "_c_medium-blue",
+		"/share/misc/getopts7": "_c_medium-blue",
+		"/share/misc/getopts8": "_c_medium-blue",
+		"/share/misc/getopts9": "_c_medium-blue",
 		"cabal.config": "_cabal_medium-purple",
 		"cabal.project": "_cabal_medium-purple",
 		"cabal-ghcjs.project": "_cabal_auto-yellow",
@@ -28534,6 +28940,9 @@
 		"cmakelists.txt": "_cmake_medium-red",
 		"codecov.yml": "_codecov_dark-pink",
 		"codecov.yaml": "_codecov_dark-pink",
+		"codemeta.json": "_codemeta_auto-grey",
+		"codemeta.jsonld": "_codemeta_auto-grey",
+		"commitlint.config.js": "_commitlint_medium-blue",
 		"compass.scss": "_compass_medium-red",
 		"lemonade.scss": "_compass_medium-red",
 		"_compass.scss": "_compass_medium-red",
@@ -28549,6 +28958,7 @@
 		"terminal": "_config_dark-blue",
 		"terminalrc": "_config_dark-blue",
 		"ld.script": "_config_medium-orange",
+		"shells": "_config_medium-green",
 		"xcompose": "_config_medium-cyan",
 		"buildozer.spec": "_config_dark-blue",
 		"settings.bsp": "_config_medium-green",
@@ -28631,6 +29041,16 @@
 		"pkginfo": "_database_medium-blue",
 		"termcap": "_database_dark-green",
 		"terminfo": "_database_dark-green",
+		"birthtoken": "_database_medium-green",
+		"flowers": "_database_medium-green",
+		"\\share\\ascii": "_database_medium-red",
+		"\\share\\trace.codes": "_database_medium-red",
+		"\\share\\misc\\ascii": "_database_medium-red",
+		"\\share\\misc\\trace.codes": "_database_medium-red",
+		"/share/ascii": "_database_medium-red",
+		"/share/trace.codes": "_database_medium-red",
+		"/share/misc/ascii": "_database_medium-red",
+		"/share/misc/trace.codes": "_database_medium-red",
 		"mime.types": "_database_medium-maroon",
 		"fstab": "_database_medium-maroon",
 		"metadata.pb": "_database_medium-red",
@@ -28751,6 +29171,7 @@
 		"gulpfile.tsx": "_gulp_medium-blue",
 		"procfile": "_heroku_medium-purple",
 		"aptfile": "_heroku_medium-purple",
+		"brewfile": "_brew_auto-orange",
 		"ionic.project": "_ionic_medium-blue",
 		"ionic.config.json": "_ionic_medium-blue",
 		"root": "_isabelle_dark-blue",
@@ -28821,6 +29242,8 @@
 		"mkfile": "_checklist_medium-yellow",
 		"qmake": "_checklist_dark-blue",
 		"deps": "_checklist_dark-blue",
+		"man.template": "_manpage_dark-green",
+		"mdoc.template": "_manpage_dark-green",
 		"troffrc": "_manpage_dark-green",
 		"troffrc-end": "_manpage_dark-green",
 		"eqnrc": "_manpage_dark-green",
@@ -28926,6 +29349,9 @@
 		"nukefile": "_recycle_dark-green",
 		"nuxt.config.js": "_nuxt_medium-cyan",
 		"nuxt.config.ts": "_nuxt_medium-cyan",
+		"+contents": "_openbsd_auto-orange",
+		"+desc": "_openbsd_auto-orange",
+		"+display": "_openbsd_auto-orange",
 		"cargo.toml": "_package_light-orange",
 		"cargo.lock": "_package_dark-orange",
 		"pubspec.lock": "_package_medium-blue",
@@ -29195,6 +29621,8 @@
 		"passwd": "_key_dark-green",
 		"master.passwd": "_key_dark-green",
 		"git-credential-osxkeychain": "_key_medium-green",
+		"bazel.rc": "_bazel_dark-green",
+		"bazel.bazelrc": "_bazel_dark-green",
 		"stdlib.js": "_stdlibjs_medium-orange",
 		"stdlib.cjs": "_stdlibjs_medium-orange",
 		"stdlib.mjs": "_stdlibjs_medium-orange",
@@ -29264,6 +29692,14 @@
 		"_tests.litcoffee": "_test-coffee_auto-maroon",
 		"_tests.iced": "_test-coffee_auto-maroon",
 		"_tests.cjsx": "_test-coffee_auto-maroon",
+		"-spec.sh": "_test-generic_medium-green",
+		"-specs.sh": "_test-generic_medium-green",
+		"-test.sh": "_test-generic_medium-green",
+		"-tests.sh": "_test-generic_medium-green",
+		"_spec.sh": "_test-generic_medium-green",
+		"_specs.sh": "_test-generic_medium-green",
+		"_test.sh": "_test-generic_medium-green",
+		"_tests.sh": "_test-generic_medium-green",
 		"-spec.go": "_test-go_auto-cyan",
 		"-specs.go": "_test-go_auto-cyan",
 		"-test.go": "_test-go_auto-cyan",
@@ -29437,11 +29873,24 @@
 		"terminal_saved output": "_icon-file-text_medium-maroon",
 		"terminal_saved-output": "_icon-file-text_medium-maroon",
 		"terminal_saved_output": "_icon-file-text_medium-maroon",
+		"\\share\\operator": "_icon-file-text_dark-red",
+		"\\share\\mail.help": "_icon-file-text_dark-red",
+		"\\share\\mail.tildehelp": "_icon-file-text_dark-red",
+		"\\share\\misc\\operator": "_icon-file-text_dark-red",
+		"\\share\\misc\\mail.help": "_icon-file-text_dark-red",
+		"\\share\\misc\\mail.tildehelp": "_icon-file-text_dark-red",
+		"/share/operator": "_icon-file-text_dark-red",
+		"/share/mail.help": "_icon-file-text_dark-red",
+		"/share/mail.tildehelp": "_icon-file-text_dark-red",
+		"/share/misc/operator": "_icon-file-text_dark-red",
+		"/share/misc/mail.help": "_icon-file-text_dark-red",
+		"/share/misc/mail.tildehelp": "_icon-file-text_dark-red",
 		"bug-report": "_icon-file-text_medium-red",
 		"fdl": "_icon-file-text_medium-red",
 		"for-release": "_icon-file-text_medium-red",
 		"tests": "_icon-file-text_medium-red",
 		"thorfile": "_thor_dark-orange",
+		"tiltfile": "_tilt_medium-green",
 		"_tmux.conf": "_tmux_medium-green",
 		"tmux.conf": "_tmux_medium-green",
 		" tgitconfig": "_tortoise_medium-red",
@@ -29569,6 +30018,10 @@
 		"/ucd/.txt": "_unicode_medium-red",
 		"\\unidata\\.txt": "_unicode_medium-red",
 		"\\ucd\\.txt": "_unicode_medium-red",
+		"units.lib": "_scales_auto-green",
+		"unitshistory": "_scales_auto-red",
+		"units-history": "_scales_auto-red",
+		"units_history": "_scales_auto-red",
 		"d8": "_v8_medium-blue",
 		"v8": "_v8_medium-blue",
 		"v8-": "_v8_medium-blue",
@@ -30103,9 +30556,6 @@
 			"bal": "_ballerina_medium-cyan_l",
 			"balx": "_ballerina_dark-green_l",
 			"bzrignore": "_bazaar_auto-yellow_l",
-			"bazelrc": "_bazel_dark-green_l",
-			"bzl": "_bazel_dark-blue_l",
-			"gazelcfg.json": "_bazel_medium-cyan_l",
 			"bemjson": "_bem_medium-maroon_l",
 			"bemjson.js": "_bem_medium-maroon_l",
 			"bemjson.cjs": "_bem_medium-maroon_l",
@@ -30295,6 +30745,10 @@
 			"cfml": "_cf_medium-cyan_l",
 			"dae": "_khronos_medium-orange_l",
 			"collada": "_khronos_medium-orange_l",
+			"commitlintrc.json": "_commitlint_medium-blue_l",
+			"commitlintrc.js": "_commitlint_medium-blue_l",
+			"commitlintrc.yml": "_commitlint_medium-blue_l",
+			"commitlintrc.yaml": "_commitlint_medium-blue_l",
 			"cl": "_cl_medium-orange_l",
 			"cp": "_cp_medium-maroon_l",
 			"cps": "_cp_dark-red_l",
@@ -30315,6 +30769,7 @@
 			"bz2": "_zip_dark-cyan_l",
 			"maff": "_zip_medium-orange_l",
 			"iso": "_zip_medium-blue_l",
+			"hqx": "_zip_medium-cyan_l",
 			"xpi": "_zip_medium-orange_l",
 			"gem": "_zip_medium-red_l",
 			"whl": "_zip_dark-blue_l",
@@ -30358,6 +30813,7 @@
 			"cdt": "_coreldraw_medium-green_l",
 			"coveralls.yml": "_coveralls_medium-red_l",
 			"coveralls.yaml": "_coveralls_medium-red_l",
+			"cpc": "_cpcdosc_medium-blue_l",
 			"creole": "_creole_medium-blue_l",
 			"cr": "_crystal_medium-cyan_l",
 			"ecr": "_crystal_medium-cyan_l",
@@ -30380,6 +30836,8 @@
 			"pxi": "_cython_dark-blue_l",
 			"d": "_dlang_medium-red_l",
 			"di": "_dlang_medium-red_l",
+			"dfy": "_dafny_medium-yellow,medium-orange_l",
+			"dafny": "_dafny_medium-yellow,medium-orange_l",
 			"dnh": "_yang_medium-red_l",
 			"dpatch": "_darcs_medium-green_l",
 			"darcspatch": "_darcs_medium-green_l",
@@ -30398,6 +30856,7 @@
 			"ndjson": "_database_medium-orange_l",
 			"fea": "_database_light-blue_l",
 			"json.eex": "_database_medium-purple_l",
+			"cbor": "_database_medium-cyan_l",
 			"proto": "_database_dark-cyan_l",
 			"prototxt": "_database_dark-cyan_l",
 			"prototext": "_database_dark-cyan_l",
@@ -30666,6 +31125,7 @@
 			"snf": "_font-bitmap_dark-orange_l",
 			"flf": "_font-bitmap_medium-red_l",
 			"tlf": "_font-bitmap_medium-orange_l",
+			"ff": "_ff_medium-orange_l",
 			"pe": "_ff_medium-orange_l",
 			"sfd": "_ff_dark-blue_l",
 			"issuetracker": "_fork_medium-blue_l",
@@ -30885,6 +31345,8 @@
 			"tscn": "_godot_medium-green_l",
 			"import": "_godot_medium-red_l",
 			"golo": "_golo_medium-orange_l",
+			"goreleaser.yml": "_goreleaser_medium-blue_l",
+			"goreleaser.yaml": "_goreleaser_medium-blue_l",
 			"gs": "_gosu_medium-blue_l",
 			"gst": "_gosu_medium-green_l",
 			"gsx": "_gosu_dark-green_l",
@@ -30990,7 +31452,6 @@
 			"cin": "_image_medium-orange_l",
 			"cd5": "_image_dark-green_l",
 			"cgm": "_image_medium-orange_l",
-			"cpc": "_image_light-yellow_l",
 			"cr2": "_image_medium-orange_l",
 			"dcm": "_image_medium-pink_l",
 			"dds": "_image_dark-green_l",
@@ -31060,6 +31521,7 @@
 			"ink2": "_ink_dark-purple_l",
 			"inx": "_inkscape_dark-purple_l",
 			"iss": "_inno_dark-blue_l",
+			"isl": "_inno_medium-cyan_l",
 			"io": "_io_dark-purple_l",
 			"ik": "_ioke_medium-red_l",
 			"thy": "_isabelle_dark-red_l",
@@ -31133,6 +31595,7 @@
 			"jos": "_junos_medium-cyan_l",
 			"slax": "_junos_medium-blue_l",
 			"ipynb": "_jupyter_dark-orange_l",
+			"ksy": "_kaitai_medium-maroon_l",
 			"ks": "_kos_dark-green_l",
 			"keynote": "_keynote_medium-blue_l",
 			"knt": "_keynote_dark-blue_l",
@@ -31200,6 +31663,7 @@
 			"wlua": "_lua_dark-red_l",
 			"luacheckrc": "_lua_medium-green_l",
 			"rockspec": "_lua_medium-purple_l",
+			"m2": "_macaulay2_light-cyan,dark-cyan_l",
 			"mk": "_checklist_medium-yellow_l",
 			"mak": "_checklist_medium-yellow_l",
 			"make": "_checklist_medium-yellow_l",
@@ -31285,6 +31749,7 @@
 			"rmd": "_markdown_medium-blue_l",
 			"ron": "_markdown_medium-blue_l",
 			"pmd": "_markdown_medium-blue_l",
+			"jmd": "_markdown_medium-blue_l",
 			"markdownlint": "_markdownlint_dark-green_l",
 			"mdlrc.rb": "_markdownlint_medium-red_l",
 			"mdlrc.style.rb": "_markdownlint_medium-red_l",
@@ -31332,6 +31797,8 @@
 			"hgsub": "_hg_dark-cyan_l",
 			"hgsubstate": "_hg_medium-cyan_l",
 			"moo": "_mercury_medium-cyan_l",
+			"mmd": "_mermaid_medium-blue_l",
+			"mermaid": "_mermaid_medium-blue_l",
 			"metal": "_metal_dark-cyan_l",
 			"accda": "_access_dark-maroon_l",
 			"accdb": "_access_medium-maroon_l",
@@ -31442,7 +31909,6 @@
 			"lxo": "_modo_medium-cyan_l",
 			"mod": "_modula2_medium-blue_l",
 			"def": "_modula2_medium-green_l",
-			"m2": "_modula2_medium-red_l",
 			"i3": "_modula3_medium-blue_l",
 			"ig": "_modula3_medium-green_l",
 			"m3": "_modula3_dark-blue_l",
@@ -31474,6 +31940,7 @@
 			"build": "_nant_medium-orange_l",
 			"nasm": "_nasm_dark-blue_l",
 			"ncl": "_earth_medium-green_l",
+			"neon": "_neon_medium-grey_l",
 			"nproj": "_ndepend_medium-blue_l",
 			"ndproj": "_ndepend_medium-blue_l",
 			"neko": "_neko_medium-orange_l",
@@ -32001,6 +32468,7 @@
 			"csh": "_terminal_medium-yellow_l",
 			"shen": "_shen_dark-cyan_l",
 			"liquid": "_shopify_medium-green_l",
+			"sieve": "_filter_medium-red_l",
 			"sigils": "_sigils_dark-red_l",
 			"ss": "_silverstripe_medium-blue_l",
 			"sketch": "_sketch_medium-orange_l",
@@ -32053,6 +32521,10 @@
 			"ssh/": "_key_dark-blue_l",
 			"ssh\\": "_key_dark-blue_l",
 			"stan": "_stan_medium-red_l",
+			"bazelrc": "_bazel_dark-green_l",
+			"bzl": "_bazel_dark-blue_l",
+			"star": "_bazel_dark-blue_l",
+			"gazelcfg.json": "_bazel_medium-cyan_l",
 			"do": "_stata_medium-blue_l",
 			"ado": "_stata_dark-blue_l",
 			"doh": "_stata_light-blue_l",
@@ -32194,6 +32666,10 @@
 			"tests.litcoffee": "_test-coffee_auto-maroon_l",
 			"tests.iced": "_test-coffee_auto-maroon_l",
 			"tests.cjsx": "_test-coffee_auto-maroon_l",
+			"spec.sh": "_test-generic_medium-green_l",
+			"specs.sh": "_test-generic_medium-green_l",
+			"test.sh": "_test-generic_medium-green_l",
+			"tests.sh": "_test-generic_medium-green_l",
 			"test": "_test-generic_medium-green_l",
 			"xspec": "_test-generic_dark-green_l",
 			"spec.go": "_test-go_auto-cyan_l",
@@ -32279,6 +32755,8 @@
 			"pgf": "_tex_auto-purple_l",
 			"tikz": "_tex_auto-purple_l",
 			"texi": "_tex_auto-red_l",
+			"texinfo": "_tex_auto-red_l",
+			"txi": "_tex_auto-red_l",
 			"txt": "_icon-file-text_medium-blue_l",
 			"text": "_icon-file-text_medium-blue_l",
 			"log": "_icon-file-text_medium-maroon_l",
@@ -32290,6 +32768,7 @@
 			"rtf": "_icon-file-text_dark-red_l",
 			"nfo": "_icon-file-text_dark-blue_l",
 			"info": "_icon-file-text_dark-blue_l",
+			"lcov": "_icon-file-text_dark-blue_l",
 			"abt": "_icon-file-text_dark-purple_l",
 			"ans": "_icon-file-text_dark-orange_l",
 			"brf": "_icon-file-text_medium-maroon_l",
@@ -32351,6 +32830,10 @@
 			"unibeautifyrc.json": "_unibeautify_l",
 			"unibeautifyrc.yml": "_unibeautify_l",
 			"unibeautifyrc.yaml": "_unibeautify_l",
+			"units": "_scales_auto-green_l",
+			"unitshistory": "_scales_auto-red_l",
+			"units-history": "_scales_auto-red_l",
+			"units_history": "_scales_auto-red_l",
 			"anim": "_unity3d_dark-blue_l",
 			"asset": "_unity3d_dark-green_l",
 			"cubemap": "_unity3d_medium-cyan_l",
@@ -32365,7 +32848,8 @@
 			"unityproj": "_unity3d_medium-maroon_l",
 			"unitypackage": "_unity3d_dark-green_l",
 			"uno": "_uno_dark-blue_l",
-			"uc": "_unreal_l",
+			"uc": "_unreal_medium-grey_l",
+			"uasset": "_unreal_dark-blue_l",
 			"ur": "_urweb_medium-maroon_l",
 			"urs": "_urweb_dark-blue_l",
 			"v": "_verilog_dark-green_l",
@@ -32720,8 +33204,6 @@
 			"backbonedev.js": "_backbone_dark-blue_l",
 			"backbonedev.cjs": "_backbone_dark-blue_l",
 			"backbonedev.mjs": "_backbone_dark-blue_l",
-			"bazel.rc": "_bazel_dark-green_l",
-			"bazel.bazelrc": "_bazel_dark-green_l",
 			"bitbucket-pipelines.yml": "_bitbucket_medium-blue_l",
 			"bitbucket-pipelines.yaml": "_bitbucket_medium-blue_l",
 			"makefile.boot": "_boot_auto-green_l",
@@ -32729,7 +33211,6 @@
 			"bowerfile": "_bower_medium-yellow,medium-orange_l",
 			"brakeman.yml": "_brakeman_medium-red_l",
 			"brakeman.ignore": "_brakeman_dark-red_l",
-			"brewfile": "_brew_medium-orange_l",
 			"brocfile.": "_broccoli_medium-green_l",
 			"browserslist": "_browserslist_medium-orange_l",
 			"bs-config.js": "_browsersync_medium-red_l",
@@ -32748,6 +33229,94 @@
 			"buck": "_buck_dark-blue_l",
 			"gemfile": "_bundler_auto-blue_l",
 			"gemfile.lock": "_bundler_auto-blue_l",
+			"\\share\\getopt": "_c_medium-blue_l",
+			"\\share\\getopt0": "_c_medium-blue_l",
+			"\\share\\getopt1": "_c_medium-blue_l",
+			"\\share\\getopt2": "_c_medium-blue_l",
+			"\\share\\getopt3": "_c_medium-blue_l",
+			"\\share\\getopt4": "_c_medium-blue_l",
+			"\\share\\getopt5": "_c_medium-blue_l",
+			"\\share\\getopt6": "_c_medium-blue_l",
+			"\\share\\getopt7": "_c_medium-blue_l",
+			"\\share\\getopt8": "_c_medium-blue_l",
+			"\\share\\getopt9": "_c_medium-blue_l",
+			"\\share\\getopts": "_c_medium-blue_l",
+			"\\share\\getopts0": "_c_medium-blue_l",
+			"\\share\\getopts1": "_c_medium-blue_l",
+			"\\share\\getopts2": "_c_medium-blue_l",
+			"\\share\\getopts3": "_c_medium-blue_l",
+			"\\share\\getopts4": "_c_medium-blue_l",
+			"\\share\\getopts5": "_c_medium-blue_l",
+			"\\share\\getopts6": "_c_medium-blue_l",
+			"\\share\\getopts7": "_c_medium-blue_l",
+			"\\share\\getopts8": "_c_medium-blue_l",
+			"\\share\\getopts9": "_c_medium-blue_l",
+			"\\share\\misc\\getopt": "_c_medium-blue_l",
+			"\\share\\misc\\getopt0": "_c_medium-blue_l",
+			"\\share\\misc\\getopt1": "_c_medium-blue_l",
+			"\\share\\misc\\getopt2": "_c_medium-blue_l",
+			"\\share\\misc\\getopt3": "_c_medium-blue_l",
+			"\\share\\misc\\getopt4": "_c_medium-blue_l",
+			"\\share\\misc\\getopt5": "_c_medium-blue_l",
+			"\\share\\misc\\getopt6": "_c_medium-blue_l",
+			"\\share\\misc\\getopt7": "_c_medium-blue_l",
+			"\\share\\misc\\getopt8": "_c_medium-blue_l",
+			"\\share\\misc\\getopt9": "_c_medium-blue_l",
+			"\\share\\misc\\getopts": "_c_medium-blue_l",
+			"\\share\\misc\\getopts0": "_c_medium-blue_l",
+			"\\share\\misc\\getopts1": "_c_medium-blue_l",
+			"\\share\\misc\\getopts2": "_c_medium-blue_l",
+			"\\share\\misc\\getopts3": "_c_medium-blue_l",
+			"\\share\\misc\\getopts4": "_c_medium-blue_l",
+			"\\share\\misc\\getopts5": "_c_medium-blue_l",
+			"\\share\\misc\\getopts6": "_c_medium-blue_l",
+			"\\share\\misc\\getopts7": "_c_medium-blue_l",
+			"\\share\\misc\\getopts8": "_c_medium-blue_l",
+			"\\share\\misc\\getopts9": "_c_medium-blue_l",
+			"/share/getopt": "_c_medium-blue_l",
+			"/share/getopt0": "_c_medium-blue_l",
+			"/share/getopt1": "_c_medium-blue_l",
+			"/share/getopt2": "_c_medium-blue_l",
+			"/share/getopt3": "_c_medium-blue_l",
+			"/share/getopt4": "_c_medium-blue_l",
+			"/share/getopt5": "_c_medium-blue_l",
+			"/share/getopt6": "_c_medium-blue_l",
+			"/share/getopt7": "_c_medium-blue_l",
+			"/share/getopt8": "_c_medium-blue_l",
+			"/share/getopt9": "_c_medium-blue_l",
+			"/share/getopts": "_c_medium-blue_l",
+			"/share/getopts0": "_c_medium-blue_l",
+			"/share/getopts1": "_c_medium-blue_l",
+			"/share/getopts2": "_c_medium-blue_l",
+			"/share/getopts3": "_c_medium-blue_l",
+			"/share/getopts4": "_c_medium-blue_l",
+			"/share/getopts5": "_c_medium-blue_l",
+			"/share/getopts6": "_c_medium-blue_l",
+			"/share/getopts7": "_c_medium-blue_l",
+			"/share/getopts8": "_c_medium-blue_l",
+			"/share/getopts9": "_c_medium-blue_l",
+			"/share/misc/getopt": "_c_medium-blue_l",
+			"/share/misc/getopt0": "_c_medium-blue_l",
+			"/share/misc/getopt1": "_c_medium-blue_l",
+			"/share/misc/getopt2": "_c_medium-blue_l",
+			"/share/misc/getopt3": "_c_medium-blue_l",
+			"/share/misc/getopt4": "_c_medium-blue_l",
+			"/share/misc/getopt5": "_c_medium-blue_l",
+			"/share/misc/getopt6": "_c_medium-blue_l",
+			"/share/misc/getopt7": "_c_medium-blue_l",
+			"/share/misc/getopt8": "_c_medium-blue_l",
+			"/share/misc/getopt9": "_c_medium-blue_l",
+			"/share/misc/getopts": "_c_medium-blue_l",
+			"/share/misc/getopts0": "_c_medium-blue_l",
+			"/share/misc/getopts1": "_c_medium-blue_l",
+			"/share/misc/getopts2": "_c_medium-blue_l",
+			"/share/misc/getopts3": "_c_medium-blue_l",
+			"/share/misc/getopts4": "_c_medium-blue_l",
+			"/share/misc/getopts5": "_c_medium-blue_l",
+			"/share/misc/getopts6": "_c_medium-blue_l",
+			"/share/misc/getopts7": "_c_medium-blue_l",
+			"/share/misc/getopts8": "_c_medium-blue_l",
+			"/share/misc/getopts9": "_c_medium-blue_l",
 			"cabal.config": "_cabal_medium-purple_l",
 			"cabal.project": "_cabal_medium-purple_l",
 			"cabal-ghcjs.project": "_cabal_auto-yellow_l",
@@ -32930,6 +33499,9 @@
 			"cmakelists.txt": "_cmake_medium-red_l",
 			"codecov.yml": "_codecov_dark-pink_l",
 			"codecov.yaml": "_codecov_dark-pink_l",
+			"codemeta.json": "_codemeta_auto-grey_l",
+			"codemeta.jsonld": "_codemeta_auto-grey_l",
+			"commitlint.config.js": "_commitlint_medium-blue_l",
 			"compass.scss": "_compass_medium-red_l",
 			"lemonade.scss": "_compass_medium-red_l",
 			"_compass.scss": "_compass_medium-red_l",
@@ -32945,6 +33517,7 @@
 			"terminal": "_config_dark-blue_l",
 			"terminalrc": "_config_dark-blue_l",
 			"ld.script": "_config_medium-orange_l",
+			"shells": "_config_medium-green_l",
 			"xcompose": "_config_medium-cyan_l",
 			"buildozer.spec": "_config_dark-blue_l",
 			"settings.bsp": "_config_medium-green_l",
@@ -33027,6 +33600,16 @@
 			"pkginfo": "_database_medium-blue_l",
 			"termcap": "_database_dark-green_l",
 			"terminfo": "_database_dark-green_l",
+			"birthtoken": "_database_medium-green_l",
+			"flowers": "_database_medium-green_l",
+			"\\share\\ascii": "_database_medium-red_l",
+			"\\share\\trace.codes": "_database_medium-red_l",
+			"\\share\\misc\\ascii": "_database_medium-red_l",
+			"\\share\\misc\\trace.codes": "_database_medium-red_l",
+			"/share/ascii": "_database_medium-red_l",
+			"/share/trace.codes": "_database_medium-red_l",
+			"/share/misc/ascii": "_database_medium-red_l",
+			"/share/misc/trace.codes": "_database_medium-red_l",
 			"mime.types": "_database_medium-maroon_l",
 			"fstab": "_database_medium-maroon_l",
 			"metadata.pb": "_database_medium-red_l",
@@ -33147,6 +33730,7 @@
 			"gulpfile.tsx": "_gulp_medium-blue_l",
 			"procfile": "_heroku_medium-purple_l",
 			"aptfile": "_heroku_medium-purple_l",
+			"brewfile": "_brew_auto-orange_l",
 			"ionic.project": "_ionic_medium-blue_l",
 			"ionic.config.json": "_ionic_medium-blue_l",
 			"root": "_isabelle_dark-blue_l",
@@ -33217,6 +33801,8 @@
 			"mkfile": "_checklist_medium-yellow_l",
 			"qmake": "_checklist_dark-blue_l",
 			"deps": "_checklist_dark-blue_l",
+			"man.template": "_manpage_dark-green_l",
+			"mdoc.template": "_manpage_dark-green_l",
 			"troffrc": "_manpage_dark-green_l",
 			"troffrc-end": "_manpage_dark-green_l",
 			"eqnrc": "_manpage_dark-green_l",
@@ -33322,6 +33908,9 @@
 			"nukefile": "_recycle_dark-green_l",
 			"nuxt.config.js": "_nuxt_medium-cyan_l",
 			"nuxt.config.ts": "_nuxt_medium-cyan_l",
+			"+contents": "_openbsd_auto-orange_l",
+			"+desc": "_openbsd_auto-orange_l",
+			"+display": "_openbsd_auto-orange_l",
 			"cargo.toml": "_package_light-orange_l",
 			"cargo.lock": "_package_dark-orange_l",
 			"pubspec.lock": "_package_medium-blue_l",
@@ -33591,6 +34180,8 @@
 			"passwd": "_key_dark-green_l",
 			"master.passwd": "_key_dark-green_l",
 			"git-credential-osxkeychain": "_key_medium-green_l",
+			"bazel.rc": "_bazel_dark-green_l",
+			"bazel.bazelrc": "_bazel_dark-green_l",
 			"stdlib.js": "_stdlibjs_medium-orange_l",
 			"stdlib.cjs": "_stdlibjs_medium-orange_l",
 			"stdlib.mjs": "_stdlibjs_medium-orange_l",
@@ -33660,6 +34251,14 @@
 			"_tests.litcoffee": "_test-coffee_auto-maroon_l",
 			"_tests.iced": "_test-coffee_auto-maroon_l",
 			"_tests.cjsx": "_test-coffee_auto-maroon_l",
+			"-spec.sh": "_test-generic_medium-green_l",
+			"-specs.sh": "_test-generic_medium-green_l",
+			"-test.sh": "_test-generic_medium-green_l",
+			"-tests.sh": "_test-generic_medium-green_l",
+			"_spec.sh": "_test-generic_medium-green_l",
+			"_specs.sh": "_test-generic_medium-green_l",
+			"_test.sh": "_test-generic_medium-green_l",
+			"_tests.sh": "_test-generic_medium-green_l",
 			"-spec.go": "_test-go_auto-cyan_l",
 			"-specs.go": "_test-go_auto-cyan_l",
 			"-test.go": "_test-go_auto-cyan_l",
@@ -33833,11 +34432,24 @@
 			"terminal_saved output": "_icon-file-text_medium-maroon_l",
 			"terminal_saved-output": "_icon-file-text_medium-maroon_l",
 			"terminal_saved_output": "_icon-file-text_medium-maroon_l",
+			"\\share\\operator": "_icon-file-text_dark-red_l",
+			"\\share\\mail.help": "_icon-file-text_dark-red_l",
+			"\\share\\mail.tildehelp": "_icon-file-text_dark-red_l",
+			"\\share\\misc\\operator": "_icon-file-text_dark-red_l",
+			"\\share\\misc\\mail.help": "_icon-file-text_dark-red_l",
+			"\\share\\misc\\mail.tildehelp": "_icon-file-text_dark-red_l",
+			"/share/operator": "_icon-file-text_dark-red_l",
+			"/share/mail.help": "_icon-file-text_dark-red_l",
+			"/share/mail.tildehelp": "_icon-file-text_dark-red_l",
+			"/share/misc/operator": "_icon-file-text_dark-red_l",
+			"/share/misc/mail.help": "_icon-file-text_dark-red_l",
+			"/share/misc/mail.tildehelp": "_icon-file-text_dark-red_l",
 			"bug-report": "_icon-file-text_medium-red_l",
 			"fdl": "_icon-file-text_medium-red_l",
 			"for-release": "_icon-file-text_medium-red_l",
 			"tests": "_icon-file-text_medium-red_l",
 			"thorfile": "_thor_dark-orange_l",
+			"tiltfile": "_tilt_medium-green_l",
 			"_tmux.conf": "_tmux_medium-green_l",
 			"tmux.conf": "_tmux_medium-green_l",
 			" tgitconfig": "_tortoise_medium-red_l",
@@ -33965,6 +34577,10 @@
 			"/ucd/.txt": "_unicode_medium-red_l",
 			"\\unidata\\.txt": "_unicode_medium-red_l",
 			"\\ucd\\.txt": "_unicode_medium-red_l",
+			"units.lib": "_scales_auto-green_l",
+			"unitshistory": "_scales_auto-red_l",
+			"units-history": "_scales_auto-red_l",
+			"units_history": "_scales_auto-red_l",
 			"d8": "_v8_medium-blue_l",
 			"v8": "_v8_medium-blue_l",
 			"v8-": "_v8_medium-blue_l",
@@ -34056,5 +34672,5 @@
 			"node_modules": "_node_medium-green_l"
 		}
 	},
-	"version": "https://github.com/file-icons/vscode/commit/28311bf709c388f778d6e93629102ce7510f42e6"
+	"version": "https://github.com/file-icons/vscode/commit/b626c0de2b2b73dbaec5260c40612c6615e40c18"
 }
