@@ -26064,6 +26064,7 @@
 		"-test.js": "_test-js_auto-yellow",
 		"tests.js": "_test-js_auto-yellow",
 		"test.js": "_test-js_auto-yellow",
+		"spec.js": "_test-js_auto-yellow",
 		"_tests.cjs": "_test-js_auto-yellow",
 		"_test.cjs": "_test-js_auto-yellow",
 		"-tests.cjs": "_test-js_auto-yellow",
