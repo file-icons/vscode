@@ -67,6 +67,27 @@
 	],
 	
 	"_test-js_auto-yellow": [
+		"_specs.js",
+		"_spec.js",
+		"-specs.js",
+		"-spec.js",
+		"specs.js",
+		"spec.js",
+		
+		"_specs.cjs",
+		"_spec.cjs",
+		"-specs.cjs",
+		"-spec.cjs",
+		"specs.cjs",
+		"spec.cjs",
+		
+		"_specs.mjs",
+		"_spec.mjs",
+		"-specs.mjs",
+		"-spec.mjs",
+		"specs.mjs",
+		"spec.mjs",
+		
 		"_tests.js",
 		"_test.js",
 		"-tests.js",
@@ -90,6 +111,20 @@
 	],
 	
 	"_test-ts_auto-blue": [
+		"_specs.ts",
+		"_spec.ts",
+		"-specs.ts",
+		"-spec.ts",
+		"specs.ts",
+		"spec.ts",
+		
+		"_specs.tsx",
+		"_spec.tsx",
+		"-specs.tsx",
+		"-spec.tsx",
+		"specs.tsx",
+		"spec.tsx",
+		
 		"_tests.ts",
 		"_test.ts",
 		"-tests.ts",
