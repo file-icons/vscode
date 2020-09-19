@@ -1712,6 +1712,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_apollo": {
+			"fontCharacter": "\\1f110",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_apollo_l": {
+			"fontCharacter": "\\1f110",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_apple": {
 			"fontCharacter": "\\e925",
 			"fontColor": "#cccccc",
@@ -3819,6 +3829,16 @@
 		},
 		"_fthtml_l": {
 			"fontCharacter": "\\eb97",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_ftr": {
+			"fontCharacter": "\\2933",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_ftr_l": {
+			"fontCharacter": "\\2933",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -6072,6 +6092,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_openexr": {
+			"fontCharacter": "\\1f127",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_openexr_l": {
+			"fontCharacter": "\\1f127",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_opengl": {
 			"fontCharacter": "\\ea7a",
 			"fontColor": "#cccccc",
@@ -6119,6 +6149,16 @@
 		},
 		"_openvpn_l": {
 			"fontCharacter": "\\eaf3",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_openzfs": {
+			"fontCharacter": "\\1d419",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_openzfs_l": {
+			"fontCharacter": "\\1d419",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -7089,6 +7129,16 @@
 		},
 		"_rstudio_l": {
 			"fontCharacter": "\\24c7",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_rsync": {
+			"fontCharacter": "\\eb9e",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_rsync_l": {
+			"fontCharacter": "\\eb9e",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -8372,6 +8422,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_vray": {
+			"fontCharacter": "\\24cb",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_vray_l": {
+			"fontCharacter": "\\24cb",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_vue": {
 			"fontCharacter": "\\e906",
 			"fontColor": "#cccccc",
@@ -8522,6 +8582,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_wine": {
+			"fontCharacter": "\\1f377",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_wine_l": {
+			"fontCharacter": "\\1f377",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_wix": {
 			"fontCharacter": "\\eab0",
 			"fontColor": "#cccccc",
@@ -8639,6 +8709,16 @@
 		},
 		"_yaml_l": {
 			"fontCharacter": "y",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_yamllint": {
+			"fontCharacter": "\\eb9d",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_yamllint_l": {
+			"fontCharacter": "\\eb9d",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -9519,6 +9599,16 @@
 		},
 		"_apl_medium-maroon_l": {
 			"fontCharacter": "\\234b",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_apollo_dark-blue": {
+			"fontCharacter": "\\1f110",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_apollo_dark-blue_l": {
+			"fontCharacter": "\\1f110",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -11442,22 +11532,22 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "fontawesome"
 		},
-		"_coffee_light-maroon": {
-			"fontCharacter": "\\f0f4",
-			"fontColor": "#cccccc",
-			"fontId": "fontawesome"
-		},
-		"_coffee_light-maroon_l": {
-			"fontCharacter": "\\f0f4",
-			"fontColor": "#6c6c6c",
-			"fontId": "fontawesome"
-		},
 		"_coffee_medium-blue": {
 			"fontCharacter": "\\f0f4",
 			"fontColor": "#cccccc",
 			"fontId": "fontawesome"
 		},
 		"_coffee_medium-blue_l": {
+			"fontCharacter": "\\f0f4",
+			"fontColor": "#6c6c6c",
+			"fontId": "fontawesome"
+		},
+		"_coffee_light-maroon": {
+			"fontCharacter": "\\f0f4",
+			"fontColor": "#cccccc",
+			"fontId": "fontawesome"
+		},
+		"_coffee_light-maroon_l": {
 			"fontCharacter": "\\f0f4",
 			"fontColor": "#6c6c6c",
 			"fontId": "fontawesome"
@@ -13872,6 +13962,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_ftr_medium-red": {
+			"fontCharacter": "\\2933",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_ftr_medium-red_l": {
+			"fontCharacter": "\\2933",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_fortran_medium-maroon": {
 			"fontCharacter": "\\e90a",
 			"fontColor": "#cccccc",
@@ -15748,16 +15848,6 @@
 			"fontId": "octicons"
 		},
 		"_image_light-blue_l": {
-			"fontCharacter": "\\f012",
-			"fontColor": "#6c6c6c",
-			"fontId": "octicons"
-		},
-		"_image_dark-yellow": {
-			"fontCharacter": "\\f012",
-			"fontColor": "#cccccc",
-			"fontId": "octicons"
-		},
-		"_image_dark-yellow_l": {
 			"fontCharacter": "\\f012",
 			"fontColor": "#6c6c6c",
 			"fontId": "octicons"
@@ -19752,6 +19842,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_openexr_auto-pink": {
+			"fontCharacter": "\\1f127",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_openexr_auto-pink_l": {
+			"fontCharacter": "\\1f127",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_opengl_dark-cyan": {
 			"fontCharacter": "\\ea7a",
 			"fontColor": "#cccccc",
@@ -19979,6 +20079,16 @@
 		},
 		"_openvpn_medium-orange_l": {
 			"fontCharacter": "\\eaf3",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_openzfs_dark-blue": {
+			"fontCharacter": "\\1d419",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_openzfs_dark-blue_l": {
+			"fontCharacter": "\\1d419",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -22072,6 +22182,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_rsync_dark-purple": {
+			"fontCharacter": "\\eb9e",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_rsync_dark-purple_l": {
+			"fontCharacter": "\\eb9e",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_ruby_medium-red": {
 			"fontCharacter": "\\f047",
 			"fontColor": "#cccccc",
@@ -23468,6 +23588,16 @@
 			"fontId": "fontawesome"
 		},
 		"_toc_auto-cyan_l": {
+			"fontCharacter": "\\f03a",
+			"fontColor": "#6c6c6c",
+			"fontId": "fontawesome"
+		},
+		"_toc_medium-maroon": {
+			"fontCharacter": "\\f03a",
+			"fontColor": "#cccccc",
+			"fontId": "fontawesome"
+		},
+		"_toc_medium-maroon_l": {
 			"fontCharacter": "\\f03a",
 			"fontColor": "#6c6c6c",
 			"fontId": "fontawesome"
@@ -25162,6 +25292,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_vray_auto-grey": {
+			"fontCharacter": "\\24cb",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_vray_auto-grey_l": {
+			"fontCharacter": "\\24cb",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_vsts_medium-blue": {
 			"fontCharacter": "\\eac0",
 			"fontColor": "#cccccc",
@@ -25702,6 +25842,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_yamllint_medium-green": {
+			"fontCharacter": "\\eb9d",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_yamllint_medium-green_l": {
+			"fontCharacter": "\\eb9d",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_yandex_medium-red": {
 			"fontCharacter": "\\42f",
 			"fontColor": "#cccccc",
@@ -26009,6 +26159,16 @@
 		},
 		"_vagrant_dark-cyan_l": {
 			"fontCharacter": "V",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_wine_dark-red": {
+			"fontCharacter": "\\1f377",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_wine_dark-red_l": {
+			"fontCharacter": "\\1f377",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		}
@@ -26667,6 +26827,7 @@
 		"cjsx": "_coffee_dark-maroon",
 		"coffee.ecr": "_coffee_medium-cyan",
 		"coffee.erb": "_coffee_medium-red",
+		"coffee.md": "_coffee_medium-blue",
 		"litcoffee": "_coffee_light-maroon",
 		"iced": "_coffee_medium-blue",
 		"cfc": "_cf_light-cyan",
@@ -27067,6 +27228,7 @@
 		"pe": "_ff_medium-orange",
 		"sfd": "_ff_dark-blue",
 		"issuetracker": "_fork_medium-blue",
+		"trm": "_ftr_medium-red",
 		"f": "_fortran_medium-maroon",
 		"f90": "_fortran_medium-green",
 		"f03": "_fortran_medium-red",
@@ -27125,6 +27287,8 @@
 		"4th": "_code_medium-blue",
 		"adml": "_code_dark-blue",
 		"admx": "_code_dark-blue",
+		"asl": "_code_medium-blue",
+		"dsl": "_code_medium-blue",
 		"aepx": "_code_medium-purple",
 		"appxmanifest": "_code_medium-orange",
 		"ash": "_code_medium-cyan",
@@ -27301,6 +27465,11 @@
 		"graphql": "_graphql_medium-pink",
 		"graphqls": "_graphql_medium-red",
 		"gql": "_graphql_medium-purple",
+		"graphqlrc": "_graphql_medium-pink",
+		"graphqlrc.json": "_graphql_medium-pink",
+		"graphqlrc.js": "_graphql_medium-pink",
+		"graphqlrc.yml": "_graphql_medium-pink",
+		"graphqlrc.yaml": "_graphql_medium-pink",
 		"gv": "_graphviz_medium-blue",
 		"plantuml": "_graphviz_medium-orange",
 		"iuml": "_graphviz_medium-orange",
@@ -27407,7 +27576,6 @@
 		"djvu": "_image_medium-purple",
 		"dpx": "_image_dark-orange",
 		"ecw": "_image_light-blue",
-		"exr": "_image_dark-yellow",
 		"fig": "_image_dark-orange",
 		"fit": "_image_medium-cyan",
 		"fits": "_image_medium-cyan",
@@ -27916,6 +28084,7 @@
 		"pgm": "_image_medium-grey",
 		"ppm": "_image_dark-maroon",
 		"pnm": "_image_medium-blue",
+		"nginx": "_nginx",
 		"nginxconf": "_nginx",
 		"nib": "_nib_dark-orange",
 		"5c": "_nickle_auto-grey",
@@ -27991,6 +28160,7 @@
 		"opencl": "_opencl_medium-red",
 		"p": "_progress_medium-green",
 		"abl": "_progress_medium-green",
+		"exr": "_openexr_auto-pink",
 		"glsl": "_opengl_dark-cyan",
 		"glslv": "_opengl_dark-cyan",
 		"gsh": "_opengl_dark-cyan",
@@ -28324,6 +28494,7 @@
 		"rbw": "_ruby_dark-red",
 		"rbx": "_ruby_dark-red",
 		"builder": "_ruby_dark-red",
+		"simplecov": "_ruby_medium-red",
 		"watchr": "_ruby_dark-yellow",
 		"rubocop.yml": "_rubocop_dark-red",
 		"rubocop.yaml": "_rubocop_dark-red",
@@ -28858,6 +29029,8 @@
 		"nvimrc": "_vim_medium-green",
 		"viminfo": "_vim_dark-green",
 		"vmb": "_vim_dark-green",
+		"exrc": "_vim_medium-green",
+		"nexrc": "_vim_medium-green",
 		"ova": "_virtualbox_medium-blue",
 		"ovf": "_virtualbox_medium-purple",
 		"vhd": "_virtualbox_medium-green",
@@ -28899,6 +29072,7 @@
 		"vmtm": "_vmware_auto-red",
 		"vmx": "_vmware_auto-orange",
 		"vmxf": "_vmware_auto-orange",
+		"vrimg": "_vray_auto-grey",
 		"vsts-ci.yml": "_vsts_medium-blue",
 		"vsts-ci.yaml": "_vsts_medium-blue",
 		"vue": "_vue_light-green",
@@ -29022,6 +29196,7 @@
 		"yaml.mysql": "_yaml_medium-orange",
 		"yml.sed": "_yaml_dark-green",
 		"yaml.sed": "_yaml_dark-green",
+		"yamllint": "_yamllint_medium-green",
 		"yaspellerrc": "_yandex_medium-red",
 		"yaspellerrc.": "_yandex_medium-red",
 		"yaspeller.json": "_yandex_medium-red",
@@ -29099,6 +29274,7 @@
 		"vagrant": "_vagrant_medium-cyan",
 		"vagrant.d": "_vagrant_dark-cyan",
 		"vscode": "_vs",
+		"wine": "_wine_dark-red",
 		"yarn": "_yarn_medium-blue"
 	},
 	"fileNames": {
@@ -29137,6 +29313,7 @@
 		"apache2/magic": "_apache_medium-purple",
 		"api-extractor.json": "_apiextractor_light-blue,medium-blue",
 		"api-extractor-base.json": "_apiextractor_light-blue,medium-blue",
+		"apollo.config.js": "_apollo_dark-blue",
 		"appcelerator.js": "_appcelerator_medium-red",
 		"appcelerator.cjs": "_appcelerator_medium-red",
 		"appcelerator.mjs": "_appcelerator_medium-red",
@@ -29538,6 +29715,7 @@
 		"pythonconfig.json": "_config-python_dark-blue",
 		"python-config.json": "_config-python_dark-blue",
 		"pyproject.toml": "_config-python_dark-blue",
+		"poetry.lock": "_config-python_dark-blue",
 		"jsxconfig.json": "_config-react_auto-blue",
 		"rubyconfig.json": "_config-ruby_auto-red",
 		"rustconfig.json": "_config-rust_medium-maroon",
@@ -29674,6 +29852,7 @@
 		"glide.yml": "_glide_light-orange",
 		"glide.yaml": "_glide_light-orange",
 		"gradlew": "_gradle_dark-purple",
+		"graphql.config.js": "_graphql_medium-pink",
 		"greenkeeper.json": "_greenkeeper_medium-green",
 		"gruntfile.js": "_grunt_medium-yellow",
 		"gruntfile.cjs": "_grunt_medium-yellow",
@@ -29753,6 +29932,7 @@
 		"lefthook-local.yml": "_lefthook_medium-red",
 		"lefthook-local.yaml": "_lefthook_medium-red",
 		"lerna.json": "_lerna_auto-blue",
+		"lexer.x": "_lex_medium-cyan",
 		"lgtm.yml": "_lgtm_dark-purple",
 		"lgtm.yaml": "_lgtm_dark-purple",
 		"lighthouserc.json": "_lighthouse_dark-blue",
@@ -30050,6 +30230,7 @@
 		"riemann.config": "_clojure_auto-maroon",
 		"robots.txt": "_robots_dark-cyan",
 		"rollup.config.": "_rollup_medium-red",
+		"rsyncd.conf": "_rsync_dark-purple",
 		"irbrc": "_ruby_medium-red",
 		"gemrc": "_ruby_medium-red",
 		"pryrc": "_ruby_medium-red",
@@ -30499,49 +30680,28 @@
 		"unibeautify.config.js": "_unibeautify",
 		"unibeautify.config.cjs": "_unibeautify",
 		"unibeautify.config.mjs": "_unibeautify",
-		"arabicshaping.txt": "_unicode_medium-red",
-		"bidibrackets.txt": "_unicode_medium-red",
-		"bidicharactertest.txt": "_unicode_medium-red",
-		"bidimirroring.txt": "_unicode_medium-red",
-		"biditest.txt": "_unicode_medium-red",
-		"blocks.txt": "_unicode_medium-red",
-		"cjkradicals.txt": "_unicode_medium-red",
-		"casefolding.txt": "_unicode_medium-red",
-		"compositionexclusions.txt": "_unicode_medium-red",
-		"derivedage.txt": "_unicode_medium-red",
-		"derivedcoreproperties.txt": "_unicode_medium-red",
-		"derivednormalizationprops.txt": "_unicode_medium-red",
-		"eastasianwidth.txt": "_unicode_medium-red",
-		"emojisources.txt": "_unicode_medium-red",
-		"equivalentunifiedideograph.txt": "_unicode_medium-red",
-		"hangulsyllabletype.txt": "_unicode_medium-red",
-		"index.txt": "_unicode_medium-red",
-		"indicpositionalcategory.txt": "_unicode_medium-red",
-		"indicsyllabiccategory.txt": "_unicode_medium-red",
-		"jamo.txt": "_unicode_medium-red",
-		"linebreak.txt": "_unicode_medium-red",
-		"namealiases.txt": "_unicode_medium-red",
-		"namedsequences.txt": "_unicode_medium-red",
-		"namedsequencesprov.txt": "_unicode_medium-red",
+		"nameslist.lst": "_unicode_medium-red",
 		"nameslist.txt": "_unicode_medium-red",
-		"normalizationcorrections.txt": "_unicode_medium-red",
-		"normalizationtest.txt": "_unicode_medium-red",
-		"nushusources.txt": "_unicode_medium-red",
-		"proplist.txt": "_unicode_medium-red",
-		"propertyaliases.txt": "_unicode_medium-red",
-		"propertyvaluealiases.txt": "_unicode_medium-red",
-		"scripts.txt": "_unicode_medium-red",
-		"scriptextensions.txt": "_unicode_medium-red",
-		"specialcasing.txt": "_unicode_medium-red",
-		"standardizedvariants.txt": "_unicode_medium-red",
-		"tangutsources.txt": "_unicode_medium-red",
-		"unicodedata.txt": "_unicode_medium-red",
-		"usourcedata.txt": "_unicode_medium-red",
-		"verticalorientation.txt": "_unicode_medium-red",
 		"/unidata/.txt": "_unicode_medium-red",
+		"/unidata/auxiliary/.txt": "_unicode_medium-red",
+		"/unidata/emoji/.txt": "_unicode_medium-red",
+		"/unidata/extracted/.txt": "_unicode_medium-red",
+		"/unidata/unihan/.txt": "_unicode_medium-red",
 		"/ucd/.txt": "_unicode_medium-red",
+		"/ucd/auxiliary/.txt": "_unicode_medium-red",
+		"/ucd/emoji/.txt": "_unicode_medium-red",
+		"/ucd/extracted/.txt": "_unicode_medium-red",
+		"/ucd/unihan/.txt": "_unicode_medium-red",
 		"\\unidata\\.txt": "_unicode_medium-red",
+		"\\unidata\\auxiliary\\.txt": "_unicode_medium-red",
+		"\\unidata\\emoji\\.txt": "_unicode_medium-red",
+		"\\unidata\\extracted\\.txt": "_unicode_medium-red",
+		"\\unidata\\unihan\\.txt": "_unicode_medium-red",
 		"\\ucd\\.txt": "_unicode_medium-red",
+		"\\ucd\\auxiliary\\.txt": "_unicode_medium-red",
+		"\\ucd\\emoji\\.txt": "_unicode_medium-red",
+		"\\ucd\\extracted\\.txt": "_unicode_medium-red",
+		"\\ucd\\unihan\\.txt": "_unicode_medium-red",
 		"units.lib": "_scales_auto-green",
 		"unitshistory": "_scales_auto-red",
 		"units-history": "_scales_auto-red",
@@ -30564,6 +30724,8 @@
 		"gviminfo": "_vim_dark-green",
 		"nvimrc": "_vim_dark-green",
 		"nviminfo": "_vim_dark-green",
+		"exrc": "_vim_medium-green",
+		"nexrc": "_vim_medium-green",
 		"vue.config.js": "_vue_light-green",
 		"vue.config.cjs": "_vue_light-green",
 		"vue.config.mjs": "_vue_light-green",
@@ -31296,6 +31458,7 @@
 			"cjsx": "_coffee_dark-maroon_l",
 			"coffee.ecr": "_coffee_medium-cyan_l",
 			"coffee.erb": "_coffee_medium-red_l",
+			"coffee.md": "_coffee_medium-blue_l",
 			"litcoffee": "_coffee_light-maroon_l",
 			"iced": "_coffee_medium-blue_l",
 			"cfc": "_cf_light-cyan_l",
@@ -31696,6 +31859,7 @@
 			"pe": "_ff_medium-orange_l",
 			"sfd": "_ff_dark-blue_l",
 			"issuetracker": "_fork_medium-blue_l",
+			"trm": "_ftr_medium-red_l",
 			"f": "_fortran_medium-maroon_l",
 			"f90": "_fortran_medium-green_l",
 			"f03": "_fortran_medium-red_l",
@@ -31754,6 +31918,8 @@
 			"4th": "_code_medium-blue_l",
 			"adml": "_code_dark-blue_l",
 			"admx": "_code_dark-blue_l",
+			"asl": "_code_medium-blue_l",
+			"dsl": "_code_medium-blue_l",
 			"aepx": "_code_medium-purple_l",
 			"appxmanifest": "_code_medium-orange_l",
 			"ash": "_code_medium-cyan_l",
@@ -31930,6 +32096,11 @@
 			"graphql": "_graphql_medium-pink_l",
 			"graphqls": "_graphql_medium-red_l",
 			"gql": "_graphql_medium-purple_l",
+			"graphqlrc": "_graphql_medium-pink_l",
+			"graphqlrc.json": "_graphql_medium-pink_l",
+			"graphqlrc.js": "_graphql_medium-pink_l",
+			"graphqlrc.yml": "_graphql_medium-pink_l",
+			"graphqlrc.yaml": "_graphql_medium-pink_l",
 			"gv": "_graphviz_medium-blue_l",
 			"plantuml": "_graphviz_medium-orange_l",
 			"iuml": "_graphviz_medium-orange_l",
@@ -32036,7 +32207,6 @@
 			"djvu": "_image_medium-purple_l",
 			"dpx": "_image_dark-orange_l",
 			"ecw": "_image_light-blue_l",
-			"exr": "_image_dark-yellow_l",
 			"fig": "_image_dark-orange_l",
 			"fit": "_image_medium-cyan_l",
 			"fits": "_image_medium-cyan_l",
@@ -32545,6 +32715,7 @@
 			"pgm": "_image_medium-grey_l",
 			"ppm": "_image_dark-maroon_l",
 			"pnm": "_image_medium-blue_l",
+			"nginx": "_nginx_l",
 			"nginxconf": "_nginx_l",
 			"nib": "_nib_dark-orange_l",
 			"5c": "_nickle_auto-grey_l",
@@ -32620,6 +32791,7 @@
 			"opencl": "_opencl_medium-red_l",
 			"p": "_progress_medium-green_l",
 			"abl": "_progress_medium-green_l",
+			"exr": "_openexr_auto-pink_l",
 			"glsl": "_opengl_dark-cyan_l",
 			"glslv": "_opengl_dark-cyan_l",
 			"gsh": "_opengl_dark-cyan_l",
@@ -32953,6 +33125,7 @@
 			"rbw": "_ruby_dark-red_l",
 			"rbx": "_ruby_dark-red_l",
 			"builder": "_ruby_dark-red_l",
+			"simplecov": "_ruby_medium-red_l",
 			"watchr": "_ruby_dark-yellow_l",
 			"rubocop.yml": "_rubocop_dark-red_l",
 			"rubocop.yaml": "_rubocop_dark-red_l",
@@ -33487,6 +33660,8 @@
 			"nvimrc": "_vim_medium-green_l",
 			"viminfo": "_vim_dark-green_l",
 			"vmb": "_vim_dark-green_l",
+			"exrc": "_vim_medium-green_l",
+			"nexrc": "_vim_medium-green_l",
 			"ova": "_virtualbox_medium-blue_l",
 			"ovf": "_virtualbox_medium-purple_l",
 			"vhd": "_virtualbox_medium-green_l",
@@ -33528,6 +33703,7 @@
 			"vmtm": "_vmware_auto-red_l",
 			"vmx": "_vmware_auto-orange_l",
 			"vmxf": "_vmware_auto-orange_l",
+			"vrimg": "_vray_auto-grey_l",
 			"vsts-ci.yml": "_vsts_medium-blue_l",
 			"vsts-ci.yaml": "_vsts_medium-blue_l",
 			"vue": "_vue_light-green_l",
@@ -33651,6 +33827,7 @@
 			"yaml.mysql": "_yaml_medium-orange_l",
 			"yml.sed": "_yaml_dark-green_l",
 			"yaml.sed": "_yaml_dark-green_l",
+			"yamllint": "_yamllint_medium-green_l",
 			"yaspellerrc": "_yandex_medium-red_l",
 			"yaspellerrc.": "_yandex_medium-red_l",
 			"yaspeller.json": "_yandex_medium-red_l",
@@ -33728,6 +33905,7 @@
 			"vagrant": "_vagrant_medium-cyan_l",
 			"vagrant.d": "_vagrant_dark-cyan_l",
 			"vscode": "_vs_l",
+			"wine": "_wine_dark-red_l",
 			"yarn": "_yarn_medium-blue_l"
 		},
 		"fileNames": {
@@ -33766,6 +33944,7 @@
 			"apache2/magic": "_apache_medium-purple_l",
 			"api-extractor.json": "_apiextractor_light-blue,medium-blue_l",
 			"api-extractor-base.json": "_apiextractor_light-blue,medium-blue_l",
+			"apollo.config.js": "_apollo_dark-blue_l",
 			"appcelerator.js": "_appcelerator_medium-red_l",
 			"appcelerator.cjs": "_appcelerator_medium-red_l",
 			"appcelerator.mjs": "_appcelerator_medium-red_l",
@@ -34167,6 +34346,7 @@
 			"pythonconfig.json": "_config-python_dark-blue_l",
 			"python-config.json": "_config-python_dark-blue_l",
 			"pyproject.toml": "_config-python_dark-blue_l",
+			"poetry.lock": "_config-python_dark-blue_l",
 			"jsxconfig.json": "_config-react_auto-blue_l",
 			"rubyconfig.json": "_config-ruby_auto-red_l",
 			"rustconfig.json": "_config-rust_medium-maroon_l",
@@ -34303,6 +34483,7 @@
 			"glide.yml": "_glide_light-orange_l",
 			"glide.yaml": "_glide_light-orange_l",
 			"gradlew": "_gradle_dark-purple_l",
+			"graphql.config.js": "_graphql_medium-pink_l",
 			"greenkeeper.json": "_greenkeeper_medium-green_l",
 			"gruntfile.js": "_grunt_medium-yellow_l",
 			"gruntfile.cjs": "_grunt_medium-yellow_l",
@@ -34382,6 +34563,7 @@
 			"lefthook-local.yml": "_lefthook_medium-red_l",
 			"lefthook-local.yaml": "_lefthook_medium-red_l",
 			"lerna.json": "_lerna_auto-blue_l",
+			"lexer.x": "_lex_medium-cyan_l",
 			"lgtm.yml": "_lgtm_dark-purple_l",
 			"lgtm.yaml": "_lgtm_dark-purple_l",
 			"lighthouserc.json": "_lighthouse_dark-blue_l",
@@ -34679,6 +34861,7 @@
 			"riemann.config": "_clojure_auto-maroon_l",
 			"robots.txt": "_robots_dark-cyan_l",
 			"rollup.config.": "_rollup_medium-red_l",
+			"rsyncd.conf": "_rsync_dark-purple_l",
 			"irbrc": "_ruby_medium-red_l",
 			"gemrc": "_ruby_medium-red_l",
 			"pryrc": "_ruby_medium-red_l",
@@ -35128,49 +35311,28 @@
 			"unibeautify.config.js": "_unibeautify_l",
 			"unibeautify.config.cjs": "_unibeautify_l",
 			"unibeautify.config.mjs": "_unibeautify_l",
-			"arabicshaping.txt": "_unicode_medium-red_l",
-			"bidibrackets.txt": "_unicode_medium-red_l",
-			"bidicharactertest.txt": "_unicode_medium-red_l",
-			"bidimirroring.txt": "_unicode_medium-red_l",
-			"biditest.txt": "_unicode_medium-red_l",
-			"blocks.txt": "_unicode_medium-red_l",
-			"cjkradicals.txt": "_unicode_medium-red_l",
-			"casefolding.txt": "_unicode_medium-red_l",
-			"compositionexclusions.txt": "_unicode_medium-red_l",
-			"derivedage.txt": "_unicode_medium-red_l",
-			"derivedcoreproperties.txt": "_unicode_medium-red_l",
-			"derivednormalizationprops.txt": "_unicode_medium-red_l",
-			"eastasianwidth.txt": "_unicode_medium-red_l",
-			"emojisources.txt": "_unicode_medium-red_l",
-			"equivalentunifiedideograph.txt": "_unicode_medium-red_l",
-			"hangulsyllabletype.txt": "_unicode_medium-red_l",
-			"index.txt": "_unicode_medium-red_l",
-			"indicpositionalcategory.txt": "_unicode_medium-red_l",
-			"indicsyllabiccategory.txt": "_unicode_medium-red_l",
-			"jamo.txt": "_unicode_medium-red_l",
-			"linebreak.txt": "_unicode_medium-red_l",
-			"namealiases.txt": "_unicode_medium-red_l",
-			"namedsequences.txt": "_unicode_medium-red_l",
-			"namedsequencesprov.txt": "_unicode_medium-red_l",
+			"nameslist.lst": "_unicode_medium-red_l",
 			"nameslist.txt": "_unicode_medium-red_l",
-			"normalizationcorrections.txt": "_unicode_medium-red_l",
-			"normalizationtest.txt": "_unicode_medium-red_l",
-			"nushusources.txt": "_unicode_medium-red_l",
-			"proplist.txt": "_unicode_medium-red_l",
-			"propertyaliases.txt": "_unicode_medium-red_l",
-			"propertyvaluealiases.txt": "_unicode_medium-red_l",
-			"scripts.txt": "_unicode_medium-red_l",
-			"scriptextensions.txt": "_unicode_medium-red_l",
-			"specialcasing.txt": "_unicode_medium-red_l",
-			"standardizedvariants.txt": "_unicode_medium-red_l",
-			"tangutsources.txt": "_unicode_medium-red_l",
-			"unicodedata.txt": "_unicode_medium-red_l",
-			"usourcedata.txt": "_unicode_medium-red_l",
-			"verticalorientation.txt": "_unicode_medium-red_l",
 			"/unidata/.txt": "_unicode_medium-red_l",
+			"/unidata/auxiliary/.txt": "_unicode_medium-red_l",
+			"/unidata/emoji/.txt": "_unicode_medium-red_l",
+			"/unidata/extracted/.txt": "_unicode_medium-red_l",
+			"/unidata/unihan/.txt": "_unicode_medium-red_l",
 			"/ucd/.txt": "_unicode_medium-red_l",
+			"/ucd/auxiliary/.txt": "_unicode_medium-red_l",
+			"/ucd/emoji/.txt": "_unicode_medium-red_l",
+			"/ucd/extracted/.txt": "_unicode_medium-red_l",
+			"/ucd/unihan/.txt": "_unicode_medium-red_l",
 			"\\unidata\\.txt": "_unicode_medium-red_l",
+			"\\unidata\\auxiliary\\.txt": "_unicode_medium-red_l",
+			"\\unidata\\emoji\\.txt": "_unicode_medium-red_l",
+			"\\unidata\\extracted\\.txt": "_unicode_medium-red_l",
+			"\\unidata\\unihan\\.txt": "_unicode_medium-red_l",
 			"\\ucd\\.txt": "_unicode_medium-red_l",
+			"\\ucd\\auxiliary\\.txt": "_unicode_medium-red_l",
+			"\\ucd\\emoji\\.txt": "_unicode_medium-red_l",
+			"\\ucd\\extracted\\.txt": "_unicode_medium-red_l",
+			"\\ucd\\unihan\\.txt": "_unicode_medium-red_l",
 			"units.lib": "_scales_auto-green_l",
 			"unitshistory": "_scales_auto-red_l",
 			"units-history": "_scales_auto-red_l",
@@ -35193,6 +35355,8 @@
 			"gviminfo": "_vim_dark-green_l",
 			"nvimrc": "_vim_dark-green_l",
 			"nviminfo": "_vim_dark-green_l",
+			"exrc": "_vim_medium-green_l",
+			"nexrc": "_vim_medium-green_l",
 			"vue.config.js": "_vue_light-green_l",
 			"vue.config.cjs": "_vue_light-green_l",
 			"vue.config.mjs": "_vue_light-green_l",
@@ -35272,5 +35436,5 @@
 			"node_modules": "_node_medium-green_l"
 		}
 	},
-	"version": "https://github.com/file-icons/vscode/commit/9b0097ceca9dad54abd29e323cc1b5ca1b980c73"
+	"version": "https://github.com/file-icons/vscode/commit/fa1c5330184ad83ffd9d6abf2f859bed57bb9a3f"
 }
