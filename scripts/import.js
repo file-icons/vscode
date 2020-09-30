@@ -327,6 +327,8 @@ const root = {
 		file: "_file_l",
 		folder: "_folder_l",
 		folderExpanded: "_folder_l",
+		rootFolder: "_fd_root_l",
+		rootFolderExpanded: "_fd_root_open_l",
 		fileExtensions: extensions_l,
 		fileNames: files_l,
 		folderNames: folders_l,

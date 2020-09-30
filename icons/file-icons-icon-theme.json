@@ -402,6 +402,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "fontawesome"
 		},
+		"_bitcoin": {
+			"fontCharacter": "\\f15a",
+			"fontColor": "#cccccc",
+			"fontId": "fontawesome"
+		},
+		"_bitcoin_l": {
+			"fontCharacter": "\\f15a",
+			"fontColor": "#6c6c6c",
+			"fontId": "fontawesome"
+		},
 		"_book-alt": {
 			"fontCharacter": "\\f02d",
 			"fontColor": "#cccccc",
@@ -5442,6 +5452,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_modernweb": {
+			"fontCharacter": "\\eb9f",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_modernweb_l": {
+			"fontCharacter": "\\eb9f",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_modula2": {
 			"fontCharacter": "\\e996",
 			"fontColor": "#cccccc",
@@ -7659,6 +7679,16 @@
 		},
 		"_stencil_l": {
 			"fontCharacter": "\\ea95",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_stitches": {
+			"fontCharacter": "\\eba0",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_stitches_l": {
+			"fontCharacter": "\\eba0",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -10571,6 +10601,16 @@
 			"fontCharacter": "\\e603",
 			"fontColor": "#6a9fb5",
 			"fontId": "devopicons"
+		},
+		"_bitcoin_medium-orange": {
+			"fontCharacter": "\\f15a",
+			"fontColor": "#d28445",
+			"fontId": "fontawesome"
+		},
+		"_bitcoin_medium-orange_l": {
+			"fontCharacter": "\\f15a",
+			"fontColor": "#d28445",
+			"fontId": "fontawesome"
 		},
 		"_bithound_medium-red": {
 			"fontCharacter": "\\ea2a",
@@ -18810,6 +18850,16 @@
 			"fontColor": "#ac4142",
 			"fontId": "devopicons"
 		},
+		"_modernweb_medium-blue": {
+			"fontCharacter": "\\eb9f",
+			"fontColor": "#6a9fb5",
+			"fontId": "file-icons"
+		},
+		"_modernweb_medium-blue_l": {
+			"fontCharacter": "\\eb9f",
+			"fontColor": "#6a9fb5",
+			"fontId": "file-icons"
+		},
 		"_modo_medium-cyan": {
 			"fontCharacter": "\\f01f",
 			"fontColor": "#75b5aa",
@@ -23326,6 +23376,16 @@
 		"_stdlibjs_medium-blue_l": {
 			"fontCharacter": "\\eb70",
 			"fontColor": "#6a9fb5",
+			"fontId": "file-icons"
+		},
+		"_stitches_medium-purple": {
+			"fontCharacter": "\\eba0",
+			"fontColor": "#aa759f",
+			"fontId": "file-icons"
+		},
+		"_stitches_medium-purple_l": {
+			"fontCharacter": "\\eba0",
+			"fontColor": "#aa759f",
 			"fontId": "file-icons"
 		},
 		"_storybook_medium-orange": {
@@ -29224,6 +29284,7 @@
 		"atom-ci": "_atom_dark-green",
 		"azure-pipelines": "_azurepipelines",
 		"bzr": "_bazaar_auto-yellow",
+		"bitcoin": "_bitcoin_medium-orange",
 		"chef": "_chef",
 		"circleci": "_circleci",
 		"cpan": "_cpan_medium-blue",
@@ -29331,6 +29392,7 @@
 		"backbonedev.mjs": "_backbone_dark-blue",
 		"bitbucket-pipelines.yml": "_bitbucket_medium-blue",
 		"bitbucket-pipelines.yaml": "_bitbucket_medium-blue",
+		"bitcoin.conf": "_bitcoin_medium-orange",
 		"makefile.boot": "_boot_auto-green",
 		"bower.json": "_bower_medium-yellow,medium-orange",
 		"bowerfile": "_bower_medium-yellow,medium-orange",
@@ -29995,6 +30057,12 @@
 		"mocha.min.less": "_mocha_medium-red",
 		"mocha.min.styl": "_mocha_medium-red",
 		"mocha.opts": "_mocha_light-maroon",
+		"web-dev-server.config.js": "_modernweb_medium-blue",
+		"web-dev-server.config.cjs": "_modernweb_medium-blue",
+		"web-dev-server.config.mjs": "_modernweb_medium-blue",
+		"web-test-runner.config.js": "_modernweb_medium-blue",
+		"web-test-runner.config.cjs": "_modernweb_medium-blue",
+		"web-test-runner.config.mjs": "_modernweb_medium-blue",
 		"m3makefile": "_modula3_medium-red",
 		"m3overrides": "_modula3_medium-red",
 		"moleculer.config.js": "_moleculer_medium-blue",
@@ -30799,6 +30867,8 @@
 		"file": "_file_l",
 		"folder": "_folder_l",
 		"folderExpanded": "_folder_l",
+		"rootFolder": "_fd_root_l",
+		"rootFolderExpanded": "_fd_root_open_l",
 		"fileExtensions": {
 			"1": "_manpage_dark-green_l",
 			"2": "_manpage_dark-green_l",
@@ -33855,6 +33925,7 @@
 			"atom-ci": "_atom_dark-green_l",
 			"azure-pipelines": "_azurepipelines_l",
 			"bzr": "_bazaar_auto-yellow_l",
+			"bitcoin": "_bitcoin_medium-orange_l",
 			"chef": "_chef_l",
 			"circleci": "_circleci_l",
 			"cpan": "_cpan_medium-blue_l",
@@ -33962,6 +34033,7 @@
 			"backbonedev.mjs": "_backbone_dark-blue_l",
 			"bitbucket-pipelines.yml": "_bitbucket_medium-blue_l",
 			"bitbucket-pipelines.yaml": "_bitbucket_medium-blue_l",
+			"bitcoin.conf": "_bitcoin_medium-orange_l",
 			"makefile.boot": "_boot_auto-green_l",
 			"bower.json": "_bower_medium-yellow,medium-orange_l",
 			"bowerfile": "_bower_medium-yellow,medium-orange_l",
@@ -34626,6 +34698,12 @@
 			"mocha.min.less": "_mocha_medium-red_l",
 			"mocha.min.styl": "_mocha_medium-red_l",
 			"mocha.opts": "_mocha_light-maroon_l",
+			"web-dev-server.config.js": "_modernweb_medium-blue_l",
+			"web-dev-server.config.cjs": "_modernweb_medium-blue_l",
+			"web-dev-server.config.mjs": "_modernweb_medium-blue_l",
+			"web-test-runner.config.js": "_modernweb_medium-blue_l",
+			"web-test-runner.config.cjs": "_modernweb_medium-blue_l",
+			"web-test-runner.config.mjs": "_modernweb_medium-blue_l",
 			"m3makefile": "_modula3_medium-red_l",
 			"m3overrides": "_modula3_medium-red_l",
 			"moleculer.config.js": "_moleculer_medium-blue_l",
@@ -35426,5 +35504,5 @@
 			"node_modules": "_node_medium-green_l"
 		}
 	},
-	"version": "https://github.com/file-icons/vscode/commit/fa1c5330184ad83ffd9d6abf2f859bed57bb9a3f"
+	"version": "https://github.com/file-icons/vscode/commit/674aaa06298077bb5b752d95f216bb05ba13f5fc"
 }
