@@ -2342,6 +2342,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_calva": {
+			"fontCharacter": "\\eba1",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_calva_l": {
+			"fontCharacter": "\\eba1",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_carthage": {
 			"fontCharacter": "\\ea98",
 			"fontColor": "#cccccc",
@@ -4912,6 +4922,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_lark": {
+			"fontCharacter": "\\1316b",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_lark_l": {
+			"fontCharacter": "\\1316b",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_lasso": {
 			"fontCharacter": "\\e98c",
 			"fontColor": "#cccccc",
@@ -5979,6 +5999,16 @@
 		},
 		"_nuxt_l": {
 			"fontCharacter": "\\eaca",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_nwscript": {
+			"fontCharacter": "\\23ff",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_nwscript_l": {
+			"fontCharacter": "\\23ff",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -11172,6 +11202,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_calva_medium-maroon": {
+			"fontCharacter": "\\eba1",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_calva_medium-maroon_l": {
+			"fontCharacter": "\\eba1",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_carthage_dark-pink": {
 			"fontCharacter": "\\ea98",
 			"fontColor": "#cccccc",
@@ -15092,6 +15132,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_bnf_dark-yellow": {
+			"fontCharacter": "\\2a74",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_bnf_dark-yellow_l": {
+			"fontCharacter": "\\2a74",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_gf_medium-red": {
 			"fontCharacter": "\\e978",
 			"fontColor": "#cccccc",
@@ -16911,6 +16961,16 @@
 			"fontCharacter": "\\e63f",
 			"fontColor": "#6c6c6c",
 			"fontId": "devopicons"
+		},
+		"_lark_dark-blue": {
+			"fontCharacter": "\\1316b",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_lark_dark-blue_l": {
+			"fontCharacter": "\\1316b",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
 		},
 		"_lasso_dark-blue": {
 			"fontCharacter": "\\e98c",
@@ -19659,6 +19719,36 @@
 		},
 		"_nuxt_medium-cyan_l": {
 			"fontCharacter": "\\eaca",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_nwscript_dark-blue": {
+			"fontCharacter": "\\23ff",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_nwscript_dark-blue_l": {
+			"fontCharacter": "\\23ff",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_nwscript_dark-red": {
+			"fontCharacter": "\\23ff",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_nwscript_dark-red_l": {
+			"fontCharacter": "\\23ff",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_nwscript_medium-maroon": {
+			"fontCharacter": "\\23ff",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_nwscript_medium-maroon_l": {
+			"fontCharacter": "\\23ff",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -26251,6 +26341,7 @@
 		"80386": "_asm-intel_dark-blue",
 		"babel.config.esm.js": "_babel_medium-yellow",
 		"babel.config.json": "_babel_medium-yellow",
+		"babel.config.js": "_babel_medium-yellow",
 		"eslintrc.cjs": "_eslint_light-purple",
 		"eslintrc.js": "_eslint_light-purple",
 		"eslintrc.json": "_eslint_light-purple",
@@ -26827,6 +26918,7 @@
 		"caffe2model": "_caffe2_dark-blue",
 		"cake": "_cake_medium-yellow",
 		"ctp": "_cakephp_medium-red",
+		"calva-repl": "_calva_medium-maroon",
 		"ceylon": "_ceylon_medium-orange",
 		"chpl": "_chapel_medium-green",
 		"todo": "_checklist_medium-yellow",
@@ -27028,6 +27120,7 @@
 		"sy": "_database_dark-green",
 		"syntax": "_database_medium-blue",
 		"webmanifest": "_database_medium-blue",
+		"2da": "_database_medium-cyan",
 		"od": "_database_medium-grey",
 		"onlydata": "_database_medium-grey",
 		"dbi": "_database_medium-orange",
@@ -27521,6 +27614,8 @@
 		"abnf": "_bnf_medium-green",
 		"ebnf": "_bnf_medium-red",
 		"cddl": "_bnf_medium-grey",
+		"cf": "_bnf_dark-yellow",
+		"lbnf": "_bnf_dark-yellow",
 		"gf": "_gf_medium-red",
 		"graphql": "_graphql_medium-pink",
 		"graphqls": "_graphql_medium-red",
@@ -27795,6 +27890,7 @@
 		"lvproj": "_labview_dark-blue",
 		"blade": "_laravel_medium-orange",
 		"blade.php": "_laravel_medium-orange",
+		"lark": "_lark_dark-blue",
 		"lasso": "_lasso_dark-blue",
 		"las": "_lasso_dark-blue",
 		"lasso8": "_lasso_medium-blue",
@@ -28199,6 +28295,9 @@
 		"numsc": "_numpy_medium-orange",
 		"nunjucks": "_nunjucks_dark-green",
 		"njk": "_nunjucks_dark-green",
+		"nss": "_nwscript_dark-blue",
+		"ncs": "_nwscript_dark-red",
+		"ndb": "_nwscript_medium-maroon",
 		"nxc": "_nxc_medium-orange",
 		"ob2": "_oberon_medium-purple",
 		"mm": "_objc_medium-blue",
@@ -30892,6 +30991,7 @@
 			"80386": "_asm-intel_dark-blue_l",
 			"babel.config.esm.js": "_babel_medium-yellow_l",
 			"babel.config.json": "_babel_medium-yellow_l",
+			"babel.config.js": "_babel_medium-yellow_l",
 			"eslintrc.cjs": "_eslint_light-purple_l",
 			"eslintrc.js": "_eslint_light-purple_l",
 			"eslintrc.json": "_eslint_light-purple_l",
@@ -31468,6 +31568,7 @@
 			"caffe2model": "_caffe2_dark-blue_l",
 			"cake": "_cake_medium-yellow_l",
 			"ctp": "_cakephp_medium-red_l",
+			"calva-repl": "_calva_medium-maroon_l",
 			"ceylon": "_ceylon_medium-orange_l",
 			"chpl": "_chapel_medium-green_l",
 			"todo": "_checklist_medium-yellow_l",
@@ -31669,6 +31770,7 @@
 			"sy": "_database_dark-green_l",
 			"syntax": "_database_medium-blue_l",
 			"webmanifest": "_database_medium-blue_l",
+			"2da": "_database_medium-cyan_l",
 			"od": "_database_medium-grey_l",
 			"onlydata": "_database_medium-grey_l",
 			"dbi": "_database_medium-orange_l",
@@ -32162,6 +32264,8 @@
 			"abnf": "_bnf_medium-green_l",
 			"ebnf": "_bnf_medium-red_l",
 			"cddl": "_bnf_medium-grey_l",
+			"cf": "_bnf_dark-yellow_l",
+			"lbnf": "_bnf_dark-yellow_l",
 			"gf": "_gf_medium-red_l",
 			"graphql": "_graphql_medium-pink_l",
 			"graphqls": "_graphql_medium-red_l",
@@ -32436,6 +32540,7 @@
 			"lvproj": "_labview_dark-blue_l",
 			"blade": "_laravel_medium-orange_l",
 			"blade.php": "_laravel_medium-orange_l",
+			"lark": "_lark_dark-blue_l",
 			"lasso": "_lasso_dark-blue_l",
 			"las": "_lasso_dark-blue_l",
 			"lasso8": "_lasso_medium-blue_l",
@@ -32840,6 +32945,9 @@
 			"numsc": "_numpy_medium-orange_l",
 			"nunjucks": "_nunjucks_dark-green_l",
 			"njk": "_nunjucks_dark-green_l",
+			"nss": "_nwscript_dark-blue_l",
+			"ncs": "_nwscript_dark-red_l",
+			"ndb": "_nwscript_medium-maroon_l",
 			"nxc": "_nxc_medium-orange_l",
 			"ob2": "_oberon_medium-purple_l",
 			"mm": "_objc_medium-blue_l",
@@ -35514,5 +35622,5 @@
 			"node_modules": "_node_medium-green_l"
 		}
 	},
-	"version": "https://github.com/file-icons/vscode/commit/674aaa06298077bb5b752d95f216bb05ba13f5fc"
+	"version": "https://github.com/file-icons/vscode/commit/e3e0ae2f3a46a4163feb46e93ec63c0c67efc73e"
 }
