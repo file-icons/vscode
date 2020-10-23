@@ -1,7 +1,8 @@
 {
 	"_babel_medium-yellow": [
 		"babel.config.esm.js",
-		"babel.config.json"
+		"babel.config.json",
+		"babel.config.js"
 	],
 
 	"_eslint_light-purple": [
@@ -12,13 +13,13 @@
 		"eslintrc.yml",
 		"eslintrc.yaml"
 	],
-	
+
 	"_git_medium-red": [
 		"gitignore",
 		"gitmodules",
 		"gitattributes"
 	],
-	
+
 	"_gear_medium-yellow": [
 		"cfignore"
 	],
@@ -57,7 +58,7 @@
 		"gulpfile.esm.coffee",
 		"gulpfile.esm.litcoffee"
 	],
-	
+
 	"_jest_medium-red": [
 		"jestrc",
 		"jestrc.js",
@@ -65,7 +66,7 @@
 		"jestrc.mjs",
 		"jestrc.json"
 	],
-	
+
 	"_test-js_auto-yellow": [
 		"_specs.js",
 		"_spec.js",
@@ -73,35 +74,35 @@
 		"-spec.js",
 		"specs.js",
 		"spec.js",
-		
+
 		"_specs.cjs",
 		"_spec.cjs",
 		"-specs.cjs",
 		"-spec.cjs",
 		"specs.cjs",
 		"spec.cjs",
-		
+
 		"_specs.mjs",
 		"_spec.mjs",
 		"-specs.mjs",
 		"-spec.mjs",
 		"specs.mjs",
 		"spec.mjs",
-		
+
 		"_tests.js",
 		"_test.js",
 		"-tests.js",
 		"-test.js",
 		"tests.js",
 		"test.js",
-		
+
 		"_tests.cjs",
 		"_test.cjs",
 		"-tests.cjs",
 		"-test.cjs",
 		"tests.cjs",
 		"test.cjs",
-		
+
 		"_tests.mjs",
 		"_test.mjs",
 		"-tests.mjs",
@@ -109,7 +110,7 @@
 		"tests.mjs",
 		"test.mjs"
 	],
-	
+
 	"_test-ts_auto-blue": [
 		"_specs.ts",
 		"_spec.ts",
@@ -117,21 +118,21 @@
 		"-spec.ts",
 		"specs.ts",
 		"spec.ts",
-		
+
 		"_specs.tsx",
 		"_spec.tsx",
 		"-specs.tsx",
 		"-spec.tsx",
 		"specs.tsx",
 		"spec.tsx",
-		
+
 		"_tests.ts",
 		"_test.ts",
 		"-tests.ts",
 		"-test.ts",
 		"tests.ts",
 		"test.ts",
-		
+
 		"_tests.tsx",
 		"_test.tsx",
 		"-tests.tsx",
@@ -139,7 +140,7 @@
 		"tests.tsx",
 		"test.tsx"
 	],
-	
+
 	"_webpack_medium-blue": [
 		"webpack.base.conf.js",
 		"webpack.common.js",
