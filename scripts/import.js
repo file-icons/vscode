@@ -11,8 +11,11 @@ const stylesIcons     = fs.readFileSync("./defs/styles/icons.less").toString();
 const darkFontColour  = "#cccccc";
 const lightFontColour = "#6c6c6c";
 
-// HACK(#42)
+// HACK: Replace patterns of indefinite length
 defs.fileIcons["Pre-commit"].match = /^\.pre-commit-config\.(ya?ml)$/i;
+
+// HACK: Replace patterns that don't include the end-of-string
+defs.fileIcons["Rollup"].match = /^rollup\.config(\.(common|dev|prod))?\.([cm]?js|ts|coffee)$/i;
 
 const icons = {};
 const regex = /\.(.*?)-icon:before\s+{\s+\.(\w+); content: "(.*?)"/g;
