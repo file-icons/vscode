@@ -295,8 +295,8 @@ function process(hash, set, set_l){
 const fixes = require("./import-fixes.json");
 for(const icon in fixes){
 	for(const ext of fixes[icon]){
-		extensions[ext]   = icon;
-		extensions_l[ext] = icon + "_l";
+		extensions[ext]   = files[ext]   = icon;
+		extensions_l[ext] = files_l[ext] = icon + "_l";
 	}
 }
 
