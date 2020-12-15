@@ -143,6 +143,7 @@
 
 	"_webpack_medium-blue": [
 		"webpack.base.conf.js",
+		"webpack.analyze.js",
 		"webpack.common.js",
 		"webpack.config.js",
 		"webpack.config.base.js",
