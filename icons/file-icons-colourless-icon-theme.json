@@ -7292,6 +7292,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_restql": {
+			"fontCharacter": "\\ebb0",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_restql_l": {
+			"fontCharacter": "\\ebb0",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_rexx": {
 			"fontCharacter": "\\ea16",
 			"fontColor": "#cccccc",
@@ -12282,6 +12292,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_config_dark-green": {
+			"fontCharacter": "\\f07c",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_config_dark-green_l": {
+			"fontCharacter": "\\f07c",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_config_medium-red": {
 			"fontCharacter": "\\f07c",
 			"fontColor": "#cccccc",
@@ -12348,16 +12368,6 @@
 			"fontId": "file-icons"
 		},
 		"_config_null_l": {
-			"fontCharacter": "\\f07c",
-			"fontColor": "#6c6c6c",
-			"fontId": "file-icons"
-		},
-		"_config_dark-green": {
-			"fontCharacter": "\\f07c",
-			"fontColor": "#cccccc",
-			"fontId": "file-icons"
-		},
-		"_config_dark-green_l": {
 			"fontCharacter": "\\f07c",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
@@ -16028,6 +16038,16 @@
 			"fontId": "file-icons"
 		},
 		"_houdini_medium-orange_l": {
+			"fontCharacter": "\\1f300",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_houdini_medium-cyan": {
+			"fontCharacter": "\\1f300",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_houdini_medium-cyan_l": {
 			"fontCharacter": "\\1f300",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
@@ -22482,6 +22502,26 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_restql_dark-blue": {
+			"fontCharacter": "\\ebb0",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_restql_dark-blue_l": {
+			"fontCharacter": "\\ebb0",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_restql_medium-cyan": {
+			"fontCharacter": "\\ebb0",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_restql_medium-cyan_l": {
+			"fontCharacter": "\\ebb0",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_rdata_medium-red": {
 			"fontCharacter": "\\eb49",
 			"fontColor": "#cccccc",
@@ -23518,6 +23558,16 @@
 			"fontId": "file-icons"
 		},
 		"_terminal_medium-red_l": {
+			"fontCharacter": "\\f0c8",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_terminal_dark-blue": {
+			"fontCharacter": "\\f0c8",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_terminal_dark-blue_l": {
 			"fontCharacter": "\\f0c8",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
@@ -27288,6 +27338,7 @@
 		"tests.tsx": "_test-ts_light-blue,medium-blue",
 		"test.tsx": "_test-ts_light-blue,medium-blue",
 		"webpack.base.conf.js": "_webpack_medium-blue",
+		"webpack.analyze.js": "_webpack_medium-blue",
 		"webpack.common.js": "_webpack_medium-blue",
 		"webpack.config.js": "_webpack_medium-blue",
 		"webpack.config.base.js": "_webpack_medium-blue",
@@ -27891,6 +27942,7 @@
 		"prefs": "_config_medium-yellow",
 		"properties": "_config_medium-purple",
 		"ld": "_config_dark-red",
+		"ldif": "_config_dark-green",
 		"lds": "_config_medium-red",
 		"mcf": "_config_medium-blue",
 		"opts": "_config_medium-green",
@@ -28542,6 +28594,7 @@
 		"hip": "_houdini_medium-orange",
 		"i3d": "_houdini_medium-orange",
 		"picnc": "_houdini_medium-orange",
+		"vfl": "_houdini_medium-cyan",
 		"hound.yml": "_houndci_medium-purple",
 		"hound.yaml": "_houndci_medium-purple",
 		"htm": "_html5_medium-orange",
@@ -29472,8 +29525,8 @@
 		"rehypeignore": "_remark_dark-yellow",
 		"remarkignore": "_remark_dark-red",
 		"retextignore": "_remark_dark-green",
-		"rql": "_restql",
-		"restql": "_restql",
+		"rql": "_restql_dark-blue",
+		"restql": "_restql_dark-blue",
 		"rdata": "_rdata_medium-red",
 		"rdb": "_rdata_medium-orange",
 		"rds": "_rdata_medium-yellow",
@@ -30457,6 +30510,7 @@
 		"tests.tsx": "_test-ts_auto-blue",
 		"test.tsx": "_test-ts_auto-blue",
 		"webpack.base.conf.js": "_webpack_medium-blue",
+		"webpack.analyze.js": "_webpack_medium-blue",
 		"webpack.common.js": "_webpack_medium-blue",
 		"webpack.config.js": "_webpack_medium-blue",
 		"webpack.config.base.js": "_webpack_medium-blue",
@@ -30980,11 +31034,13 @@
 		"conanfile.py": "_conan_auto-blue",
 		"conan.conf": "_conan_auto-blue",
 		"condarc": "_conda_medium-green",
+		"pf.os": "_config_medium-yellow",
 		"mimeapps.list": "_config_medium-blue",
 		"terminal": "_config_dark-blue",
 		"terminalrc": "_config_dark-blue",
 		"ld.script": "_config_medium-orange",
 		"shells": "_config_medium-green",
+		"rpc": "_config_medium-green",
 		"xcompose": "_config_medium-cyan",
 		"buildozer.spec": "_config_dark-blue",
 		"settings.bsp": "_config_medium-green",
@@ -31504,8 +31560,8 @@
 		"razzle.config.": "_razzle_dark-blue",
 		"readthedocs.yml": "_readthedocs_dark-grey",
 		"readthedocs.yaml": "_readthedocs_dark-grey",
-		"restql.yml": "_restql",
-		"restql.yaml": "_restql",
+		"restql.yml": "_restql_medium-cyan",
+		"restql.yaml": "_restql_medium-cyan",
 		"react.js": "_react_dark-blue",
 		"react.cjs": "_react_dark-blue",
 		"react.mjs": "_react_dark-blue",
@@ -31603,6 +31659,8 @@
 		"zork7.doc": "_book_medium-blue",
 		"zork8.doc": "_book_medium-blue",
 		"zork9.doc": "_book_medium-blue",
+		"sudo-lecture": "_book_dark-blue",
+		"sudo_lecture": "_book_dark-blue",
 		"renovate": "_renovate_medium-cyan",
 		"renovate.json": "_renovate_medium-cyan",
 		"renovaterc": "_renovate_medium-cyan",
@@ -31715,6 +31773,7 @@
 		"dir_colors": "_terminal_medium-green",
 		"_dircolors": "_terminal_medium-green",
 		"_dir_colors": "_terminal_medium-green",
+		"rc_apple_terminal": "_terminal_dark-blue",
 		"configure": "_terminal_medium-red",
 		"config.guess": "_terminal_medium-red",
 		"config.rpath": "_terminal_medium-red",
@@ -32912,6 +32971,7 @@
 			"tests.tsx": "_test-ts_light-blue,medium-blue_l",
 			"test.tsx": "_test-ts_light-blue,medium-blue_l",
 			"webpack.base.conf.js": "_webpack_medium-blue_l",
+			"webpack.analyze.js": "_webpack_medium-blue_l",
 			"webpack.common.js": "_webpack_medium-blue_l",
 			"webpack.config.js": "_webpack_medium-blue_l",
 			"webpack.config.base.js": "_webpack_medium-blue_l",
@@ -33515,6 +33575,7 @@
 			"prefs": "_config_medium-yellow_l",
 			"properties": "_config_medium-purple_l",
 			"ld": "_config_dark-red_l",
+			"ldif": "_config_dark-green_l",
 			"lds": "_config_medium-red_l",
 			"mcf": "_config_medium-blue_l",
 			"opts": "_config_medium-green_l",
@@ -34166,6 +34227,7 @@
 			"hip": "_houdini_medium-orange_l",
 			"i3d": "_houdini_medium-orange_l",
 			"picnc": "_houdini_medium-orange_l",
+			"vfl": "_houdini_medium-cyan_l",
 			"hound.yml": "_houndci_medium-purple_l",
 			"hound.yaml": "_houndci_medium-purple_l",
 			"htm": "_html5_medium-orange_l",
@@ -35096,8 +35158,8 @@
 			"rehypeignore": "_remark_dark-yellow_l",
 			"remarkignore": "_remark_dark-red_l",
 			"retextignore": "_remark_dark-green_l",
-			"rql": "_restql_l",
-			"restql": "_restql_l",
+			"rql": "_restql_dark-blue_l",
+			"restql": "_restql_dark-blue_l",
 			"rdata": "_rdata_medium-red_l",
 			"rdb": "_rdata_medium-orange_l",
 			"rds": "_rdata_medium-yellow_l",
@@ -36081,6 +36143,7 @@
 			"tests.tsx": "_test-ts_auto-blue_l",
 			"test.tsx": "_test-ts_auto-blue_l",
 			"webpack.base.conf.js": "_webpack_medium-blue_l",
+			"webpack.analyze.js": "_webpack_medium-blue_l",
 			"webpack.common.js": "_webpack_medium-blue_l",
 			"webpack.config.js": "_webpack_medium-blue_l",
 			"webpack.config.base.js": "_webpack_medium-blue_l",
@@ -36604,11 +36667,13 @@
 			"conanfile.py": "_conan_auto-blue_l",
 			"conan.conf": "_conan_auto-blue_l",
 			"condarc": "_conda_medium-green_l",
+			"pf.os": "_config_medium-yellow_l",
 			"mimeapps.list": "_config_medium-blue_l",
 			"terminal": "_config_dark-blue_l",
 			"terminalrc": "_config_dark-blue_l",
 			"ld.script": "_config_medium-orange_l",
 			"shells": "_config_medium-green_l",
+			"rpc": "_config_medium-green_l",
 			"xcompose": "_config_medium-cyan_l",
 			"buildozer.spec": "_config_dark-blue_l",
 			"settings.bsp": "_config_medium-green_l",
@@ -37128,8 +37193,8 @@
 			"razzle.config.": "_razzle_dark-blue_l",
 			"readthedocs.yml": "_readthedocs_dark-grey_l",
 			"readthedocs.yaml": "_readthedocs_dark-grey_l",
-			"restql.yml": "_restql_l",
-			"restql.yaml": "_restql_l",
+			"restql.yml": "_restql_medium-cyan_l",
+			"restql.yaml": "_restql_medium-cyan_l",
 			"react.js": "_react_dark-blue_l",
 			"react.cjs": "_react_dark-blue_l",
 			"react.mjs": "_react_dark-blue_l",
@@ -37227,6 +37292,8 @@
 			"zork7.doc": "_book_medium-blue_l",
 			"zork8.doc": "_book_medium-blue_l",
 			"zork9.doc": "_book_medium-blue_l",
+			"sudo-lecture": "_book_dark-blue_l",
+			"sudo_lecture": "_book_dark-blue_l",
 			"renovate": "_renovate_medium-cyan_l",
 			"renovate.json": "_renovate_medium-cyan_l",
 			"renovaterc": "_renovate_medium-cyan_l",
@@ -37339,6 +37406,7 @@
 			"dir_colors": "_terminal_medium-green_l",
 			"_dircolors": "_terminal_medium-green_l",
 			"_dir_colors": "_terminal_medium-green_l",
+			"rc_apple_terminal": "_terminal_dark-blue_l",
 			"configure": "_terminal_medium-red_l",
 			"config.guess": "_terminal_medium-red_l",
 			"config.rpath": "_terminal_medium-red_l",
@@ -38420,5 +38488,5 @@
 			"node_modules": "_node_medium-green_l"
 		}
 	},
-	"version": "https://github.com/file-icons/vscode/commit/a9df6d050aa612564cc82c1995282ed71274fc83"
+	"version": "https://github.com/file-icons/vscode/commit/67614db92b79f3480af1c9bfd318982511176315"
 }
