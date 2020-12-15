@@ -10,7 +10,7 @@ defs/.git:
 	git submodule update --init
 
 node_modules:
-	npm install .
+	npm install --legacy-peer-deps .
 
 
 # Pull the latest updates from upstream

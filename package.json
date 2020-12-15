@@ -48,7 +48,7 @@
 	},
 	"eslintIgnore": ["defs"],
 	"devDependencies": {
-		"@alhadis/eslint-config": "^2.2.0",
+		"@alhadis/eslint-config": "^2.3.2",
 		"@types/mocha": "^7.0.2",
 		"@types/node": "^13.9.8",
 		"babel-eslint": "^10.1.0",
