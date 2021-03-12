@@ -1132,12 +1132,12 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "devopicons"
 		},
-		"_laravel": {
+		"_laravel-old": {
 			"fontCharacter": "\\e63f",
 			"fontColor": "#cccccc",
 			"fontId": "devopicons"
 		},
-		"_laravel_l": {
+		"_laravel-old_l": {
 			"fontCharacter": "\\e63f",
 			"fontColor": "#6c6c6c",
 			"fontId": "devopicons"
@@ -2432,6 +2432,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_casc": {
+			"fontCharacter": "\\ebb6",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_casc_l": {
+			"fontCharacter": "\\ebb6",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_cc": {
 			"fontCharacter": "\\e9d5",
 			"fontColor": "#cccccc",
@@ -2649,6 +2659,16 @@
 		},
 		"_cmake_l": {
 			"fontCharacter": "\\e93f",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_cnab": {
+			"fontCharacter": "\\ebb5",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_cnab_l": {
+			"fontCharacter": "\\ebb5",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -5072,6 +5092,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_laravel": {
+			"fontCharacter": "\\e63f",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_laravel_l": {
+			"fontCharacter": "\\e63f",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_lark": {
 			"fontCharacter": "\\1316b",
 			"fontColor": "#cccccc",
@@ -5899,6 +5929,16 @@
 		},
 		"_netlify_l": {
 			"fontCharacter": "\\eabf",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_commitizen": {
+			"fontCharacter": "\\ebb3",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_commitizen_l": {
+			"fontCharacter": "\\ebb3",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -8729,6 +8769,16 @@
 		},
 		"_virtualbox_l": {
 			"fontCharacter": "\\ea3e",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_vite": {
+			"fontCharacter": "\\2607",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_vite_l": {
+			"fontCharacter": "\\2607",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -11592,6 +11642,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_casc_auto-orange": {
+			"fontCharacter": "\\ebb6",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_casc_auto-orange_l": {
+			"fontCharacter": "\\ebb6",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_ceylon_medium-orange": {
 			"fontCharacter": "\\e94f",
 			"fontColor": "#cccccc",
@@ -12039,6 +12099,16 @@
 		},
 		"_commitlint_medium-blue_l": {
 			"fontCharacter": "\\1f191",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_commitizen_dark-purple": {
+			"fontCharacter": "\\ebb3",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_commitizen_dark-purple_l": {
+			"fontCharacter": "\\ebb3",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
@@ -13638,6 +13708,16 @@
 			"fontId": "file-icons"
 		},
 		"_electron_dark-blue_l": {
+			"fontCharacter": "\\ea27",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_electron_dark-cyan": {
+			"fontCharacter": "\\ea27",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_electron_dark-cyan_l": {
 			"fontCharacter": "\\ea27",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
@@ -17435,12 +17515,12 @@
 		"_laravel_medium-orange": {
 			"fontCharacter": "\\e63f",
 			"fontColor": "#cccccc",
-			"fontId": "devopicons"
+			"fontId": "file-icons"
 		},
 		"_laravel_medium-orange_l": {
 			"fontCharacter": "\\e63f",
 			"fontColor": "#6c6c6c",
-			"fontId": "devopicons"
+			"fontId": "file-icons"
 		},
 		"_lark_dark-blue": {
 			"fontCharacter": "\\1316b",
@@ -18058,6 +18138,16 @@
 			"fontId": "octicons"
 		},
 		"_checklist_dark-purple_l": {
+			"fontCharacter": "\\f076",
+			"fontColor": "#6c6c6c",
+			"fontId": "octicons"
+		},
+		"_checklist_medium-cyan": {
+			"fontCharacter": "\\f076",
+			"fontColor": "#cccccc",
+			"fontId": "octicons"
+		},
+		"_checklist_medium-cyan_l": {
 			"fontCharacter": "\\f076",
 			"fontColor": "#6c6c6c",
 			"fontId": "octicons"
@@ -21582,6 +21672,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_postscript_medium-blue": {
+			"fontCharacter": "\\e955",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_postscript_medium-blue_l": {
+			"fontCharacter": "\\e955",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_postscript_medium-green": {
 			"fontCharacter": "\\e955",
 			"fontColor": "#cccccc",
@@ -23288,6 +23388,16 @@
 			"fontId": "file-icons"
 		},
 		"_scheme_medium-purple_l": {
+			"fontCharacter": "\\03bb",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
+		"_scheme_medium-yellow": {
+			"fontCharacter": "\\03bb",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_scheme_medium-yellow_l": {
 			"fontCharacter": "\\03bb",
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
@@ -26032,6 +26142,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_vite_auto-yellow": {
+			"fontCharacter": "\\2607",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_vite_auto-yellow_l": {
+			"fontCharacter": "\\2607",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_vs_medium-blue": {
 			"fontCharacter": "\\e60c",
 			"fontColor": "#cccccc",
@@ -27132,6 +27252,16 @@
 			"fontColor": "#6c6c6c",
 			"fontId": "file-icons"
 		},
+		"_cnab_dark-blue": {
+			"fontCharacter": "\\ebb5",
+			"fontColor": "#cccccc",
+			"fontId": "file-icons"
+		},
+		"_cnab_dark-blue_l": {
+			"fontCharacter": "\\ebb5",
+			"fontColor": "#6c6c6c",
+			"fontId": "file-icons"
+		},
 		"_cpan_medium-blue": {
 			"fontCharacter": "\\ea87",
 			"fontColor": "#cccccc",
@@ -27823,6 +27953,8 @@
 		"cake": "_cake_medium-yellow",
 		"ctp": "_cakephp_medium-red",
 		"calva-repl": "_calva_medium-maroon",
+		"cas": "_casc_auto-orange",
+		"casc": "_casc_auto-orange",
 		"ceylon": "_ceylon_medium-orange",
 		"chpl": "_chapel_medium-green",
 		"todo": "_checklist_medium-yellow",
@@ -27897,6 +28029,10 @@
 		"commitlintrc.js": "_commitlint_medium-blue",
 		"commitlintrc.yml": "_commitlint_medium-blue",
 		"commitlintrc.yaml": "_commitlint_medium-blue",
+		"cz.json": "_commitizen_dark-purple",
+		"cz.toml": "_commitizen_dark-purple",
+		"cz.yml": "_commitizen_dark-purple",
+		"cz.yaml": "_commitizen_dark-purple",
 		"cl": "_cl_medium-orange",
 		"cp": "_cp_medium-maroon",
 		"cps": "_cp_dark-red",
@@ -27952,6 +28088,7 @@
 		"terminalrc": "_config_dark-blue",
 		"xcompose": "_config_medium-cyan",
 		"flc": "_config_medium-green",
+		"kys": "_config_medium-red",
 		"fossil-settings": "_fossil",
 		"ssh/config": "_config_dark-blue",
 		"ssh\\config": "_config_dark-blue",
@@ -28143,6 +28280,7 @@
 		"ejs": "_ejs_medium-green",
 		"compilerc": "_electron_dark-blue",
 		"compilerc.json": "_electron_dark-blue",
+		"forge.config.js": "_electron_dark-cyan",
 		"ex": "_elixir_dark-purple",
 		"exs": "_elixir_medium-purple",
 		"eex": "_elixir_medium-purple",
@@ -29393,6 +29531,7 @@
 		"ps": "_postscript_medium-red",
 		"eps": "_postscript_medium-orange",
 		"pfa": "_postscript_dark-blue",
+		"bez": "_postscript_medium-red",
 		"afm": "_postscript_medium-green",
 		"amm": "_postscript_medium-green",
 		"epsf": "_postscript_dark-orange",
@@ -29643,6 +29782,7 @@
 		"scm": "_scheme_medium-red",
 		"sld": "_scheme_medium-blue",
 		"sps": "_scheme_medium-purple",
+		"xtm": "_scheme_medium-yellow",
 		"scilla": "_scilla_medium-orange",
 		"sci": "_scilab_dark-purple",
 		"sce": "_scilab_dark-blue",
@@ -30721,8 +30861,10 @@
 		"backbonedev.js": "_backbone_dark-blue",
 		"backbonedev.cjs": "_backbone_dark-blue",
 		"backbonedev.mjs": "_backbone_dark-blue",
-		"requirements.txt": "_binder_medium-orange",
-		"dev-requirements.txt": "_binder_medium-orange",
+		"binder-requirements.in": "_binder_medium-orange",
+		"binder-requirements.txt": "_binder_medium-orange",
+		"binder_requirements.in": "_binder_medium-orange",
+		"binder_requirements.txt": "_binder_medium-orange",
 		"bitbucket-pipelines.yml": "_bitbucket_medium-blue",
 		"bitbucket-pipelines.yaml": "_bitbucket_medium-blue",
 		"bitcoin.conf": "_bitcoin_medium-orange",
@@ -31023,6 +31165,10 @@
 		"codemeta.json": "_codemeta_auto-grey",
 		"codemeta.jsonld": "_codemeta_auto-grey",
 		"commitlint.config.js": "_commitlint_medium-blue",
+		"cz.json": "_commitizen_dark-purple",
+		"cz.toml": "_commitizen_dark-purple",
+		"cz.yml": "_commitizen_dark-purple",
+		"cz.yaml": "_commitizen_dark-purple",
 		"compass.scss": "_compass_medium-red",
 		"lemonade.scss": "_compass_medium-red",
 		"_compass.scss": "_compass_medium-red",
@@ -31159,6 +31305,14 @@
 		"/nterm/tab.lpr": "_database_medium-green",
 		"/nterm/otab.x": "_database_medium-green",
 		"/nterm/otab.lpr": "_database_medium-green",
+		"index.bt": "_database_medium-red",
+		"index.db": "_database_medium-red",
+		"index.dir": "_database_medium-red",
+		"index.pag": "_database_medium-red",
+		"whatis": "_database_medium-maroon",
+		"language-subtag-registry": "_database_dark-blue",
+		"language-subtag-registry.txt": "_database_dark-blue",
+		"nametable": "_database_dark-blue",
 		"control": "_debian_dark-cyan",
 		"dsc": "_debian_dark-cyan",
 		"rules": "_debian_medium-cyan",
@@ -31201,6 +31355,7 @@
 		"dub.sdl": "_dub_medium-red",
 		"dub.selections.json": "_dub_medium-red",
 		"dub.selections.sdl": "_dub_medium-red",
+		"forge.config.js": "_electron_dark-cyan",
 		"mix.ex": "_elixir_light-purple",
 		"mix.exs": "_elixir_light-purple",
 		"mix.lock": "_elixir_light-purple",
@@ -31382,6 +31537,7 @@
 		"mkfile": "_checklist_medium-yellow",
 		"qmake": "_checklist_dark-blue",
 		"deps": "_checklist_dark-blue",
+		"justfile": "_checklist_medium-cyan",
 		"man.template": "_manpage_dark-green",
 		"mdoc.template": "_manpage_dark-green",
 		"grap.defines": "_manpage_dark-green",
@@ -31530,6 +31686,7 @@
 		"pnpm-workspace.yaml": "_pnpm_medium-orange",
 		"pnpmfile.js": "_pnpm_auto-yellow",
 		"polymer.json": "_polymer_medium-purple",
+		"fontinfo": "_postscript_medium-blue",
 		"fontmap": "_postscript_dark-red",
 		"prettier.config.js": "_prettier_auto-cyan",
 		"prettier.config.cjs": "_prettier_auto-cyan",
@@ -31540,7 +31697,48 @@
 		"pullapprove.yml": "_pullapprove_dark-blue",
 		"pullapprove.yaml": "_pullapprove_dark-blue",
 		"modulefile": "_puppet_dark-blue",
+		"dev-requirements.in": "_pypi_dark-blue",
+		"dev-requirements.txt": "_pypi_dark-blue",
+		"dev_requirements.in": "_pypi_dark-blue",
+		"dev_requirements.txt": "_pypi_dark-blue",
+		"doc-requirements.in": "_pypi_dark-blue",
+		"doc-requirements.txt": "_pypi_dark-blue",
+		"doc_requirements.in": "_pypi_dark-blue",
+		"doc_requirements.txt": "_pypi_dark-blue",
+		"docs-requirements.in": "_pypi_dark-blue",
+		"docs-requirements.txt": "_pypi_dark-blue",
+		"docs_requirements.in": "_pypi_dark-blue",
+		"docs_requirements.txt": "_pypi_dark-blue",
+		"test-requirements.in": "_pypi_dark-blue",
+		"test-requirements.txt": "_pypi_dark-blue",
+		"test_requirements.in": "_pypi_dark-blue",
+		"test_requirements.txt": "_pypi_dark-blue",
+		"tests-requirements.in": "_pypi_dark-blue",
+		"tests-requirements.txt": "_pypi_dark-blue",
+		"tests_requirements.in": "_pypi_dark-blue",
+		"tests_requirements.txt": "_pypi_dark-blue",
 		"requirements.in": "_pypi_dark-blue",
+		"requirements.txt": "_pypi_dark-blue",
+		"requirements-dev.in": "_pypi_dark-blue",
+		"requirements-dev.txt": "_pypi_dark-blue",
+		"requirements-doc.in": "_pypi_dark-blue",
+		"requirements-doc.txt": "_pypi_dark-blue",
+		"requirements-docs.in": "_pypi_dark-blue",
+		"requirements-docs.txt": "_pypi_dark-blue",
+		"requirements-test.in": "_pypi_dark-blue",
+		"requirements-test.txt": "_pypi_dark-blue",
+		"requirements-tests.in": "_pypi_dark-blue",
+		"requirements-tests.txt": "_pypi_dark-blue",
+		"requirements_dev.in": "_pypi_dark-blue",
+		"requirements_dev.txt": "_pypi_dark-blue",
+		"requirements_doc.in": "_pypi_dark-blue",
+		"requirements_doc.txt": "_pypi_dark-blue",
+		"requirements_docs.in": "_pypi_dark-blue",
+		"requirements_docs.txt": "_pypi_dark-blue",
+		"requirements_test.in": "_pypi_dark-blue",
+		"requirements_test.txt": "_pypi_dark-blue",
+		"requirements_tests.in": "_pypi_dark-blue",
+		"requirements_tests.txt": "_pypi_dark-blue",
 		"pytest.ini": "_pytest_medium-blue",
 		"py.typed": "_python_medium-grey",
 		"pypirc": "_python_dark-blue",
@@ -32237,6 +32435,8 @@
 		"nviminfo": "_vim_dark-green",
 		"exrc": "_vim_medium-green",
 		"nexrc": "_vim_medium-green",
+		"vite.config.js": "_vite_auto-yellow",
+		"vite.config.ts": "_vite_auto-yellow",
 		"vue.config.js": "_vue_light-green",
 		"vue.config.cjs": "_vue_light-green",
 		"vue.config.mjs": "_vue_light-green",
@@ -32568,6 +32768,7 @@
 		"bloc": "_bloc_medium-cyan",
 		"bower-components": "_bower_medium-yellow,medium-orange",
 		"bower_components": "_bower_medium-yellow,medium-orange",
+		"cnab": "_cnab_dark-blue",
 		"cubit": "_cubit_medium-cyan",
 		"cubits": "_cubit_medium-cyan",
 		"cvs": "_cvs_medium-orange",
@@ -32848,6 +33049,7 @@
 		"bloc": "_bloc_medium-cyan",
 		"bower-components": "_bower_medium-yellow,medium-orange",
 		"bower_components": "_bower_medium-yellow,medium-orange",
+		"cnab": "_cnab_dark-blue",
 		"cubit": "_cubit_medium-cyan",
 		"cubits": "_cubit_medium-cyan",
 		"cvs": "_cvs_medium-orange",
@@ -33456,6 +33658,8 @@
 			"cake": "_cake_medium-yellow_l",
 			"ctp": "_cakephp_medium-red_l",
 			"calva-repl": "_calva_medium-maroon_l",
+			"cas": "_casc_auto-orange_l",
+			"casc": "_casc_auto-orange_l",
 			"ceylon": "_ceylon_medium-orange_l",
 			"chpl": "_chapel_medium-green_l",
 			"todo": "_checklist_medium-yellow_l",
@@ -33530,6 +33734,10 @@
 			"commitlintrc.js": "_commitlint_medium-blue_l",
 			"commitlintrc.yml": "_commitlint_medium-blue_l",
 			"commitlintrc.yaml": "_commitlint_medium-blue_l",
+			"cz.json": "_commitizen_dark-purple_l",
+			"cz.toml": "_commitizen_dark-purple_l",
+			"cz.yml": "_commitizen_dark-purple_l",
+			"cz.yaml": "_commitizen_dark-purple_l",
 			"cl": "_cl_medium-orange_l",
 			"cp": "_cp_medium-maroon_l",
 			"cps": "_cp_dark-red_l",
@@ -33585,6 +33793,7 @@
 			"terminalrc": "_config_dark-blue_l",
 			"xcompose": "_config_medium-cyan_l",
 			"flc": "_config_medium-green_l",
+			"kys": "_config_medium-red_l",
 			"fossil-settings": "_fossil_l",
 			"ssh/config": "_config_dark-blue_l",
 			"ssh\\config": "_config_dark-blue_l",
@@ -33776,6 +33985,7 @@
 			"ejs": "_ejs_medium-green_l",
 			"compilerc": "_electron_dark-blue_l",
 			"compilerc.json": "_electron_dark-blue_l",
+			"forge.config.js": "_electron_dark-cyan_l",
 			"ex": "_elixir_dark-purple_l",
 			"exs": "_elixir_medium-purple_l",
 			"eex": "_elixir_medium-purple_l",
@@ -35026,6 +35236,7 @@
 			"ps": "_postscript_medium-red_l",
 			"eps": "_postscript_medium-orange_l",
 			"pfa": "_postscript_dark-blue_l",
+			"bez": "_postscript_medium-red_l",
 			"afm": "_postscript_medium-green_l",
 			"amm": "_postscript_medium-green_l",
 			"epsf": "_postscript_dark-orange_l",
@@ -35276,6 +35487,7 @@
 			"scm": "_scheme_medium-red_l",
 			"sld": "_scheme_medium-blue_l",
 			"sps": "_scheme_medium-purple_l",
+			"xtm": "_scheme_medium-yellow_l",
 			"scilla": "_scilla_medium-orange_l",
 			"sci": "_scilab_dark-purple_l",
 			"sce": "_scilab_dark-blue_l",
@@ -36354,8 +36566,10 @@
 			"backbonedev.js": "_backbone_dark-blue_l",
 			"backbonedev.cjs": "_backbone_dark-blue_l",
 			"backbonedev.mjs": "_backbone_dark-blue_l",
-			"requirements.txt": "_binder_medium-orange_l",
-			"dev-requirements.txt": "_binder_medium-orange_l",
+			"binder-requirements.in": "_binder_medium-orange_l",
+			"binder-requirements.txt": "_binder_medium-orange_l",
+			"binder_requirements.in": "_binder_medium-orange_l",
+			"binder_requirements.txt": "_binder_medium-orange_l",
 			"bitbucket-pipelines.yml": "_bitbucket_medium-blue_l",
 			"bitbucket-pipelines.yaml": "_bitbucket_medium-blue_l",
 			"bitcoin.conf": "_bitcoin_medium-orange_l",
@@ -36656,6 +36870,10 @@
 			"codemeta.json": "_codemeta_auto-grey_l",
 			"codemeta.jsonld": "_codemeta_auto-grey_l",
 			"commitlint.config.js": "_commitlint_medium-blue_l",
+			"cz.json": "_commitizen_dark-purple_l",
+			"cz.toml": "_commitizen_dark-purple_l",
+			"cz.yml": "_commitizen_dark-purple_l",
+			"cz.yaml": "_commitizen_dark-purple_l",
 			"compass.scss": "_compass_medium-red_l",
 			"lemonade.scss": "_compass_medium-red_l",
 			"_compass.scss": "_compass_medium-red_l",
@@ -36792,6 +37010,14 @@
 			"/nterm/tab.lpr": "_database_medium-green_l",
 			"/nterm/otab.x": "_database_medium-green_l",
 			"/nterm/otab.lpr": "_database_medium-green_l",
+			"index.bt": "_database_medium-red_l",
+			"index.db": "_database_medium-red_l",
+			"index.dir": "_database_medium-red_l",
+			"index.pag": "_database_medium-red_l",
+			"whatis": "_database_medium-maroon_l",
+			"language-subtag-registry": "_database_dark-blue_l",
+			"language-subtag-registry.txt": "_database_dark-blue_l",
+			"nametable": "_database_dark-blue_l",
 			"control": "_debian_dark-cyan_l",
 			"dsc": "_debian_dark-cyan_l",
 			"rules": "_debian_medium-cyan_l",
@@ -36834,6 +37060,7 @@
 			"dub.sdl": "_dub_medium-red_l",
 			"dub.selections.json": "_dub_medium-red_l",
 			"dub.selections.sdl": "_dub_medium-red_l",
+			"forge.config.js": "_electron_dark-cyan_l",
 			"mix.ex": "_elixir_light-purple_l",
 			"mix.exs": "_elixir_light-purple_l",
 			"mix.lock": "_elixir_light-purple_l",
@@ -37015,6 +37242,7 @@
 			"mkfile": "_checklist_medium-yellow_l",
 			"qmake": "_checklist_dark-blue_l",
 			"deps": "_checklist_dark-blue_l",
+			"justfile": "_checklist_medium-cyan_l",
 			"man.template": "_manpage_dark-green_l",
 			"mdoc.template": "_manpage_dark-green_l",
 			"grap.defines": "_manpage_dark-green_l",
@@ -37163,6 +37391,7 @@
 			"pnpm-workspace.yaml": "_pnpm_medium-orange_l",
 			"pnpmfile.js": "_pnpm_auto-yellow_l",
 			"polymer.json": "_polymer_medium-purple_l",
+			"fontinfo": "_postscript_medium-blue_l",
 			"fontmap": "_postscript_dark-red_l",
 			"prettier.config.js": "_prettier_auto-cyan_l",
 			"prettier.config.cjs": "_prettier_auto-cyan_l",
@@ -37173,7 +37402,48 @@
 			"pullapprove.yml": "_pullapprove_dark-blue_l",
 			"pullapprove.yaml": "_pullapprove_dark-blue_l",
 			"modulefile": "_puppet_dark-blue_l",
+			"dev-requirements.in": "_pypi_dark-blue_l",
+			"dev-requirements.txt": "_pypi_dark-blue_l",
+			"dev_requirements.in": "_pypi_dark-blue_l",
+			"dev_requirements.txt": "_pypi_dark-blue_l",
+			"doc-requirements.in": "_pypi_dark-blue_l",
+			"doc-requirements.txt": "_pypi_dark-blue_l",
+			"doc_requirements.in": "_pypi_dark-blue_l",
+			"doc_requirements.txt": "_pypi_dark-blue_l",
+			"docs-requirements.in": "_pypi_dark-blue_l",
+			"docs-requirements.txt": "_pypi_dark-blue_l",
+			"docs_requirements.in": "_pypi_dark-blue_l",
+			"docs_requirements.txt": "_pypi_dark-blue_l",
+			"test-requirements.in": "_pypi_dark-blue_l",
+			"test-requirements.txt": "_pypi_dark-blue_l",
+			"test_requirements.in": "_pypi_dark-blue_l",
+			"test_requirements.txt": "_pypi_dark-blue_l",
+			"tests-requirements.in": "_pypi_dark-blue_l",
+			"tests-requirements.txt": "_pypi_dark-blue_l",
+			"tests_requirements.in": "_pypi_dark-blue_l",
+			"tests_requirements.txt": "_pypi_dark-blue_l",
 			"requirements.in": "_pypi_dark-blue_l",
+			"requirements.txt": "_pypi_dark-blue_l",
+			"requirements-dev.in": "_pypi_dark-blue_l",
+			"requirements-dev.txt": "_pypi_dark-blue_l",
+			"requirements-doc.in": "_pypi_dark-blue_l",
+			"requirements-doc.txt": "_pypi_dark-blue_l",
+			"requirements-docs.in": "_pypi_dark-blue_l",
+			"requirements-docs.txt": "_pypi_dark-blue_l",
+			"requirements-test.in": "_pypi_dark-blue_l",
+			"requirements-test.txt": "_pypi_dark-blue_l",
+			"requirements-tests.in": "_pypi_dark-blue_l",
+			"requirements-tests.txt": "_pypi_dark-blue_l",
+			"requirements_dev.in": "_pypi_dark-blue_l",
+			"requirements_dev.txt": "_pypi_dark-blue_l",
+			"requirements_doc.in": "_pypi_dark-blue_l",
+			"requirements_doc.txt": "_pypi_dark-blue_l",
+			"requirements_docs.in": "_pypi_dark-blue_l",
+			"requirements_docs.txt": "_pypi_dark-blue_l",
+			"requirements_test.in": "_pypi_dark-blue_l",
+			"requirements_test.txt": "_pypi_dark-blue_l",
+			"requirements_tests.in": "_pypi_dark-blue_l",
+			"requirements_tests.txt": "_pypi_dark-blue_l",
 			"pytest.ini": "_pytest_medium-blue_l",
 			"py.typed": "_python_medium-grey_l",
 			"pypirc": "_python_dark-blue_l",
@@ -37870,6 +38140,8 @@
 			"nviminfo": "_vim_dark-green_l",
 			"exrc": "_vim_medium-green_l",
 			"nexrc": "_vim_medium-green_l",
+			"vite.config.js": "_vite_auto-yellow_l",
+			"vite.config.ts": "_vite_auto-yellow_l",
 			"vue.config.js": "_vue_light-green_l",
 			"vue.config.cjs": "_vue_light-green_l",
 			"vue.config.mjs": "_vue_light-green_l",
@@ -38201,6 +38473,7 @@
 			"bloc": "_bloc_medium-cyan_l",
 			"bower-components": "_bower_medium-yellow,medium-orange_l",
 			"bower_components": "_bower_medium-yellow,medium-orange_l",
+			"cnab": "_cnab_dark-blue_l",
 			"cubit": "_cubit_medium-cyan_l",
 			"cubits": "_cubit_medium-cyan_l",
 			"cvs": "_cvs_medium-orange_l",
@@ -38481,6 +38754,7 @@
 			"bloc": "_bloc_medium-cyan_l",
 			"bower-components": "_bower_medium-yellow,medium-orange_l",
 			"bower_components": "_bower_medium-yellow,medium-orange_l",
+			"cnab": "_cnab_dark-blue_l",
 			"cubit": "_cubit_medium-cyan_l",
 			"cubits": "_cubit_medium-cyan_l",
 			"cvs": "_cvs_medium-orange_l",
@@ -38488,5 +38762,5 @@
 			"node_modules": "_node_medium-green_l"
 		}
 	},
-	"version": "https://github.com/file-icons/vscode/commit/67614db92b79f3480af1c9bfd318982511176315"
+	"version": "https://github.com/file-icons/vscode/commit/d923fb27472877d23a63f518e9f47ffe1ab7fb50"
 }
