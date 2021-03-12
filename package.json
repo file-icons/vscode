@@ -2,7 +2,7 @@
 	"name": "file-icons",
 	"displayName": "file-icons",
 	"description": "File-specific icons in VSCode for improved visual grepping.",
-	"version": "1.0.28",
+	"version": "1.0.29",
 	"publisher": "file-icons",
 	"license": "MIT",
 	"author": "Daniel Brooker <dan@nocturnalcode.com>",
