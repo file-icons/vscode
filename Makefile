@@ -1,3 +1,5 @@
+PATH := ./node_modules/.bin:$(PATH)
+
 all: install update lint
 
 
@@ -22,7 +24,7 @@ update: defs
 
 # Check source for errors and style violations
 lint: node_modules
-	npx eslint .
+	eslint .
 
 .PHONY: lint
 
