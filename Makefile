@@ -6,10 +6,12 @@ all: install update lint
 # Install or download project dependencies
 install: node_modules defs
 
-defs: defs/.git
-
-defs/.git:
-	git submodule update --init
+defs:
+	test -d $@ || git clone \
+		--branch master \
+		--single-branch \
+		--filter=tree:0 \
+		'https://github.com/file-icons/atom.git' $@
 
 node_modules:
 	npm install --legacy-peer-deps .
@@ -17,9 +19,8 @@ node_modules:
 
 # Pull the latest updates from upstream
 update: defs
-	git submodule update --remote --merge
-	cp defs/fonts/*.woff2 icons/
-	node scripts/import.js
+	cd $^ && git pull -f origin master
+	node scripts/update-icons.mjs $^ ./icons
 
 
 # Check source for errors and style violations
