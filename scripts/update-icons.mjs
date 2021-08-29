@@ -14,7 +14,7 @@ const isEnt = obj => Array.isArray(obj) && 2 === obj.length && isKey(obj[0]);
 
 // TEMP
 inspect.defaultOptions.depth = Infinity;
-inspect.defaultOptions.showHidden = true;
+// inspect.defaultOptions.showHidden = true;
 if(!process.stdout.isTTY)
 	inspect.defaultOptions.colors = true;
 
@@ -36,7 +36,7 @@ Promise.all([
 });
 
 
-// Section: Colours
+// Section: Colours {{{1
 
 /**
  * Load a colour palette from the given stylesheet.
@@ -49,13 +49,49 @@ Promise.all([
 async function loadColours(from){
 	from = resolve(from);
 	const colours = {};
-	const {rules} = await loadStyleSheet(from);
-	console.log(rules);
+	const rules = parseRules(await loadStyleSheet(from));
+	for(const [key, value] of Object.entries(rules)){
+		if(!isObj(value) || !value.hasOwnProperty("color")) continue;
+		if(/^\.(light|medium|dark)-([^-:\s]+)::?before$/i.test(key)){
+			const colour = RegExp.$2.toLowerCase();
+			colours[colour] = Object.assign(colours[colour] || {}, {
+				[RegExp.$1.toLowerCase()]: value.color,
+			});
+		}
+	}
 	return colours;
 }
 
+/**
+ * Extract a list of rulesets from a parsed stylesheet.
+ *
+ * @see {@link loadStyleSheet}
+ * @example <caption>Parsing a stylesheet with 3 class selectors</caption>
+ *    const blue = await loadStyleSheet("colours/blue.less");
+ *    parseRules(blue) == {
+ *       ".light-blue:before":  {color: "#9dc0ce"},
+ *       ".medium-blue:before": {color: "#6a9fb5"},
+ *       ".dark-blue:before":   {color: "#46788d"},
+ *    };
+ * @param {Less~Ruleset} ruleset
+ * @return {Object} A null-prototype object containing objects
+ * keyed by selector, enumerated with parsed CSS properties.
+ */
+function parseRules(ruleset){
+	const rules = {__proto__: null};
+	for(const rule of ruleset.rules){
+		if(!rule || "Comment" === rule.type)
+			continue;
+		const selectors = rule.selectors.map(sel =>
+			sel.elements.map(el => el.combinator.value + el.value).join("").trim());
+		for(const name of selectors)
+			rules[name] = {...rules[name], ...parse(rule)};
+	}
+	return rules;
+}
 
-// Section: Fonts
+
+// Section: Fonts {{{1
 
 /**
  * Load a list of icon-font descriptions using the given stylesheet.
@@ -164,7 +200,7 @@ function updateFonts(fontDefs, targetDir){
  */
 
 
-// Section: Utilities
+// Section: Utilities {{{1
 
 /**
  * Throw an exception if one of the given paths isn't a directory.
@@ -250,12 +286,13 @@ function parse(node, refs = new WeakSet()){
 	if(refs.has(node)) return;
 	refs.add(node);
 	if(Array.isArray(node)){
-		node = node.map(x => parse(x, refs));
+		node = node.map(x => parse(x, refs)).filter(x => null != x);
 		return node.length < 2
 			? parse(node[0], refs) ?? ""
 			: node;
 	}
 	let {name, value, args, rules} = node;
+	if("Comment" === node.type) return;
 	if(name  && value) return [parse(name, refs), parse(value, refs)];
 	if(!name && value) return parse(value, refs);
 	if(!value && (value = rules || args)){
@@ -267,3 +304,5 @@ function parse(node, refs = new WeakSet()){
 	console.error("Bad input:", node);
 	throw new TypeError(`Unexpected input: ${inspect(node)}`);
 }
+
+// vim:fdm=marker:noet
