@@ -29,7 +29,8 @@ Promise.all([
 	loadFonts(fonts),
 	loadColours(colours),
 ]).then(async ([fonts, colours]) => {
-	0 && updateFonts(fonts, output);
+	let count = updateFonts(fonts, output);
+	console.info(count ? `${count} font(s) updated` : "Fonts already up-to-date");
 }).catch(error => {
 	console.error(error);
 	process.exit(1);
@@ -153,10 +154,13 @@ async function loadFonts(from){
  * @example updateFonts([octicons, ...fonts] "./vscode/icons/");
  * @param {IconThemeFont[]} fontDefs - Icon-font definitions
  * @param {String} targetDir - Path of destination directory
+ * @param {Object} [options={}] - Settings governing what to update
+ * @param {Boolean} [options.force] - Ignore timestamps when copying
+ * @param {Boolean} [options.noLink] - Copy files instead of linking
  * @return {Number} The number of fonts that were updated
  * @private
  */
-function updateFonts(fontDefs, targetDir){
+function updateFonts(fontDefs, targetDir, {force, noLink} = {}){
 	let updates = 0;
 	for(const font of fontDefs){
 		const srcPath = font.src.path;
@@ -173,14 +177,18 @@ function updateFonts(fontDefs, targetDir){
 		}
 		else{
 			const dstStat = stat(dstPath);
-			if(srcStat.dev !== dstStat.dev){
+			if(noLink || srcStat.dev !== dstStat.dev){
+				if(!force && dstStat.mtimeNs >= srcStat.mtimeNs){
+					console.info(`Already up-to-date: ${dstPath}`);
+					continue;
+				}
 				console.info(`Copying: ${srcPath} -> ${dstPath}`);
 				unlinkSync(dstPath);
 				copyFileSync(srcPath, dstPath);
 				++updates;
 			}
 			else if(srcStat.ino !== dstStat.ino){
-				console.log(`Relinking: ${srcPath} -> ${dstPath}`);
+				console.info(`Linking: ${srcPath} -> ${dstPath}`);
 				unlinkSync(dstPath);
 				linkSync(srcPath, dstPath);
 				++updates;
