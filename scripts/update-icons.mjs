@@ -20,21 +20,126 @@ if(!process.stdout.isTTY)
 
 const source  = resolve(process.argv[2] || join(root, "..", "atom"));
 const output  = resolve(process.argv[3] || join(root, "icons"));
+const icons   = join(source, "styles", "icons.less");
 const fonts   = join(source, "styles", "fonts.less");
 const colours = join(source, "styles", "colours.less");
 assertDir(source, output);
 assertFile(fonts, colours);
 
 Promise.all([
+	loadIcons(icons),
 	loadFonts(fonts),
 	loadColours(colours),
-]).then(async ([fonts, colours]) => {
+]).then(async ([icons, fonts, colours]) => {
 	let count = updateFonts(fonts, output);
 	console.info(count ? `${count} font(s) updated` : "Fonts already up-to-date");
+	
+	fonts.push({
+		id:     "octicons regular",
+		src:    {path: join(output, "octicons.woff2"), format: "woff2"},
+		weight: "normal",
+		style:  "normal",
+		size:   "100%",
+	});
+	for(const font of fonts)
+		font.id = icons.fonts[font.id].id || font.id;
+	({icons} = icons);
+	
 }).catch(error => {
 	console.error(error);
 	process.exit(1);
 });
+
+
+// Section: Icons {{{1
+
+/**
+ * Load icon definitions from the given stylesheet.
+ *
+ * @example loadIcons("/path/to/styles/icons.less");
+ * @param {String} from - Path to stylesheet
+ * @return {Object}
+ * @private
+ */
+async function loadIcons(from){
+	from = resolve(from);
+	const icons = {__proto__: null};
+	const fonts = {__proto__: null};
+	const rules = parseRules(await loadStyleSheet(from));
+	for(const selector in rules){
+		const rule = rules[selector];
+		const font = (rule["font-family"] || "").toLowerCase();
+		if(!font) continue;
+		if(/^\.((?!-)[-a-z]+(?<!-))(?:::?before)?$/i.test(selector)){
+			const name = RegExp.$1.replace(/-icon$/i, "");
+			if("string" === typeof rule.content)
+				icons[name] = rule;
+			else fonts[font] ||= {...rule, id: name.toLowerCase()};
+		}
+		rule["font-family"] = font;
+	}
+	for(const name in icons){
+		const icon = icons[name];
+		const font = icon["font-family"];
+		if(!font)
+			throw new TypeError(`No font defined for icon '${name}'`);
+		if(!(font in fonts))
+			throw new TypeError(`Undefined font ${font}`);
+		const size = parseSize(icon["font-size"] || fonts[font]["font-size"], 14);
+		icons[name] = {
+			fontCharacter: icon.content,
+			fontColor: "#000000",
+			fontId: fonts[font].id,
+		};
+		if("100%" !== size)
+			icons[name].fontSize = size;
+	}
+	return {icons, fonts};
+}
+
+
+/**
+ * Convert a CSS font-size into a percentage string.
+ *
+ * @example parseSize("16px") === "100%";
+ * @param {Number|BigInt|Object|String} input
+ * @param {Number|BigInt} [baseSize=16]
+ * @return {String}
+ * @private
+ */
+function parseSize(input, baseSize = 16){
+	switch(typeof input){
+		case "number":
+			return isFinite(input)
+				? `${Math.round((input / Number(baseSize)) * 100)}%`
+				: "100%";
+		case "bigint":
+			return String((input / 100n) * BigInt(baseSize)) + "%";
+		case "object":
+			if(null === input) return "100%";
+			input = String(input); // Fall-through
+		case "string":
+			let [value, ...unit] = input.split(/(?<=\d)(?=[^\s\d])/);
+			value = parseFloat(value);
+			unit = unit.join("").toLowerCase();
+			const cm = 96 / 2.54;
+			switch(unit){
+				case "cm":  value *= cm;        break; // Centimetre
+				case "mm":  value *= cm / 10;   break; // Millimetre
+				case "q":   value *= cm / 40;   break; // Quarter-millimetre
+				case "in":  value *= 96;        break; // Inch
+				case "pc":  value *= 6;         break; // Pica
+				case "pt":  value *= 1 + 1 / 3; break; // Point
+				case "px":  case "":            break; // Pixel
+				case "em":  value *= baseSize;  break; // Em
+				case "rem": value *= 16;        break; // Root em (assumed to be 16px)
+				case "%":   return `${Math.round(value)}%`; // Percentage of font-size
+				default:    throw new TypeError(`Invalid unit: ${unit}`);
+			}
+			return `${Math.round((value / baseSize) * 100)}%`;
+	}
+	throw new TypeError(`Invalid type: ${typeof input}`);
+}
 
 
 // Section: Colours {{{1
@@ -61,34 +166,6 @@ async function loadColours(from){
 		}
 	}
 	return colours;
-}
-
-/**
- * Extract a list of rulesets from a parsed stylesheet.
- *
- * @see {@link loadStyleSheet}
- * @example <caption>Parsing a stylesheet with 3 class selectors</caption>
- *    const blue = await loadStyleSheet("colours/blue.less");
- *    parseRules(blue) == {
- *       ".light-blue:before":  {color: "#9dc0ce"},
- *       ".medium-blue:before": {color: "#6a9fb5"},
- *       ".dark-blue:before":   {color: "#46788d"},
- *    };
- * @param {Less~Ruleset} ruleset
- * @return {Object} A null-prototype object containing objects
- * keyed by selector, enumerated with parsed CSS properties.
- */
-function parseRules(ruleset){
-	const rules = {__proto__: null};
-	for(const rule of ruleset.rules){
-		if(!rule || "Comment" === rule.type)
-			continue;
-		const selectors = rule.selectors.map(sel =>
-			sel.elements.map(el => el.combinator.value + el.value).join("").trim());
-		for(const name of selectors)
-			rules[name] = {...rules[name], ...parse(rule)};
-	}
-	return rules;
 }
 
 
@@ -311,6 +388,34 @@ function parse(node, refs = new WeakSet()){
 	}
 	console.error("Bad input:", node);
 	throw new TypeError(`Unexpected input: ${inspect(node)}`);
+}
+
+/**
+ * Extract a list of rulesets from a parsed stylesheet.
+ *
+ * @see {@link loadStyleSheet}
+ * @example <caption>Parsing a stylesheet with 3 class selectors</caption>
+ *    const blue = await loadStyleSheet("colours/blue.less");
+ *    parseRules(blue) == {
+ *       ".light-blue:before":  {color: "#9dc0ce"},
+ *       ".medium-blue:before": {color: "#6a9fb5"},
+ *       ".dark-blue:before":   {color: "#46788d"},
+ *    };
+ * @param {Less~Ruleset} ruleset
+ * @return {Object} A null-prototype object containing objects
+ * keyed by selector, enumerated with parsed CSS properties.
+ */
+function parseRules(ruleset){
+	const rules = {__proto__: null};
+	for(const rule of ruleset.rules){
+		if(!rule || "Comment" === rule.type)
+			continue;
+		const selectors = rule.selectors.map(sel =>
+			sel.elements.map(el => el.combinator.value + el.value).join("").trim());
+		for(const name of selectors)
+			rules[name] = {...rules[name], ...parse(rule)};
+	}
+	return rules;
 }
 
 // vim:fdm=marker:noet
