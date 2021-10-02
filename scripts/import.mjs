@@ -148,8 +148,6 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 					const def = {...icons[icon], fontColor: getColourValue(colour)};
 					if("#000000" === def.fontColor)
 						delete def.fontColor;
-					if(def.fontId === fonts[0].id)
-						delete def.fontId;
 					theme.iconDefinitions[uid] = def;
 				}
 				list = theme.light[listName] ??= {};
