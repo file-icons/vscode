@@ -13,10 +13,7 @@ const isKey = key => "string" === typeof key || "symbol" === typeof key;
 const isEnt = obj => Array.isArray(obj) && 2 === obj.length && isKey(obj[0]);
 
 // TEMP
-inspect.defaultOptions.depth = Infinity;
-// inspect.defaultOptions.showHidden = true;
-if(!process.stdout.isTTY)
-	inspect.defaultOptions.colors = true;
+import "./temp-hacks.mjs";
 
 const source  = resolve(process.argv[2] || join(root, "..", "atom"));
 const output  = resolve(process.argv[3] || join(root, "icons"));
@@ -26,7 +23,7 @@ const colours = join(source, "styles", "colours.less");
 assertDir(source, output);
 assertFile(fonts, colours);
 
-Promise.all([
+export default Promise.all([
 	loadIcons(icons),
 	loadFonts(fonts),
 	loadColours(colours),
@@ -36,7 +33,7 @@ Promise.all([
 	
 	fonts.push({
 		id:     "octicons regular",
-		src:    {path: join(output, "octicons.woff2"), format: "woff2"},
+		src:    [{path: join(output, "octicons.woff2"), format: "woff2"}],
 		weight: "normal",
 		style:  "normal",
 		size:   "100%",
@@ -44,6 +41,16 @@ Promise.all([
 	for(const font of fonts)
 		font.id = icons.fonts[font.id].id || font.id;
 	({icons} = icons);
+	
+	fonts = fonts.sort((a, b) => a.id.toLowerCase().localeCompare(b.id.toLowerCase()));
+	const index = fonts.findIndex(font => "fi" === font.id);
+	if(-1 !== index)
+		fonts.unshift(...fonts.splice(index, 1));
+	else throw new ReferenceError("Failed to locate font with ID 'fi'");
+	
+	const result = {icons, fonts, colours};
+	console.log(result);
+	return result;
 	
 }).catch(error => {
 	console.error(error);
@@ -70,7 +77,7 @@ async function loadIcons(from){
 		const rule = rules[selector];
 		const font = (rule["font-family"] || "").toLowerCase();
 		if(!font) continue;
-		if(/^\.((?!-)[-a-z]+(?<!-))(?:::?before)?$/i.test(selector)){
+		if(/^\.((?!-|\d)[-a-z0-9]+(?<!-))(?:::?before)?$/i.test(selector)){
 			const name = RegExp.$1.replace(/-icon$/i, "");
 			if("string" === typeof rule.content)
 				icons[name] = rule;
@@ -94,7 +101,7 @@ async function loadIcons(from){
 		if("100%" !== size)
 			icons[name].fontSize = size;
 	}
-	return {icons, fonts};
+	return {icons: sortProps(icons), fonts};
 }
 
 
@@ -165,7 +172,7 @@ async function loadColours(from){
 			});
 		}
 	}
-	return colours;
+	return sortProps(colours);
 }
 
 
@@ -216,7 +223,7 @@ async function loadFonts(from){
 		}
 		fonts.push({
 			id:     font["font-family"].toLowerCase(),
-			src:    {path, format},
+			src:    [{path, format}],
 			weight: font["font-weight"] || "normal",
 			style:  font["font-style"]  || "normal",
 			size:   "100%",
@@ -240,7 +247,7 @@ async function loadFonts(from){
 function updateFonts(fontDefs, targetDir, {force, noLink} = {}){
 	let updates = 0;
 	for(const font of fontDefs){
-		const srcPath = font.src.path;
+		const srcPath = font.src[0].path;
 		const srcStat = stat(srcPath);
 		const dstPath = join(targetDir, basename(srcPath));
 		if(!exists(dstPath)){
@@ -416,6 +423,19 @@ function parseRules(ruleset){
 			rules[name] = {...rules[name], ...parse(rule)};
 	}
 	return rules;
+}
+
+/**
+ * Return a new object with the properties of another sorted alphanumerically.
+ * @param {Object} input
+ * @return {Object}
+ * @internal
+ */
+function sortProps(input){
+	const alnum = /[^A-Za-z0-9]/g;
+	input = Object.entries(input).sort(([a], [b]) =>
+		a.replace(alnum, "").localeCompare(b.replace(alnum, "")));
+	return Object.fromEntries(input);
 }
 
 // vim:fdm=marker:noet

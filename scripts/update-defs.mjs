@@ -7,48 +7,113 @@ import assert from "assert";
 
 // TEMP
 import "./temp-hacks.mjs";
+import {readFileSync} from "fs";
 
 const $0   = fileURLToPath(import.meta.url);
 const root = dirname($0).replace(/\/scripts$/i, "");
 const path = process.argv[2] || resolve(root, join("..", "atom", "lib", "icons", ".icondb.js"));
 
 import(path).then(async ({default: iconDB}) => {
+	const {icons, fonts, colours} = JSON.parse(readFileSync("/tmp/updated-icons.json", "utf8")); // TEMP
+	
+	const prefix = "_";
+	const theme = {
+		fonts,
+		file:            prefix + "file",
+		folder:          prefix + "folder",
+		rootFolder:      prefix + "repo",
+		iconDefinitions: {},
+		fileExtensions:  {},
+		fileNames:       {},
+		folderNames:     {},
+		languageIds:     {},
+		light:           {},
+	};
+	
+	const getColourValue = colour => {
+		if(!colour) return "#000000";
+		const index      = colour.indexOf("-");
+		const brightness = colour.slice(0, index);
+		const name       = colour.slice(index + 1);
+		const value      = colours[name]?.[brightness];
+		if(null == value)
+			throw new ReferenceError(`No such colour ${colour}`);
+		return value;
+	};
+	
 	const [directoryIcons, fileIcons] = iconDB;
+	for(const iconList of [directoryIcons, fileIcons])
 	for(let [
 		icon,
-		colour,
+		colours,
 		match,,
 		matchPath,
 		interpreter,
 		scope,
 		language,
-	] of fileIcons[0]){
-		if(matchPath) continue;
-		if(match instanceof RegExp){
-			try{
-				match = new RegExp(
-					match.source
-						.replace(/(?<!\\)\|\(\?<[!=][^()]+\)/g, "")
-						.replace(/(?<!\\)\(\?:(?:\[-\._\]\?|_)\\[wd][+*]\)\?/g, ""),
-					match.flags,
-				);
-				const matches = parseRegExp(match);
-				for(let ext of matches.suffixes){
-					ext = ext.replace(/^\./, "");
+	] of iconList[0]){
+		if(matchPath || !(match instanceof RegExp)) continue;
+		
+		// HACK
+		if(/^\.atom-socket-.+\.\d$/.source === match.source)
+			continue;
+		
+		// Normalise icon ID: "pdf-icon" => "pdf", "icon-file-text" => "text"
+		if(icon.startsWith("icon-file-")) icon = icon.slice(10);
+		else if(icon.startsWith("icon-")) icon = icon.slice(0, +5);
+		else if(icon.endsWith("-icon"))   icon = icon.slice(0, -5);
+
+		// Normalise dark- and light-motif variants
+		colours = Array.isArray(colours) ? [...colours].slice(0, 2) : [colours];
+		colours[0] === colours[1] && colours.pop();
+		
+		const add = (listName, key) => {
+			key = key.toLowerCase();
+			let list = theme[listName];
+			for(const colour of colours){
+				const uid = prefix + icon + (colour ? "_" + colour : "");
+				list[key] = uid;
+				if(null == theme.iconDefinitions[uid]){
+					const def = {...icons[icon], fontColor: getColourValue(colour)};
+					if("#000000" === def.fontColor)
+						delete def.fontColor;
+					if(def.fontId === fonts[0].id)
+						delete def.fontId;
+					theme.iconDefinitions[uid] = def;
 				}
+				list = theme.light[listName] ??= {};
 			}
-			catch(error){
-				if(error instanceof RangeError
-				|| error.message.includes("Unsupported lookbehind")){
-					console.warn("Skipping:", match);
-					continue;
-				}
-				console.warn("Stopped at", match);
-				throw error;
+		};
+		try{
+			match = new RegExp(
+				match.source
+					.replace(/^\^stdlib\(\?:-\.\+\)\?/, "^stdlib")
+					.replace(/(?<!\\)\|\(\?<[!=][^()]+\)/g, "")
+					.replace(/(?<!\\)\(\?:(?:\[-\._\]\?|_)\\[wd][+*]\)\?/g, ""),
+				match.flags,
+			);
+			const matches = parseRegExp(match);
+			const isDir = directoryIcons === iconList;
+			
+			if(!isDir)
+				for(const ext of matches.suffixes)
+					add("fileExtensions", ext.replace(/^\./, ""));
+			for(const name of matches.full)
+				add(isDir ? "folderNames" : "fileNames", name);
+		}
+		catch(error){
+			if(error instanceof RangeError
+			|| error.message.includes("Unsupported lookbehind")){
+				console.warn("Skipping:", match);
+				continue;
 			}
+			console.warn("Stopped at", match);
+			throw error;
 		}
 	}
-	console.log(directoryIcons, fileIcons);
+	if(!process.stdout.isTTY)
+		process.stdout.write(JSON.stringify(theme, null, "\t") + "\n");
+	else console.log(theme);
 });
 
 

@@ -3,21 +3,31 @@
  */
 
 import {inspect} from "util";
-Object.assign(inspect.defaultOptions, {colors: true, compact: false, depth: Infinity});
-for(const name of "log debug dir dirxml info error warning".split(" ")){
-	const fn = console[name];
-	if("function" !== typeof fn) continue;
-	console[name] = function(...args){
-		return fn.apply(this, args.map(arg => {
-			if("string" === typeof arg)
-				return arg;
-			return inspect(arg).split("\n").map(line => {
-				let offset = 0;
-				while("  " === line.slice(offset, offset + 2)) offset += 2;
-				return "\t".repeat(offset / 2) + line.slice(offset);
-			}).join("\n");
-		}));
-	};
+{
+	Object.assign(inspect.defaultOptions, {colors: true, compact: false, depth: Infinity});
+	const stdoutMethods = "log debug dir dirxml info".split(" ");
+	const stderrMethods = "error warning assert trace".split(" ");
+	for(const name of stdoutMethods.concat(stderrMethods)){
+		const fn = console[name];
+		const isTTY = !!(stderrMethods.includes(name) ? process.stderr : process.stdout).isTTY;
+		if("function" !== typeof fn) continue;
+		console[name] = function(...args){
+			const skipped = [];
+			if("assert" === name)
+				skipped.push(args.shift());
+			args = args.map(arg => {
+				if("string" === typeof arg)
+					return arg;
+				return inspect(arg, {colors: isTTY}).split("\n").map(line => {
+					let offset = 0;
+					while("  " === line.slice(offset, offset + 2)) offset += 2;
+					return "\t".repeat(offset / 2) + line.slice(offset);
+				}).join("\n");
+			});
+			args.unshift(...skipped);
+			return fn.apply(this, args);
+		};
+	}
 }
 
 {
