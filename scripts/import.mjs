@@ -2,7 +2,7 @@
 
 import Less from "less";
 import Genex from "genex";
-import {copyFileSync, linkSync, lstatSync, statSync, readFileSync, unlinkSync} from "fs";
+import {copyFileSync, linkSync, lstatSync, statSync, readFileSync, unlinkSync, writeFileSync} from "fs";
 import {basename, dirname, join, resolve} from "path";
 import {fileURLToPath} from "url";
 import {inspect} from "util";
@@ -35,6 +35,12 @@ export default Promise.all([
 	let count = updateFonts(fonts, output);
 	console.info(count ? `${count} font(s) updated` : "Fonts already up-to-date");
 	
+	// Default icons (nominally defined by Atom, hardcoded here)
+	const defaultIcons = {
+		_file:   {fontId: "octicons", fontCharacter: "\\f011"},
+		_folder: {fontId: "octicons", fontCharacter: "\\f016"},
+		_repo:   {fontId: "octicons", fontCharacter: "\\f001"},
+	};
 	fonts.push({
 		id:     "octicons regular",
 		src:    [{path: join(output, "octicons.woff2"), format: "woff2"}],
@@ -46,6 +52,11 @@ export default Promise.all([
 		font.id = icons.fonts[font.id].id || font.id;
 	({icons} = icons);
 	
+	// Truncate font paths to output directory
+	for(const font of fonts)
+		font.src.forEach(src => src.path = "./" + basename(src.path));
+	
+	// Alphabetise font-families, but keep File-Icons at the front of array
 	fonts = fonts.sort((a, b) => a.id.toLowerCase().localeCompare(b.id.toLowerCase()));
 	const index = fonts.findIndex(font => "fi" === font.id);
 	if(-1 !== index)
@@ -53,7 +64,8 @@ export default Promise.all([
 	else throw new ReferenceError("Failed to locate font with ID 'fi'");
 	
 	const colouredTheme = buildTheme({icons, fonts, colours, iconDB});
-	console.log({colouredTheme});
+	colouredTheme.iconDefinitions = {...defaultIcons, ...colouredTheme.iconDefinitions};
+	saveJSON(colouredTheme, join(output, "file-icons-icon-theme.json"));
 	
 }).catch(error => {
 	console.error(error);
@@ -291,6 +303,25 @@ function parseRegExp(input){
 		output[type].add(str);
 	}
 	return output;
+}
+
+
+/**
+ * Write an object to disk as a JSON file, preserving timestamps if identical.
+ * @param {Object} input
+ * @param {String} path
+ * @return {void}
+ * @internal
+ */
+function saveJSON(input, path){
+	path = resolve(path);
+	let existingFile = null;
+	try{ existingFile = readFileSync(path, "utf8"); }
+	catch(e){}
+	input = JSON.stringify(input, null, "\t").trim() + "\n";
+	input === existingFile
+		? console.info(`Theme already up-to-date: ${basename(path)}`)
+		: writeFileSync(path, input, "utf8");
 }
 
 
