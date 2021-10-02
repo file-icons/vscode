@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
 import Less from "less";
+import Genex from "genex";
 import {copyFileSync, linkSync, lstatSync, statSync, readFileSync, unlinkSync} from "fs";
 import {basename, dirname, join, resolve} from "path";
 import {fileURLToPath} from "url";
 import {inspect} from "util";
+import assert from "assert";
 
 const $0    = fileURLToPath(import.meta.url);
 const root  = dirname($0).replace(/\/scripts$/i, "");
@@ -17,6 +19,7 @@ import "./temp-hacks.mjs";
 
 const source  = resolve(process.argv[2] || join(root, "..", "atom"));
 const output  = resolve(process.argv[3] || join(root, "icons"));
+const iconDB  = join(source, "lib", "icons", ".icondb.js");
 const icons   = join(source, "styles", "icons.less");
 const fonts   = join(source, "styles", "fonts.less");
 const colours = join(source, "styles", "colours.less");
@@ -24,10 +27,11 @@ assertDir(source, output);
 assertFile(fonts, colours);
 
 export default Promise.all([
+	import(resolve(iconDB)),
 	loadIcons(icons),
 	loadFonts(fonts),
 	loadColours(colours),
-]).then(async ([icons, fonts, colours]) => {
+]).then(async ([{default: iconDB}, icons, fonts, colours]) => {
 	let count = updateFonts(fonts, output);
 	console.info(count ? `${count} font(s) updated` : "Fonts already up-to-date");
 	
@@ -48,14 +52,246 @@ export default Promise.all([
 		fonts.unshift(...fonts.splice(index, 1));
 	else throw new ReferenceError("Failed to locate font with ID 'fi'");
 	
-	const result = {icons, fonts, colours};
-	console.log(result);
-	return result;
+	const colouredTheme = buildTheme({icons, fonts, colours, iconDB});
+	console.log({colouredTheme});
 	
 }).catch(error => {
 	console.error(error);
 	process.exit(1);
 });
+
+
+// Section: Icon Database {{{1
+
+/**
+ * Generate an icon-theme in the format required by VS Code.
+ * @param  {Object}  source
+ * @param  {Array}   source.iconDB
+ * @param  {Object}  source.icons
+ * @param  {Object}  source.fonts
+ * @param  {Object}  source.colours
+ * @param  {String} [source.prefix="_"]
+ * @return {IconTheme}
+ * @internal
+ */
+function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
+	const theme = {
+		__proto__: null,
+		fonts,
+		file:            prefix + "file",
+		folder:          prefix + "folder",
+		rootFolder:      prefix + "repo",
+		iconDefinitions: {},
+		fileExtensions:  {},
+		fileNames:       {},
+		folderNames:     {},
+		languageIds:     {},
+		light:           {},
+	};
+	
+	const getColourValue = colour => {
+		if(!colour) return "#000000";
+		const index      = colour.indexOf("-");
+		const brightness = colour.slice(0, index);
+		const name       = colour.slice(index + 1);
+		const value      = colours[name]?.[brightness];
+		if(null == value)
+			throw new ReferenceError(`No such colour ${colour}`);
+		return value;
+	};
+	
+	const [directoryIcons, fileIcons] = iconDB;
+	for(const iconList of [directoryIcons, fileIcons])
+	for(let [
+		icon,
+		colours,
+		match,,
+		matchPath,
+		interpreter,
+		scope,
+		language,
+	] of iconList[0]){
+		if(matchPath || !(match instanceof RegExp)) continue;
+		
+		// HACK
+		if(/^\.atom-socket-.+\.\d$/.source === match.source)
+			continue;
+		
+		// Normalise icon ID: "pdf-icon" => "pdf", "icon-file-text" => "text"
+		if(icon.startsWith("icon-file-")) icon = icon.slice(10);
+		else if(icon.startsWith("icon-")) icon = icon.slice(0, +5);
+		else if(icon.endsWith("-icon"))   icon = icon.slice(0, -5);
+
+		// Normalise dark- and light-motif variants
+		colours = Array.isArray(colours) ? [...colours].slice(0, 2) : [colours];
+		colours[0] === colours[1] && colours.pop();
+		
+		const add = (listName, key) => {
+			key = key.toLowerCase();
+			let list = theme[listName];
+			for(const colour of colours){
+				const uid = prefix + icon + (colour ? "_" + colour : "");
+				list[key] = uid;
+				if(null == theme.iconDefinitions[uid]){
+					const def = {...icons[icon], fontColor: getColourValue(colour)};
+					if("#000000" === def.fontColor)
+						delete def.fontColor;
+					if(def.fontId === fonts[0].id)
+						delete def.fontId;
+					theme.iconDefinitions[uid] = def;
+				}
+				list = theme.light[listName] ??= {};
+			}
+		};
+		try{
+			match = new RegExp(
+				match.source
+					.replace(/^\^stdlib\(\?:-\.\+\)\?/, "^stdlib")
+					.replace(/(?<!\\)\|\(\?<[!=][^()]+\)/g, "")
+					.replace(/(?<!\\)\(\?:(?:\[-\._\]\?|_)\\[wd][+*]\)\?/g, ""),
+				match.flags,
+			);
+			const matches = parseRegExp(match);
+			const isDir = directoryIcons === iconList;
+			
+			if(!isDir)
+				for(const ext of matches.suffixes)
+					add("fileExtensions", ext.replace(/^\./, ""));
+			for(const name of matches.full)
+				add(isDir ? "folderNames" : "fileNames", name);
+		}
+		catch(error){
+			if(error instanceof RangeError
+			|| error.message.includes("Unsupported lookbehind")){
+				console.warn("Skipping:", match);
+				continue;
+			}
+			console.warn("Stopped at", match);
+			throw error;
+		}
+	}
+	return theme;
+}
+
+
+/**
+ * Extract a list of unique filename/extension matches from a regex.
+ * @param {RegExp} input
+ * @return {MatchesByType}
+ * @internal
+ */
+function parseRegExp(input){
+	/**
+	 * @typedef {Object} MatchesByType
+	 * @property {Set} substrings - Substrings appearing anywhere in a filename
+	 * @property {Set} prefixes   - Filename prefixes;   i.e., /^foo…/
+	 * @property {Set} suffixes   - File extensions;     i.e., /…foo$/
+	 * @property {Set} full       - Full-string matches; i.e., /^foo$/
+	 */
+	const output = {
+		__proto__: null,
+		substrings: new Set(),
+		prefixes:   new Set(),
+		suffixes:   new Set(),
+		full:       new Set(),
+	};
+	
+	if("genex" !== input?.constructor?.name.toLowerCase())
+		input = Genex(input);
+	
+	const anchors  = new Set();
+	const chars    = new Set();
+	const killList = new Set();
+	const lists    = new Set();
+	const walk     = (obj, refs = new WeakSet()) => {
+		if("object" !== typeof obj || null === obj || refs.has(obj))
+			return;
+		refs.add(obj);
+		if(Array.isArray(obj)){
+			lists.add(obj);
+			for(const item of obj){
+				try{ walk(item, refs); }
+				catch(e){ killList.add(item); }
+			}
+		}
+		else{
+			if(Infinity === obj.max){
+				if(!obj.min)
+					throw new RangeError("Bad range");
+				obj.max = ~~obj.min;
+			}
+			else switch(obj.type){
+				case 2: "^$".includes(obj.value) && anchors.add(obj); break;
+				case 7: chars.add(obj.value); break;
+				default: {
+					const {options: opts, stack} = obj;
+					if(Array.isArray(opts)){
+						lists.add(opts);
+						for(const opt of opts)
+							try{ walk(opt, refs); }
+							catch(e){ killList.add(opt); }
+					}
+					else if(Array.isArray(stack)){
+						lists.add(stack);
+						walk(stack, refs);
+					}
+					else walk(obj.value, refs);
+				}
+			}
+		}
+	};
+	
+	walk(input.tokens);
+	for(const token of killList){
+		for(const list of lists){
+			while(list.includes(token))
+				list.splice(list.indexOf(token), 1);
+		}
+	}
+	
+	const used   = String.fromCodePoint(...chars);
+	const unused = Array.from(getUnusedChar(used + "\\[]{}()?+*", 2))
+		.map(char => char.codePointAt(0));
+	
+	for(const anchor of anchors){
+		anchor.type = 7;
+		anchor.value = "^" === anchor.value
+			? unused[0]
+			: unused[1];
+	}
+	
+	const cases = new Set();
+	input.generate(result => {
+		if(cases.size > 1000) throw new RangeError("Too many cases to generate");
+		cases.add(result);
+	});
+	
+	for(let str of cases){
+		let anchoredToStart = false;
+		let anchoredToEnd   = false;
+		str = [...str];
+		str = str.map((char, index) => {
+			const code = char.codePointAt(0);
+			if(code === unused[0]){
+				assert.strictEqual(index, 0);
+				anchoredToStart = true;
+			}
+			else if(code === unused[1]){
+				assert.strictEqual(index, str.length - 1);
+				anchoredToEnd = true;
+			}
+			else return char;
+			return "";
+		}).join("");
+		const type =
+			anchoredToStart && anchoredToEnd ? "full"     :
+			anchoredToStart                  ? "prefixes" :
+			anchoredToEnd                    ? "suffixes" :
+			"substrings";
+		output[type].add(str);
+	}
+	return output;
+}
 
 
 // Section: Icons {{{1
@@ -333,6 +569,28 @@ function assertFile(...paths){
 function exists(path){
 	try{ return !!lstatSync(path); }
 	catch(e){ return false; }
+}
+
+/**
+ * Return one or more characters not contained in a string.
+ *
+ * @version Alhadis/Utils@c8ee57d
+ * @example getUnusedChar("\x00\x02")    == "\x01";
+ * @example getUnusedChar("\x00\x02", 2) == "\x01\x03";
+ * @param {String} input
+ * @param {Number} [count=1]
+ * @return {String}
+ */
+function getUnusedChar(input, count = 1){
+	let chars = "";
+	let next = "\x00";
+	let code = 0;
+	for(let i = 0; i < count; ++i){
+		while(-1 !== input.indexOf(next) || -1 !== chars.indexOf(next))
+			next = String.fromCodePoint(++code);
+		chars += next;
+	}
+	return chars;
 }
 
 /**
