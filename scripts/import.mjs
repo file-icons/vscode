@@ -35,12 +35,6 @@ export default Promise.all([
 	let count = updateFonts(fonts, output);
 	console.info(count ? `${count} font(s) updated` : "Fonts already up-to-date");
 	
-	// Default icons (nominally defined by Atom, hardcoded here)
-	const defaultIcons = {
-		_file:   {fontId: "octicons", fontCharacter: "\\f011"},
-		_folder: {fontId: "octicons", fontCharacter: "\\f016"},
-		_repo:   {fontId: "octicons", fontCharacter: "\\f001"},
-	};
 	fonts.push({
 		id:     "octicons regular",
 		src:    [{path: join(output, "octicons.woff2"), format: "woff2"}],
@@ -50,7 +44,23 @@ export default Promise.all([
 	});
 	for(const font of fonts)
 		font.id = icons.fonts[font.id].id || font.id;
+	
+	// Icons provided by Octicons and/or Atom's core stylesheets
+	const defaultIcons = {
+		_file:   {fontId: "octicons", fontCharacter: "\\f011", fontSize: "114%"},
+		_folder: {fontId: "octicons", fontCharacter: "\\f016", fontSize: "114%"},
+		_repo:   {fontId: "octicons", fontCharacter: "\\f001", fontSize: "114%"},
+	};
+	const unlistedIcons = {
+		"circuit-board": {fontId: "octicons", fontCharacter: "\\f0d6", fontSize: "114%"},
+		mail:            {fontId: "octicons", fontCharacter: "\\f03b", fontSize: "114%"},
+		paintcan:        {fontId: "octicons", fontCharacter: "\\f0d1", fontSize: "114%"},
+		pdf:             {fontId: "octicons", fontCharacter: "\\f014", fontSize: "114%"},
+		star:            {fontId: "octicons", fontCharacter: "\\f02a", fontSize: "114%"},
+		text:            {fontId: "octicons", fontCharacter: "\\f011", fontSize: "114%"},
+	};
 	({icons} = icons);
+	icons = {...unlistedIcons, ...icons};
 	
 	// Truncate font paths to output directory
 	for(const font of fonts)
@@ -139,9 +149,11 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 		
 		// Normalise icon ID: "pdf-icon" => "pdf", "icon-file-text" => "text"
 		if(icon.startsWith("icon-file-")) icon = icon.slice(10);
-		else if(icon.startsWith("icon-")) icon = icon.slice(0, +5);
+		else if(icon.startsWith("icon-")) icon = icon.slice(5);
 		else if(icon.endsWith("-icon"))   icon = icon.slice(0, -5);
-
+		if(icon.startsWith("_"))          icon = icon.slice(1);
+		validateIcon(icon, icons, fonts);
+		
 		// Normalise dark- and light-motif variants
 		colours = Array.isArray(colours) ? [...colours].slice(0, 2) : [colours];
 		colours[0] === colours[1] && colours.pop();
@@ -398,6 +410,29 @@ function saveJSON(input, path){
 }
 
 
+/**
+ * Ensure that a complete icon-definition with the given ID exists.
+ * @param {String} name
+ * @param {Object} icons
+ * @param {Object} fonts
+ * @return {void}
+ * @internal
+ */
+function validateIcon(name, icons, fonts){
+	if(name in icons){
+		for(const key of ["fontCharacter", "fontId"]){
+			const value = icons[name][key];
+			if("string" !== typeof value || !value)
+				throw new TypeError(`Missing "${key}" field in icon "${name}"`);
+		}
+		const {fontId} = icons[name];
+		if(!fonts.some(font => fontId === font.id))
+			throw new ReferenceError(`Icon "${name}" references undefined font "${fontId}"`);
+	}
+	else throw new ReferenceError(`Undefined icon: ${name}`);
+}
+
+
 // Section: Icons {{{1
 
 /**
@@ -417,8 +452,8 @@ async function loadIcons(from){
 		const rule = rules[selector];
 		const font = (rule["font-family"] || "").toLowerCase();
 		if(!font) continue;
-		if(/^\.((?!-|\d)[-a-z0-9]+(?<!-))(?:::?before)?$/i.test(selector)){
-			const name = RegExp.$1.replace(/-icon$/i, "");
+		if(/^\.((?:(?!-|\d)[-a-z0-9]+|_\d+[-a-z0-9]*)(?<!-))(?:::?before)?$/i.test(selector)){
+			const name = RegExp.$1.replace(/^_|-icon$/gi, "");
 			if("string" === typeof rule.content)
 				icons[name] = rule;
 			else fonts[font] ||= {...rule, id: name.toLowerCase()};
