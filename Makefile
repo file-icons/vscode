@@ -20,7 +20,7 @@ node_modules:
 # Pull the latest updates from upstream
 update: defs
 	cd $^ && git pull -f origin master
-	node scripts/update-icons.mjs $^ ./icons
+	node scripts/update.mjs $^ ./icons
 
 
 # Check source for errors and style violations

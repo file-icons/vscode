@@ -14,9 +14,6 @@ const isObj = obj => "object" === typeof obj && null !== obj;
 const isKey = key => "string" === typeof key || "symbol" === typeof key;
 const isEnt = obj => Array.isArray(obj) && 2 === obj.length && isKey(obj[0]);
 
-// TEMP
-import "./temp-hacks.mjs";
-
 const source  = resolve(process.argv[2] || join(root, "..", "atom"));
 const output  = resolve(process.argv[3] || join(root, "icons"));
 const iconDB  = join(source, "lib", "icons", ".icondb.js");
