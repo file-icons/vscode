@@ -5,7 +5,7 @@ import Genex from "genex";
 import {copyFileSync, linkSync, lstatSync, statSync, readFileSync, unlinkSync, writeFileSync} from "fs";
 import {basename, dirname, join, resolve} from "path";
 import {fileURLToPath} from "url";
-import {inspect} from "util";
+import {inspect, isDeepStrictEqual} from "util";
 import assert from "assert";
 
 const $0    = fileURLToPath(import.meta.url);
@@ -66,6 +66,9 @@ export default Promise.all([
 	const colouredTheme = buildTheme({icons, fonts, colours, iconDB});
 	colouredTheme.iconDefinitions = {...defaultIcons, ...colouredTheme.iconDefinitions};
 	saveJSON(colouredTheme, join(output, "file-icons-icon-theme.json"));
+	
+	const uncolouredTheme = desaturate(colouredTheme, colours);
+	saveJSON(uncolouredTheme, join(output, "file-icons-colourless-icon-theme.json"));
 	
 }).catch(error => {
 	console.error(error);
@@ -129,6 +132,11 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 		if(/^\.atom-socket-.+\.\d$/.source === match.source)
 			continue;
 		
+		// HACK: Conflicting file-extension: `.vh` (V, SystemVerilog)
+		// Searching GitHub yields mostly Verilog results, so exclude V.
+		if("v-icon" === icon && /\.vh$/i.source === match.source)
+			continue;
+		
 		// Normalise icon ID: "pdf-icon" => "pdf", "icon-file-text" => "text"
 		if(icon.startsWith("icon-file-")) icon = icon.slice(10);
 		else if(icon.startsWith("icon-")) icon = icon.slice(0, +5);
@@ -181,6 +189,73 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 		}
 	}
 	return theme;
+}
+
+
+/**
+ * Generate a colourless version of a coloured icon-theme.
+ * @param  {IconTheme} input
+ * @param  {Object} colours
+ * @return {IconTheme}
+ * @internal
+ */
+function desaturate(input, colours){
+	
+	// Construct a regex for stripping the trailing colour name/shade
+	const names = new Set();
+	for(const [colour, value] of Object.entries(colours))
+	for(const [luminosity]    of Object.entries(value))
+		names.add([luminosity, colour].join("-"));
+	const regex = new RegExp(`[-_]?(?:${[...names].join("|")})$`, "i");
+	
+	// Start culling
+	const result  = JSON.parse(JSON.stringify(input));
+	const oldDefs = input.iconDefinitions;
+	const newDefs = result.iconDefinitions = {__proto__: null};
+	
+	for(const [oldID, props] of Object.entries(oldDefs)){
+		const newID = oldID.replace(regex, "");
+		delete props.fontColor;
+		
+		// Sanity check
+		if(newID in newDefs)
+			assert.deepStrictEqual(props, newDefs[newID]);
+		else newDefs[newID] = props;
+	}
+	const remap = from => {
+		const to = {__proto__: null};
+		for(let [key, iconID] of Object.entries(from)){
+			iconID = iconID.replace(regex, "");
+			assert(iconID in newDefs);
+			to[key] = iconID;
+		}
+		return to;
+	};
+	const isEmpty = obj => isObj(obj) && !Object.keys(obj).length;
+	const cull = (...listNames) => {
+		for(const listName of listNames){
+			if(!isObj(result?.light?.[listName])
+			|| !isObj(result[listName])) continue;
+			const darkIcons  = result[listName];
+			const lightIcons = result.light[listName];
+			for(const [key, value] of Object.entries(lightIcons)){
+				if(key in darkIcons && isDeepStrictEqual(darkIcons[key], value))
+					delete lightIcons[key];
+			}
+			if(isEmpty(result.light[listName]))
+				delete result.light[listName];
+		}
+		if(isEmpty(result.light))
+			delete result.light;
+	};
+	for(const context of [result, result.light]){
+		if(!context) continue;
+		context.fileExtensions = remap(context.fileExtensions);
+		context.fileNames      = remap(context.fileNames);
+		context.folderNames    = remap(context.folderNames);
+	}
+	cull(..."fileExtensions fileNames folderNames".split(" "));
+	return result;
 }
 
 
