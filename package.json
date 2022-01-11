@@ -44,7 +44,33 @@
 				"label": "File Icons (Colourless)",
 				"path": "./icons/file-icons-colourless-icon-theme.json"
 			}
-		]
+		],
+		"commands": [
+			{
+				"command": "file-icons-colourless.hidesExplorerArrows",
+				"title": "%command.hidesExplorerArrows%"
+			},
+			{
+				"command": "file-icons.hidesExplorerArrows",
+				"title": "%command.hidesExplorerArrows%"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "%configuration.title%",
+			"properties": {
+				"file-icons-colourless.hidesExplorerArrows": {
+					"type": "boolean",
+					"default": false,
+					"description": "%configuration.hidesExplorerArrows%"
+				},
+				"file-icons.hidesExplorerArrows": {
+					"type": "boolean",
+					"default": false,
+					"description": "%configuration.hidesExplorerArrows%"
+				}
+			}
+		}
 	},
 	"scripts": {
 		"postinstall": "node ./node_modules/vscode/bin/install",
