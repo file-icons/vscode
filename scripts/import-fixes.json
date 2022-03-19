@@ -16,6 +16,7 @@
 
 	"_git_medium-red": [
 		"gitignore",
+		"gitkeep",
 		"gitmodules",
 		"gitattributes"
 	],
@@ -65,6 +66,19 @@
 		"jestrc.cjs",
 		"jestrc.mjs",
 		"jestrc.json"
+	],
+
+	"_postcss_auto-yellow": [
+		"postcss.config.cjs",
+		"postcss.config.js",
+		"postcss.config.mjs"
+	],
+
+	"_stylelint_medium-purple": [
+		".stylelintrc.js",
+		".stylelintrc.json",
+		".stylelintrc.yaml",
+		".stylelintrc.yml"
 	],
 
 	"_test-js_auto-yellow": [
