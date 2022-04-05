@@ -6,13 +6,11 @@
 	"publisher": "file-icons",
 	"license": "MIT",
 	"author": "Daniel Brooker <dan@nocturnalcode.com>",
-	"maintainers": [
-		{
-			"name": "John Gardner",
-			"email": "gardnerjohng@gmail.com",
-			"url": "https://github.com/Alhadis"
-		}
-	],
+	"maintainers": [{
+		"name": "John Gardner",
+		"email": "gardnerjohng@gmail.com",
+		"url": "https://github.com/Alhadis"
+	}],
 	"engines": {
 		"node": ">=15",
 		"vscode": "^1.5.0"
@@ -21,30 +19,34 @@
 		"type": "git",
 		"url": "https://github.com/file-icons/vscode"
 	},
-	"bugs": {
-		"url": "https://github.com/file-icons/vscode/issues",
-		"email": "dan@nocturnalcode.com"
-	},
-	"preview": true,
+	"bugs": "https://github.com/file-icons/vscode/issues",
 	"homepage": "https://github.com/file-icons/vscode",
-	"icon": "icon.png",
+	"icon": "thumbnail.png",
+	"galleryBanner": {
+		"color": "#15191B",
+		"theme": "dark"
+	},
 	"categories": [
 		"Themes",
 		"Other"
 	],
+	"keywords": [
+		"icons",
+		"filetypes",
+		"file-icons",
+		"icon-theme",
+		"theme"
+	],
 	"contributes": {
-		"iconThemes": [
-			{
-				"id": "file-icons",
-				"label": "File Icons",
-				"path": "./icons/file-icons-icon-theme.json"
-			},
-			{
-				"id": "file-icons-colourless",
-				"label": "File Icons (Colourless)",
-				"path": "./icons/file-icons-colourless-icon-theme.json"
-			}
-		]
+		"iconThemes": [{
+			"id": "file-icons",
+			"label": "File Icons",
+			"path": "./icons/file-icons-icon-theme.json"
+		},{
+			"id": "file-icons-colourless",
+			"label": "File Icons (Colourless)",
+			"path": "./icons/file-icons-colourless-icon-theme.json"
+		}]
 	},
 	"scripts": {
 		"import": "make update",
