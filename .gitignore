@@ -15,8 +15,6 @@ node_modules
 [._]sw[a-p]
 
 # Project-specific
-out
-!yarn.lock
 *.vsix
 /defs
 /tmp
