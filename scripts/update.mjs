@@ -13,6 +13,7 @@ const root  = dirname($0).replace(/\/scripts$/i, "");
 const isObj = obj => "object" === typeof obj && null !== obj;
 const isKey = key => "string" === typeof key || "symbol" === typeof key;
 const isEnt = obj => Array.isArray(obj) && 2 === obj.length && isKey(obj[0]);
+const isOwn = Object.prototype.hasOwnProperty.call.bind(Object.prototype.hasOwnProperty);
 
 const source  = resolve(process.argv[2] || join(root, "..", "atom"));
 const output  = resolve(process.argv[3] || join(root, "icons"));
@@ -29,7 +30,7 @@ export default Promise.all([
 	loadFonts(fonts),
 	loadColours(colours),
 ]).then(async ([{default: iconDB}, icons, fonts, colours]) => {
-	let count = updateFonts(fonts, output);
+	const count = updateFonts(fonts, output);
 	console.info(count ? `${count} font(s) updated` : "Fonts already up-to-date");
 	
 	fonts.push({
@@ -536,7 +537,7 @@ async function loadColours(from){
 	const colours = {};
 	const rules = parseRules(await loadStyleSheet(from));
 	for(const [key, value] of Object.entries(rules)){
-		if(!isObj(value) || !value.hasOwnProperty("color")) continue;
+		if(!isObj(value) || !isOwn(value, "color")) continue;
 		if(/^\.(light|medium|dark)-([^-:\s]+)::?before$/i.test(key)){
 			const colour = RegExp.$2.toLowerCase();
 			colours[colour] = Object.assign(colours[colour] || {}, {
