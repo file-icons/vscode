@@ -9,6 +9,7 @@ babel.config.json
 .eslintrc.yaml
 .eslintrc.yml
 .gitattributes
+.git-blame-ignore-revs
 .gitkeep
 .gitmodules
 .global.gitattributes
