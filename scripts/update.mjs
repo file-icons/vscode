@@ -207,7 +207,14 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 			throw error;
 		}
 	}
-	theme.languageIds = sortProps(theme.languageIds);
+	
+	// Make diffs less chaotic by enforcing alphanumeric order
+	for(const obj of [theme, theme.light].filter(Boolean))
+	for(const key of "iconDefinitions fileExtensions fileNames folderNames folderNamesExpanded languageIds".split(" ")){
+		const value = obj[key];
+		if(isOwn(obj, key) && isObj(value))
+			obj[key] = sortProps(value);
+	}
 	return theme;
 }
 
