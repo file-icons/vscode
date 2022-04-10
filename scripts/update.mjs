@@ -17,6 +17,7 @@ const isOwn = Object.prototype.hasOwnProperty.call.bind(Object.prototype.hasOwnP
 
 const source  = resolve(process.argv[2] || join(root, "..", "atom"));
 const output  = resolve(process.argv[3] || join(root, "icons"));
+const missing = resolve(process.argv[4] || join(root, "scripts", "missing-filenames.txt"));
 const iconDB  = join(source, "lib", "icons", ".icondb.js");
 const icons   = join(source, "styles", "icons.less");
 const fonts   = join(source, "styles", "fonts.less");
@@ -25,11 +26,11 @@ assertDir(source, output);
 assertFile(fonts, colours);
 
 export default Promise.all([
-	import(resolve(iconDB)),
+	loadDB(iconDB, missing),
 	loadIcons(icons),
 	loadFonts(fonts),
 	loadColours(colours),
-]).then(async ([{default: iconDB}, icons, fonts, colours]) => {
+]).then(async ([iconDB, icons, fonts, colours]) => {
 	const count = updateFonts(fonts, output);
 	console.info(count ? `${count} font(s) updated` : "Fonts already up-to-date");
 	
@@ -275,6 +276,65 @@ function desaturate(input, colours){
 	}
 	cull(..."fileExtensions fileNames folderNames".split(" "));
 	return result;
+}
+
+
+/**
+ * Load a compiled icon database.
+ *
+ * @example await loadDB("/path/to/.icondb.js");
+ * @param {String} from - Path to an `.icondb.js` file.
+ * @param {String} [filenameList=null]
+ *   Path to a line-delimited list of filenames to include in a matching pattern.
+ *   This is necessary because some compiled regexes are too complex to be easily
+ *   enumerated by {@link parseRegExp}.
+ * @return {Array}
+ * @internal
+ */
+async function loadDB(from, filenameList = null){
+	const {default: db} = await import(resolve(from));
+	if(!filenameList) return db;
+
+	// Add missing filenames to patterns too complex for `parseRegExp` to handle
+	const filenames = readFileSync(resolve(filenameList), "utf8")
+		.split(/\r?\n|\r|\x85|\u2028|\u2029/)
+		.map((line, index) => (line = line.trim()) ? [index + 1, line] : null)
+		.filter(Boolean);
+
+	const unmatched = new Set(filenames);
+	const matched   = new Map();
+	
+	for(const filename of filenames){
+		for(const icon of db[1][0]){
+			if(!icon[4] && icon[2].test(filename[1])){
+				unmatched.delete(filename);
+				matched.has(icon) || matched.set(icon, new Set());
+				matched.get(icon).add(filename);
+				break;
+			}
+		}
+	}
+	
+	// Report any filenames that failed to match any icon whatsoever
+	const {size} = unmatched;
+	if(size){
+		const [prefix, path, dimOn, dimOff] = process.stderr.isTTY
+			? ["\x1B[33mWarning:\x1B[39m", `\x1B[4m${filenameList}\x1B[24m`, "\x1B[2m", "\x1B[22m"]
+			: ["Warning:", filenameList];
+		console.warn(`${prefix} Unmatched ${1 === size ? "entry" : "entries"} in ${path}:`);
+		for(const [lineNumber, filename] of unmatched)
+			console.warn(`\t${dimOn}line ${lineNumber}:${dimOff} ${filename}`);
+	}
+	
+	// Patch the existing database in-place
+	for(const [icon, filenames] of matched){
+		const regex = icon[2];
+		const additions = [""];
+		for(const [, filename] of filenames)
+			additions.push(`^${filename.replace(/[/\\^$*+?{}[\]().|]/g, "\\$&")}$`);
+		regex.compile(regex.source + additions.join("|"), regex.flags);
+	}
+	return db;
 }
 
 
