@@ -129,10 +129,8 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 		icon,
 		colours,
 		match,,
-		matchPath,
-		interpreter,
+		matchPath,,
 		scope,
-		language,
 	] of iconList[0]){
 		if(matchPath || !(match instanceof RegExp)) continue;
 		
@@ -187,6 +185,16 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 					add("fileExtensions", ext.replace(/^\./, ""));
 			for(const name of matches.full)
 				add(isDir ? "folderNames" : "fileNames", name);
+			
+			// Convert TextMate scopes to VSCode language IDs
+			if(scope){
+				match = parseRegExp(scope);
+				const scopes = Object.values(match).map(set => [...set]).flat().map(scope =>
+					scope.toLowerCase().replace(/^\.+|\.+$/g, "").replace(/^(?:source|text)\.+/g, ""));
+				const iconID = prefix + icon + (colours.length ? "_" + colours[0] : "");
+				for(const langID of new Set(scopes))
+					theme.languageIds[langID] = iconID;
+			}
 		}
 		catch(error){
 			if(error instanceof RangeError
@@ -198,6 +206,7 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 			throw error;
 		}
 	}
+	theme.languageIds = sortProps(theme.languageIds);
 	return theme;
 }
 
