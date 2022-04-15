@@ -132,6 +132,8 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 		match,,
 		matchPath,,
 		scope,
+		language,
+		signature,
 	] of iconList[0]){
 		if(matchPath || !(match instanceof RegExp)) continue;
 		
@@ -150,6 +152,19 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 		else if(icon.endsWith("-icon"))   icon = icon.slice(0, -5);
 		if(icon.startsWith("_"))          icon = icon.slice(1);
 		validateIcon(icon, icons, fonts);
+		
+		// HACK: Manually add scopes to commonly-used generic formats like XML and YAML
+		signature = String(signature);
+		if("yaml" === icon && String(match) === String(/\.ya?ml$/i)){
+			language ||= /^YA?ML$/i;
+			scope    ||= /\.ya?ml$/i;
+		}
+		else if(signature === String(/^<\?xml /)){
+			language ||= /^XML$/i;
+			scope    ||= /^text\.xml$/i;
+		}
+		else if(signature === String(/^\xEF\xBB\xBF|^\xFF\xFE/))
+			scope ||= /^(text\.plain|plain[-_ ]?text|fundamental)$/i;
 		
 		// Normalise dark- and light-motif variants
 		colours = Array.isArray(colours) ? [...colours].slice(0, 2) : [colours];
@@ -190,10 +205,25 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 			// Convert TextMate scopes to VSCode language IDs
 			if(scope){
 				match = parseRegExp(scope);
-				const scopes = Object.values(match).map(set => [...set]).flat().map(scope =>
-					scope.toLowerCase().replace(/^\.+|\.+$/g, "").replace(/^(?:source|text)\.+/g, ""));
 				const iconID = prefix + icon + (colours.length ? "_" + colours[0] : "");
-				for(const langID of new Set(scopes))
+				const langIDs = Object.values(match)
+					.map(set => [...set]).flat()
+					.map(scope => scope.toLowerCase()
+						.replace(/^\.+|\.+$/g, "")
+						.replace(/^(?:source|text)\.+/g, ""));
+				if(language){
+					language = parseRegExp(match = new RegExp(
+						language.source,
+						language.flags,
+					));
+					langIDs.push(...Object.values(language).map(set => {
+						set = [...set];
+						const downcase = set.map(lang => lang.toLowerCase());
+						const upcase   = set.map(lang => lang.toUpperCase());
+						return set.concat(downcase, upcase);
+					}).flat());
+				}
+				for(const langID of new Set(langIDs))
 					theme.languageIds[langID] = iconID;
 			}
 		}
