@@ -6,13 +6,11 @@
 	"publisher": "file-icons",
 	"license": "MIT",
 	"author": "Daniel Brooker <dan@nocturnalcode.com>",
-	"maintainers": [
-		{
-			"name": "John Gardner",
-			"email": "gardnerjohng@gmail.com",
-			"url": "https://github.com/Alhadis"
-		}
-	],
+	"maintainers": [{
+		"name": "John Gardner",
+		"email": "gardnerjohng@gmail.com",
+		"url": "https://github.com/Alhadis"
+	}],
 	"engines": {
 		"node": ">=15",
 		"vscode": "^1.5.0"
@@ -21,16 +19,23 @@
 		"type": "git",
 		"url": "https://github.com/file-icons/vscode"
 	},
-	"bugs": {
-		"url": "https://github.com/file-icons/vscode/issues",
-		"email": "dan@nocturnalcode.com"
-	},
-	"preview": true,
+	"bugs": "https://github.com/file-icons/vscode/issues",
 	"homepage": "https://github.com/file-icons/vscode",
-	"icon": "icon.png",
+	"icon": "thumbnail.png",
+	"galleryBanner": {
+		"color": "#15191B",
+		"theme": "dark"
+	},
 	"categories": [
 		"Themes",
 		"Other"
+	],
+	"keywords": [
+		"icons",
+		"filetypes",
+		"file-icons",
+		"icon-theme",
+		"theme"
 	],
 	"contributes": {
 		"iconThemes": [
@@ -73,8 +78,6 @@
 		}
 	},
 	"scripts": {
-		"postinstall": "node ./node_modules/vscode/bin/install",
-		"test": "node ./node_modules/vscode/bin/test",
 		"import": "make update",
 		"lint": "make lint"
 	},
@@ -90,16 +93,10 @@
 	"devDependencies": {
 		"@alhadis/eslint-config": "^2.3.4",
 		"@babel/eslint-parser": "^7.15.0",
-		"@types/mocha": "^9.0.0",
-		"@types/node": "^16.7.5",
-		"@types/vscode": "^1.59.0",
 		"cson": "^7.20.0",
 		"eslint": "^7.32.0",
 		"eslint-plugin-import": "^2.24.2",
 		"genex": "v1.1.0",
-		"less": "^2.7.3",
-		"mocha": "^9.1.1",
-		"typescript": "^4.4.2",
-		"vsce": "^1.96.1"
+		"less": "^2.7.3"
 	}
 }

@@ -4,7 +4,7 @@
 		<Identity Language="en-US" Id="file-icons" Version="%%VERSION%%" Publisher="file-icons"/>
 		<DisplayName>file-icons</DisplayName>
 		<Description xml:space="preserve">File-specific icons in VSCode for improved visual grepping.</Description>
-		<Tags>theme,icon-theme</Tags>
+		<Tags>icons,filetypes,file-icons,icon-theme,theme</Tags>
 		<Categories>Themes,Other</Categories>
 		<GalleryFlags>Public</GalleryFlags>
 		<Badges></Badges>
@@ -13,17 +13,15 @@
 			<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value=""/>
 			<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value=""/>
 			<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value=""/>
-
 			<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/file-icons/vscode"/>
 			<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/file-icons/vscode"/>
 			<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/file-icons/vscode"/>
-
 			<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/file-icons/vscode/issues"/>
 			<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/file-icons/vscode"/>
-
 			<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true"/>
 		</Properties>
-		<Icon>extension/icon.png</Icon>
+		<License>extension/LICENSE.md</License>
+		<Icon>extension/thumbnail.png</Icon>
 	</Metadata>
 	<Installation>
 		<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
@@ -33,6 +31,7 @@
 		<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true"/>
 		<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true"/>
 		<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true"/>
-		<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/icon.png" Addressable="true"/>
+		<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.md" Addressable="true"/>
+		<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/thumbnail.png" Addressable="true"/>
 	</Assets>
 </PackageManifest>

@@ -13,12 +13,11 @@ const root  = dirname($0).replace(/\/scripts$/i, "");
 const isObj = obj => "object" === typeof obj && null !== obj;
 const isKey = key => "string" === typeof key || "symbol" === typeof key;
 const isEnt = obj => Array.isArray(obj) && 2 === obj.length && isKey(obj[0]);
-
-// TEMP
-import "./temp-hacks.mjs";
+const isOwn = Object.prototype.hasOwnProperty.call.bind(Object.prototype.hasOwnProperty);
 
 const source  = resolve(process.argv[2] || join(root, "..", "atom"));
 const output  = resolve(process.argv[3] || join(root, "icons"));
+const missing = resolve(process.argv[4] || join(root, "scripts", "missing-filenames.txt"));
 const iconDB  = join(source, "lib", "icons", ".icondb.js");
 const icons   = join(source, "styles", "icons.less");
 const fonts   = join(source, "styles", "fonts.less");
@@ -27,20 +26,14 @@ assertDir(source, output);
 assertFile(fonts, colours);
 
 export default Promise.all([
-	import(resolve(iconDB)),
+	loadDB(iconDB, missing),
 	loadIcons(icons),
 	loadFonts(fonts),
 	loadColours(colours),
-]).then(async ([{default: iconDB}, icons, fonts, colours]) => {
-	let count = updateFonts(fonts, output);
+]).then(async ([iconDB, icons, fonts, colours]) => {
+	const count = updateFonts(fonts, output);
 	console.info(count ? `${count} font(s) updated` : "Fonts already up-to-date");
 	
-	// Default icons (nominally defined by Atom, hardcoded here)
-	const defaultIcons = {
-		_file:   {fontId: "octicons", fontCharacter: "\\f011"},
-		_folder: {fontId: "octicons", fontCharacter: "\\f016"},
-		_repo:   {fontId: "octicons", fontCharacter: "\\f001"},
-	};
 	fonts.push({
 		id:     "octicons regular",
 		src:    [{path: join(output, "octicons.woff2"), format: "woff2"}],
@@ -50,7 +43,23 @@ export default Promise.all([
 	});
 	for(const font of fonts)
 		font.id = icons.fonts[font.id].id || font.id;
+	
+	// Icons provided by Octicons and/or Atom's core stylesheets
+	const defaultIcons = {
+		_file:   {fontId: "octicons", fontCharacter: "\\f011", fontSize: "114%"},
+		_folder: {fontId: "octicons", fontCharacter: "\\f016", fontSize: "114%"},
+		_repo:   {fontId: "octicons", fontCharacter: "\\f001", fontSize: "114%"},
+	};
+	const unlistedIcons = {
+		"circuit-board": {fontId: "octicons", fontCharacter: "\\f0d6", fontSize: "114%"},
+		mail:            {fontId: "octicons", fontCharacter: "\\f03b", fontSize: "114%"},
+		paintcan:        {fontId: "octicons", fontCharacter: "\\f0d1", fontSize: "114%"},
+		pdf:             {fontId: "octicons", fontCharacter: "\\f014", fontSize: "114%"},
+		star:            {fontId: "octicons", fontCharacter: "\\f02a", fontSize: "114%"},
+		text:            {fontId: "octicons", fontCharacter: "\\f011", fontSize: "114%"},
+	};
 	({icons} = icons);
+	icons = {...unlistedIcons, ...icons};
 	
 	// Truncate font paths to output directory
 	for(const font of fonts)
@@ -121,10 +130,10 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 		icon,
 		colours,
 		match,,
-		matchPath,
-		interpreter,
+		matchPath,,
 		scope,
 		language,
+		signature,
 	] of iconList[0]){
 		if(matchPath || !(match instanceof RegExp)) continue;
 		
@@ -139,9 +148,24 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 		
 		// Normalise icon ID: "pdf-icon" => "pdf", "icon-file-text" => "text"
 		if(icon.startsWith("icon-file-")) icon = icon.slice(10);
-		else if(icon.startsWith("icon-")) icon = icon.slice(0, +5);
+		else if(icon.startsWith("icon-")) icon = icon.slice(5);
 		else if(icon.endsWith("-icon"))   icon = icon.slice(0, -5);
-
+		if(icon.startsWith("_"))          icon = icon.slice(1);
+		validateIcon(icon, icons, fonts);
+		
+		// HACK: Manually add scopes to commonly-used generic formats like XML and YAML
+		signature = String(signature);
+		if("yaml" === icon && String(match) === String(/\.ya?ml$/i)){
+			language ||= /^YA?ML$/i;
+			scope    ||= /\.ya?ml$/i;
+		}
+		else if(signature === String(/^<\?xml /)){
+			language ||= /^XML$/i;
+			scope    ||= /^text\.xml$/i;
+		}
+		else if(signature === String(/^\xEF\xBB\xBF|^\xFF\xFE/))
+			scope ||= /^(text\.plain|plain[-_ ]?text|fundamental)$/i;
+		
 		// Normalise dark- and light-motif variants
 		colours = Array.isArray(colours) ? [...colours].slice(0, 2) : [colours];
 		colours[0] === colours[1] && colours.pop();
@@ -177,6 +201,31 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 					add("fileExtensions", ext.replace(/^\./, ""));
 			for(const name of matches.full)
 				add(isDir ? "folderNames" : "fileNames", name);
+			
+			// Convert TextMate scopes to VSCode language IDs
+			if(scope){
+				match = parseRegExp(scope);
+				const iconID = prefix + icon + (colours.length ? "_" + colours[0] : "");
+				const langIDs = Object.values(match)
+					.map(set => [...set]).flat()
+					.map(scope => scope.toLowerCase()
+						.replace(/^\.+|\.+$/g, "")
+						.replace(/^(?:source|text)\.+/g, ""));
+				if(language){
+					language = parseRegExp(match = new RegExp(
+						language.source,
+						language.flags,
+					));
+					langIDs.push(...Object.values(language).map(set => {
+						set = [...set];
+						const downcase = set.map(lang => lang.toLowerCase());
+						const upcase   = set.map(lang => lang.toUpperCase());
+						return set.concat(downcase, upcase);
+					}).flat());
+				}
+				for(const langID of new Set(langIDs))
+					theme.languageIds[langID] = iconID;
+			}
 		}
 		catch(error){
 			if(error instanceof RangeError
@@ -187,6 +236,14 @@ function buildTheme({iconDB, icons, fonts, colours, prefix = "_"} = {}){
 			console.warn("Stopped at", match);
 			throw error;
 		}
+	}
+	
+	// Make diffs less chaotic by enforcing alphanumeric order
+	for(const obj of [theme, theme.light].filter(Boolean))
+	for(const key of "iconDefinitions fileExtensions fileNames folderNames folderNamesExpanded languageIds".split(" ")){
+		const value = obj[key];
+		if(isOwn(obj, key) && isObj(value))
+			obj[key] = sortProps(value);
 	}
 	return theme;
 }
@@ -256,6 +313,65 @@ function desaturate(input, colours){
 	}
 	cull(..."fileExtensions fileNames folderNames".split(" "));
 	return result;
+}
+
+
+/**
+ * Load a compiled icon database.
+ *
+ * @example await loadDB("/path/to/.icondb.js");
+ * @param {String} from - Path to an `.icondb.js` file.
+ * @param {String} [filenameList=null]
+ *   Path to a line-delimited list of filenames to include in a matching pattern.
+ *   This is necessary because some compiled regexes are too complex to be easily
+ *   enumerated by {@link parseRegExp}.
+ * @return {Array}
+ * @internal
+ */
+async function loadDB(from, filenameList = null){
+	const {default: db} = await import(resolve(from));
+	if(!filenameList) return db;
+
+	// Add missing filenames to patterns too complex for `parseRegExp` to handle
+	const filenames = readFileSync(resolve(filenameList), "utf8")
+		.split(/\r?\n|\r|\x85|\u2028|\u2029/)
+		.map((line, index) => (line = line.trim()) ? [index + 1, line] : null)
+		.filter(Boolean);
+
+	const unmatched = new Set(filenames);
+	const matched   = new Map();
+	
+	for(const filename of filenames){
+		for(const icon of db[1][0]){
+			if(!icon[4] && icon[2].test(filename[1])){
+				unmatched.delete(filename);
+				matched.has(icon) || matched.set(icon, new Set());
+				matched.get(icon).add(filename);
+				break;
+			}
+		}
+	}
+	
+	// Report any filenames that failed to match any icon whatsoever
+	const {size} = unmatched;
+	if(size){
+		const [prefix, path, dimOn, dimOff] = process.stderr.isTTY
+			? ["\x1B[33mWarning:\x1B[39m", `\x1B[4m${filenameList}\x1B[24m`, "\x1B[2m", "\x1B[22m"]
+			: ["Warning:", filenameList];
+		console.warn(`${prefix} Unmatched ${1 === size ? "entry" : "entries"} in ${path}:`);
+		for(const [lineNumber, filename] of unmatched)
+			console.warn(`\t${dimOn}line ${lineNumber}:${dimOff} ${filename}`);
+	}
+	
+	// Patch the existing database in-place
+	for(const [icon, filenames] of matched){
+		const regex = icon[2];
+		const additions = [""];
+		for(const [, filename] of filenames)
+			additions.push(`^${filename.replace(/[/\\^$*+?{}[\]().|]/g, "\\$&")}$`);
+		regex.compile(regex.source + additions.join("|"), regex.flags);
+	}
+	return db;
 }
 
 
@@ -398,6 +514,29 @@ function saveJSON(input, path){
 }
 
 
+/**
+ * Ensure that a complete icon-definition with the given ID exists.
+ * @param {String} name
+ * @param {Object} icons
+ * @param {Object} fonts
+ * @return {void}
+ * @internal
+ */
+function validateIcon(name, icons, fonts){
+	if(name in icons){
+		for(const key of ["fontCharacter", "fontId"]){
+			const value = icons[name][key];
+			if("string" !== typeof value || !value)
+				throw new TypeError(`Missing "${key}" field in icon "${name}"`);
+		}
+		const {fontId} = icons[name];
+		if(!fonts.some(font => fontId === font.id))
+			throw new ReferenceError(`Icon "${name}" references undefined font "${fontId}"`);
+	}
+	else throw new ReferenceError(`Undefined icon: ${name}`);
+}
+
+
 // Section: Icons {{{1
 
 /**
@@ -417,8 +556,8 @@ async function loadIcons(from){
 		const rule = rules[selector];
 		const font = (rule["font-family"] || "").toLowerCase();
 		if(!font) continue;
-		if(/^\.((?!-|\d)[-a-z0-9]+(?<!-))(?:::?before)?$/i.test(selector)){
-			const name = RegExp.$1.replace(/-icon$/i, "");
+		if(/^\.((?:(?!-|\d)[-a-z0-9]+|_\d+[-a-z0-9]*)(?<!-))(?:::?before)?$/i.test(selector)){
+			const name = RegExp.$1.replace(/^_|-icon$/gi, "");
 			if("string" === typeof rule.content)
 				icons[name] = rule;
 			else fonts[font] ||= {...rule, id: name.toLowerCase()};
@@ -504,7 +643,7 @@ async function loadColours(from){
 	const colours = {};
 	const rules = parseRules(await loadStyleSheet(from));
 	for(const [key, value] of Object.entries(rules)){
-		if(!isObj(value) || !value.hasOwnProperty("color")) continue;
+		if(!isObj(value) || !isOwn(value, "color")) continue;
 		if(/^\.(light|medium|dark)-([^-:\s]+)::?before$/i.test(key)){
 			const colour = RegExp.$2.toLowerCase();
 			colours[colour] = Object.assign(colours[colour] || {}, {

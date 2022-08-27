@@ -20,7 +20,7 @@ node_modules:
 # Pull the latest updates from upstream
 update: defs
 	cd $^ && git pull -f origin master
-	node scripts/update-icons.mjs $^ ./icons
+	node scripts/update.mjs $^ ./icons
 
 
 # Check source for errors and style violations
@@ -37,7 +37,7 @@ release: tmp
 	grep -e version package.json | tr -d '", \t' | cut -d: -f2 > version
 	sed -e "s/%%VERSION%%/`cat version`/g" scripts/extension.xml > tmp/extension.vsixmanifest
 	mkdir tmp/extension
-	cp -r .gitmodules CHANGELOG.md README.md icon.png icons package.json tmp/extension
+	cp -r CHANGELOG.md README.md icons package.json thumbnail.png tmp/extension
 	vsix="file-icons.file-icons-`cat version`.vsix"; \
 	cd tmp && zip -r "$$vsix" *
 	mv tmp/*.vsix .
