@@ -13,18 +13,18 @@ Adding support for a new filetype
 =================================
 
 This package pulls its icon-to-filetype mappings from the [`file-icons/atom`][2]
-repository using an [import script][3]. The `*-icon-theme.json` files themselves
+repository using an [update script][3]. The `*-icon-theme.json` files themselves
 are auto-generated and shouldn't be edited by hand. Please add new extensions to
 the upstream [`config.cson`][4] file instead.
 
 If `config.cson` already lists the desired extension, then it's likely a problem
-with the [import script][3]. See below.
+with the [update script][3]. See below.
 
 
 Fixing a missing filetype
 =========================
 
-The [import script][3] is unable to generate filetype mappings for patterns with
+The [update script][3] is unable to generate filetype mappings for patterns with
 an indefinite number of variants, such as `/^foo(.*)\.bar/`. In cases like this,
 a workaround is to add a new entry to [`import-fixes.json`][5]:
 
@@ -42,6 +42,6 @@ intuitive system for icon-mapping will eventually be developed in the future.
 <!-- Referenced links -->
 [1]: https://github.com/file-icons/icons/issues/new
 [2]: https://github.com/file-icons/atom
-[3]: ./scripts/import.js
+[3]: ./scripts/update.mjs
 [4]: https://github.com/file-icons/atom/blob/master/config.cson
 [5]: ./scripts/import-fixes.json
