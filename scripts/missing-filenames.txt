@@ -46,6 +46,12 @@ postcss.config.mjs
 .stylelintrc.json
 .stylelintrc.yaml
 .stylelintrc.yml
+tsconfig.base.json
+tsconfig.es5.json
+tsconfig.eslint.json
+tsconfig.esm.json
+tsconfig.node.json
+tsconfig.spec.json
 webpack.analyze.js
 webpack.base.conf.cjs
 webpack.base.conf.coffee
