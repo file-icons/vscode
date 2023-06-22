@@ -26,13 +26,10 @@ Fixing a missing filetype
 
 The [update script][3] is unable to generate filetype mappings for patterns with
 an indefinite number of variants, such as `/^foo(.*)\.bar/`. In cases like this,
-a workaround is to add a new entry to [`import-fixes.json`][5]:
+a workaround is to add a new entry to [`missing-filenames.txt`][5]:
 
-~~~json
-"_icon-name_colour-name": [
-	"filetype1",
-	"filetype2"
-]
+~~~text
+filename.extension
 ~~~
 
 A caveat of this solution is that only fixed-length strings can be added; a more
@@ -44,4 +41,4 @@ intuitive system for icon-mapping will eventually be developed in the future.
 [2]: https://github.com/file-icons/atom
 [3]: ./scripts/update.mjs
 [4]: https://github.com/file-icons/atom/blob/master/config.cson
-[5]: ./scripts/import-fixes.json
+[5]: ./scripts/missing-filenames.txt
