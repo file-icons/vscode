@@ -47,6 +47,7 @@ postcss.config.mjs
 .stylelintrc.yaml
 .stylelintrc.yml
 tsconfig.base.json
+tsconfig.build.json
 tsconfig.es5.json
 tsconfig.eslint.json
 tsconfig.esm.json
