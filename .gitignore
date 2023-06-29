@@ -16,6 +16,7 @@ node_modules
 
 # Project-specific
 *.vsix
+*.zip
 /defs
 /tmp
 /version
