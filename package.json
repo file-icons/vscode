@@ -21,7 +21,7 @@
 	},
 	"bugs": "https://github.com/file-icons/vscode/issues",
 	"homepage": "https://github.com/file-icons/vscode",
-	"icon": "thumbnail.png",
+	"icon": "./thumbnail.png",
 	"galleryBanner": {
 		"color": "#15191B",
 		"theme": "dark"
