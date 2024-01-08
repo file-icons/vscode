@@ -9024,6 +9024,7 @@
 		"pkginfo": "_database",
 		"platformio.ini": "_platformio",
 		"pnpmfile.js": "_pnpm",
+		".pnpmfile.cjs": "_pnpm",
 		"pnpm-lock.yaml": "_pnpm",
 		"pnpm-lock.yml": "_pnpm",
 		"pnpm-workspace.yaml": "_pnpm",
