@@ -23537,6 +23537,7 @@
 			"owners": "_at_dark-red",
 			".photorec.cfg": "_photorec_dark-green",
 			"pnpmfile.js": "_pnpm_dark-yellow",
+			".pnpmfile.cjs": "_pnpm_dark-yellow",
 			"policyfile": "_chef_dark-orange",
 			"policyfile.lock": "_chef_dark-orange",
 			"postcss.config.cjs": "_postcss_dark-yellow",
