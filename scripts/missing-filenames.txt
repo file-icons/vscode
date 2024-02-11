@@ -8,6 +8,7 @@ babel.config.json
 .eslintrc.mjs
 .eslintrc.yaml
 .eslintrc.yml
+eslint.config.js
 .gitattributes
 .git-blame-ignore-revs
 .gitkeep
